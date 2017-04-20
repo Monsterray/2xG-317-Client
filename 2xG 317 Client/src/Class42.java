@@ -6,14 +6,14 @@
 public class Class42
 {
 
-//    public void method548(int i)	//REMOVED Completely useless
-//    {
-//    }
+//	public void method548(int i)	//REMOVED Completely useless
+//	{
+//	}
 //
-//    public Class42()
-//    {
-//        aBoolean715 = true;
-//    }
+//	public Class42()
+//	{
+//		aBoolean715 = true;
+//	}
 //
-//    private boolean aBoolean715;
+//	private boolean aBoolean715;
 }

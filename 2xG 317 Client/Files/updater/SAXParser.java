@@ -4,18 +4,18 @@ import org.xml.sax.helpers.DefaultHandler;
 
 class SAXParser extends DefaultHandler{
 
-    private String version;
+	private String version;
 
-    SAXParser(){
-    }
+	SAXParser(){
+	}
 
-    public void startElement(String s, String s1, String s2, Attributes attributes) throws SAXException{
-        if(s1.equals("tag")){
-            version = attributes.getValue(attributes.getIndex("version"));
-        }
-    }
+	public void startElement(String s, String s1, String s2, Attributes attributes) throws SAXException{
+		if(s1.equals("tag")){
+			version = attributes.getValue(attributes.getIndex("version"));
+		}
+	}
 
-    public String getVersion(){
-        return version;
-    }
+	public String getVersion(){
+		return version;
+	}
 }

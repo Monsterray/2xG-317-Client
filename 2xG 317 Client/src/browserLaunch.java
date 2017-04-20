@@ -19,7 +19,7 @@ public class browserLaunch {
 				Class<?> fileMgr = Class.forName("com.apple.eio.FileManager");
 				Method openURL = fileMgr.getDeclaredMethod("openURL", new Class[] {String.class});
 				openURL.invoke(null, new Object[] {url});
-            }else if (osName.startsWith("Windows"))
+			}else if (osName.startsWith("Windows"))
 				Runtime.getRuntime().exec("rundll32 url.dll,FileProtocolHandler " + url);
 			else { //assume Unix or Linux
 				boolean found = false;
@@ -34,6 +34,6 @@ public class browserLaunch {
 			}
 		}catch (Exception e) {
 			JOptionPane.showMessageDialog(null,"Error attempting to launch web browser\n" + e.toString());
-         }
-      }
+		 }
+	  }
    }

@@ -9,7 +9,7 @@ public class Bluurr extends client {
 	 */
 	private static final long serialVersionUID = 8875735265698270602L;
 	public Bluurr(){
-		System.out.println("                            Loading Bluurrs client");
+		System.out.println("							Loading Bluurrs client");
 		System.out.println("|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||");
 		System.out.println("I reckomend downloading a non damaged cache and redoing your class 8");
 	}

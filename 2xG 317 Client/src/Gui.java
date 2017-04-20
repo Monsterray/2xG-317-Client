@@ -34,15 +34,15 @@ import javax.swing.UIManager;
 import javax.swing.filechooser.FileFilter;
 
 public class Gui extends client implements ActionListener, ItemListener, WindowListener{
-    /**
+	/**
 	 * 
 	 */
 	private static final long serialVersionUID = -9147280163193875335L;
 //	private static FileOutputStream logFileOut;	//Said its not used 4/18/17
-    private static boolean isApplet = false;
+	private static boolean isApplet = false;
 	private MP3Player player;
 	public int midiCount;
-    public Sequencer sequencer;
+	public Sequencer sequencer;
 	
 	public static void main(String args[]){
 		new Gui(args);
@@ -63,9 +63,9 @@ public class Gui extends client implements ActionListener, ItemListener, WindowL
 	public void initUI(){
 		try{
 			UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());
-            JFrame.setDefaultLookAndFeelDecorated(true);
-            JDialog.setDefaultLookAndFeelDecorated(true);
-            JPopupMenu.setDefaultLightWeightPopupEnabled(false);
+			JFrame.setDefaultLookAndFeelDecorated(true);
+			JDialog.setDefaultLookAndFeelDecorated(true);
+			JPopupMenu.setDefaultLightWeightPopupEnabled(false);
 			JFrame.setDefaultLookAndFeelDecorated(true);
 			JFrame.setDefaultLookAndFeelDecorated(true);
 			JPopupMenu.setDefaultLightWeightPopupEnabled(false);
@@ -97,22 +97,22 @@ public class Gui extends client implements ActionListener, ItemListener, WindowL
 		jdialog.pack();
 		jdialog.setLocationRelativeTo(container);
 		return jdialog;
-    }
+	}
 	
-    public void itemStateChanged(ItemEvent itemevent){
+	public void itemStateChanged(ItemEvent itemevent){
 		String s = itemevent.paramString();
 		s = s.substring(s.indexOf("item=") + 5);
 //		int i = itemevent.getStateChange();	//Said its not used 4/18/17
 		if(s != null){	// TODO empty?
 			
 		}
-    }
+	}
 	
 	public static synchronized void log(Object object){
-        System.out.println(object.toString());
-    }
+		System.out.println(object.toString());
+	}
 	
-    public static void chkDir(String fileName){
+	public static void chkDir(String fileName){
 		try{
 			File f = new File(fileName);
 			if(!f.exists())
@@ -120,7 +120,7 @@ public class Gui extends client implements ActionListener, ItemListener, WindowL
 		}catch(Exception e){
 			log((new StringBuilder()).append("Error making file: ").append(e).toString());
 		}
-    }
+	}
 	
 	public void midiPlayer(String command){
 		String dir = "./User/music/";
@@ -171,101 +171,101 @@ public class Gui extends client implements ActionListener, ItemListener, WindowL
 				log("no midi or mp3 files in folder");
 			}
 		}
-    }
+	}
 
 	public void takeScreenshot(boolean flag){
-        BufferedImage bufferedimage;
-        try{
-            Robot robot = new Robot();
-            Point point = getLocationOnScreen();
-            Rectangle rectangle = new Rectangle(point.x, point.y, getWidth(), getHeight());
-            bufferedimage = robot.createScreenCapture(rectangle);
-        }catch(Throwable throwable){
-            JOptionPane.showMessageDialog(frame, "An error occured while trying to create a screenshot!", "Screenshot Error", 0);
-            return;
-        }
-        String s = null;
-        try{
-            s = getNearestScreenshotFilename();
-        }catch(IOException ioexception){
-            if(flag){
-                 JOptionPane.showMessageDialog(frame, "A screenshot directory does not exist, and could not be created!", "No Screenshot Directory", 0);
-                return;
-            }
-        }
-        if(s == null && flag){
-             JOptionPane.showMessageDialog(frame, "There are too many screenshots in the screenshot directory!\n"+"Delete some screen\n" +"shots and try again." , "Screenshot Directory Full", 0);
-            return;
-        }
-        if(!flag){	//TODO Looks like screenshot stuff
-            final JFileChooser fileChooser = new JFileChooser();
-            final JDialog fileDialog = createFileChooserDialog(fileChooser, "Save Screenshot", this);
-            final BufferedImage si = bufferedimage;
-//            JFileChooser _tmp = fileChooser;	//Said its not used 4/18/17
-            fileChooser.setFileSelectionMode(0);
-            fileChooser.addChoosableFileFilter(new imageFileFilter());
-            fileChooser.setCurrentDirectory(new File("./User/screenshots/"));
-            fileChooser.setSelectedFile(new File(s));
-//            JFileChooser _tmp1 = fileChooser;	//Said its not used 4/18/17
-            fileChooser.setDialogType(1);
-            fileChooser.addActionListener(new ActionListener() {
-                public void actionPerformed(ActionEvent actionevent){
-                    String s1 = actionevent.getActionCommand();
-                    if(s1.equals("ApproveSelection")){
-                        File file = fileChooser.getSelectedFile();
-                        if(file != null && file.isFile()){
-                            int i = JOptionPane.showConfirmDialog(frame, (new StringBuilder()).append(file.getAbsolutePath()).append(" already exists.\n"+"Do you want to replace it?").toString(), "Save Screenshot", 2);
-                            if(i != 0){
-                                return;
-                            }
-                        }
-                        try{
-                            ImageIO.write(si, "png", file);
-                        }catch(IOException ioexception2){
-                             JOptionPane.showMessageDialog(frame, "An error occured while trying to save the screenshot!\n"+"Please make sure you have\n"+" write access to the screenshot directory." , "Screenshot Error", 0);
-                        }
-                        fileDialog.dispose();
-                    } else if(s1.equals("CancelSelection")){
-                        fileDialog.dispose();
-                    }
-                }
+		BufferedImage bufferedimage;
+		try{
+			Robot robot = new Robot();
+			Point point = getLocationOnScreen();
+			Rectangle rectangle = new Rectangle(point.x, point.y, getWidth(), getHeight());
+			bufferedimage = robot.createScreenCapture(rectangle);
+		}catch(Throwable throwable){
+			JOptionPane.showMessageDialog(frame, "An error occured while trying to create a screenshot!", "Screenshot Error", 0);
+			return;
+		}
+		String s = null;
+		try{
+			s = getNearestScreenshotFilename();
+		}catch(IOException ioexception){
+			if(flag){
+				 JOptionPane.showMessageDialog(frame, "A screenshot directory does not exist, and could not be created!", "No Screenshot Directory", 0);
+				return;
+			}
+		}
+		if(s == null && flag){
+			 JOptionPane.showMessageDialog(frame, "There are too many screenshots in the screenshot directory!\n"+"Delete some screen\n" +"shots and try again." , "Screenshot Directory Full", 0);
+			return;
+		}
+		if(!flag){	//TODO Looks like screenshot stuff
+			final JFileChooser fileChooser = new JFileChooser();
+			final JDialog fileDialog = createFileChooserDialog(fileChooser, "Save Screenshot", this);
+			final BufferedImage si = bufferedimage;
+//			JFileChooser _tmp = fileChooser;	//Said its not used 4/18/17
+			fileChooser.setFileSelectionMode(0);
+			fileChooser.addChoosableFileFilter(new imageFileFilter());
+			fileChooser.setCurrentDirectory(new File("./User/screenshots/"));
+			fileChooser.setSelectedFile(new File(s));
+//			JFileChooser _tmp1 = fileChooser;	//Said its not used 4/18/17
+			fileChooser.setDialogType(1);
+			fileChooser.addActionListener(new ActionListener() {
+				public void actionPerformed(ActionEvent actionevent){
+					String s1 = actionevent.getActionCommand();
+					if(s1.equals("ApproveSelection")){
+						File file = fileChooser.getSelectedFile();
+						if(file != null && file.isFile()){
+							int i = JOptionPane.showConfirmDialog(frame, (new StringBuilder()).append(file.getAbsolutePath()).append(" already exists.\n"+"Do you want to replace it?").toString(), "Save Screenshot", 2);
+							if(i != 0){
+								return;
+							}
+						}
+						try{
+							ImageIO.write(si, "png", file);
+						}catch(IOException ioexception2){
+							 JOptionPane.showMessageDialog(frame, "An error occured while trying to save the screenshot!\n"+"Please make sure you have\n"+" write access to the screenshot directory." , "Screenshot Error", 0);
+						}
+						fileDialog.dispose();
+					} else if(s1.equals("CancelSelection")){
+						fileDialog.dispose();
+					}
+				}
 				{
 
 				}
-            });
-            fileDialog.setVisible(true);
-        } else{
-            try{
-                ImageIO.write(bufferedimage, "png", new File((new StringBuilder()).append("./User/screenshots/").append(s).toString()));
+			});
+			fileDialog.setVisible(true);
+		} else{
+			try{
+				ImageIO.write(bufferedimage, "png", new File((new StringBuilder()).append("./User/screenshots/").append(s).toString()));
 				System.out.println("You took a screenshot!");
-            }catch(IOException ioexception1){
-                 JOptionPane.showMessageDialog(frame, "An error occured while trying to save the screenshot!\n"+"Please make sure you have\n"+" write access to the screenshot directory." , "Screenshot Error", 0);
-            }
-        }
-    }
+			}catch(IOException ioexception1){
+				 JOptionPane.showMessageDialog(frame, "An error occured while trying to save the screenshot!\n"+"Please make sure you have\n"+" write access to the screenshot directory." , "Screenshot Error", 0);
+			}
+		}
+	}
 
 	public static String getNearestScreenshotFilename() throws IOException{
-        File file = new File("./User/screenshots");
-        int i = 0;
-        do{
-            String s = " .png";
-            if(i < 10){
-                s = s.replaceFirst(" ", (new StringBuilder()).append("000").append(i).toString());
-            } else if(i < 100){
-                s = s.replaceFirst(" ", (new StringBuilder()).append("00").append(i).toString());
-            } else if(i < 1000){
-                s = s.replaceFirst(" ", (new StringBuilder()).append("0").append(i).toString());
-            } else if(i < 10000){
-                s = s.replaceFirst(" ", (new StringBuilder()).append(" ").append(i).toString());
-            }
-            if((new File(file, s)).isFile()){
-                i++;
-            } else{
-                return s;
-            }
-        } while(i < 10000);
+		File file = new File("./User/screenshots");
+		int i = 0;
+		do{
+			String s = " .png";
+			if(i < 10){
+				s = s.replaceFirst(" ", (new StringBuilder()).append("000").append(i).toString());
+			} else if(i < 100){
+				s = s.replaceFirst(" ", (new StringBuilder()).append("00").append(i).toString());
+			} else if(i < 1000){
+				s = s.replaceFirst(" ", (new StringBuilder()).append("0").append(i).toString());
+			} else if(i < 10000){
+				s = s.replaceFirst(" ", (new StringBuilder()).append(" ").append(i).toString());
+			}
+			if((new File(file, s)).isFile()){
+				i++;
+			} else{
+				return s;
+			}
+		} while(i < 10000);
 		return null;
-    }
+	}
 
 	public URL getCodeBase() {
 		try {
@@ -298,7 +298,7 @@ public class Gui extends client implements ActionListener, ItemListener, WindowL
 			return "";
 	}
 
-    public void displayWorldSelect() {
+	public void displayWorldSelect() {
 		try{
 			String s1 = JOptionPane.showInputDialog(this, (new StringBuilder()).append("Current server: "+ server), "Enter Server", 3);
 			if(s1 == null){
@@ -318,12 +318,12 @@ public class Gui extends client implements ActionListener, ItemListener, WindowL
 		String cmd = evt.getActionCommand();
 		if (cmd != null){
 			if (cmd.equalsIgnoreCase("Quit")){
-            if(JOptionPane.showConfirmDialog(this, "Are you sure you want to close the Client?") == 0)
-                System.exit(0);
-            return;
-        }
+			if(JOptionPane.showConfirmDialog(this, "Are you sure you want to close the Client?") == 0)
+				System.exit(0);
+			return;
+		}
 		if(cmd.equalsIgnoreCase("Next")){
-	            midiPlayer("Next");
+				midiPlayer("Next");
 		}
 		if(cmd.equalsIgnoreCase("Previous")){
 			midiPlayer("Previous");
@@ -431,41 +431,41 @@ public class Gui extends client implements ActionListener, ItemListener, WindowL
 			log("Loading website site");
 		}
 		if(cmd.equals("Red")){
-            try{UIManager.setLookAndFeel("org.jvnet.substance.skin.SubstanceMagmaLookAndFeel");}catch(Exception exception){}
-        }
-        if(cmd.equals("Blue")){
-            try{UIManager.setLookAndFeel("org.jvnet.substance.skin.SubstanceBusinessBlueSteelLookAndFeel");}catch(Exception exception){}
-        }
-        if(cmd.equals("Black")){
-            try{UIManager.setLookAndFeel("org.jvnet.substance.skin.SubstanceBusinessBlackSteelLookAndFeel");}catch(Exception exception){}
-        }
-        if(cmd.equals("Green")){
-            try{UIManager.setLookAndFeel("org.jvnet.substance.skin.SubstanceEmeraldDuskLookAndFeel");}catch(Exception exception){}
-        }
-        if(cmd.equals("White")){
-            try{UIManager.setLookAndFeel("org.jvnet.substance.skin.SubstanceCremeLookAndFeel");}catch(Exception exception){}
-        }
-        if(cmd.equals("Grey")){
-            try{UIManager.setLookAndFeel("org.jvnet.substance.skin.SubstanceMistAquaLookAndFeel");}catch(Exception exception){}
-        }
-        if(cmd.equals("Black")){
-            try{UIManager.setLookAndFeel("org.jvnet.substance.skin.SubstanceBusinessBlackSteelLookAndFeel");}catch(Exception exception){}
-        }
-        if(cmd.equals("Blue")){
-            try{UIManager.setLookAndFeel("org.jvnet.substance.skin.SubstanceBusinessBlueSteelLookAndFeel");}catch(Exception exception){}
-        }
-        if(cmd.equals("Red")){
-            try{UIManager.setLookAndFeel("org.jvnet.substance.skin.SubstanceMagmaLookAndFeel");}catch(Exception exception){}
-        }
-        if(cmd.equals("Green")){
-            try{UIManager.setLookAndFeel("org.jvnet.substance.skin.SubstanceEmeraldDuskLookAndFeel");}catch(Exception exception){}
-        }
-        if(cmd.equals("Grey")){
-            try{UIManager.setLookAndFeel("org.jvnet.substance.skin.SubstanceMistAquaLookAndFeel");}catch(Exception exception){}
-        }
-        if(cmd.equals("White")){
-            try{UIManager.setLookAndFeel("org.jvnet.substance.skin.SubstanceCremeLookAndFeel");}catch(Exception exception){}
-        }
+			try{UIManager.setLookAndFeel("org.jvnet.substance.skin.SubstanceMagmaLookAndFeel");}catch(Exception exception){}
+		}
+		if(cmd.equals("Blue")){
+			try{UIManager.setLookAndFeel("org.jvnet.substance.skin.SubstanceBusinessBlueSteelLookAndFeel");}catch(Exception exception){}
+		}
+		if(cmd.equals("Black")){
+			try{UIManager.setLookAndFeel("org.jvnet.substance.skin.SubstanceBusinessBlackSteelLookAndFeel");}catch(Exception exception){}
+		}
+		if(cmd.equals("Green")){
+			try{UIManager.setLookAndFeel("org.jvnet.substance.skin.SubstanceEmeraldDuskLookAndFeel");}catch(Exception exception){}
+		}
+		if(cmd.equals("White")){
+			try{UIManager.setLookAndFeel("org.jvnet.substance.skin.SubstanceCremeLookAndFeel");}catch(Exception exception){}
+		}
+		if(cmd.equals("Grey")){
+			try{UIManager.setLookAndFeel("org.jvnet.substance.skin.SubstanceMistAquaLookAndFeel");}catch(Exception exception){}
+		}
+		if(cmd.equals("Black")){
+			try{UIManager.setLookAndFeel("org.jvnet.substance.skin.SubstanceBusinessBlackSteelLookAndFeel");}catch(Exception exception){}
+		}
+		if(cmd.equals("Blue")){
+			try{UIManager.setLookAndFeel("org.jvnet.substance.skin.SubstanceBusinessBlueSteelLookAndFeel");}catch(Exception exception){}
+		}
+		if(cmd.equals("Red")){
+			try{UIManager.setLookAndFeel("org.jvnet.substance.skin.SubstanceMagmaLookAndFeel");}catch(Exception exception){}
+		}
+		if(cmd.equals("Green")){
+			try{UIManager.setLookAndFeel("org.jvnet.substance.skin.SubstanceEmeraldDuskLookAndFeel");}catch(Exception exception){}
+		}
+		if(cmd.equals("Grey")){
+			try{UIManager.setLookAndFeel("org.jvnet.substance.skin.SubstanceMistAquaLookAndFeel");}catch(Exception exception){}
+		}
+		if(cmd.equals("White")){
+			try{UIManager.setLookAndFeel("org.jvnet.substance.skin.SubstanceCremeLookAndFeel");}catch(Exception exception){}
+		}
 		if (cmd.equalsIgnoreCase("Save account")){
 			UserLoader.saveuser();
 			System.out.println("Saving file");
@@ -769,55 +769,55 @@ public class Gui extends client implements ActionListener, ItemListener, WindowL
 
 			if (cmd.equalsIgnoreCase("Server ip"))
 			{
-                    try {
-                        String sServer = JOptionPane.showInputDialog(this, "Server IP #:");
-                        Serverip = sServer;
-                        sign.signlink.startpriv(InetAddress.getByName(sServer));
-                    } catch(Exception e) {
-                        e.printStackTrace();
-                    }
+					try {
+						String sServer = JOptionPane.showInputDialog(this, "Server IP #:");
+						Serverip = sServer;
+						sign.signlink.startpriv(InetAddress.getByName(sServer));
+					} catch(Exception e) {
+						e.printStackTrace();
+					}
 }
 
 
 		
 
-            if(cmd.equals("Item IDs"))
-            {
-                if(isApplet)
-                {
-                    checkIDs();
-                    new Xml$((new StringBuilder()).append(findcachedir()).append("Files/all_IDs/Items.xml").toString());
-                } else
-                {
-                    new Xml$("Files/all_IDs/Items.xml");
-                }
-            }
-            if(cmd.equals("New Item IDs"))
-            {
-                if(isApplet)
-                {
-                    checkIDs();
-                    new Xml$((new StringBuilder()).append(findcachedir()).append("Files/all_IDs/NewItems.xml").toString());
-                } else
-                {
-                    new Xml$("Files/all_IDs/NewItems.xml");
-                }
-            }
-           
-            if(cmd.equals("Object IDs"))
-            {
-                if(isApplet)
-                {
-                    checkIDs();
-                    new Xml$((new StringBuilder()).append(findcachedir()).append("Files/all_IDs/Objects.xml").toString());
-                } else
-                {
-                    new Xml$("Files/all_IDs/Objects.xml");
-                }
-            }
-           
-        }
-        if (cmd.equalsIgnoreCase("Screenshot"))
+			if(cmd.equals("Item IDs"))
+			{
+				if(isApplet)
+				{
+					checkIDs();
+					new Xml$((new StringBuilder()).append(findcachedir()).append("Files/all_IDs/Items.xml").toString());
+				} else
+				{
+					new Xml$("Files/all_IDs/Items.xml");
+				}
+			}
+			if(cmd.equals("New Item IDs"))
+			{
+				if(isApplet)
+				{
+					checkIDs();
+					new Xml$((new StringBuilder()).append(findcachedir()).append("Files/all_IDs/NewItems.xml").toString());
+				} else
+				{
+					new Xml$("Files/all_IDs/NewItems.xml");
+				}
+			}
+		   
+			if(cmd.equals("Object IDs"))
+			{
+				if(isApplet)
+				{
+					checkIDs();
+					new Xml$((new StringBuilder()).append(findcachedir()).append("Files/all_IDs/Objects.xml").toString());
+				} else
+				{
+					new Xml$("Files/all_IDs/Objects.xml");
+				}
+			}
+		   
+		}
+		if (cmd.equalsIgnoreCase("Screenshot"))
 		{
 						takeScreenshot(true);
 }
@@ -825,12 +825,12 @@ public class Gui extends client implements ActionListener, ItemListener, WindowL
 	
 	}
 
-    private void checkIDs(){
+	private void checkIDs(){
 		/*File exist = new File((new StringBuilder()).append(findcachedir()).append("/all_IDs/").toString());
-        if(!exist.exists()){
-            new Update("http://www.moparscape.org/cache/all_IDs.zip", "all_IDs.zip", findcachedir(), true, false);
-        }*/
-    }
+		if(!exist.exists()){
+			new Update("http://www.moparscape.org/cache/all_IDs.zip", "all_IDs.zip", findcachedir(), true, false);
+		}*/
+	}
 		
 //	private void newIP(){	//Said its not used 4/18/17	//TODO ip changer
 //		try {
@@ -852,45 +852,45 @@ public class Gui extends client implements ActionListener, ItemListener, WindowL
 		}catch(Exception _ex) {
 		
 		}
-        return null;
-    }
+		return null;
+	}
 
 	public void launchURL(String s){
-        String s1 = System.getProperty("os.name");
-        try{
-            
-            if(s1.startsWith("Windows")){
-                Runtime.getRuntime().exec((new StringBuilder()).append("rundll32 url.dll,FileProtocolHandler ").append(s).toString());
-            } else{
-                String as[] = {
-                    "firefox", "opera", "konqueror", "epiphany", "mozilla", "netscape"
-                };
-                String s2 = null;
-                for(int i = 0; i < as.length && s2 == null; i++)
-                    if(Runtime.getRuntime().exec(new String[] {"which", as[i]}).waitFor() == 0)
-                        s2 = as[i];
-                if(s2 == null)
-                    throw new Exception("Could not find web browser");
-                Runtime.getRuntime().exec(new String[] {s2, s});
-            }
-        }catch(Exception exception){
-            System.out.println("An error occured while trying to open the web browser!\n");
-        }
-    }
+		String s1 = System.getProperty("os.name");
+		try{
+			
+			if(s1.startsWith("Windows")){
+				Runtime.getRuntime().exec((new StringBuilder()).append("rundll32 url.dll,FileProtocolHandler ").append(s).toString());
+			} else{
+				String as[] = {
+					"firefox", "opera", "konqueror", "epiphany", "mozilla", "netscape"
+				};
+				String s2 = null;
+				for(int i = 0; i < as.length && s2 == null; i++)
+					if(Runtime.getRuntime().exec(new String[] {"which", as[i]}).waitFor() == 0)
+						s2 = as[i];
+				if(s2 == null)
+					throw new Exception("Could not find web browser");
+				Runtime.getRuntime().exec(new String[] {s2, s});
+			}
+		}catch(Exception exception){
+			System.out.println("An error occured while trying to open the web browser!\n");
+		}
+	}
    
 class imageFileFilter extends FileFilter{
 
-    imageFileFilter(){
-    }
+	imageFileFilter(){
+	}
 
-    public boolean accept(File file){
-        String s = file.getName();
-        return file.isDirectory() || s.toLowerCase().endsWith(".png") && s.indexOf("$") == -1;
-    }
+	public boolean accept(File file){
+		String s = file.getName();
+		return file.isDirectory() || s.toLowerCase().endsWith(".png") && s.indexOf("$") == -1;
+	}
 
-    public String getDescription(){
-        return "PNG (*.png)";
-    }
+	public String getDescription(){
+		return "PNG (*.png)";
+	}
 }
 
 	public static String detail = null;

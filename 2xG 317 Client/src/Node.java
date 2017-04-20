@@ -3,20 +3,20 @@
 // Decompiler options: packimports(3) 
 
 public class Node {
-    public final void unlink(){
-        if(next == null){
-        } else{
-            next.prev = prev;
-            prev.next = next;
-            prev = null;
-            next = null;
-        }
-    }
+	public final void unlink(){
+		if(next == null){
+		} else{
+			next.prev = prev;
+			prev.next = next;
+			prev = null;
+			next = null;
+		}
+	}
 
-    public Node(){
-    }
+	public Node(){
+	}
 
-    public long id;
-    public Node prev;
-    public Node next;
+	public long id;
+	public Node prev;
+	public Node next;
 }

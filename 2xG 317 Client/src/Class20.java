@@ -511,7 +511,7 @@ aClass20Array351[j].anIntArray353[i2] = frames[i2]+FrameStart[file];
 aClass20Array351[j].anIntArray354[i2] = -1;
 aClass20Array351[j].anIntArray355[i2] = 0;
 }
-}      			
+}	  			
 
 
 /* End of Wolves */
