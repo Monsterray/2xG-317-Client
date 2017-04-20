@@ -1,10 +1,26 @@
 package sign;
 
 import java.applet.Applet;
-import java.io.*;
-import java.net.*;
-import javax.sound.midi.*;
-import javax.sound.sampled.*;
+import java.io.DataInputStream;
+import java.io.File;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.RandomAccessFile;
+import java.net.InetAddress;
+import java.net.Socket;
+import java.net.URL;
+
+import javax.sound.midi.MidiSystem;
+import javax.sound.midi.Sequence;
+import javax.sound.midi.Sequencer;
+import javax.sound.sampled.AudioFormat;
+import javax.sound.sampled.AudioInputStream;
+import javax.sound.sampled.AudioSystem;
+import javax.sound.sampled.DataLine;
+import javax.sound.sampled.FloatControl;
+import javax.sound.sampled.LineUnavailableException;
+import javax.sound.sampled.SourceDataLine;
+import javax.sound.sampled.UnsupportedAudioFileException;
 
 public final class signlink implements Runnable {
 	enum Position {LEFT, RIGHT, NORMAL};
@@ -41,7 +57,7 @@ public final class signlink implements Runnable {
 			if(file.exists() && file.length() > 0x3200000L) file.delete();
 			cache_dat = new RandomAccessFile(s + "main_file_cache.dat", "rw");
 			for(int j = 0; j < 5; j++)
-			cache_idx[j] = new RandomAccessFile(s + "main_file_cache.idx" + j, "rw");
+				cache_idx[j] = new RandomAccessFile(s + "main_file_cache.idx" + j, "rw");
 			//cache_idx[4] = new RandomAccessFile("C:\\filll\\aam.dat","rw");
 		} catch(Exception exception){ 
 			exception.printStackTrace(); 
@@ -144,7 +160,7 @@ public final class signlink implements Runnable {
 						musicSr = MidiSystem.getSequencer();
 						musicSr.open();
 						musicSr.setSequence(musicS);
-						musicSr.setLoopCount(musicSr.LOOP_CONTINUOUSLY);
+						musicSr.setLoopCount(Sequencer.LOOP_CONTINUOUSLY);
 						//musicSr.start();
 					} catch(Exception ex){ ex.printStackTrace(); }
 						midiplay = false;
@@ -173,9 +189,9 @@ public final class signlink implements Runnable {
 			try {
 				String string_0_ = "cache";
 				String string_1_ = "./";
-				File file = new File(new StringBuilder().append(string_1_).append(string_0_).toString());
+				File file = new File(string_1_ + string_0_);
 				if(!file.exists() && !file.mkdir()) break;
-				string = new StringBuilder().append(string_1_).append(string_0_).append("/").toString();
+				string = string_1_ + string_0_ + "/";
 			} catch(Exception exception){ 
 				break;
 			}

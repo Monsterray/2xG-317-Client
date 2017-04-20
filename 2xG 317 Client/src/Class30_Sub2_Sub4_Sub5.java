@@ -2,7 +2,6 @@
 // Jad home page: http://www.kpdus.com/jad.html
 // Decompiler options: packimports(3) 
 
-import sign.signlink;
 
 public class Class30_Sub2_Sub4_Sub5 extends Class30_Sub2_Sub4
 {
@@ -11,7 +10,7 @@ public class Class30_Sub2_Sub4_Sub5 extends Class30_Sub2_Sub4
     {
         int j = -1;
         if(i != 4016)
-            anInt1613 = -272;
+//            anInt1613 = -272;	// Removed due to it not being used anywhere except being set 4/20/17
         if(aClass20_1607 != null)
         {
             int k = client.anInt1161 - anInt1608;
@@ -119,5 +118,5 @@ public class Class30_Sub2_Sub4_Sub5 extends Class30_Sub2_Sub4
     private int anInt1610;
     private int anInt1611;
     private int anInt1612;
-    private int anInt1613;
+//    private int anInt1613;	//Said its not used 4/20/17
 }

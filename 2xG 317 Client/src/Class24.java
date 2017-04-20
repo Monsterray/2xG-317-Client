@@ -2,9 +2,10 @@
 // Jad home page: http://www.kpdus.com/jad.html
 // Decompiler options: packimports(3) 
 
-import java.io.*;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.OutputStream;
 import java.net.Socket;
-import sign.signlink;
 
 public final class Class24
     implements Runnable
@@ -13,9 +14,9 @@ public final class Class24
     public Class24(Applet_Sub1 applet_sub1, int i, Socket socket)
         throws IOException
     {
-        anInt416 = -53;
+//        anInt416 = -53;	// Removed due to it not being used anywhere except being set 4/18/17
         aBoolean417 = true;
-        anInt418 = 519;
+//        anInt418 = 519;	// Removed due to it not being used anywhere except being set 4/18/17
         aBoolean422 = false;
         aBoolean427 = false;
         aBoolean428 = false;
@@ -116,8 +117,9 @@ public final class Class24
             }
             notify();
         }
-        if(j != 0)
-            anInt418 = 255;
+        if(j != 0){
+//            anInt418 = 255;	// Removed due to it not being used anywhere except being set 4/18/17
+        }
     }
 
     public void run()
@@ -169,7 +171,7 @@ public final class Class24
     public void method272(byte byte0)
     {
         if(byte0 != 1)
-            anInt416 = 457;
+//            anInt416 = 457;	// Removed due to it not being used anywhere except being set 4/18/17
         System.out.println("dummy:" + aBoolean422);
         System.out.println("tcycl:" + anInt425);
         System.out.println("tnum:" + anInt426);
@@ -186,9 +188,9 @@ public final class Class24
         }
     }
 
-    private int anInt416;
+//    private int anInt416;	//Said its not used 4/18/17
     private boolean aBoolean417;
-    private int anInt418;
+//    private int anInt418;	//Said its not used 4/18/17
     private InputStream anInputStream419;
     private OutputStream anOutputStream420;
     private Socket aSocket421;

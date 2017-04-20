@@ -9,7 +9,7 @@ public final class Class12
 
     public Class12(boolean flag, int i)
     {
-        aBoolean295 = false;
+//        aBoolean295 = false;	// Removed due to it not being used anywhere except being set 4/18/17
         aBoolean297 = false;
         aClass30_Sub2_300 = new Class30_Sub2();
         aClass2_304 = new Class2(anInt296);
@@ -26,10 +26,10 @@ public final class Class12
         if(class30_sub2 != null)
         {
             aClass2_304.method150(class30_sub2);
-            anInt299++;
+//            anInt299++;	// Removed due to it not being used anywhere except being set 4/18/17
         } else
         {
-            anInt298++;
+//            anInt298++;	// Removed due to it not being used anywhere except being set 4/18/17
         }
         return class30_sub2;
     }
@@ -83,11 +83,11 @@ public final class Class12
         } while(true);
     }
 
-    private boolean aBoolean295;
+//    private boolean aBoolean295;	//Said its not used 4/18/17
     private static int anInt296;
     private boolean aBoolean297;
-    private int anInt298;
-    private int anInt299;
+//    private int anInt298;	//Said its not used 4/18/17
+//    private int anInt299;	//Said its not used 4/18/17
     private Class30_Sub2 aClass30_Sub2_300;
     private int anInt301;
     private int anInt302;

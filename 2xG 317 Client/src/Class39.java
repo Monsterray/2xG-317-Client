@@ -2,7 +2,6 @@
 // Jad home page: http://www.kpdus.com/jad.html
 // Decompiler options: packimports(3) 
 
-import sign.signlink;
 
 public class Class39
 {
@@ -34,8 +33,9 @@ public class Class39
     {
         if(byte0 == 9)
             byte0 = 0;
-        else
-            anInt663 = -457;
+        else{
+//          anInt663 = -457;	//REMOVED due to it not being used anywhere except being set 4/20/17
+        }
         float f1 = (float)anIntArrayArrayArray666[j][0][i] + f * (float)(anIntArrayArrayArray666[j][1][i] - anIntArrayArrayArray666[j][0][i]);
         f1 *= 0.0001220703F;
         return method542((byte)8, f1);
@@ -131,16 +131,16 @@ public class Class39
 
     public Class39()
     {
-        anInt663 = 748;
-        anInt664 = 201;
+//        anInt663 = 748;	//REMOVED due to it not being used anywhere except being set 4/20/17
+//        anInt664 = 201;	//REMOVED due to it not being used anywhere except being set 4/20/17
         anIntArray665 = new int[2];
         anIntArrayArrayArray666 = new int[2][2][4];
         anIntArrayArrayArray667 = new int[2][2][4];
         anIntArray668 = new int[2];
     }
 
-    private int anInt663;
-    private int anInt664;
+//    private int anInt663;	//REMOVED Said its not used 4/20/17
+//    private int anInt664;	//REMOVED Said its not used 4/20/17
     int anIntArray665[];
     int anIntArrayArrayArray666[][][];
     int anIntArrayArrayArray667[][][];

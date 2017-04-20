@@ -2,7 +2,6 @@
 // Jad home page: http://www.kpdus.com/jad.html
 // Decompiler options: packimports(3) 
 
-import sign.signlink;
 
 public final class Class44
 {
@@ -10,8 +9,8 @@ public final class Class44
     public Class44(int i, byte abyte0[])
     {
         aByte723 = 0;
-        anInt724 = 9;
-        anInt725 = -29508;
+//        anInt724 = 9;	//REMOVED due to it not being used anywhere except being set 4/20/17
+//        anInt725 = -29508;	//REMOVED due to it not being used anywhere except being set 4/20/17
         if(i != 44820)
         {
             throw new NullPointerException();
@@ -86,8 +85,8 @@ public final class Class44
     }
 
     private byte aByte723;
-    private int anInt724;
-    private int anInt725;
+//    private int anInt724;	//REMOVED Said its not used 4/20/17
+//    private int anInt725;	//REMOVED Said its not used 4/20/17
     public byte aByteArray726[];
     public int anInt727;
     public int anIntArray728[];

@@ -2,18 +2,17 @@
 // Jad home page: http://www.kpdus.com/jad.html
 // Decompiler options: packimports(3) 
 
-import sign.signlink;
 
 public final class Class2
 {
 
     public Class2(int i)
     {
-        aBoolean41 = false;
-        anInt42 = -589;
+//        aBoolean41 = false;	// Removed due to it not being used anywhere except being set 4/18/17
+//        anInt42 = -589;	// Removed due to it not being used anywhere except being set 4/18/17
         aClass30_Sub2_43 = new Class30_Sub2();
         if(i != 0)
-            anInt42 = -25;
+//            anInt42 = -25;	// Removed due to it not being used anywhere except being set 4/18/17
         aClass30_Sub2_43.aClass30_Sub2_1303 = aClass30_Sub2_43;
         aClass30_Sub2_43.aClass30_Sub2_1304 = aClass30_Sub2_43;
     }
@@ -80,8 +79,8 @@ public final class Class2
         return i;
     }
 
-    private boolean aBoolean41;
-    private int anInt42;
+//    private boolean aBoolean41;	//Said its not used 4/18/17
+//    private int anInt42;	//Said its not used 4/18/17
     public Class30_Sub2 aClass30_Sub2_43;
     private Class30_Sub2 aClass30_Sub2_44;
 }

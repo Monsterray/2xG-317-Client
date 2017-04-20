@@ -1,9 +1,15 @@
 // FrontEnd Plus GUI for JAD
 // DeCompiled : Class30_Sub2_Sub1_Sub1.class
 
-import java.awt.*;
-import java.io.*;
+import java.awt.Component;
+import java.awt.Image;
+import java.awt.MediaTracker;
+import java.awt.Toolkit;
 import java.awt.image.PixelGrabber;
+import java.io.BufferedWriter;
+import java.io.FileWriter;
+import java.io.IOException;
+
 import javax.swing.ImageIcon;
 
 public final class Class30_Sub2_Sub1_Sub1 extends Class30_Sub2_Sub1
@@ -14,15 +20,15 @@ public void load(){
 
     public String direct;
     private boolean aBoolean1428;
-    private int anInt1429;
-    private int anInt1430;
+//    private int anInt1429;	//Said its not used 4/18/17
+//    private int anInt1430;	//Said its not used 4/18/17
     private int anInt1431;
-    private byte aByte1432;
-    private boolean aBoolean1433;
-    private int anInt1434;
-    private boolean aBoolean1435;
+//    private byte aByte1432;	//Said its not used 4/18/17
+//    private boolean aBoolean1433;	//Said its not used 4/18/17
+//    private int anInt1434;	//Said its not used 4/18/17
+//    private boolean aBoolean1435;	//Said its not used 4/18/17
     private boolean aBoolean1436;
-    private boolean aBoolean1437;
+//    private boolean aBoolean1437;	//Said its not used 4/18/17
     private boolean aBoolean1438;
     public int anIntArray1439[];
     public int anInt1440;
@@ -35,14 +41,14 @@ public void load(){
     public Class30_Sub2_Sub1_Sub1(int i, int j)
     {
         aBoolean1428 = false;
-        anInt1429 = 24869;
+//        anInt1429 = 24869;	// Removed due to it not being used anywhere except being set 4/18/17
         anInt1431 = -32357;
-        aByte1432 = 3;
-        aBoolean1433 = false;
-        anInt1434 = -388;
-        aBoolean1435 = false;
+//        aByte1432 = 3;	// Removed due to it not being used anywhere except being set 4/18/17
+//        aBoolean1433 = false;	// Removed due to it not being used anywhere except being set 4/18/17
+//        anInt1434 = -388;	// Removed due to it not being used anywhere except being set 4/18/17
+//        aBoolean1435 = false;	// Removed due to it not being used anywhere except being set 4/18/17
         aBoolean1436 = true;
-        aBoolean1437 = true;
+//        aBoolean1437 = true;	// Removed due to it not being used anywhere except being set 4/18/17
         aBoolean1438 = false;
         anIntArray1439 = new int[i * j];
         anInt1440 = anInt1444 = i;
@@ -973,14 +979,14 @@ System.out.println(((Object) (exception)));
     public Class30_Sub2_Sub1_Sub1(byte abyte0[], Component component)
     {
         aBoolean1428 = false;
-        anInt1429 = 24869;
+//        anInt1429 = 24869;	// Removed due to it not being used anywhere except being set 4/18/17
         anInt1431 = -32357;
-        aByte1432 = 3;
-        aBoolean1433 = false;
-        anInt1434 = -388;
-        aBoolean1435 = false;
+//        aByte1432 = 3;	// Removed due to it not being used anywhere except being set 4/18/17
+//        aBoolean1433 = false;	// Removed due to it not being used anywhere except being set 4/18/17
+//        anInt1434 = -388;	// Removed due to it not being used anywhere except being set 4/18/17
+//        aBoolean1435 = false;	// Removed due to it not being used anywhere except being set 4/18/17
         aBoolean1436 = true;
-        aBoolean1437 = true;
+//        aBoolean1437 = true;	// Removed due to it not being used anywhere except being set 4/18/17
         aBoolean1438 = false;
         try
         {
@@ -1014,14 +1020,14 @@ System.out.println(((Object) (exception)));
     public Class30_Sub2_Sub1_Sub1(Class44 class44, String s, int i)
     {
         aBoolean1428 = false;
-        anInt1429 = 24869;
+//        anInt1429 = 24869;	// Removed due to it not being used anywhere except being set 4/18/17
         anInt1431 = -32357;
-        aByte1432 = 3;
-        aBoolean1433 = false;
-        anInt1434 = -388;
-        aBoolean1435 = false;
+//        aByte1432 = 3;	// Removed due to it not being used anywhere except being set 4/18/17
+//        aBoolean1433 = false;	// Removed due to it not being used anywhere except being set 4/18/17
+//        anInt1434 = -388;	// Removed due to it not being used anywhere except being set 4/18/17
+//        aBoolean1435 = false;	// Removed due to it not being used anywhere except being set 4/18/17
         aBoolean1436 = true;
-        aBoolean1437 = true;
+//        aBoolean1437 = true;	// Removed due to it not being used anywhere except being set 4/18/17
         aBoolean1438 = false;
         Class30_Sub2_Sub2 class30_sub2_sub2 = new Class30_Sub2_Sub2(class44.method571((new StringBuilder()).append(s).append(".dat").toString(), (byte[])null), 891);
         Class30_Sub2_Sub2 class30_sub2_sub2_1 = new Class30_Sub2_Sub2(class44.method571("index.dat", (byte[])null), 891);
@@ -1986,6 +1992,7 @@ else
             bufferedwriter.write(s);
             bufferedwriter.newLine();
             bufferedwriter.flush();
+            bufferedwriter.close();
         }
         catch(IOException ioexception) { }
     }
@@ -1999,8 +2006,9 @@ else
 
     public void method344(int i, int j, int k, int l)
     {
-        if(l != 0)
-            anInt1430 = 314;
+        if(l != 0){
+//            anInt1430 = 314;	// Removed due to it not being used anywhere except being set 4/18/17
+        }
         for(int i1 = 0; i1 < anIntArray1439.length; i1++)
         {
             int j1 = anIntArray1439[i1];
@@ -2035,8 +2043,9 @@ else
     public void method345(int i)
     {
         int ai[] = new int[anInt1444 * anInt1445];
-        if(i != 5059)
-            anInt1429 = -247;
+        if(i != 5059){
+//            anInt1429 = -247;	// Removed due to it not being used anywhere except being set 4/18/17
+        }
         for(int j = 0; j < anInt1441; j++)
         {
             for(int k = 0; k < anInt1440; k++)
@@ -2377,8 +2386,9 @@ public void drawTransparent(int i, int j, int k)
     public void method352(int i, int j, int ai[], int k, int ai1[], int l, int i1, 
             int j1, int k1, int l1, int i2)
     {
-        while(l >= 0) 
-            anInt1434 = 362;
+        while(l >= 0) {
+//            anInt1434 = 362;	// Removed due to it not being used anywhere except being set 4/18/17
+        }
         try
         {
             int j2 = -l1 / 2;
@@ -2467,8 +2477,9 @@ public void drawTransparent(int i, int j, int k)
         i += anInt1443;
         int k = j + i * Class30_Sub2_Sub1.anInt1379;
         int l = 0;
-        if(flag)
-            anInt1429 = -364;
+        if(flag){
+//            anInt1429 = -364;	// Removed due to it not being used anywhere except being set 4/18/17
+        }
         int i1 = anInt1441;
         int j1 = anInt1440;
         int k1 = Class30_Sub2_Sub1.anInt1379 - j1;

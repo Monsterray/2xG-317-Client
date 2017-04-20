@@ -2,7 +2,6 @@
 // Jad home page: http://www.kpdus.com/jad.html
 // Decompiler options: packimports(3) 
 
-import sign.signlink;
 
 final class Class30_Sub2_Sub4_Sub4 extends Class30_Sub2_Sub4
 {
@@ -84,8 +83,9 @@ final class Class30_Sub2_Sub4_Sub4 extends Class30_Sub2_Sub4
         aDouble1586 += aDouble1575 * (double)i;
         aDouble1587 += aDouble1577 * (double)i + 0.5D * aDouble1578 * (double)i * (double)i;
         aDouble1577 += aDouble1578 * (double)i;
-        if(j != 0)
-            anInt1584 = 16;
+        if(j != 0){
+//            anInt1584 = 16;	// Removed due to it not being used anywhere except being set 4/18/17
+        }
         anInt1595 = (int)(Math.atan2(aDouble1574, aDouble1575) * 325.94900000000001D) + 1024 & 0x7ff;
         anInt1596 = (int)(Math.atan2(aDouble1577, aDouble1576) * 325.94900000000001D) & 0x7ff;
         if(aClass23_1592.aClass20_407 != null)
@@ -112,7 +112,7 @@ final class Class30_Sub2_Sub4_Sub4 extends Class30_Sub2_Sub4
     public int anInt1581;
     public int anInt1582;
     public int anInt1583;
-    private int anInt1584;
+//    private int anInt1584;	//Said its not used 4/18/17
     public double aDouble1585;
     public double aDouble1586;
     public double aDouble1587;

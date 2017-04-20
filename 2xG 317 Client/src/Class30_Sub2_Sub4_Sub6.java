@@ -2,7 +2,6 @@
 // Jad home page: http://www.kpdus.com/jad.html
 // Decompiler options: packimports(3) 
 
-import sign.signlink;
 
 public class Class30_Sub2_Sub4_Sub6 extends Class30_Sub2_Sub4
 {
@@ -114,8 +113,9 @@ public class Class30_Sub2_Sub4_Sub6 extends Class30_Sub2_Sub4
     public static void method461(int i, int j)
     {
         aClass21Array1661[j] = null;
-        if(i <= 0)
-            anInt1619 = -219;
+        if(i <= 0){
+//            anInt1619 = -219;	// Removed due to it not being used anywhere except being set 4/20/17
+        }
     }
 
     public static Class30_Sub2_Sub4_Sub6 method462(int i, int j)
@@ -129,7 +129,7 @@ public class Class30_Sub2_Sub4_Sub6 extends Class30_Sub2_Sub4
         }
         if(class21 == null)
         {
-            aClass42_1662.method548(j);
+//            aClass42_1662.method548(j);	//REMOVED Method did completely nothing
             return null;
         } else
         {
@@ -144,7 +144,7 @@ public class Class30_Sub2_Sub4_Sub6 extends Class30_Sub2_Sub4
         Class21 class21 = aClass21Array1661[i];
         if(class21 == null)
         {
-            aClass42_1662.method548(i);
+//            aClass42_1662.method548(i);	//REMOVED Method did completely nothing
             return false;
         } else
         {
@@ -156,7 +156,7 @@ public class Class30_Sub2_Sub4_Sub6 extends Class30_Sub2_Sub4
     {
         anInt1614 = 9;
         aBoolean1615 = false;
-        anInt1616 = 360;
+//        anInt1616 = 360;	// Removed due to it not being used anywhere except being set 4/20/17
         anInt1617 = 1;
         aBoolean1618 = true;
         aBoolean1659 = false;
@@ -168,7 +168,7 @@ public class Class30_Sub2_Sub4_Sub6 extends Class30_Sub2_Sub4
     {
         anInt1614 = 9;
         aBoolean1615 = false;
-        anInt1616 = 360;
+//        anInt1616 = 360;	// Removed due to it not being used anywhere except being set 4/20/17
         anInt1617 = 1;
         aBoolean1618 = true;
         aBoolean1659 = false;
@@ -277,7 +277,7 @@ public class Class30_Sub2_Sub4_Sub6 extends Class30_Sub2_Sub4
             }
             if(i4 == 2)
             {
-                j2 = j2;
+//                j2 = j2;	//REMOVED action is pointless 4/20/17
                 l2 = j3;
                 j3 = class30_sub2_sub2.method421() + k3;
                 k3 = j3;
@@ -288,7 +288,7 @@ public class Class30_Sub2_Sub4_Sub6 extends Class30_Sub2_Sub4
             if(i4 == 3)
             {
                 j2 = j3;
-                l2 = l2;
+//                l2 = l2;	//REMOVED action is pointless 4/20/17
                 j3 = class30_sub2_sub2.method421() + k3;
                 k3 = j3;
                 anIntArray1631[l3] = j2;
@@ -322,7 +322,7 @@ public class Class30_Sub2_Sub4_Sub6 extends Class30_Sub2_Sub4
     {
         anInt1614 = 9;
         aBoolean1615 = false;
-        anInt1616 = 360;
+//        anInt1616 = 360;	// Removed due to it not being used anywhere except being set 4/20/17
         anInt1617 = 1;
         aBoolean1618 = true;
         aBoolean1659 = false;
@@ -381,8 +381,9 @@ public class Class30_Sub2_Sub4_Sub6 extends Class30_Sub2_Sub4
         anInt1626 = 0;
         anInt1630 = 0;
         anInt1642 = 0;
-        if(j >= 0)
-            anInt1619 = 23;
+        if(j >= 0){
+//            anInt1619 = 23;	// Removed due to it not being used anywhere except being set 4/20/17
+        }
         int l = 0;
         for(int i1 = 0; i1 < i; i1++)
         {
@@ -439,7 +440,7 @@ public class Class30_Sub2_Sub4_Sub6 extends Class30_Sub2_Sub4
     {
         anInt1614 = 9;
         aBoolean1615 = false;
-        anInt1616 = 360;
+//        anInt1616 = 360;	// Removed due to it not being used anywhere except being set 4/20/17
         anInt1617 = 1;
         aBoolean1618 = true;
         aBoolean1659 = false;
@@ -571,7 +572,7 @@ public class Class30_Sub2_Sub4_Sub6 extends Class30_Sub2_Sub4
     {
         anInt1614 = 9;
         aBoolean1615 = false;
-        anInt1616 = 360;
+//        anInt1616 = 360;	// Removed due to it not being used anywhere except being set 4/20/17
         anInt1617 = 1;
         aBoolean1618 = true;
         aBoolean1659 = false;
@@ -646,7 +647,7 @@ public class Class30_Sub2_Sub4_Sub6 extends Class30_Sub2_Sub4
     {
         anInt1614 = 9;
         aBoolean1615 = false;
-        anInt1616 = 360;
+//        anInt1616 = 360;	// Removed due to it not being used anywhere except being set 4/20/17
         anInt1617 = 1;
         aBoolean1618 = true;
         aBoolean1659 = false;
@@ -839,8 +840,9 @@ public class Class30_Sub2_Sub4_Sub6 extends Class30_Sub2_Sub4
                 anInt1650 = i1;
         }
 
-        if(flag)
-            anInt1619 = 455;
+        if(flag){
+//            anInt1619 = 455;	// Removed due to it not being used anywhere except being set 4/20/17
+        }
         anInt1650 = (int)(Math.sqrt(anInt1650) + 0.98999999999999999D);
         anInt1653 = (int)(Math.sqrt(anInt1650 * anInt1650 + super.anInt1426 * super.anInt1426) + 0.98999999999999999D);
         anInt1652 = anInt1653 + (int)(Math.sqrt(anInt1650 * anInt1650 + anInt1651 * anInt1651) + 0.98999999999999999D);
@@ -1267,8 +1269,9 @@ public class Class30_Sub2_Sub4_Sub6 extends Class30_Sub2_Sub4
             anIntArray1633[k] = l;
         }
 
-        if(i != 0)
-            anInt1619 = 107;
+        if(i != 0){
+//            anInt1619 = 107;	// Removed due to it not being used anywhere except being set 4/20/17
+        }
     }
 
     public void method478(int i, int j, int k, int l)
@@ -2049,10 +2052,10 @@ public class Class30_Sub2_Sub4_Sub6 extends Class30_Sub2_Sub4
 
     private int anInt1614;
     private boolean aBoolean1615;
-    private int anInt1616;
+//    private int anInt1616;	//Said its not used 4/20/17
     private int anInt1617;
     private boolean aBoolean1618;
-    private static int anInt1619 = -192;
+//    private static int anInt1619 = -192;	//Said its not used 4/20/17
     public static int anInt1620;
     public static Class30_Sub2_Sub4_Sub6 aClass30_Sub2_Sub4_Sub6_1621 = new Class30_Sub2_Sub4_Sub6(true);
     private static int anIntArray1622[] = new int[2000];

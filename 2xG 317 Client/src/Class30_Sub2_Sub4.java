@@ -2,7 +2,6 @@
 // Jad home page: http://www.kpdus.com/jad.html
 // Decompiler options: packimports(3) 
 
-import sign.signlink;
 
 public class Class30_Sub2_Sub4 extends Class30_Sub2
 {
@@ -20,18 +19,19 @@ public class Class30_Sub2_Sub4 extends Class30_Sub2
 
     public Class30_Sub2_Sub4_Sub6 method444(int i)
     {
-        if(i != 4016)
-            anInt1424 = -185;
+        if(i != 4016){
+//            anInt1424 = -185;	//REMOVED due to it not being used anywhere except being set 4/20/17
+        }
         return null;
     }
 
     public Class30_Sub2_Sub4()
     {
-        anInt1424 = 923;
+//        anInt1424 = 923;	//REMOVED due to it not being used anywhere except being set 4/20/17
         anInt1426 = 1000;
     }
 
-    private int anInt1424;
+//    private int anInt1424;	//REMOVED Said its not used 4/20/17
     Class33 aClass33Array1425[];
     public int anInt1426;
     public static boolean aBoolean1427;

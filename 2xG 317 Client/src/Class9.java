@@ -1,94 +1,94 @@
-import java.io.PrintStream;
 import sign.signlink;
 
+@SuppressWarnings("static-access")
 public class Class9
 {
 
-    public Class30_Sub2_Sub1_Sub1 aClass30_Sub2_Sub1_Sub1_207;
-    public int anInt208;
-    public Class30_Sub2_Sub1_Sub1 aClass30_Sub2_Sub1_Sub1Array209[];
-    public static Class9 aClass9Array210[];
-    public int anInt211;
-    public int anIntArray212[];
-    private int anInt213;
-    public int anInt214;
-    public int anIntArray215[];
-    public int anInt216;
-    public int anInt217;
-    public String aString218;
-    public int anInt219;
-    public int anInt220;
-    public String aString221;
-    public String aString222;
-    public static Class44 aClass44;
-    public boolean aBoolean223;
-    public static int transtAmount;
-    public int anInt224;
-    public String aStringArray225[];
-    public int anIntArrayArray226[][];
-    public boolean aBoolean227;
-    public String aString228;
-    private int anInt229;
-    public int anInt230;
-    public int anInt231;
-    public int anInt232;
-    public int anInt233;
-    public int anInt234;
-    public boolean aBoolean235;
-    public int anInt236;
-    public int anInt237;
-    private static Class12 aClass12_238;
-    public int anInt239;
-    public int anIntArray240[];
-    public int anIntArray241[];
-    public boolean aBoolean242;
-    public Class30_Sub2_Sub1_Sub4 aClass30_Sub2_Sub1_Sub4_243;
-    public int anInt244;
-    public int anIntArray245[];
-    public int anInt246;
-    public int anIntArray247[];
-    public String aString248;
-    public boolean aBoolean249;
-    public int anInt250;
-    public boolean aBoolean251;
-    public int anIntArray252[];
-    public int anIntArray253[];
-    public byte aByte254;
-    public int anInt255;
-    public int anInt256;
-    public int anInt257;
-    public int anInt258;
-    public boolean aBoolean259;
-    public Class30_Sub2_Sub1_Sub1 aClass30_Sub2_Sub1_Sub1_260;
-    public int anInt261;
-    public int anInt262;
-    public int anInt263;
-    static Class12 aClass12_264 = new Class12(false, 30);
-    public int anInt265;
-    public boolean aBoolean266;
-    public int anInt267;
-    public boolean aBoolean268;
-    public int anInt269;
-    public int anInt270;
-    public int anInt271;
-    public int anIntArray272[];
+	public Class30_Sub2_Sub1_Sub1 aClass30_Sub2_Sub1_Sub1_207;
+	public int anInt208;
+	public Class30_Sub2_Sub1_Sub1 aClass30_Sub2_Sub1_Sub1Array209[];
+	public static Class9 aClass9Array210[];
+	public int anInt211;
+	public int anIntArray212[];
+	private int anInt213;
+	public int anInt214;
+	public int anIntArray215[];
+	public int anInt216;
+	public int anInt217;
+	public String aString218;
+	public int anInt219;
+	public int anInt220;
+	public String aString221;
+	public String aString222;
+	public static Class44 aClass44;
+	public boolean aBoolean223;
+	public static int transtAmount;
+	public int anInt224;
+	public String aStringArray225[];
+	public int anIntArrayArray226[][];
+	public boolean aBoolean227;
+	public String aString228;
+//	private int anInt229;	//REMOVED Said its not used 4/20/17
+	public int anInt230;
+	public int anInt231;
+	public int anInt232;
+	public int anInt233;
+	public int anInt234;
+	public boolean aBoolean235;
+	public int anInt236;
+	public int anInt237;
+	private static Class12 aClass12_238;
+	public int anInt239;
+	public int anIntArray240[];
+	public int anIntArray241[];
+	public boolean aBoolean242;
+	public Class30_Sub2_Sub1_Sub4 aClass30_Sub2_Sub1_Sub4_243;
+	public int anInt244;
+	public int anIntArray245[];
+	public int anInt246;
+	public int anIntArray247[];
+	public String aString248;
+	public boolean aBoolean249;
+	public int anInt250;
+	public boolean aBoolean251;
+	public int anIntArray252[];
+	public int anIntArray253[];
+	public byte aByte254;
+	public int anInt255;
+	public int anInt256;
+	public int anInt257;
+	public int anInt258;
+	public boolean aBoolean259;
+	public Class30_Sub2_Sub1_Sub1 aClass30_Sub2_Sub1_Sub1_260;
+	public int anInt261;
+	public int anInt262;
+	public int anInt263;
+	static Class12 aClass12_264 = new Class12(false, 30);
+	public int anInt265;
+	public boolean aBoolean266;
+	public int anInt267;
+	public boolean aBoolean268;
+	public int anInt269;
+	public int anInt270;
+	public int anInt271;
+	public int anIntArray272[];
 
-    public void method204(int i, byte byte0, int j)
-    {
-        int k = anIntArray253[i];
-        anIntArray253[i] = anIntArray253[j];
-        if(byte0 == 9)
-        {
-            byte0 = 0;
-        } else
-        {
-            anInt229 = -76;
-        }
-        anIntArray253[j] = k;
-        k = anIntArray252[i];
-        anIntArray252[i] = anIntArray252[j];
-        anIntArray252[j] = k;
-    }
+	public void method204(int i, byte byte0, int j)
+	{
+		int k = anIntArray253[i];
+		anIntArray253[i] = anIntArray253[j];
+		if(byte0 == 9)
+		{
+			byte0 = 0;
+		} else
+		{
+//			anInt229 = -76;	//REMOVED due to it not being used anywhere except being set 4/20/17
+		}
+		anIntArray253[j] = k;
+		k = anIntArray252[i];
+		anIntArray252[i] = anIntArray252[j];
+		anIntArray252[j] = k;
+	}
 private static void addTwoRunesB(int id, int t1, int t2, int r1, int r2, int a1, int a2) {
 		Class9 Tab = addTab(id);
 		Tab.anInt236 = 1151;
@@ -509,7 +509,7 @@ private static void addTwoRunesB(int id, int t1, int t2, int r1, int r2, int a1,
 
 	private static void drawBox(int id, int j) {
 		Class9 Tab = aClass9Array210[id] = new Class9();
-       		Tab.anInt250 = id;
+	   		Tab.anInt250 = id;
 		Tab.anInt236 = 1151;
 		Tab.anInt262 = 8;
 		Tab.anInt217 = 0;
@@ -525,7 +525,7 @@ private static void addTwoRunesB(int id, int t1, int t2, int r1, int r2, int a1,
 
 	private static void drawRune(int id, int j) {
 		Class9 Tab = aClass9Array210[id] = new Class9();
-       		Tab.anInt250 = id;
+	   		Tab.anInt250 = id;
 		Tab.anInt236 = 1151;
 		Tab.anInt262 = 5;
 		Tab.anInt217 = 0;
@@ -540,7 +540,7 @@ private static void addTwoRunesB(int id, int t1, int t2, int r1, int r2, int a1,
 
 	private static void drawOther(int id, int j) {
 		Class9 Tab = aClass9Array210[id] = new Class9();
-       		Tab.anInt250 = id;
+	   		Tab.anInt250 = id;
 		Tab.anInt236 = 1151;
 		Tab.anInt262 = 5;
 		Tab.anInt217 = 0;
@@ -554,12 +554,12 @@ private static void addTwoRunesB(int id, int t1, int t2, int r1, int r2, int a1,
 	}
 
 	private static Class30_Sub2_Sub1_Sub1 magicGetter(int i, String s){
-       		long l = (Class50.method585((byte)1, s) << 8) + (long)i;
+	   		long l = (Class50.method585((byte)1, s) << 8) + (long)i;
 		Class30_Sub2_Sub1_Sub1 Class30_Sub2_Sub1_Sub1 = (Class30_Sub2_Sub1_Sub1)aClass12_238.method222(l);
 		if(Class30_Sub2_Sub1_Sub1 != null) {
 			return Class30_Sub2_Sub1_Sub1;
 		} 
-       		try{ 
+	   		try{ 
 			Class30_Sub2_Sub1_Sub1 = new Class30_Sub2_Sub1_Sub1((new StringBuilder()).append("./Files/Spirts/Magic/"+s+" "+i+".png").toString());
 			aClass12_238.method223(Class30_Sub2_Sub1_Sub1, l, (byte)2); 
 		} catch(Exception exception){ 
@@ -680,8 +680,8 @@ private static void addTwoRunesB(int id, int t1, int t2, int r1, int r2, int a1,
 
 	private static void modernInterface() { 
 		configureMagic();
-		int X = 10;
-		int Y = 25;
+//		int X = 10;	//REMOVED Said its not used 4/20/17
+//		int Y = 25;	//REMOVED Said its not used 4/20/17
 		int Frame = 0;
 		Class9 Tab = addTab(1151);
 		Tab.anIntArray240 = new int[61];
@@ -1105,48 +1105,48 @@ private static void addTwoRunesB(int id, int t1, int t2, int r1, int r2, int a1,
 	}
 public static void assault()
   {
-    Class9 localClass9 = addTab(16180);
-    addassault(16181, 1, 1, "Purchase - Fighter torso");
-    addassault(16182, 2, 2, "Purchase - Rune Defender");
-    addassault(16184, 3, 3, "Purchase - Fighter Hat");
-    addwelcome(16183, 2, 2);
-    addCloseButton(18102);
-    localClass9.anInt261 = 0;
-    localClass9.aBoolean266 = false;
-    localClass9.anIntArray240 = new int[5];
-    localClass9.anIntArray241 = new int[5];
-    localClass9.anIntArray272 = new int[5];
-    localClass9.anIntArray240[0] = 16183;
-    localClass9.anIntArray241[0] = 10;
-    localClass9.anIntArray272[0] = 10;
-    localClass9.anIntArray240[1] = 16182;
-    localClass9.anIntArray241[1] = 30;
-    localClass9.anIntArray272[1] = 50;
-    localClass9.anIntArray240[2] = 16181;
-    localClass9.anIntArray241[2] = 30;
-    localClass9.anIntArray272[2] = 130;
-    localClass9.anIntArray240[3] = 18102;
-    localClass9.anIntArray241[3] = 475;
-    localClass9.anIntArray272[3] = 20;
-    localClass9.anIntArray240[4] = 16184;
-    localClass9.anIntArray241[4] = 30;
-    localClass9.anIntArray272[4] = 210;
+	Class9 localClass9 = addTab(16180);
+	addassault(16181, 1, 1, "Purchase - Fighter torso");
+	addassault(16182, 2, 2, "Purchase - Rune Defender");
+	addassault(16184, 3, 3, "Purchase - Fighter Hat");
+	addwelcome(16183, 2, 2);
+	addCloseButton(18102);
+	localClass9.anInt261 = 0;
+	localClass9.aBoolean266 = false;
+	localClass9.anIntArray240 = new int[5];
+	localClass9.anIntArray241 = new int[5];
+	localClass9.anIntArray272 = new int[5];
+	localClass9.anIntArray240[0] = 16183;
+	localClass9.anIntArray241[0] = 10;
+	localClass9.anIntArray272[0] = 10;
+	localClass9.anIntArray240[1] = 16182;
+	localClass9.anIntArray241[1] = 30;
+	localClass9.anIntArray272[1] = 50;
+	localClass9.anIntArray240[2] = 16181;
+	localClass9.anIntArray241[2] = 30;
+	localClass9.anIntArray272[2] = 130;
+	localClass9.anIntArray240[3] = 18102;
+	localClass9.anIntArray241[3] = 475;
+	localClass9.anIntArray272[3] = 20;
+	localClass9.anIntArray240[4] = 16184;
+	localClass9.anIntArray241[4] = 30;
+	localClass9.anIntArray272[4] = 210;
   }
  public static void addassault(int paramInt1, int paramInt2, int paramInt3, String paramString) {
-    Class9 localClass91 = aClass9Array210[paramInt1] = new Class9();
-    localClass91.anInt250 = paramInt1;
-    localClass91.anInt236 = paramInt1;
-    localClass91.anInt262 = 5;
-    localClass91.anInt217 = 1;
-    localClass91.anInt214 = 0;
-    localClass91.anInt220 = 400;
-    localClass91.anInt267 = 70;
-    localClass91.aByte254 = 0;
-    localClass91.anInt230 = 52;
-    localClass91.aClass30_Sub2_Sub1_Sub1_207 = Run(paramInt2, "assault");
-    localClass91.aClass30_Sub2_Sub1_Sub1_260 = Run(paramInt3, "assault");
-    localClass91.aString221 = paramString;
-    Class9 localClass92 = localClass91;
+	Class9 localClass91 = aClass9Array210[paramInt1] = new Class9();
+	localClass91.anInt250 = paramInt1;
+	localClass91.anInt236 = paramInt1;
+	localClass91.anInt262 = 5;
+	localClass91.anInt217 = 1;
+	localClass91.anInt214 = 0;
+	localClass91.anInt220 = 400;
+	localClass91.anInt267 = 70;
+	localClass91.aByte254 = 0;
+	localClass91.anInt230 = 52;
+	localClass91.aClass30_Sub2_Sub1_Sub1_207 = Run(paramInt2, "assault");
+	localClass91.aClass30_Sub2_Sub1_Sub1_260 = Run(paramInt3, "assault");
+	localClass91.aString221 = paramString;
+//	Class9 localClass92 = localClass91;	//REMOVED Said its not used 4/20/17
   }
 public static void addText(int id, String text, Class30_Sub2_Sub1_Sub4 wid[], int idx, int color) {
 		Class9 Tab = addTab(id);
@@ -1171,9 +1171,9 @@ public static void addText(int id, String text, Class30_Sub2_Sub1_Sub4 wid[], in
 	}
 public static void PestControl(Class44 class44, Class30_Sub2_Sub1_Sub4 aclass30_sub2_sub1_sub4[])
 {
-String s = "";
-        String s1 = "";
-        int i = 0;
+//String s = "";	//REMOVED Said its not used 4/20/17
+		String s1 = "";
+		int i = 0;
 Class9 Tab = addTab(10294);
 addpestbutton(18001, 4);
 addpestbutton(18002, 3);
@@ -1217,440 +1217,440 @@ Tab.anIntArray272[9] = 307; //height
 
 
 Tab = addTab(18009);
-        Tab.anInt236 = 18000;
-        Tab.anInt250 = 18009;
-        Tab.anInt262 = 4;
-        Tab.anInt217 = 0;
-                Tab.anInt220 = 0;
-        Tab.anInt267 = 0;
-        Tab.aBoolean223 = true;
-        Tab.aClass30_Sub2_Sub1_Sub4_243 = aclass30_sub2_sub1_sub4[1];
-        Tab.aBoolean268 = true;
-                Tab.aString248 = "Confirm:";
-        Tab.aString228 = "";
-                Tab.anInt232 = 0xffffff;
+		Tab.anInt236 = 18000;
+		Tab.anInt250 = 18009;
+		Tab.anInt262 = 4;
+		Tab.anInt217 = 0;
+				Tab.anInt220 = 0;
+		Tab.anInt267 = 0;
+		Tab.aBoolean223 = true;
+		Tab.aClass30_Sub2_Sub1_Sub4_243 = aclass30_sub2_sub1_sub4[1];
+		Tab.aBoolean268 = true;
+				Tab.aString248 = "Confirm:";
+		Tab.aString228 = "";
+				Tab.anInt232 = 0xffffff;
 
 Tab = addTab(18010);
-        Tab.anInt236 = 18000;
-        Tab.anInt250 = 18010;
-        Tab.anInt262 = 4;
-        Tab.anInt217 = 0;
-                Tab.anInt220 = 0;
-        Tab.anInt267 = 0;
-        Tab.aBoolean223 = true;
-        Tab.aClass30_Sub2_Sub1_Sub4_243 = aclass30_sub2_sub1_sub4[0];
-        Tab.aBoolean268 = true;
-                Tab.aString248 = "Points:";
-        Tab.aString228 = "";
-                Tab.anInt232 = 0xE1981D;
+		Tab.anInt236 = 18000;
+		Tab.anInt250 = 18010;
+		Tab.anInt262 = 4;
+		Tab.anInt217 = 0;
+				Tab.anInt220 = 0;
+		Tab.anInt267 = 0;
+		Tab.aBoolean223 = true;
+		Tab.aClass30_Sub2_Sub1_Sub4_243 = aclass30_sub2_sub1_sub4[0];
+		Tab.aBoolean268 = true;
+				Tab.aString248 = "Points:";
+		Tab.aString228 = "";
+				Tab.anInt232 = 0xE1981D;
 
 Tab = addTab(10379);
-        Tab.anInt236 = 18000;
-        Tab.anInt250 = 10379;
-        Tab.anInt262 = 4;
-        Tab.anInt217 = 0;
-                Tab.anInt220 = 0;
-        Tab.anInt267 = 0;
-        Tab.aBoolean223 = true;
-        Tab.aClass30_Sub2_Sub1_Sub4_243 = aclass30_sub2_sub1_sub4[0];
-        Tab.aBoolean268 = true;
-                Tab.aString248 = "";
-        Tab.aString228 = "";
-                Tab.anInt232 = 0xE1981D;
+		Tab.anInt236 = 18000;
+		Tab.anInt250 = 10379;
+		Tab.anInt262 = 4;
+		Tab.anInt217 = 0;
+				Tab.anInt220 = 0;
+		Tab.anInt267 = 0;
+		Tab.aBoolean223 = true;
+		Tab.aClass30_Sub2_Sub1_Sub4_243 = aclass30_sub2_sub1_sub4[0];
+		Tab.aBoolean268 = true;
+				Tab.aString248 = "";
+		Tab.aString228 = "";
+				Tab.anInt232 = 0xE1981D;
 
 Tab = addTab(18011);
-        Tab.anInt236 = 18000;
-        Tab.anInt250 = 18011;
-        Tab.anInt262 = 4;
-        Tab.anInt217 = 0;
-                Tab.anInt220 = 0;
-        Tab.anInt267 = 0;
-        Tab.aBoolean223 = true;
-        Tab.aClass30_Sub2_Sub1_Sub4_243 = aclass30_sub2_sub1_sub4[0];
-        Tab.aBoolean268 = true;
-                Tab.aString248 = "";
-        Tab.aString228 = "";
-                Tab.anInt232 = 0xE1981D;
+		Tab.anInt236 = 18000;
+		Tab.anInt250 = 18011;
+		Tab.anInt262 = 4;
+		Tab.anInt217 = 0;
+				Tab.anInt220 = 0;
+		Tab.anInt267 = 0;
+		Tab.aBoolean223 = true;
+		Tab.aClass30_Sub2_Sub1_Sub4_243 = aclass30_sub2_sub1_sub4[0];
+		Tab.aBoolean268 = true;
+				Tab.aString248 = "";
+		Tab.aString228 = "";
+				Tab.anInt232 = 0xE1981D;
 
-               
+			   
 Tab = addTab(18006);
-        Tab.anInt236 = 18000;
-        Tab.anInt250 = 18006;
-        Tab.anInt262 = 5;
-        Tab.anInt217 = 0;
-        Tab.anInt220 = 16;
-        Tab.anInt267 = 16;
-        s1 = "pest,5";
-        i = s1.lastIndexOf(",");
-        Tab.aClass30_Sub2_Sub1_Sub1_207 = Pest(Integer.parseInt(s1.substring(i + 1)), false,         aClass44, s1.substring(0, i));
+		Tab.anInt236 = 18000;
+		Tab.anInt250 = 18006;
+		Tab.anInt262 = 5;
+		Tab.anInt217 = 0;
+		Tab.anInt220 = 16;
+		Tab.anInt267 = 16;
+		s1 = "pest,5";
+		i = s1.lastIndexOf(",");
+		Tab.aClass30_Sub2_Sub1_Sub1_207 = Pest(Integer.parseInt(s1.substring(i + 1)), false,		 aClass44, s1.substring(0, i));
 
 Tab = addTab(18004);
-        Tab.anInt236 = 18000;
-        Tab.anInt250 = 18004;
-        Tab.anInt262 = 5;
-        Tab.anInt217 = 6;
-        Tab.anInt220 = 16;
-        Tab.anInt267 = 16;
-        Tab.anInt230 = 18005;
-        s1 = "pest,2";
-        i = s1.lastIndexOf(",");
-        Tab.aClass30_Sub2_Sub1_Sub1_207 = Pest(Integer.parseInt(s1.substring(i + 1)), false,         aClass44, s1.substring(0, i));               
-        Tab.aString221 = "Close";
-        Tab.anInt237 = 10;
-               
-               
-               
-               
-        Tab = addTab(18005);
-        Tab.anInt236 = 18000;
-        Tab.anInt250 = 18005;
-        Tab.anInt262 = 0;
-        Tab.anInt217 = 0;
-        Tab.anInt220 = 16;
-        Tab.anInt267 = 16;
-                Tab.anInt230 = -1;
-        Tab.aBoolean266 = true;
-        Tab.anIntArray240 = new int[1];
-        Tab.anIntArray241 = new int[1];
-        Tab.anIntArray272 = new int[1];
-        Tab.anIntArray240[0] = 18006;
-        Tab.anIntArray241[0] = 0;
-        Tab.anIntArray272[0] = 0;
-               
-                Tab = addTab(18008);
-        Tab.anInt236 = 18000;
-        Tab.anInt250 = 18008;
-        Tab.anInt262 = 5;
-        Tab.anInt217 = 0;
-        Tab.anInt220 = 16;
-        Tab.anInt267 = 16;
-        s1 = "pest,6";
-        i = s1.lastIndexOf(",");
-        Tab.aClass30_Sub2_Sub1_Sub1_207 = Pest(Integer.parseInt(s1.substring(i + 1)), false,         aClass44, s1.substring(0, i));
+		Tab.anInt236 = 18000;
+		Tab.anInt250 = 18004;
+		Tab.anInt262 = 5;
+		Tab.anInt217 = 6;
+		Tab.anInt220 = 16;
+		Tab.anInt267 = 16;
+		Tab.anInt230 = 18005;
+		s1 = "pest,2";
+		i = s1.lastIndexOf(",");
+		Tab.aClass30_Sub2_Sub1_Sub1_207 = Pest(Integer.parseInt(s1.substring(i + 1)), false,		 aClass44, s1.substring(0, i));			   
+		Tab.aString221 = "Close";
+		Tab.anInt237 = 10;
+			   
+			   
+			   
+			   
+		Tab = addTab(18005);
+		Tab.anInt236 = 18000;
+		Tab.anInt250 = 18005;
+		Tab.anInt262 = 0;
+		Tab.anInt217 = 0;
+		Tab.anInt220 = 16;
+		Tab.anInt267 = 16;
+				Tab.anInt230 = -1;
+		Tab.aBoolean266 = true;
+		Tab.anIntArray240 = new int[1];
+		Tab.anIntArray241 = new int[1];
+		Tab.anIntArray272 = new int[1];
+		Tab.anIntArray240[0] = 18006;
+		Tab.anIntArray241[0] = 0;
+		Tab.anIntArray272[0] = 0;
+			   
+				Tab = addTab(18008);
+		Tab.anInt236 = 18000;
+		Tab.anInt250 = 18008;
+		Tab.anInt262 = 5;
+		Tab.anInt217 = 0;
+		Tab.anInt220 = 16;
+		Tab.anInt267 = 16;
+		s1 = "pest,6";
+		i = s1.lastIndexOf(",");
+		Tab.aClass30_Sub2_Sub1_Sub1_207 = Pest(Integer.parseInt(s1.substring(i + 1)), false,		 aClass44, s1.substring(0, i));
 
 Tab = addTab(18002);
-        Tab.anInt236 = 18000;
-        Tab.anInt250 = 18002;
-        Tab.anInt262 = 5;
-        Tab.anInt217 = 1;
-        Tab.anInt220 = 157;
-        Tab.anInt267 = 59;
-        Tab.anInt230 = 18007;
-        s1 = "pest,3";
-        i = s1.lastIndexOf(",");
-        Tab.aClass30_Sub2_Sub1_Sub1_207 = Pest(Integer.parseInt(s1.substring(i + 1)), false,         aClass44, s1.substring(0, i));               
-        Tab.aString221 = "Confirm";
-        Tab.anInt237 = 10;
-               
-               
-               
-               
-        Tab = addTab(18007);
-        Tab.anInt236 = 18000;
-        Tab.anInt250 = 18007;
-        Tab.anInt262 = 0;
-        Tab.anInt217 = 0;
-        Tab.anInt220 = 143;
-        Tab.anInt267 = 45;
-                Tab.anInt230 = -1;
-        Tab.aBoolean266 = true;
-        Tab.anIntArray240 = new int[1];
-        Tab.anIntArray241 = new int[1];
-        Tab.anIntArray272 = new int[1];
-        Tab.anIntArray240[0] = 18008;
-        Tab.anIntArray241[0] = 0;
-        Tab.anIntArray272[0] = 0;
-               
+		Tab.anInt236 = 18000;
+		Tab.anInt250 = 18002;
+		Tab.anInt262 = 5;
+		Tab.anInt217 = 1;
+		Tab.anInt220 = 157;
+		Tab.anInt267 = 59;
+		Tab.anInt230 = 18007;
+		s1 = "pest,3";
+		i = s1.lastIndexOf(",");
+		Tab.aClass30_Sub2_Sub1_Sub1_207 = Pest(Integer.parseInt(s1.substring(i + 1)), false,		 aClass44, s1.substring(0, i));			   
+		Tab.aString221 = "Confirm";
+		Tab.anInt237 = 10;
+			   
+			   
+			   
+			   
+		Tab = addTab(18007);
+		Tab.anInt236 = 18000;
+		Tab.anInt250 = 18007;
+		Tab.anInt262 = 0;
+		Tab.anInt217 = 0;
+		Tab.anInt220 = 143;
+		Tab.anInt267 = 45;
+				Tab.anInt230 = -1;
+		Tab.aBoolean266 = true;
+		Tab.anIntArray240 = new int[1];
+		Tab.anIntArray241 = new int[1];
+		Tab.anIntArray272 = new int[1];
+		Tab.anIntArray240[0] = 18008;
+		Tab.anIntArray241[0] = 0;
+		Tab.anIntArray272[0] = 0;
+			   
 
 
 Tab = addTab(18012);
-        Tab.anInt236 = 18000;
-        Tab.anInt250 = 18012;
-        Tab.anInt262 = 4;
-        Tab.anInt217 = 0;
-        Tab.aBoolean223 = true;
-        Tab.aClass30_Sub2_Sub1_Sub4_243 = aclass30_sub2_sub1_sub4[1];
-        Tab.aBoolean268 = true;
-                Tab.aString248 = "Attack Exp - 1pt";
-        Tab.aString228 = "";
-                Tab.anInt232 = 0xE1981D;
+		Tab.anInt236 = 18000;
+		Tab.anInt250 = 18012;
+		Tab.anInt262 = 4;
+		Tab.anInt217 = 0;
+		Tab.aBoolean223 = true;
+		Tab.aClass30_Sub2_Sub1_Sub4_243 = aclass30_sub2_sub1_sub4[1];
+		Tab.aBoolean268 = true;
+				Tab.aString248 = "Attack Exp - 1pt";
+		Tab.aString228 = "";
+				Tab.anInt232 = 0xE1981D;
 
 Tab = addTab(18013);
-        Tab.anInt236 = 18000;
-        Tab.anInt250 = 18013;
-        Tab.anInt262 = 4;
-        Tab.anInt217 = 0;
-        Tab.aBoolean223 = true;
-        Tab.aClass30_Sub2_Sub1_Sub4_243 = aclass30_sub2_sub1_sub4[1];
-        Tab.aBoolean268 = true;
-                Tab.aString248 = "Strength Exp - 1pt";
-        Tab.aString228 = "";
-                Tab.anInt232 = 0xE1981D;
+		Tab.anInt236 = 18000;
+		Tab.anInt250 = 18013;
+		Tab.anInt262 = 4;
+		Tab.anInt217 = 0;
+		Tab.aBoolean223 = true;
+		Tab.aClass30_Sub2_Sub1_Sub4_243 = aclass30_sub2_sub1_sub4[1];
+		Tab.aBoolean268 = true;
+				Tab.aString248 = "Strength Exp - 1pt";
+		Tab.aString228 = "";
+				Tab.anInt232 = 0xE1981D;
 
 Tab = addTab(18014);
-        Tab.anInt236 = 18000;
-        Tab.anInt250 = 18014;
-        Tab.anInt262 = 4;
-        Tab.anInt217 = 0;
-        Tab.aBoolean223 = true;
-        Tab.aClass30_Sub2_Sub1_Sub4_243 = aclass30_sub2_sub1_sub4[1];
-        Tab.aBoolean268 = true;
-                Tab.aString248 = "Defence Exp - 1pt";
-        Tab.aString228 = "";
-                Tab.anInt232 = 0xE1981D;
+		Tab.anInt236 = 18000;
+		Tab.anInt250 = 18014;
+		Tab.anInt262 = 4;
+		Tab.anInt217 = 0;
+		Tab.aBoolean223 = true;
+		Tab.aClass30_Sub2_Sub1_Sub4_243 = aclass30_sub2_sub1_sub4[1];
+		Tab.aBoolean268 = true;
+				Tab.aString248 = "Defence Exp - 1pt";
+		Tab.aString228 = "";
+				Tab.anInt232 = 0xE1981D;
 
 Tab = addTab(18015);
-        Tab.anInt236 = 18000;
-        Tab.anInt250 = 18015;
-        Tab.anInt262 = 4;
-        Tab.anInt217 = 0;
-        Tab.aBoolean223 = true;
-        Tab.aClass30_Sub2_Sub1_Sub4_243 = aclass30_sub2_sub1_sub4[1];
-        Tab.aBoolean268 = true;
-                Tab.aString248 = "Hitpoints Exp - 1pt";
-        Tab.aString228 = "";
-                Tab.anInt232 = 0xE1981D;
+		Tab.anInt236 = 18000;
+		Tab.anInt250 = 18015;
+		Tab.anInt262 = 4;
+		Tab.anInt217 = 0;
+		Tab.aBoolean223 = true;
+		Tab.aClass30_Sub2_Sub1_Sub4_243 = aclass30_sub2_sub1_sub4[1];
+		Tab.aBoolean268 = true;
+				Tab.aString248 = "Hitpoints Exp - 1pt";
+		Tab.aString228 = "";
+				Tab.anInt232 = 0xE1981D;
 
 Tab = addTab(18016);
-        Tab.anInt236 = 18000;
-        Tab.anInt250 = 18016;
-        Tab.anInt262 = 4;
-        Tab.anInt217 = 0;
-        Tab.aBoolean223 = true;
-        Tab.aClass30_Sub2_Sub1_Sub4_243 = aclass30_sub2_sub1_sub4[1];
-        Tab.aBoolean268 = true;
-                Tab.aString248 = "Magic Exp - 1pt";
-        Tab.aString228 = "";
-                Tab.anInt232 = 0xE1981D;
+		Tab.anInt236 = 18000;
+		Tab.anInt250 = 18016;
+		Tab.anInt262 = 4;
+		Tab.anInt217 = 0;
+		Tab.aBoolean223 = true;
+		Tab.aClass30_Sub2_Sub1_Sub4_243 = aclass30_sub2_sub1_sub4[1];
+		Tab.aBoolean268 = true;
+				Tab.aString248 = "Magic Exp - 1pt";
+		Tab.aString228 = "";
+				Tab.anInt232 = 0xE1981D;
 
 Tab = addTab(18017);
-        Tab.anInt236 = 18000;
-        Tab.anInt250 = 18017;
-        Tab.anInt262 = 4;
-        Tab.anInt217 = 0;
-        Tab.aBoolean223 = true;
-        Tab.aClass30_Sub2_Sub1_Sub4_243 = aclass30_sub2_sub1_sub4[1];
-        Tab.aBoolean268 = true;
-                Tab.aString248 = "Range Exp - 1pt";
-        Tab.aString228 = "";
-                Tab.anInt232 = 0xE1981D;
+		Tab.anInt236 = 18000;
+		Tab.anInt250 = 18017;
+		Tab.anInt262 = 4;
+		Tab.anInt217 = 0;
+		Tab.aBoolean223 = true;
+		Tab.aClass30_Sub2_Sub1_Sub4_243 = aclass30_sub2_sub1_sub4[1];
+		Tab.aBoolean268 = true;
+				Tab.aString248 = "Range Exp - 1pt";
+		Tab.aString228 = "";
+				Tab.anInt232 = 0xE1981D;
 
 Tab = addTab(18018);
-        Tab.anInt236 = 18000;
-        Tab.anInt250 = 18018;
-        Tab.anInt262 = 4;
-        Tab.anInt217 = 0;
-        Tab.aBoolean223 = true;
-        Tab.aClass30_Sub2_Sub1_Sub4_243 = aclass30_sub2_sub1_sub4[1];
-        Tab.aBoolean268 = true;
-                Tab.aString248 = "Prayer Exp - 1pt";
-        Tab.aString228 = "";
-                Tab.anInt232 = 0xE1981D;
-               
-                Tab = addTab(18019);
-        Tab.anInt236 = 18000;
-        Tab.anInt250 = 18019;
-        Tab.anInt262 = 5;
-        Tab.anInt217 = 1;
-        Tab.anInt220 = 139;
-        Tab.anInt267 = 22;
-        Tab.anInt230 = -1;       
-        Tab.aString221 = "Select";       
-        Tab.anInt237 = 10;
-               
-                Tab = addTab(18020);
-        Tab.anInt236 = 18000;
-        Tab.anInt250 = 18020;
-        Tab.anInt262 = 5;
-        Tab.anInt217 = 1;
-        Tab.anInt220 = 139;
-        Tab.anInt267 = 22;
-        Tab.anInt230 = -1;       
-        Tab.aString221 = "Select";               
-        Tab.anInt237 = 10;
-               
-                Tab = addTab(18021);
-        Tab.anInt236 = 18000;
-        Tab.anInt250 = 18021;
-        Tab.anInt262 = 5;
-        Tab.anInt217 = 1;
-        Tab.anInt220 = 139;
-        Tab.anInt267 = 22;
-        Tab.anInt230 = -1;       
-        Tab.aString221 = "Select";       
-        Tab.anInt237 = 10;
-               
-                Tab = addTab(18022);
-        Tab.anInt236 = 18000;
-        Tab.anInt250 = 18022;
-        Tab.anInt262 = 5;
-        Tab.anInt217 = 1;
-        Tab.anInt220 = 139;
-        Tab.anInt267 = 22;
-        Tab.anInt230 = -1;       
-        Tab.aString221 = "Select";       
-        Tab.anInt237 = 10;
-               
-                Tab = addTab(18023);
-        Tab.anInt236 = 18000;
-        Tab.anInt250 = 18023;
-        Tab.anInt262 = 5;
-        Tab.anInt217 = 1;
-        Tab.anInt220 = 139;
-        Tab.anInt267 = 22;
-        Tab.anInt230 = -1;       
-        Tab.aString221 = "Select";       
-        Tab.anInt237 = 10;
-               
-                Tab = addTab(18024);
-        Tab.anInt236 = 18000;
-        Tab.anInt250 = 18024;
-        Tab.anInt262 = 5;
-        Tab.anInt217 = 1;
-        Tab.anInt220 = 139;
-        Tab.anInt267 = 22;
-        Tab.anInt230 = -1;       
-        Tab.aString221 = "Select";       
-        Tab.anInt237 = 10;
-               
-                Tab = addTab(18025);
-        Tab.anInt236 = 18000;
-        Tab.anInt250 = 18025;
-        Tab.anInt262 = 5;
-        Tab.anInt217 = 1;
-        Tab.anInt220 = 139;
-        Tab.anInt267 = 22;
-        Tab.anInt230 = -1;       
-        Tab.aString221 = "Select";       
-        Tab.anInt237 = 10;
-               
-                Tab = addTab(18026);
-        Tab.anInt236 = 18000;
-        Tab.anInt250 = 18026;
-        Tab.anInt262 = 5;
-        Tab.anInt217 = 1;
-        Tab.anInt220 = 139;
-        Tab.anInt267 = 22;
-        Tab.anInt230 = -1;       
-        Tab.aString221 = "Select";       
-        Tab.anInt237 = 10;
-               
-                Tab = addTab(18027);
-        Tab.anInt236 = 18000;
-        Tab.anInt250 = 18027;
-        Tab.anInt262 = 5;
-        Tab.anInt217 = 1;
-        Tab.anInt220 = 139;
-        Tab.anInt267 = 22;
-        Tab.anInt230 = -1;       
-        Tab.aString221 = "Select";       
-        Tab.anInt237 = 10;
-               
-                Tab = addTab(18028);
-        Tab.anInt236 = 18000;
-        Tab.anInt250 = 18028;
-        Tab.anInt262 = 5;
-        Tab.anInt217 = 1;
-        Tab.anInt220 = 139;
-        Tab.anInt267 = 22;
-        Tab.anInt230 = -1;       
-        Tab.aString221 = "Select";       
-        Tab.anInt237 = 10;
-               
-                Tab = addTab(18029);
-        Tab.anInt236 = 18000;
-        Tab.anInt250 = 18029;
-        Tab.anInt262 = 5;
-        Tab.anInt217 = 1;
-        Tab.anInt220 = 139;
-        Tab.anInt267 = 22;
-        Tab.anInt230 = -1;       
-        Tab.aString221 = "Select";
-        Tab.anInt237 = 10;
-               
-                Tab = addTab(18031);
-        Tab.anInt236 = 18000;
-        Tab.anInt250 = 18031;
-        Tab.anInt262 = 5;
-        Tab.anInt217 = 1;
-        Tab.anInt220 = 139;
-        Tab.anInt267 = 22;
-        Tab.anInt230 = -1;       
-        Tab.aString221 = "Select";       
-        Tab.anInt237 = 10;
-               
-                Tab = addTab(18032);
-        Tab.anInt236 = 18000;
-        Tab.anInt250 = 18032;
-        Tab.anInt262 = 5;
-        Tab.anInt217 = 1;
-        Tab.anInt220 = 139;
-        Tab.anInt267 = 22;
-        Tab.anInt230 = -1;       
-        Tab.aString221 = "Select";       
-        Tab.anInt237 = 10;
+		Tab.anInt236 = 18000;
+		Tab.anInt250 = 18018;
+		Tab.anInt262 = 4;
+		Tab.anInt217 = 0;
+		Tab.aBoolean223 = true;
+		Tab.aClass30_Sub2_Sub1_Sub4_243 = aclass30_sub2_sub1_sub4[1];
+		Tab.aBoolean268 = true;
+				Tab.aString248 = "Prayer Exp - 1pt";
+		Tab.aString228 = "";
+				Tab.anInt232 = 0xE1981D;
+			   
+				Tab = addTab(18019);
+		Tab.anInt236 = 18000;
+		Tab.anInt250 = 18019;
+		Tab.anInt262 = 5;
+		Tab.anInt217 = 1;
+		Tab.anInt220 = 139;
+		Tab.anInt267 = 22;
+		Tab.anInt230 = -1;	   
+		Tab.aString221 = "Select";	   
+		Tab.anInt237 = 10;
+			   
+				Tab = addTab(18020);
+		Tab.anInt236 = 18000;
+		Tab.anInt250 = 18020;
+		Tab.anInt262 = 5;
+		Tab.anInt217 = 1;
+		Tab.anInt220 = 139;
+		Tab.anInt267 = 22;
+		Tab.anInt230 = -1;	   
+		Tab.aString221 = "Select";			   
+		Tab.anInt237 = 10;
+			   
+				Tab = addTab(18021);
+		Tab.anInt236 = 18000;
+		Tab.anInt250 = 18021;
+		Tab.anInt262 = 5;
+		Tab.anInt217 = 1;
+		Tab.anInt220 = 139;
+		Tab.anInt267 = 22;
+		Tab.anInt230 = -1;	   
+		Tab.aString221 = "Select";	   
+		Tab.anInt237 = 10;
+			   
+				Tab = addTab(18022);
+		Tab.anInt236 = 18000;
+		Tab.anInt250 = 18022;
+		Tab.anInt262 = 5;
+		Tab.anInt217 = 1;
+		Tab.anInt220 = 139;
+		Tab.anInt267 = 22;
+		Tab.anInt230 = -1;	   
+		Tab.aString221 = "Select";	   
+		Tab.anInt237 = 10;
+			   
+				Tab = addTab(18023);
+		Tab.anInt236 = 18000;
+		Tab.anInt250 = 18023;
+		Tab.anInt262 = 5;
+		Tab.anInt217 = 1;
+		Tab.anInt220 = 139;
+		Tab.anInt267 = 22;
+		Tab.anInt230 = -1;	   
+		Tab.aString221 = "Select";	   
+		Tab.anInt237 = 10;
+			   
+				Tab = addTab(18024);
+		Tab.anInt236 = 18000;
+		Tab.anInt250 = 18024;
+		Tab.anInt262 = 5;
+		Tab.anInt217 = 1;
+		Tab.anInt220 = 139;
+		Tab.anInt267 = 22;
+		Tab.anInt230 = -1;	   
+		Tab.aString221 = "Select";	   
+		Tab.anInt237 = 10;
+			   
+				Tab = addTab(18025);
+		Tab.anInt236 = 18000;
+		Tab.anInt250 = 18025;
+		Tab.anInt262 = 5;
+		Tab.anInt217 = 1;
+		Tab.anInt220 = 139;
+		Tab.anInt267 = 22;
+		Tab.anInt230 = -1;	   
+		Tab.aString221 = "Select";	   
+		Tab.anInt237 = 10;
+			   
+				Tab = addTab(18026);
+		Tab.anInt236 = 18000;
+		Tab.anInt250 = 18026;
+		Tab.anInt262 = 5;
+		Tab.anInt217 = 1;
+		Tab.anInt220 = 139;
+		Tab.anInt267 = 22;
+		Tab.anInt230 = -1;	   
+		Tab.aString221 = "Select";	   
+		Tab.anInt237 = 10;
+			   
+				Tab = addTab(18027);
+		Tab.anInt236 = 18000;
+		Tab.anInt250 = 18027;
+		Tab.anInt262 = 5;
+		Tab.anInt217 = 1;
+		Tab.anInt220 = 139;
+		Tab.anInt267 = 22;
+		Tab.anInt230 = -1;	   
+		Tab.aString221 = "Select";	   
+		Tab.anInt237 = 10;
+			   
+				Tab = addTab(18028);
+		Tab.anInt236 = 18000;
+		Tab.anInt250 = 18028;
+		Tab.anInt262 = 5;
+		Tab.anInt217 = 1;
+		Tab.anInt220 = 139;
+		Tab.anInt267 = 22;
+		Tab.anInt230 = -1;	   
+		Tab.aString221 = "Select";	   
+		Tab.anInt237 = 10;
+			   
+				Tab = addTab(18029);
+		Tab.anInt236 = 18000;
+		Tab.anInt250 = 18029;
+		Tab.anInt262 = 5;
+		Tab.anInt217 = 1;
+		Tab.anInt220 = 139;
+		Tab.anInt267 = 22;
+		Tab.anInt230 = -1;	   
+		Tab.aString221 = "Select";
+		Tab.anInt237 = 10;
+			   
+				Tab = addTab(18031);
+		Tab.anInt236 = 18000;
+		Tab.anInt250 = 18031;
+		Tab.anInt262 = 5;
+		Tab.anInt217 = 1;
+		Tab.anInt220 = 139;
+		Tab.anInt267 = 22;
+		Tab.anInt230 = -1;	   
+		Tab.aString221 = "Select";	   
+		Tab.anInt237 = 10;
+			   
+				Tab = addTab(18032);
+		Tab.anInt236 = 18000;
+		Tab.anInt250 = 18032;
+		Tab.anInt262 = 5;
+		Tab.anInt217 = 1;
+		Tab.anInt220 = 139;
+		Tab.anInt267 = 22;
+		Tab.anInt230 = -1;	   
+		Tab.aString221 = "Select";	   
+		Tab.anInt237 = 10;
 
-                Tab = addTab(18033);
-        Tab.anInt236 = 18000;
-        Tab.anInt250 = 18033;
-        Tab.anInt262 = 4;
-        Tab.anInt217 = 0;
-        Tab.aBoolean223 = true;
-        Tab.aClass30_Sub2_Sub1_Sub4_243 = aclass30_sub2_sub1_sub4[1];
-        Tab.aBoolean268 = true;
-                Tab.aString248 = "Void Ranger Helm - 50pts";
-        Tab.aString228 = "";
-                Tab.anInt232 = 0xE1981D;
+				Tab = addTab(18033);
+		Tab.anInt236 = 18000;
+		Tab.anInt250 = 18033;
+		Tab.anInt262 = 4;
+		Tab.anInt217 = 0;
+		Tab.aBoolean223 = true;
+		Tab.aClass30_Sub2_Sub1_Sub4_243 = aclass30_sub2_sub1_sub4[1];
+		Tab.aBoolean268 = true;
+				Tab.aString248 = "Void Ranger Helm - 50pts";
+		Tab.aString228 = "";
+				Tab.anInt232 = 0xE1981D;
 
-                Tab = addTab(18034);
-        Tab.anInt236 = 18000;
-        Tab.anInt250 = 18034;
-        Tab.anInt262 = 4;
-        Tab.anInt217 = 0;
-        Tab.aBoolean223 = true;
-        Tab.aClass30_Sub2_Sub1_Sub4_243 = aclass30_sub2_sub1_sub4[1];
-        Tab.aBoolean268 = true;
-                Tab.aString248 = "Void Mage Helm - 50pts";
-        Tab.aString228 = "";
-                Tab.anInt232 = 0xE1981D;
+				Tab = addTab(18034);
+		Tab.anInt236 = 18000;
+		Tab.anInt250 = 18034;
+		Tab.anInt262 = 4;
+		Tab.anInt217 = 0;
+		Tab.aBoolean223 = true;
+		Tab.aClass30_Sub2_Sub1_Sub4_243 = aclass30_sub2_sub1_sub4[1];
+		Tab.aBoolean268 = true;
+				Tab.aString248 = "Void Mage Helm - 50pts";
+		Tab.aString228 = "";
+				Tab.anInt232 = 0xE1981D;
 
-                Tab = addTab(18035);
-        Tab.anInt236 = 18000;
-        Tab.anInt250 = 18035;
-        Tab.anInt262 = 4;
-        Tab.anInt217 = 0;
-        Tab.aBoolean223 = true;
-        Tab.aClass30_Sub2_Sub1_Sub4_243 = aclass30_sub2_sub1_sub4[1];
-        Tab.aBoolean268 = true;
-                Tab.aString248 = "Void Melee Helm - 50pts";
-        Tab.aString228 = "";
-                Tab.anInt232 = 0xE1981D;
+				Tab = addTab(18035);
+		Tab.anInt236 = 18000;
+		Tab.anInt250 = 18035;
+		Tab.anInt262 = 4;
+		Tab.anInt217 = 0;
+		Tab.aBoolean223 = true;
+		Tab.aClass30_Sub2_Sub1_Sub4_243 = aclass30_sub2_sub1_sub4[1];
+		Tab.aBoolean268 = true;
+				Tab.aString248 = "Void Melee Helm - 50pts";
+		Tab.aString228 = "";
+				Tab.anInt232 = 0xE1981D;
 
-                Tab = addTab(18036);
-        Tab.anInt236 = 18000;
-        Tab.anInt250 = 18036;
-        Tab.anInt262 = 4;
-        Tab.anInt217 = 0;
-        Tab.aBoolean223 = true;
-        Tab.aClass30_Sub2_Sub1_Sub4_243 = aclass30_sub2_sub1_sub4[1];
-        Tab.aBoolean268 = true;
-                Tab.aString248 = "Void Knight Top - 60pts";
-        Tab.aString228 = "";
-                Tab.anInt232 = 0xE1981D;
+				Tab = addTab(18036);
+		Tab.anInt236 = 18000;
+		Tab.anInt250 = 18036;
+		Tab.anInt262 = 4;
+		Tab.anInt217 = 0;
+		Tab.aBoolean223 = true;
+		Tab.aClass30_Sub2_Sub1_Sub4_243 = aclass30_sub2_sub1_sub4[1];
+		Tab.aBoolean268 = true;
+				Tab.aString248 = "Void Knight Top - 60pts";
+		Tab.aString228 = "";
+				Tab.anInt232 = 0xE1981D;
 
-                Tab = addTab(18037);
-        Tab.anInt236 = 18000;
-        Tab.anInt250 = 18037;
-        Tab.anInt262 = 4;
-        Tab.anInt217 = 0;
-        Tab.aBoolean223 = true;
-        Tab.aClass30_Sub2_Sub1_Sub4_243 = aclass30_sub2_sub1_sub4[1];
-        Tab.aBoolean268 = true;
-                Tab.aString248 = "Void Knight Robe - 50pts";
-        Tab.aString228 = "";
-                Tab.anInt232 = 0xE1981D;
-               
-               
+				Tab = addTab(18037);
+		Tab.anInt236 = 18000;
+		Tab.anInt250 = 18037;
+		Tab.anInt262 = 4;
+		Tab.anInt217 = 0;
+		Tab.aBoolean223 = true;
+		Tab.aClass30_Sub2_Sub1_Sub4_243 = aclass30_sub2_sub1_sub4[1];
+		Tab.aBoolean268 = true;
+				Tab.aString248 = "Void Knight Robe - 50pts";
+		Tab.aString228 = "";
+				Tab.anInt232 = 0xE1981D;
+			   
+			   
 Tab = addTab(18030);
 Tab.anInt236 = 18000;
 Tab.anInt250 = 18030;
@@ -1755,27 +1755,27 @@ spell.anInt267 = 274;
 spell.anInt214 = 0;//?????
 spell.aByte254 = (byte)0;
 spell.anInt230 = 52;
-spell.aClass30_Sub2_Sub1_Sub1_207 = pest(spriteOnId, "pest");            
+spell.aClass30_Sub2_Sub1_Sub1_207 = pest(spriteOnId, "pest");			
 }
 private static Class30_Sub2_Sub1_Sub1 pest(int i, String s)
-    {
-        long l = (Class50.method585((byte)1, s) << 8) + (long)i;
-        Class30_Sub2_Sub1_Sub1 class30_sub2_sub1_sub1 = (Class30_Sub2_Sub1_Sub1)aClass12_238.method222(l);
-        if(class30_sub2_sub1_sub1 != null)
-        {
-            return class30_sub2_sub1_sub1;
-        }
-        try
-        {
-            class30_sub2_sub1_sub1 = new Class30_Sub2_Sub1_Sub1((new StringBuilder()).append("./Files/interface/Pest/").append(s).append(" ").append(i).append(".png").toString());
-            aClass12_238.method223(class30_sub2_sub1_sub1, l, (byte)2);
-        }
-        catch(Exception exception)
-        {
-            return null;
-        }
-        return class30_sub2_sub1_sub1;
-    }
+	{
+		long l = (Class50.method585((byte)1, s) << 8) + (long)i;
+		Class30_Sub2_Sub1_Sub1 class30_sub2_sub1_sub1 = (Class30_Sub2_Sub1_Sub1)aClass12_238.method222(l);
+		if(class30_sub2_sub1_sub1 != null)
+		{
+			return class30_sub2_sub1_sub1;
+		}
+		try
+		{
+			class30_sub2_sub1_sub1 = new Class30_Sub2_Sub1_Sub1((new StringBuilder()).append("./Files/interface/Pest/").append(s).append(" ").append(i).append(".png").toString());
+			aClass12_238.method223(class30_sub2_sub1_sub1, l, (byte)2);
+		}
+		catch(Exception exception)
+		{
+			return null;
+		}
+		return class30_sub2_sub1_sub1;
+	}
 
 private static Class30_Sub2_Sub1_Sub1 Pest(int i, boolean flag, Class44 class44, String s)
 {
@@ -1793,7 +1793,7 @@ try
 {
 class30_sub2_sub1_sub1 = new Class30_Sub2_Sub1_Sub1("./Files/interface/Pest/"+s+" "+i+".png");
 aClass12_238.method223(class30_sub2_sub1_sub1, l, (byte)2);
-        }
+		}
 catch(Exception exception)
 {
 return null; // ok so these are the new custom sprite loading things lol i dunno
@@ -1802,17 +1802,17 @@ return class30_sub2_sub1_sub1;
 }
 public static Class9 addTab2(int id)
 	{
-    	Class9 Tab = aClass9Array210[id] = new Class9();
-    	Tab.anInt250 = id;//250
-        Tab.anInt236 = id;//236
-        Tab.anInt262 = 0;//262
-        Tab.anInt217 = 0;//217
-        Tab.anInt214 = 0;
-        Tab.anInt220 = 512;//220
-        Tab.anInt267 = 700;//anint267
-        Tab.aByte254 = (byte)0;
-        Tab.anInt230 = -1;//Int 230
-        return Tab;
+		Class9 Tab = aClass9Array210[id] = new Class9();
+		Tab.anInt250 = id;//250
+		Tab.anInt236 = id;//236
+		Tab.anInt262 = 0;//262
+		Tab.anInt217 = 0;//217
+		Tab.anInt214 = 0;
+		Tab.anInt220 = 512;//220
+		Tab.anInt267 = 700;//anint267
+		Tab.aByte254 = (byte)0;
+		Tab.anInt230 = -1;//Int 230
+		return Tab;
 	}
 public static void ClanChatscroll()
 {
@@ -1861,52 +1861,52 @@ addclanchatbigbuttons(16008, 2, 2, "Clan Setup");
 
 addlootsharebutton(16004, 4, 4, "Loot Share");
 			
-    addText(16005, "Clan Chat", wid, 2, 0xff9040);
-    addText(16006, "Owner:", wid, 0, 0xff9040);
-    addText(16007, "Talking in:", wid, 0, 0xff9040);
+	addText(16005, "Clan Chat", wid, 2, 0xff9040);
+	addText(16006, "Owner:", wid, 0, 0xff9040);
+	addText(16007, "Talking in:", wid, 0, 0xff9040);
 
 		Tab.anInt261 = 0;
-        Tab.aBoolean266 = false;
-        Tab.anIntArray240 = new int[9]; //Interface id
-        Tab.anIntArray241 = new int[9]; //X pos
-        Tab.anIntArray272 = new int[9]; //Y pos
+		Tab.aBoolean266 = false;
+		Tab.anIntArray240 = new int[9]; //Interface id
+		Tab.anIntArray241 = new int[9]; //X pos
+		Tab.anIntArray272 = new int[9]; //Y pos
 
-    Tab.anIntArray240[0] = 16001; //Interface id changed from 16001
-    Tab.anIntArray241[0] = -1; //X pos
-    Tab.anIntArray272[0] = 213; //Y pos
+	Tab.anIntArray240[0] = 16001; //Interface id changed from 16001
+	Tab.anIntArray241[0] = -1; //X pos
+	Tab.anIntArray272[0] = 213; //Y pos
 
-    Tab.anIntArray240[1] = 16002; //Interface id
-    Tab.anIntArray241[1] = -2; //X pos
-    Tab.anIntArray272[1] = 0; //Y pos
+	Tab.anIntArray240[1] = 16002; //Interface id
+	Tab.anIntArray241[1] = -2; //X pos
+	Tab.anIntArray272[1] = 0; //Y pos
 
-    Tab.anIntArray240[2] = 16003; //Interface id
-    Tab.anIntArray241[2] = 0; //X pos
-    Tab.anIntArray272[2] = 0; //Y pos
+	Tab.anIntArray240[2] = 16003; //Interface id
+	Tab.anIntArray241[2] = 0; //X pos
+	Tab.anIntArray272[2] = 0; //Y pos
 
-    Tab.anIntArray240[3] = 16004; //Interface id
-    Tab.anIntArray241[3] = 145; //X pos
-    Tab.anIntArray272[3] = 15; //Y pos
+	Tab.anIntArray240[3] = 16004; //Interface id
+	Tab.anIntArray241[3] = 145; //X pos
+	Tab.anIntArray272[3] = 15; //Y pos
 
-    Tab.anIntArray240[4] = 16005;
-    Tab.anIntArray241[4] = 64;
-    Tab.anIntArray272[4] = 1;
+	Tab.anIntArray240[4] = 16005;
+	Tab.anIntArray241[4] = 64;
+	Tab.anIntArray272[4] = 1;
 
-    Tab.anIntArray240[5] = 16006; //Interface id
-    Tab.anIntArray241[5] = 40; //X pos
-    Tab.anIntArray272[5] = 18; //Y pos
+	Tab.anIntArray240[5] = 16006; //Interface id
+	Tab.anIntArray241[5] = 40; //X pos
+	Tab.anIntArray272[5] = 18; //Y pos
 
 
-    Tab.anIntArray240[6] = 16007; //Interface id
-    Tab.anIntArray241[6] = 55; //X pos
-    Tab.anIntArray272[6] = 33; //Y pos
+	Tab.anIntArray240[6] = 16007; //Interface id
+	Tab.anIntArray241[6] = 55; //X pos
+	Tab.anIntArray272[6] = 33; //Y pos
 
-    Tab.anIntArray240[7] = 16008; //Interface id
-    Tab.anIntArray241[7] = 98; //X pos
-    Tab.anIntArray272[7] = 225; //Y pos
+	Tab.anIntArray240[7] = 16008; //Interface id
+	Tab.anIntArray241[7] = 98; //X pos
+	Tab.anIntArray272[7] = 225; //Y pos
 
-    Tab.anIntArray240[8] = 16009; //Interface id
-    Tab.anIntArray241[8] = 13; //X pos
-    Tab.anIntArray272[8] = 225; //Y pos
+	Tab.anIntArray240[8] = 16009; //Interface id
+	Tab.anIntArray241[8] = 13; //X pos
+	Tab.anIntArray272[8] = 225; //Y pos
 	}
  public static void ClanChatBox(Class30_Sub2_Sub1_Sub4[] wid)
 {
@@ -1922,38 +1922,38 @@ addText(16507, "empty6", wid, 0, 0xffffff);
 
 
 		Tab.anInt261 = 0;
-        Tab.aBoolean266 = false;
-        Tab.anIntArray240 = new int[7]; //Interface id
-        Tab.anIntArray241 = new int[7]; //X pos
-        Tab.anIntArray272 = new int[7]; //Y pos
+		Tab.aBoolean266 = false;
+		Tab.anIntArray240 = new int[7]; //Interface id
+		Tab.anIntArray241 = new int[7]; //X pos
+		Tab.anIntArray272 = new int[7]; //Y pos
 
-    Tab.anIntArray240[0] = 16501; //Interface id
-    Tab.anIntArray241[0] = 8; //X pos
-    Tab.anIntArray272[0] = 48; //Y pos
+	Tab.anIntArray240[0] = 16501; //Interface id
+	Tab.anIntArray241[0] = 8; //X pos
+	Tab.anIntArray272[0] = 48; //Y pos
 
-    Tab.anIntArray240[1] = 16502;
-    Tab.anIntArray241[1] = 19;
-    Tab.anIntArray272[1] = 62;
+	Tab.anIntArray240[1] = 16502;
+	Tab.anIntArray241[1] = 19;
+	Tab.anIntArray272[1] = 62;
 
-    Tab.anIntArray240[2] = 16503;
-    Tab.anIntArray241[2] = 19;
-    Tab.anIntArray272[2] = 75;
+	Tab.anIntArray240[2] = 16503;
+	Tab.anIntArray241[2] = 19;
+	Tab.anIntArray272[2] = 75;
 
-    Tab.anIntArray240[3] = 16504;
-    Tab.anIntArray241[3] = 19;
-    Tab.anIntArray272[3] = 88;
+	Tab.anIntArray240[3] = 16504;
+	Tab.anIntArray241[3] = 19;
+	Tab.anIntArray272[3] = 88;
 
-    Tab.anIntArray240[4] = 16505;
-    Tab.anIntArray241[4] = 19;
-    Tab.anIntArray272[4] = 101;
+	Tab.anIntArray240[4] = 16505;
+	Tab.anIntArray241[4] = 19;
+	Tab.anIntArray272[4] = 101;
 
-    Tab.anIntArray240[5] = 16506;
-    Tab.anIntArray241[5] = 19;
-    Tab.anIntArray272[5] = 114;
+	Tab.anIntArray240[5] = 16506;
+	Tab.anIntArray241[5] = 19;
+	Tab.anIntArray272[5] = 114;
 
-    Tab.anIntArray240[6] = 16507;
-    Tab.anIntArray241[6] = 19;
-    Tab.anIntArray272[6] = 127;
+	Tab.anIntArray240[6] = 16507;
+	Tab.anIntArray241[6] = 19;
+	Tab.anIntArray272[6] = 127;
    
 	}
 
@@ -1971,29 +1971,30 @@ return null;
 }
 return class30_sub2_sub1_sub1;
 }
-private static Class30_Sub2_Sub1_Sub1 customsprite4(int i, boolean flag, Class44 class44, String s)
-{
-long l = (Class50.method585((byte)1, s) << 8) + (long)i;
-if(flag)
-{
-throw new NullPointerException();
-}
-Class30_Sub2_Sub1_Sub1 class30_sub2_sub1_sub1 = (Class30_Sub2_Sub1_Sub1)aClass12_238.method222(l);
-if(class30_sub2_sub1_sub1 != null)
-{
-return class30_sub2_sub1_sub1;
-}
-try
-{
-class30_sub2_sub1_sub1 = new Class30_Sub2_Sub1_Sub1(signlink.findcachedir()+"/clan chat/"+s+" "+i+".png");
-aClass12_238.method223(class30_sub2_sub1_sub1, l, (byte)2);
-        }
-catch(Exception exception)
-{
-return null; // ok so these are the new custom sprite loading things lol i dunno
-}
-return class30_sub2_sub1_sub1;
-}
+
+//	private static Class30_Sub2_Sub1_Sub1 customsprite4(int i, boolean flag, Class44 class44, String s){	//REMOVED Said its not used 4/20/17
+//		long l = (Class50.method585((byte)1, s) << 8) + (long)i;
+//		if(flag)
+//		{
+//		throw new NullPointerException();
+//		}
+//		Class30_Sub2_Sub1_Sub1 class30_sub2_sub1_sub1 = (Class30_Sub2_Sub1_Sub1)aClass12_238.method222(l);
+//		if(class30_sub2_sub1_sub1 != null)
+//		{
+//		return class30_sub2_sub1_sub1;
+//		}
+//		try
+//		{
+//		class30_sub2_sub1_sub1 = new Class30_Sub2_Sub1_Sub1(signlink.findcachedir()+"/clan chat/"+s+" "+i+".png");
+//		aClass12_238.method223(class30_sub2_sub1_sub1, l, (byte)2);
+//				}
+//		catch(Exception exception)
+//		{
+//		return null; // ok so these are the new custom sprite loading things lol i dunno
+//		}
+//		return class30_sub2_sub1_sub1;
+//	}
+
 public static void addclanchatbackround(int id, int spriteOnId, int spriteOffId)
 {
 Class9 spell = aClass9Array210[id] = new Class9();
@@ -2007,53 +2008,53 @@ spell.anInt267 = 2;//height
 spell.aByte254 = (byte)0;
 spell.anInt230 = 52;
 spell.aClass30_Sub2_Sub1_Sub1_207 = cc(spriteOnId, "button");
-spell.aClass30_Sub2_Sub1_Sub1_260 = cc(spriteOffId, "button");        	
+spell.aClass30_Sub2_Sub1_Sub1_260 = cc(spriteOffId, "button");			
 }
 public static void addclanchatbigbuttons(int id, int spriteOnId, int spriteOffId, String castText)
-    {
-    	Class9 spell = aClass9Array210[id] = new Class9();
-    	spell.anInt250 = id;//250
-        spell.anInt236 = id;//236
-        spell.anInt262 = 5;//262
-        spell.anInt217 = 1;//217
-        spell.anInt214 = 0;
-        spell.anInt220 = 72;//220
-        spell.anInt267 = 32;//anint267
-        spell.aByte254 = (byte)0;
-        spell.anInt230 = 52;
-       	spell.aClass30_Sub2_Sub1_Sub1_207 = cc(spriteOnId, "button");
+	{
+		Class9 spell = aClass9Array210[id] = new Class9();
+		spell.anInt250 = id;//250
+		spell.anInt236 = id;//236
+		spell.anInt262 = 5;//262
+		spell.anInt217 = 1;//217
+		spell.anInt214 = 0;
+		spell.anInt220 = 72;//220
+		spell.anInt267 = 32;//anint267
+		spell.aByte254 = (byte)0;
+		spell.anInt230 = 52;
+	   	spell.aClass30_Sub2_Sub1_Sub1_207 = cc(spriteOnId, "button");
 	spell.aClass30_Sub2_Sub1_Sub1_260 = cc(spriteOffId, "button");
-       	spell.aString221 = castText;
+	   	spell.aString221 = castText;
 	}
 public static void addlootsharebutton(int id, int spriteOnId, int spriteOffId, String castText)
-    {
-    	Class9 spell = aClass9Array210[id] = new Class9();
-    	spell.anInt250 = id;//250
-        spell.anInt236 = id;//236
-        spell.anInt262 = 5;//262
-        spell.anInt217 = 1;//217
-        spell.anInt214 = 0;
-        spell.anInt220 = 24;//220
-        spell.anInt267 = 22;//anint267
-        spell.aByte254 = (byte)0;
-        spell.anInt230 = 52;
-       	spell.aClass30_Sub2_Sub1_Sub1_207 = cc(spriteOnId, "button");
+	{
+		Class9 spell = aClass9Array210[id] = new Class9();
+		spell.anInt250 = id;//250
+		spell.anInt236 = id;//236
+		spell.anInt262 = 5;//262
+		spell.anInt217 = 1;//217
+		spell.anInt214 = 0;
+		spell.anInt220 = 24;//220
+		spell.anInt267 = 22;//anint267
+		spell.aByte254 = (byte)0;
+		spell.anInt230 = 52;
+	   	spell.aClass30_Sub2_Sub1_Sub1_207 = cc(spriteOnId, "button");
 		spell.aClass30_Sub2_Sub1_Sub1_260 = cc(spriteOffId, "button");
-       	spell.aString221 = castText;
+	   	spell.aString221 = castText;
 	}
 public static Class9 addDTab(int i)
 	{
-        Class9 class9 = aClass9Array210[i] = new Class9();
-        class9.anInt250 = i;
-        class9.anInt236 = i;
-        class9.anInt262 = 0;
-        class9.anInt217 = 0;
-        class9.anInt214 = 0;
-        class9.anInt220 = 512;
-        class9.anInt267 = 334;
-        class9.aByte254 = 0;
-        class9.anInt230 = 0;
-        return class9;
+		Class9 class9 = aClass9Array210[i] = new Class9();
+		class9.anInt250 = i;
+		class9.anInt236 = i;
+		class9.anInt262 = 0;
+		class9.anInt217 = 0;
+		class9.anInt214 = 0;
+		class9.anInt220 = 512;
+		class9.anInt267 = 334;
+		class9.aByte254 = 0;
+		class9.anInt230 = 0;
+		return class9;
 	
 	}
 private static Class30_Sub2_Sub1_Sub1 GetInterfaceImage(String interfaceName, String s)
@@ -2178,8 +2179,8 @@ public static void AddInterfaceModel(int ID, int mId, int modelZoom, int modelRT
 	
 public static Class9 AddTab(int id)
 {
-    Class9 Tab = aClass9Array210[id] = new Class9();
-    Tab.anInt250 = id;//250
+	Class9 Tab = aClass9Array210[id] = new Class9();
+	Tab.anInt250 = id;//250
 	Tab.anInt236 = id;//236
 	Tab.anInt262 = 0;//262
 	Tab.anInt217 = 0;//217
@@ -2226,34 +2227,34 @@ public static void AddCharacter(int ID)
 }
 public static void addCloseButton(int i)
 	{
-        Class9 Close = aClass9Array210[i] = new Class9();
-    	Close.anInt250 = i;
-        Close.anInt236 = i;
-        Close.anInt262 = 5;
-        Close.anInt217 = 6;
-        Close.anInt214 = 0;
-        Close.anInt220 = 21;
-        Close.anInt267 = 21;
-        Close.aByte254 = 0;
-        Close.anInt230 = 52;
-        Close.aClass30_Sub2_Sub1_Sub1_207 = loadAscheriitSprite(1, "death");
-        Close.aClass30_Sub2_Sub1_Sub1_260 = loadAscheriitSprite(1, "death");
+		Class9 Close = aClass9Array210[i] = new Class9();
+		Close.anInt250 = i;
+		Close.anInt236 = i;
+		Close.anInt262 = 5;
+		Close.anInt217 = 6;
+		Close.anInt214 = 0;
+		Close.anInt220 = 21;
+		Close.anInt267 = 21;
+		Close.aByte254 = 0;
+		Close.anInt230 = 52;
+		Close.aClass30_Sub2_Sub1_Sub1_207 = loadAscheriitSprite(1, "death");
+		Close.aClass30_Sub2_Sub1_Sub1_260 = loadAscheriitSprite(1, "death");
  	Close.aString221 = "Close Window";
 	}
 public static void addDSprite(int i, int j, int k)
 	{
-        Class9 dSprite = aClass9Array210[i] = new Class9();
-        dSprite.anInt250 = i;
-        dSprite.anInt236 = i;
-        dSprite.anInt262 = 5;
-        dSprite.anInt217 = 1;
-        dSprite.anInt214 = 0;
-        dSprite.anInt220 = 20;
-        dSprite.anInt267 = 20;
-        dSprite.aByte254 = 0;
-        dSprite.anInt230 = 52;
-        dSprite.aClass30_Sub2_Sub1_Sub1_207 = loadAscheriitSprite(j, "death");
-        dSprite.aClass30_Sub2_Sub1_Sub1_260 = loadAscheriitSprite(k, "death");
+		Class9 dSprite = aClass9Array210[i] = new Class9();
+		dSprite.anInt250 = i;
+		dSprite.anInt236 = i;
+		dSprite.anInt262 = 5;
+		dSprite.anInt217 = 1;
+		dSprite.anInt214 = 0;
+		dSprite.anInt220 = 20;
+		dSprite.anInt267 = 20;
+		dSprite.aByte254 = 0;
+		dSprite.anInt230 = 52;
+		dSprite.aClass30_Sub2_Sub1_Sub1_207 = loadAscheriitSprite(j, "death");
+		dSprite.aClass30_Sub2_Sub1_Sub1_260 = loadAscheriitSprite(k, "death");
 	}
 private static Class30_Sub2_Sub1_Sub1 loadAscheriitSprite(int i, String s) 
 {
@@ -2270,619 +2271,620 @@ return null;
 }
 return class30_sub2_sub1_sub1;
 }
-private static Class30_Sub2_Sub1_Sub1 BloodIsleSpriteLoader(int i, String s) 
-{
-long l = (Class50.method585((byte)1, s) << 8) + (long)i;
-Class30_Sub2_Sub1_Sub1 class30_sub2_sub1_sub1 = (Class30_Sub2_Sub1_Sub1)aClass12_238.method222(l);
-if(class30_sub2_sub1_sub1 != null) {
-return class30_sub2_sub1_sub1;
-}
-try {
- class30_sub2_sub1_sub1 = new Class30_Sub2_Sub1_Sub1((new StringBuilder()).append("./Files/Spirts/Items_On_Death/").append(s).append(" ").append(i).append(".png").toString());
-aClass12_238.method223(class30_sub2_sub1_sub1, l, (byte)2);
-} catch(Exception exception) {
-return null;
-}
-return class30_sub2_sub1_sub1;
-}
+
+//	private static Class30_Sub2_Sub1_Sub1 BloodIsleSpriteLoader(int i, String s) {	//REMOVED Said its not used 4/20/17
+//		long l = (Class50.method585((byte)1, s) << 8) + (long)i;
+//		Class30_Sub2_Sub1_Sub1 class30_sub2_sub1_sub1 = (Class30_Sub2_Sub1_Sub1)aClass12_238.method222(l);
+//		if(class30_sub2_sub1_sub1 != null) {
+//			return class30_sub2_sub1_sub1;
+//		}
+//		try {
+//			class30_sub2_sub1_sub1 = new Class30_Sub2_Sub1_Sub1((new StringBuilder()).append("./Files/Spirts/Items_On_Death/").append(s).append(" ").append(i).append(".png").toString());
+//			aClass12_238.method223(class30_sub2_sub1_sub1, l, (byte)2);
+//		} catch(Exception exception) {
+//			return null;
+//		}
+//		return class30_sub2_sub1_sub1;
+//	}
+
 public static String attackSprite = "./cache/Interfaces/Attack/";
 
 public static void itemsOnDeath(Class30_Sub2_Sub1_Sub4[] wid)
-    {
-        Class9 death = addDTab(18100);
-        addDSprite(18101, 2, 2);
-        addCloseButton(18102);
-        addText(18103, "", wid, 2, 0xff981f);
-        addText(18104, "", wid, 1, 0xff981f);
-        addText(18105, "", wid, 1, 0xff981f);
-        addText(18106, "", wid, 1, 0xff981f);
-        addText(18107, "", wid, 1, 0xffcc33);
-        addText(18108, "", wid, 1, 0xffcc33);
-        death.anInt261 = 0;
-        death.aBoolean266 = false;
-        death.anIntArray240 = new int[11];
-        death.anIntArray241 = new int[11];
-        death.anIntArray272 = new int[11];
-        death.anIntArray240[0] = 18101;
-        death.anIntArray241[0] = 7;
-        death.anIntArray272[0] = 8;
-        death.anIntArray240[1] = 18102;
-        death.anIntArray241[1] = 480;
-        death.anIntArray272[1] = 17;        
-        death.anIntArray240[2] = 18103;
-        death.anIntArray241[2] = 185;
-        death.anIntArray272[2] = 18;
-        death.anIntArray240[3] = 18104;
-        death.anIntArray241[3] = 22;
-        death.anIntArray272[3] = 50;
-        death.anIntArray240[4] = 18105;
-        death.anIntArray241[4] = 22;
-        death.anIntArray272[4] = 110;
-        death.anIntArray240[5] = 18106;
-        death.anIntArray241[5] = 347;
-        death.anIntArray272[5] = 47;
-        death.anIntArray240[6] = 18107;
-        death.anIntArray241[6] = 349;
-        death.anIntArray272[6] = 270;
-        death.anIntArray240[7] = 18108;
-        death.anIntArray241[7] = 398;
-        death.anIntArray272[7] = 298;
-        death.anIntArray240[8] = 18115;
-        death.anIntArray241[8] = 348;
-        death.anIntArray272[8] = 64;
-        death.anIntArray240[9] = 10494;
-        death.anIntArray241[9] = 26;
-        death.anIntArray272[9] = 74;
-        death.anIntArray240[10] = 10600;
-        death.anIntArray241[10] = 26;
-        death.anIntArray272[10] = 133;
-    }
-    public static void setBounds(int ID, int X, int Y, int frame, Class9 Class9){
-        Class9.anIntArray240[frame] = ID;
-        Class9.anIntArray241[frame] = X;
-        Class9.anIntArray272[frame] = Y;
+	{
+		Class9 death = addDTab(18100);
+		addDSprite(18101, 2, 2);
+		addCloseButton(18102);
+		addText(18103, "", wid, 2, 0xff981f);
+		addText(18104, "", wid, 1, 0xff981f);
+		addText(18105, "", wid, 1, 0xff981f);
+		addText(18106, "", wid, 1, 0xff981f);
+		addText(18107, "", wid, 1, 0xffcc33);
+		addText(18108, "", wid, 1, 0xffcc33);
+		death.anInt261 = 0;
+		death.aBoolean266 = false;
+		death.anIntArray240 = new int[11];
+		death.anIntArray241 = new int[11];
+		death.anIntArray272 = new int[11];
+		death.anIntArray240[0] = 18101;
+		death.anIntArray241[0] = 7;
+		death.anIntArray272[0] = 8;
+		death.anIntArray240[1] = 18102;
+		death.anIntArray241[1] = 480;
+		death.anIntArray272[1] = 17;		
+		death.anIntArray240[2] = 18103;
+		death.anIntArray241[2] = 185;
+		death.anIntArray272[2] = 18;
+		death.anIntArray240[3] = 18104;
+		death.anIntArray241[3] = 22;
+		death.anIntArray272[3] = 50;
+		death.anIntArray240[4] = 18105;
+		death.anIntArray241[4] = 22;
+		death.anIntArray272[4] = 110;
+		death.anIntArray240[5] = 18106;
+		death.anIntArray241[5] = 347;
+		death.anIntArray272[5] = 47;
+		death.anIntArray240[6] = 18107;
+		death.anIntArray241[6] = 349;
+		death.anIntArray272[6] = 270;
+		death.anIntArray240[7] = 18108;
+		death.anIntArray241[7] = 398;
+		death.anIntArray272[7] = 298;
+		death.anIntArray240[8] = 18115;
+		death.anIntArray241[8] = 348;
+		death.anIntArray272[8] = 64;
+		death.anIntArray240[9] = 10494;
+		death.anIntArray241[9] = 26;
+		death.anIntArray272[9] = 74;
+		death.anIntArray240[10] = 10600;
+		death.anIntArray241[10] = 26;
+		death.anIntArray272[10] = 133;
+	}
+	public static void setBounds(int ID, int X, int Y, int frame, Class9 Class9){
+		Class9.anIntArray240[frame] = ID;
+		Class9.anIntArray241[frame] = X;
+		Class9.anIntArray272[frame] = Y;
 	}
    public static void setChildren(int total,Class9 i){
-        i.anIntArray240 = new int[total];
-        i.anIntArray241 = new int[total];
-        i.anIntArray272 = new int[total];
+		i.anIntArray240 = new int[total];
+		i.anIntArray241 = new int[total];
+		i.anIntArray272 = new int[total];
 	}
 
-    public static void addText(int i, String s, int k, boolean l, boolean m, int a, Class30_Sub2_Sub1_Sub4[] TDA, int j) {
-        Class9 Class9 = addInterface(i);
-        Class9.anInt236 = i;
-        Class9.anInt250 = i;
-        Class9.anInt262 = 4;
-        Class9.anInt217 = 0;
-        Class9.anInt220 = 0;
-        Class9.anInt267 = 0;
-        Class9.anInt214 = 0;
-        Class9.aByte254 = 0;
-        Class9.anInt230 = a;
-        Class9.aBoolean223 = l;
-        Class9.aBoolean268 = m;
-        Class9.aClass30_Sub2_Sub1_Sub4_243 = TDA[j];
-        Class9.aString248 = s;
-        Class9.anInt232 = k;
-    }    
+	public static void addText(int i, String s, int k, boolean l, boolean m, int a, Class30_Sub2_Sub1_Sub4[] TDA, int j) {
+		Class9 Class9 = addInterface(i);
+		Class9.anInt236 = i;
+		Class9.anInt250 = i;
+		Class9.anInt262 = 4;
+		Class9.anInt217 = 0;
+		Class9.anInt220 = 0;
+		Class9.anInt267 = 0;
+		Class9.anInt214 = 0;
+		Class9.aByte254 = 0;
+		Class9.anInt230 = a;
+		Class9.aBoolean223 = l;
+		Class9.aBoolean268 = m;
+		Class9.aClass30_Sub2_Sub1_Sub4_243 = TDA[j];
+		Class9.aString248 = s;
+		Class9.anInt232 = k;
+	}	
 	   private static Class30_Sub2_Sub1_Sub1 LoadSprite99(int i, String s){
-        long l = (Class50.method585((byte)1, s) << 8) + (long)i;
-        Class30_Sub2_Sub1_Sub1 class30_sub2_sub1_sub1 = (Class30_Sub2_Sub1_Sub1)	
+		long l = (Class50.method585((byte)1, s) << 8) + (long)i;
+		Class30_Sub2_Sub1_Sub1 class30_sub2_sub1_sub1 = (Class30_Sub2_Sub1_Sub1)	
 
 aClass12_238.method222(l);
-        if(class30_sub2_sub1_sub1 != null) {
-            return class30_sub2_sub1_sub1;
-        }
-        try{
-            class30_sub2_sub1_sub1 = new Class30_Sub2_Sub1_Sub1("./cache/Interfaces/"+s+" "+i+".PNG");
-            aClass12_238.method223(class30_sub2_sub1_sub1, l, (byte)2);
-        }catch(Exception exception){
-            return null;
-        }
-        return class30_sub2_sub1_sub1;
-    }
+		if(class30_sub2_sub1_sub1 != null) {
+			return class30_sub2_sub1_sub1;
+		}
+		try{
+			class30_sub2_sub1_sub1 = new Class30_Sub2_Sub1_Sub1("./cache/Interfaces/"+s+" "+i+".PNG");
+			aClass12_238.method223(class30_sub2_sub1_sub1, l, (byte)2);
+		}catch(Exception exception){
+			return null;
+		}
+		return class30_sub2_sub1_sub1;
+	}
 
-    public static void addSprite99(int ID, int i, String name) {
-        Class9 Tab = addInterface(ID);
-        Tab.anInt250 = ID;
-        Tab.anInt236 = ID;
-        Tab.anInt262 = 5;
-        Tab.anInt217 = 0;
-        Tab.anInt214 = 0;
-        Tab.anInt220 = 512;
-        Tab.anInt267 = 334;
-        Tab.aByte254 = (byte) 0;
-        Tab.anInt230 = 0;
-        Tab.aClass30_Sub2_Sub1_Sub1_207 = LoadSprite99(i, name);
-        Tab.aClass30_Sub2_Sub1_Sub1_260 = LoadSprite99(i, name);
-    }
-    public static void addPrayer99(int i, int configId, int configFrame, int requiredValues, int prayerSpriteID
+	public static void addSprite99(int ID, int i, String name) {
+		Class9 Tab = addInterface(ID);
+		Tab.anInt250 = ID;
+		Tab.anInt236 = ID;
+		Tab.anInt262 = 5;
+		Tab.anInt217 = 0;
+		Tab.anInt214 = 0;
+		Tab.anInt220 = 512;
+		Tab.anInt267 = 334;
+		Tab.aByte254 = (byte) 0;
+		Tab.anInt230 = 0;
+		Tab.aClass30_Sub2_Sub1_Sub1_207 = LoadSprite99(i, name);
+		Tab.aClass30_Sub2_Sub1_Sub1_260 = LoadSprite99(i, name);
+	}
+	public static void addPrayer99(int i, int configId, int configFrame, int requiredValues, int prayerSpriteID
 
 , int hoverID, String PrayerName) {
-        Class9 Interface = addInterface(i);
-        Interface.anInt250 = i;
-        Interface.anInt236 = 5608;
-        Interface.anInt262 = 5;
-        Interface.anInt217 = 4;
-        Interface.anInt214 = 0;
-        Interface.aByte254 = 0;
-        Interface.anInt230 = -1;
-        Interface.aClass30_Sub2_Sub1_Sub1_207 = LoadSprite99(1, "Prayer/PRAYERGLOW");
-        Interface.aClass30_Sub2_Sub1_Sub1_260 = LoadSprite99(0, "Prayer/PRAYERGLOW");
-        Interface.anInt220 = 34;
-        Interface.anInt267 = 34;
-        Interface.anIntArray245 = new int[1];
-        Interface.anIntArray212 = new int[1];
-        Interface.anIntArray245[0] = 3;
-        Interface.anIntArray212[0] = configId;
-        Interface.anIntArrayArray226 = new int[1][3];
-        Interface.anIntArrayArray226[0][0] = 5;
-        Interface.anIntArrayArray226[0][1] = configFrame;
-        Interface.anIntArrayArray226[0][2] = 0;
-        Interface.aString221 = "Activate@or1@ " + PrayerName;
-        Interface = addInterface(i + 1);
-        Interface.anInt250 = i + 1;
-        Interface.anInt236 = 5608;
-        Interface.anInt262 = 5;
-        Interface.anInt217 = 0;
-        Interface.anInt214  = 0;
-        Interface.aByte254 = 0;
-        Interface.anInt230 = hoverID;
-        Interface.aClass30_Sub2_Sub1_Sub1_207 = LoadSprite99(prayerSpriteID, "Prayer/PRAYEROFF");
-        Interface.aClass30_Sub2_Sub1_Sub1_260 = LoadSprite99(prayerSpriteID, "Prayer/PRAYERON");
-        Interface.anInt220 = 34;
-        Interface.anInt267 = 34;
-        Interface.anIntArray245 = new int[1];
-        Interface.anIntArray212 = new int[1];
-        Interface.anIntArray245[0] = 3;
-        Interface.anIntArray212[0] = requiredValues + 1;
-        Interface.anIntArrayArray226 = new int[1][3];
-        Interface.anIntArrayArray226[0][0] = 2;
-        Interface.anIntArrayArray226[0][1] = 5;
-        Interface.anIntArrayArray226[0][2] = 0;
-        Interface = addInterface(hoverID);
-        Interface.anInt250 = hoverID;
-        Interface.anInt236 = 5608;
-        Interface.anInt262 = 0;
-        Interface.anInt217 = 0;
-        Interface.anInt214  = 0;
-        Interface.aByte254 = 0;
-        Interface.anInt230 = -1;
-        Interface.anInt220 = 512;
-        Interface.anInt267 = 334;
-        Interface.aBoolean266 = true;
+		Class9 Interface = addInterface(i);
+		Interface.anInt250 = i;
+		Interface.anInt236 = 5608;
+		Interface.anInt262 = 5;
+		Interface.anInt217 = 4;
+		Interface.anInt214 = 0;
+		Interface.aByte254 = 0;
+		Interface.anInt230 = -1;
+		Interface.aClass30_Sub2_Sub1_Sub1_207 = LoadSprite99(1, "Prayer/PRAYERGLOW");
+		Interface.aClass30_Sub2_Sub1_Sub1_260 = LoadSprite99(0, "Prayer/PRAYERGLOW");
+		Interface.anInt220 = 34;
+		Interface.anInt267 = 34;
+		Interface.anIntArray245 = new int[1];
+		Interface.anIntArray212 = new int[1];
+		Interface.anIntArray245[0] = 3;
+		Interface.anIntArray212[0] = configId;
+		Interface.anIntArrayArray226 = new int[1][3];
+		Interface.anIntArrayArray226[0][0] = 5;
+		Interface.anIntArrayArray226[0][1] = configFrame;
+		Interface.anIntArrayArray226[0][2] = 0;
+		Interface.aString221 = "Activate@or1@ " + PrayerName;
+		Interface = addInterface(i + 1);
+		Interface.anInt250 = i + 1;
+		Interface.anInt236 = 5608;
+		Interface.anInt262 = 5;
+		Interface.anInt217 = 0;
+		Interface.anInt214  = 0;
+		Interface.aByte254 = 0;
+		Interface.anInt230 = hoverID;
+		Interface.aClass30_Sub2_Sub1_Sub1_207 = LoadSprite99(prayerSpriteID, "Prayer/PRAYEROFF");
+		Interface.aClass30_Sub2_Sub1_Sub1_260 = LoadSprite99(prayerSpriteID, "Prayer/PRAYERON");
+		Interface.anInt220 = 34;
+		Interface.anInt267 = 34;
+		Interface.anIntArray245 = new int[1];
+		Interface.anIntArray212 = new int[1];
+		Interface.anIntArray245[0] = 3;
+		Interface.anIntArray212[0] = requiredValues + 1;
+		Interface.anIntArrayArray226 = new int[1][3];
+		Interface.anIntArrayArray226[0][0] = 2;
+		Interface.anIntArrayArray226[0][1] = 5;
+		Interface.anIntArrayArray226[0][2] = 0;
+		Interface = addInterface(hoverID);
+		Interface.anInt250 = hoverID;
+		Interface.anInt236 = 5608;
+		Interface.anInt262 = 0;
+		Interface.anInt217 = 0;
+		Interface.anInt214  = 0;
+		Interface.aByte254 = 0;
+		Interface.anInt230 = -1;
+		Interface.anInt220 = 512;
+		Interface.anInt267 = 334;
+		Interface.aBoolean266 = true;
 
-        addSprite99(hoverID + 1, prayerSpriteID, "Prayer/PRAYERHOVER");
-        setChildren(1, Interface);
-        setBounds(hoverID + 1, 3, 5, 0, Interface);
-    }
+		addSprite99(hoverID + 1, prayerSpriteID, "Prayer/PRAYERHOVER");
+		setChildren(1, Interface);
+		setBounds(hoverID + 1, 3, 5, 0, Interface);
+	}
   public static void Prayer(Class30_Sub2_Sub1_Sub4[] TDA) {
-        Class9 Interface = addInterface(19195);
-        int index = 0;
-        int prayIndex = 0;
-        setChildren(80, Interface);
+		Class9 Interface = addInterface(19195);
+		int index = 0;
+		int prayIndex = 0;
+		setChildren(80, Interface);
 
-        //addPrayer(int i, int configId, int configFrame, int requiredValues, int prayerSpriteID)
-        addText(25104, "99/99", 0xFF981F, false, false, -1, TDA, 1);
-        addSprite99(25105, 0, "Prayer/PRAYERICO");
-        addPrayer99(25000, 0, 83, 0, prayIndex, 25052, "Thick Skin");
-        					prayIndex++;
-        setBounds(25000, 2, 5, index, Interface);
-       					index++;//Glow
-        setBounds(25001, 5, 8, index, Interface);
-        					index++;//Icon
-        addPrayer99(25002, 0, 84, 3, prayIndex, 25054,"Burst of Strength");
-        					prayIndex++;
-        setBounds(25002, 40, 5, index, Interface);
-        					index++;//Glow
-        setBounds(25003, 44, 8, index, Interface);
-        					index++;//Icon
-        addPrayer99(25004, 0, 85, 6, prayIndex, 25056, "Clarity of Thought");
-        					prayIndex++;
-        setBounds(25004, 76, 5, index, Interface);
-        					index++;//Glow
-        setBounds(25005, 79, 11, index, Interface);
-        					index++;//Icon
-        addPrayer99(25006, 0, 101, 7, prayIndex, 25058,"Sharp Eye");
-        					prayIndex++;
-        setBounds(25006, 113, 5, index, Interface);
-        					index++;//Glow
-        setBounds(25007, 116, 10, index, Interface);
-       					index++;//Icon
-        addPrayer99(25008, 0, 102, 8, prayIndex, 25060,"Mystic Will");
-        					prayIndex++;
-        setBounds(25008, 150, 5, index, Interface);
-        					index++;//Glow
-        setBounds(25009, 153, 9, index, Interface);
-        					index++;//Icon
-        addPrayer99(25010, 0, 86, 9, prayIndex, 25062,"Rock Skin");
-        					prayIndex++;
-        setBounds(25010, 2, 45, index, Interface);
-        					index++;//Glow
-        setBounds(25011, 5, 48, index, Interface);
-        					index++;//Icon
-        addPrayer99(25012, 0, 87, 12, prayIndex, 25064,"Superhuman Strength");
-        					prayIndex++;
-        setBounds(25012, 39, 45, index, Interface);
-        					index++;//Glow
-        setBounds(25013, 44, 47, index, Interface);
-        					index++;//Icon
-        addPrayer99(25014, 0, 88, 15, prayIndex, 25066,"Improved Reflexes");
-        					prayIndex++;
-        setBounds(25014, 76, 45, index, Interface);
-        					index++;//Glow
-        setBounds(25015, 79, 49, index, Interface);
-        					index++;//Icon
-        addPrayer99(25016, 0, 89, 18, prayIndex, 25068,"Rapid Restore");
-        					prayIndex++;
-        setBounds(25016, 113, 45, index, Interface);
-        					index++;//Glow
-        setBounds(25017, 116, 50, index, Interface);
-        					index++;//Icon
-        addPrayer99(25018, 0, 90, 21, prayIndex, 25070, "Rapid Heal");
-        					prayIndex++;
-        setBounds(25018, 151, 45, index, Interface);
-        					index++;//Glow
-        setBounds(25019, 154, 50, index, Interface);
-        					index++;//Icon
-        addPrayer99(25020, 0, 91, 24, prayIndex, 25072,"Protect Item");
-        					prayIndex++;
-        setBounds(25020, 2, 82, index, Interface);
-        					index++;//Glow
-        setBounds(25021, 4, 84, index, Interface);
-        					index++;//Icon
-        addPrayer99(25022, 0, 103, 25, prayIndex, 25074, "Hawk Eye");
-        					prayIndex++;
-        setBounds(25022, 40, 82, index, Interface);
-        					index++;//Glow
-        setBounds(25023, 42, 86, index, Interface);
-        					index++;//Icon
-        addPrayer99(25024, 0, 104, 26, prayIndex, 25076,"Mystic Lore");
-        					prayIndex++;
-        setBounds(25024, 77, 82, index, Interface);
-        					index++;//Glow
-        setBounds(25025, 79, 84, index, Interface);
-        					index++;//Icon
-        addPrayer99(25026, 0, 92, 27, prayIndex, 25078,"Steel Skin");
-        					prayIndex++;
-        setBounds(25026, 114, 83, index, Interface);
-        					index++;//Glow
-        setBounds(25027, 117, 85, index, Interface);
-        					index++;//Icon
-        addPrayer99(25028, 0, 93, 30, prayIndex, 25080,"Ultimate Strength");
-        					prayIndex++;
-        setBounds(25028, 153, 83, index, Interface);
-        					index++;//Glow
-        setBounds(25029, 156, 87, index, Interface);
-        					index++;//Icon
-        addPrayer99(25030, 0, 94, 33, prayIndex, 25082,"Incredible Reflexes");
-        					prayIndex++;
-        setBounds(25030, 2, 120, index, Interface);
-        					index++;//Glow
-        setBounds(25031, 5, 125, index, Interface);
-        					index++;//Icon
-        addPrayer99(25032, 0, 95, 36, prayIndex, 25084,"Protect from Magic");
-        					prayIndex++;
-        setBounds(25032, 40, 120, index, Interface);
-        					index++;//Glow
-        setBounds(25033, 43, 124, index, Interface);
-       					index++;//Icon
-        addPrayer99(25034, 0, 96, 39, prayIndex, 25086,"Protect from Missiles");
-        					prayIndex++;
-        setBounds(25034, 78, 120, index, Interface);
-        					index++;//Glow
-        setBounds(25035, 83, 124, index, Interface);
-        					index++;//Icon
-        addPrayer99(25036, 0, 97, 42, prayIndex, 25088,"Protect from Melee");
-        					prayIndex++;
-        setBounds(25036, 114, 120, index, Interface);
-        					index++;//Glow
-        setBounds(25037, 115, 121, index, Interface);
-        					index++;//Icon
-        addPrayer99(25038, 0, 105, 43, prayIndex, 25090,"Eagle Eye");
-        					prayIndex++;
-        setBounds(25038, 151, 120, index, Interface);
-        					index++;//Glow
-        setBounds(25039, 153, 124, index, Interface);
-        					index++;//Icon
-        addPrayer99(25040, 0, 106, 44, prayIndex, 25092,"Mystic Might");
-        prayIndex++;
-        setBounds(25040, 2, 158, index, Interface);
-        					index++;//Glow
-        setBounds(25041, 4, 160, index, Interface);
-        					index++;//Icon
-        addPrayer99(25042, 0, 98, 45, prayIndex, 25094,"Retribution");
-        					prayIndex++;
-        setBounds(25042, 39, 158, index, Interface);
-        					index++;//Glow
-        setBounds(25043, 41, 158, index, Interface);
-        					index++;//Icon
-        addPrayer99(25044, 0, 99, 48, prayIndex, 25096,"Redemption");
-        					prayIndex++;
-        setBounds(25044, 76, 158, index, Interface);
-        					index++;//Glow
-        setBounds(25045, 78, 162, index, Interface);
-        					index++;//Icon
-        addPrayer99(25046, 0, 100, 51, prayIndex, 25098,"Smite");
-        					prayIndex++;
-        setBounds(25046, 114, 158, index, Interface);
-        					index++;//Glow
-        setBounds(25047, 116, 158, index, Interface);
-        					index++;//Icon
-        addPrayer99(25048, 0, 107, 59, prayIndex, 25100,"Chivalry");
-       					prayIndex++;
-        setBounds(25048, 153, 158, index, Interface);
-        					index++;//Glow
-        setBounds(25049, 160, 159, index, Interface);
-        					index++;//Icon
-        addPrayer99(25050, 0, 108, 69, prayIndex, 25102,"Piety");
-        					prayIndex++;
-        setBounds(25050, 2, 199, index, Interface);
-        					index++;//Glow
-        setBounds(25051, 3, 210, index, Interface);
-        					index++;//Icon
-        setBounds(25052, 12, 42, index, Interface);
-        					index++;//Hover
-        setBounds(25054, 8, 42, index, Interface);
-        	index++;//Hover
-        setBounds(25056, 20, 42, index, Interface);
-        	index++;//Hover
-        setBounds(25058, 12, 42, index, Interface);
-       	index++;//Hover
-        setBounds(25060, 24, 42, index, Interface);
-        	index++;//Hover
-        setBounds(25062, 6, 80, index, Interface);
-        	index++;//Hover
-        setBounds(25064, 2, 80, index, Interface);
-        	index++;//Hover
-        setBounds(25066, 16, 80, index, Interface);
-        	index++;//Hover
-        setBounds(25068, 24, 80, index, Interface);
-        	index++;//Hover
-        setBounds(25070, 50, 80, index, Interface);
-        	index++;//Hover
-        setBounds(25072, 28, 118, index, Interface);
-        	index++;//Hover
-        setBounds(25074, 12, 118, index, Interface);
-        	index++;//Hover
-        setBounds(25076, 10, 118, index, Interface);
-        	index++;//Hover
-        setBounds(25078, 6, 118, index, Interface);
-        	index++;//Hover
-        setBounds(25080, 8, 118, index, Interface);
-        	index++;//Hover
-        setBounds(25082, 28, 150, index, Interface);
-        	index++;//Hover
-        setBounds(25084, 28, 150, index, Interface);
-        	index++;//Hover
-        setBounds(25086, 28, 150, index, Interface);
-        	index++;//Hover
-        setBounds(25088, 28, 150, index, Interface);
-        	index++;//Hover
-        setBounds(25090, 28, 150, index, Interface);
-        	index++;//Hover
-        setBounds(25092, 28, 110, index, Interface);
-        	index++;//Hover
-        setBounds(25094, 28, 110, index, Interface);
-        	index++;//Hover
-        setBounds(25096, 28, 110, index, Interface);
-        	index++;//Hover
-        setBounds(25098, 50, 110, index, Interface);
-        	index++;//Hover
-        setBounds(25100, 28, 110, index, Interface);
-        	index++;//Hover
-        setBounds(25102, 12, 110, index, Interface);
-        	index++;//Hover
-        setBounds(25104, 85, 241, index, Interface);
-        	index++;//Text
-        setBounds(25105, 65, 241, index, Interface);
-        	index++;//Icon
-    }
-    public static void itemsOnDeathDATA(Class30_Sub2_Sub1_Sub4[] wid)
-    {
-        Class9 death = addDTab(18115);
-        addText(18109, "", wid, 0, 0xff981f);
-        addText(18110, "", wid, 0, 0xff981f);
-        addText(18111, "", wid, 0, 0xff981f);
-        addText(18112, "", wid, 0, 0xff981f);
-        addText(18113, "", wid, 0, 0xff981f);
-        addText(18114, "", wid, 0, 0xff981f);
-        addText(18117, "", wid, 0, 0xff981f);
-        addText(18118, "", wid, 0, 0xff981f);
-        addText(18119, "", wid, 0, 0xff981f);
-        addText(18120, "", wid, 0, 0xff981f);
-        addText(18121, "", wid, 0, 0xff981f);
-        addText(18122, "", wid, 0, 0xff981f);
-        addText(18123, "", wid, 0, 0xff981f);
-        addText(18124, "", wid, 0, 0xff981f);
-        addText(18125, "", wid, 0, 0xff981f);
-        addText(18126, "", wid, 0, 0xff981f);
-        addText(18127, "", wid, 0, 0xff981f);
-        addText(18128, "", wid, 0, 0xff981f);
-        addText(18129, "", wid, 0, 0xff981f);
-        addText(18130, "", wid, 0, 0xff981f);
-        death.anInt236 = 18115;
-        death.anInt250 = 18115;
-        death.anInt262 = 0;
-        death.anInt217 = 0;
-        death.anInt214 = 0;
-        death.anInt220 = 130;
-        death.anInt267 = 197;
-        death.aByte254 = 0;
-        death.anInt230 = -1;
-        death.anInt261 = 280;
-        death.anIntArray240 = new int[20];
-        death.anIntArray241 = new int[20];
-        death.anIntArray272 = new int[20];
-        death.anIntArray240[0] = 18109;
-        death.anIntArray241[0] = 0;
-        death.anIntArray272[0] = 0;
-        death.anIntArray240[1] = 18110;
-        death.anIntArray241[1] = 0;
-        death.anIntArray272[1] = 12;
-        death.anIntArray240[2] = 18111;
-        death.anIntArray241[2] = 0;
-        death.anIntArray272[2] = 24;
-        death.anIntArray240[3] = 18112;
-        death.anIntArray241[3] = 0;
-        death.anIntArray272[3] = 36;
-        death.anIntArray240[4] = 18113;
-        death.anIntArray241[4] = 0;
-        death.anIntArray272[4] = 48;
-        death.anIntArray240[5] = 18114;
-        death.anIntArray241[5] = 0;
-        death.anIntArray272[5] = 60;
-        death.anIntArray240[6] = 18117;
-        death.anIntArray241[6] = 0;
-        death.anIntArray272[6] = 72;
-        death.anIntArray240[7] = 18118;
-        death.anIntArray241[7] = 0;
-        death.anIntArray272[7] = 84;
-        death.anIntArray240[8] = 18119;
-        death.anIntArray241[8] = 0;
-        death.anIntArray272[8] = 96;
-        death.anIntArray240[9] = 18120;
-        death.anIntArray241[9] = 0;
-        death.anIntArray272[9] = 108;
-        death.anIntArray240[10] = 18121;
-        death.anIntArray241[10] = 0;
-        death.anIntArray272[10] = 120;
-        death.anIntArray240[11] = 18122;
-        death.anIntArray241[11] = 0;
-        death.anIntArray272[11] = 132;
-        death.anIntArray240[12] = 18123;
-        death.anIntArray241[12] = 0;
-        death.anIntArray272[12] = 144;
-        death.anIntArray240[13] = 18124;
-        death.anIntArray241[13] = 0;
-        death.anIntArray272[13] = 156;
-        death.anIntArray240[14] = 18125;
-        death.anIntArray241[14] = 0;
-        death.anIntArray272[14] = 168;
-        death.anIntArray240[15] = 18126;
-        death.anIntArray241[15] = 0;
-        death.anIntArray272[15] = 180;
-        death.anIntArray240[16] = 18127;
-        death.anIntArray241[16] = 0;
-        death.anIntArray272[16] = 192;
-        death.anIntArray240[17] = 18128;
-        death.anIntArray241[17] = 0;
-        death.anIntArray272[17] = 204;
-        death.anIntArray240[18] = 18129;
-        death.anIntArray241[18] = 0;
-        death.anIntArray272[18] = 216;
-        death.anIntArray240[19] = 18130;
-        death.anIntArray241[19] = 0;
-        death.anIntArray272[19] = 228;
+		//addPrayer(int i, int configId, int configFrame, int requiredValues, int prayerSpriteID)
+		addText(25104, "99/99", 0xFF981F, false, false, -1, TDA, 1);
+		addSprite99(25105, 0, "Prayer/PRAYERICO");
+		addPrayer99(25000, 0, 83, 0, prayIndex, 25052, "Thick Skin");
+							prayIndex++;
+		setBounds(25000, 2, 5, index, Interface);
+	   					index++;//Glow
+		setBounds(25001, 5, 8, index, Interface);
+							index++;//Icon
+		addPrayer99(25002, 0, 84, 3, prayIndex, 25054,"Burst of Strength");
+							prayIndex++;
+		setBounds(25002, 40, 5, index, Interface);
+							index++;//Glow
+		setBounds(25003, 44, 8, index, Interface);
+							index++;//Icon
+		addPrayer99(25004, 0, 85, 6, prayIndex, 25056, "Clarity of Thought");
+							prayIndex++;
+		setBounds(25004, 76, 5, index, Interface);
+							index++;//Glow
+		setBounds(25005, 79, 11, index, Interface);
+							index++;//Icon
+		addPrayer99(25006, 0, 101, 7, prayIndex, 25058,"Sharp Eye");
+							prayIndex++;
+		setBounds(25006, 113, 5, index, Interface);
+							index++;//Glow
+		setBounds(25007, 116, 10, index, Interface);
+	   					index++;//Icon
+		addPrayer99(25008, 0, 102, 8, prayIndex, 25060,"Mystic Will");
+							prayIndex++;
+		setBounds(25008, 150, 5, index, Interface);
+							index++;//Glow
+		setBounds(25009, 153, 9, index, Interface);
+							index++;//Icon
+		addPrayer99(25010, 0, 86, 9, prayIndex, 25062,"Rock Skin");
+							prayIndex++;
+		setBounds(25010, 2, 45, index, Interface);
+							index++;//Glow
+		setBounds(25011, 5, 48, index, Interface);
+							index++;//Icon
+		addPrayer99(25012, 0, 87, 12, prayIndex, 25064,"Superhuman Strength");
+							prayIndex++;
+		setBounds(25012, 39, 45, index, Interface);
+							index++;//Glow
+		setBounds(25013, 44, 47, index, Interface);
+							index++;//Icon
+		addPrayer99(25014, 0, 88, 15, prayIndex, 25066,"Improved Reflexes");
+							prayIndex++;
+		setBounds(25014, 76, 45, index, Interface);
+							index++;//Glow
+		setBounds(25015, 79, 49, index, Interface);
+							index++;//Icon
+		addPrayer99(25016, 0, 89, 18, prayIndex, 25068,"Rapid Restore");
+							prayIndex++;
+		setBounds(25016, 113, 45, index, Interface);
+							index++;//Glow
+		setBounds(25017, 116, 50, index, Interface);
+							index++;//Icon
+		addPrayer99(25018, 0, 90, 21, prayIndex, 25070, "Rapid Heal");
+							prayIndex++;
+		setBounds(25018, 151, 45, index, Interface);
+							index++;//Glow
+		setBounds(25019, 154, 50, index, Interface);
+							index++;//Icon
+		addPrayer99(25020, 0, 91, 24, prayIndex, 25072,"Protect Item");
+							prayIndex++;
+		setBounds(25020, 2, 82, index, Interface);
+							index++;//Glow
+		setBounds(25021, 4, 84, index, Interface);
+							index++;//Icon
+		addPrayer99(25022, 0, 103, 25, prayIndex, 25074, "Hawk Eye");
+							prayIndex++;
+		setBounds(25022, 40, 82, index, Interface);
+							index++;//Glow
+		setBounds(25023, 42, 86, index, Interface);
+							index++;//Icon
+		addPrayer99(25024, 0, 104, 26, prayIndex, 25076,"Mystic Lore");
+							prayIndex++;
+		setBounds(25024, 77, 82, index, Interface);
+							index++;//Glow
+		setBounds(25025, 79, 84, index, Interface);
+							index++;//Icon
+		addPrayer99(25026, 0, 92, 27, prayIndex, 25078,"Steel Skin");
+							prayIndex++;
+		setBounds(25026, 114, 83, index, Interface);
+							index++;//Glow
+		setBounds(25027, 117, 85, index, Interface);
+							index++;//Icon
+		addPrayer99(25028, 0, 93, 30, prayIndex, 25080,"Ultimate Strength");
+							prayIndex++;
+		setBounds(25028, 153, 83, index, Interface);
+							index++;//Glow
+		setBounds(25029, 156, 87, index, Interface);
+							index++;//Icon
+		addPrayer99(25030, 0, 94, 33, prayIndex, 25082,"Incredible Reflexes");
+							prayIndex++;
+		setBounds(25030, 2, 120, index, Interface);
+							index++;//Glow
+		setBounds(25031, 5, 125, index, Interface);
+							index++;//Icon
+		addPrayer99(25032, 0, 95, 36, prayIndex, 25084,"Protect from Magic");
+							prayIndex++;
+		setBounds(25032, 40, 120, index, Interface);
+							index++;//Glow
+		setBounds(25033, 43, 124, index, Interface);
+	   					index++;//Icon
+		addPrayer99(25034, 0, 96, 39, prayIndex, 25086,"Protect from Missiles");
+							prayIndex++;
+		setBounds(25034, 78, 120, index, Interface);
+							index++;//Glow
+		setBounds(25035, 83, 124, index, Interface);
+							index++;//Icon
+		addPrayer99(25036, 0, 97, 42, prayIndex, 25088,"Protect from Melee");
+							prayIndex++;
+		setBounds(25036, 114, 120, index, Interface);
+							index++;//Glow
+		setBounds(25037, 115, 121, index, Interface);
+							index++;//Icon
+		addPrayer99(25038, 0, 105, 43, prayIndex, 25090,"Eagle Eye");
+							prayIndex++;
+		setBounds(25038, 151, 120, index, Interface);
+							index++;//Glow
+		setBounds(25039, 153, 124, index, Interface);
+							index++;//Icon
+		addPrayer99(25040, 0, 106, 44, prayIndex, 25092,"Mystic Might");
+		prayIndex++;
+		setBounds(25040, 2, 158, index, Interface);
+							index++;//Glow
+		setBounds(25041, 4, 160, index, Interface);
+							index++;//Icon
+		addPrayer99(25042, 0, 98, 45, prayIndex, 25094,"Retribution");
+							prayIndex++;
+		setBounds(25042, 39, 158, index, Interface);
+							index++;//Glow
+		setBounds(25043, 41, 158, index, Interface);
+							index++;//Icon
+		addPrayer99(25044, 0, 99, 48, prayIndex, 25096,"Redemption");
+							prayIndex++;
+		setBounds(25044, 76, 158, index, Interface);
+							index++;//Glow
+		setBounds(25045, 78, 162, index, Interface);
+							index++;//Icon
+		addPrayer99(25046, 0, 100, 51, prayIndex, 25098,"Smite");
+							prayIndex++;
+		setBounds(25046, 114, 158, index, Interface);
+							index++;//Glow
+		setBounds(25047, 116, 158, index, Interface);
+							index++;//Icon
+		addPrayer99(25048, 0, 107, 59, prayIndex, 25100,"Chivalry");
+	   					prayIndex++;
+		setBounds(25048, 153, 158, index, Interface);
+							index++;//Glow
+		setBounds(25049, 160, 159, index, Interface);
+							index++;//Icon
+		addPrayer99(25050, 0, 108, 69, prayIndex, 25102,"Piety");
+							prayIndex++;
+		setBounds(25050, 2, 199, index, Interface);
+							index++;//Glow
+		setBounds(25051, 3, 210, index, Interface);
+							index++;//Icon
+		setBounds(25052, 12, 42, index, Interface);
+							index++;//Hover
+		setBounds(25054, 8, 42, index, Interface);
+			index++;//Hover
+		setBounds(25056, 20, 42, index, Interface);
+			index++;//Hover
+		setBounds(25058, 12, 42, index, Interface);
+	   	index++;//Hover
+		setBounds(25060, 24, 42, index, Interface);
+			index++;//Hover
+		setBounds(25062, 6, 80, index, Interface);
+			index++;//Hover
+		setBounds(25064, 2, 80, index, Interface);
+			index++;//Hover
+		setBounds(25066, 16, 80, index, Interface);
+			index++;//Hover
+		setBounds(25068, 24, 80, index, Interface);
+			index++;//Hover
+		setBounds(25070, 50, 80, index, Interface);
+			index++;//Hover
+		setBounds(25072, 28, 118, index, Interface);
+			index++;//Hover
+		setBounds(25074, 12, 118, index, Interface);
+			index++;//Hover
+		setBounds(25076, 10, 118, index, Interface);
+			index++;//Hover
+		setBounds(25078, 6, 118, index, Interface);
+			index++;//Hover
+		setBounds(25080, 8, 118, index, Interface);
+			index++;//Hover
+		setBounds(25082, 28, 150, index, Interface);
+			index++;//Hover
+		setBounds(25084, 28, 150, index, Interface);
+			index++;//Hover
+		setBounds(25086, 28, 150, index, Interface);
+			index++;//Hover
+		setBounds(25088, 28, 150, index, Interface);
+			index++;//Hover
+		setBounds(25090, 28, 150, index, Interface);
+			index++;//Hover
+		setBounds(25092, 28, 110, index, Interface);
+			index++;//Hover
+		setBounds(25094, 28, 110, index, Interface);
+			index++;//Hover
+		setBounds(25096, 28, 110, index, Interface);
+			index++;//Hover
+		setBounds(25098, 50, 110, index, Interface);
+			index++;//Hover
+		setBounds(25100, 28, 110, index, Interface);
+			index++;//Hover
+		setBounds(25102, 12, 110, index, Interface);
+			index++;//Hover
+		setBounds(25104, 85, 241, index, Interface);
+			index++;//Text
+		setBounds(25105, 65, 241, index, Interface);
+			index++;//Icon
+	}
+	public static void itemsOnDeathDATA(Class30_Sub2_Sub1_Sub4[] wid)
+	{
+		Class9 death = addDTab(18115);
+		addText(18109, "", wid, 0, 0xff981f);
+		addText(18110, "", wid, 0, 0xff981f);
+		addText(18111, "", wid, 0, 0xff981f);
+		addText(18112, "", wid, 0, 0xff981f);
+		addText(18113, "", wid, 0, 0xff981f);
+		addText(18114, "", wid, 0, 0xff981f);
+		addText(18117, "", wid, 0, 0xff981f);
+		addText(18118, "", wid, 0, 0xff981f);
+		addText(18119, "", wid, 0, 0xff981f);
+		addText(18120, "", wid, 0, 0xff981f);
+		addText(18121, "", wid, 0, 0xff981f);
+		addText(18122, "", wid, 0, 0xff981f);
+		addText(18123, "", wid, 0, 0xff981f);
+		addText(18124, "", wid, 0, 0xff981f);
+		addText(18125, "", wid, 0, 0xff981f);
+		addText(18126, "", wid, 0, 0xff981f);
+		addText(18127, "", wid, 0, 0xff981f);
+		addText(18128, "", wid, 0, 0xff981f);
+		addText(18129, "", wid, 0, 0xff981f);
+		addText(18130, "", wid, 0, 0xff981f);
+		death.anInt236 = 18115;
+		death.anInt250 = 18115;
+		death.anInt262 = 0;
+		death.anInt217 = 0;
+		death.anInt214 = 0;
+		death.anInt220 = 130;
+		death.anInt267 = 197;
+		death.aByte254 = 0;
+		death.anInt230 = -1;
+		death.anInt261 = 280;
+		death.anIntArray240 = new int[20];
+		death.anIntArray241 = new int[20];
+		death.anIntArray272 = new int[20];
+		death.anIntArray240[0] = 18109;
+		death.anIntArray241[0] = 0;
+		death.anIntArray272[0] = 0;
+		death.anIntArray240[1] = 18110;
+		death.anIntArray241[1] = 0;
+		death.anIntArray272[1] = 12;
+		death.anIntArray240[2] = 18111;
+		death.anIntArray241[2] = 0;
+		death.anIntArray272[2] = 24;
+		death.anIntArray240[3] = 18112;
+		death.anIntArray241[3] = 0;
+		death.anIntArray272[3] = 36;
+		death.anIntArray240[4] = 18113;
+		death.anIntArray241[4] = 0;
+		death.anIntArray272[4] = 48;
+		death.anIntArray240[5] = 18114;
+		death.anIntArray241[5] = 0;
+		death.anIntArray272[5] = 60;
+		death.anIntArray240[6] = 18117;
+		death.anIntArray241[6] = 0;
+		death.anIntArray272[6] = 72;
+		death.anIntArray240[7] = 18118;
+		death.anIntArray241[7] = 0;
+		death.anIntArray272[7] = 84;
+		death.anIntArray240[8] = 18119;
+		death.anIntArray241[8] = 0;
+		death.anIntArray272[8] = 96;
+		death.anIntArray240[9] = 18120;
+		death.anIntArray241[9] = 0;
+		death.anIntArray272[9] = 108;
+		death.anIntArray240[10] = 18121;
+		death.anIntArray241[10] = 0;
+		death.anIntArray272[10] = 120;
+		death.anIntArray240[11] = 18122;
+		death.anIntArray241[11] = 0;
+		death.anIntArray272[11] = 132;
+		death.anIntArray240[12] = 18123;
+		death.anIntArray241[12] = 0;
+		death.anIntArray272[12] = 144;
+		death.anIntArray240[13] = 18124;
+		death.anIntArray241[13] = 0;
+		death.anIntArray272[13] = 156;
+		death.anIntArray240[14] = 18125;
+		death.anIntArray241[14] = 0;
+		death.anIntArray272[14] = 168;
+		death.anIntArray240[15] = 18126;
+		death.anIntArray241[15] = 0;
+		death.anIntArray272[15] = 180;
+		death.anIntArray240[16] = 18127;
+		death.anIntArray241[16] = 0;
+		death.anIntArray272[16] = 192;
+		death.anIntArray240[17] = 18128;
+		death.anIntArray241[17] = 0;
+		death.anIntArray272[17] = 204;
+		death.anIntArray240[18] = 18129;
+		death.anIntArray241[18] = 0;
+		death.anIntArray272[18] = 216;
+		death.anIntArray240[19] = 18130;
+		death.anIntArray241[19] = 0;
+		death.anIntArray272[19] = 228;
 }
 private static Class30_Sub2_Sub1_Sub1 CustomWepLoader(int id, String s)
-    {
-        long l = (Class50.method585((byte)1, s) << 8) + (long)id;
-        Class30_Sub2_Sub1_Sub1 class30_sub2_sub1_sub1 = (Class30_Sub2_Sub1_Sub1)aClass12_238.method222(l);
-        if(class30_sub2_sub1_sub1 != null) { return class30_sub2_sub1_sub1; }
-        try {
-            class30_sub2_sub1_sub1 = new Class30_Sub2_Sub1_Sub1("./Files/Spirts/Attack/"+id+s+".png");
-            aClass12_238.method223(class30_sub2_sub1_sub1, l, (byte)2);
-        } catch(Exception exception) { return null; }
-        return class30_sub2_sub1_sub1;
-    }
+	{
+		long l = (Class50.method585((byte)1, s) << 8) + (long)id;
+		Class30_Sub2_Sub1_Sub1 class30_sub2_sub1_sub1 = (Class30_Sub2_Sub1_Sub1)aClass12_238.method222(l);
+		if(class30_sub2_sub1_sub1 != null) { return class30_sub2_sub1_sub1; }
+		try {
+			class30_sub2_sub1_sub1 = new Class30_Sub2_Sub1_Sub1("./Files/Spirts/Attack/"+id+s+".png");
+			aClass12_238.method223(class30_sub2_sub1_sub1, l, (byte)2);
+		} catch(Exception exception) { return null; }
+		return class30_sub2_sub1_sub1;
+	}
 
-    public static Class9 addInterface(int id)
-    {
-        Class9 class9 = aClass9Array210[id] = new Class9();
-        class9.anInt250 = id;
-        class9.anInt236 = id;
-        class9.anInt220 = 512;
-        class9.anInt267 = 334;
-        return class9;
-    }
-        public static void addSpecButton(int id, int sprite, int sprite2, int width, int height, String s)
-    {
-        Class9 class9 = aClass9Array210[id] = new Class9();
-        class9.aClass30_Sub2_Sub1_Sub1_207 = CustomWepLoader(sprite, "");
-        if (sprite2 == sprite)
-          class9.aClass30_Sub2_Sub1_Sub1_260 = CustomWepLoader(sprite, "a");
-        else
-          class9.aClass30_Sub2_Sub1_Sub1_260 = CustomWepLoader(sprite2, "");
-        class9.aString221 = s;
-        class9.anInt214  = 0;
-        class9.anInt217  = 1;
-        class9.anInt220 = width;
-        class9.anInt230  = 52;
-        class9.anInt236 = id;
-        class9.anInt250 = id;
-        class9.anInt262 = 5;
-        class9.anInt267 = height;
-    }
-
-
-    public static void addText(int id, String text, Class30_Sub2_Sub1_Sub4 wid[], int idx, int color, boolean centered) {
-        Class9 class9 = aClass9Array210[id] = new Class9();
-        if(centered)
-          class9.aBoolean223 = true;
-        class9.aBoolean268 = true;
-        class9.aClass30_Sub2_Sub1_Sub4_243 = wid[idx];
-        class9.aString248 = text;
-        class9.anInt232 = color;
-        class9.anInt250 = id;
-        class9.anInt262 = 4;
-    }
-
-    public static void textColor(int id, int color)
-    { Class9 class9 = aClass9Array210[id]; class9.anInt232 = color; }
-
-    public static void textSize(int id, Class30_Sub2_Sub1_Sub4 wid[], int idx)
-    { Class9 class9 = aClass9Array210[id]; class9.aClass30_Sub2_Sub1_Sub4_243 = wid[idx]; }
-
-    public static void addCacheSprite(int id, int sprite1, int sprite2, String sprites)
-    {
-        Class9 class9 = aClass9Array210[id] = new Class9();
-        class9.aClass30_Sub2_Sub1_Sub1_207 = method207(sprite1, false, aClass44, sprites);
-        class9.aClass30_Sub2_Sub1_Sub1_260 = method207(sprite2, false, aClass44, sprites);
-        class9.anInt236 = id;
-        class9.anInt250 = id;
-        class9.anInt262 = 5;
-    }
-    
-    public static void sprite1(int id, int sprite)
-    { Class9 class9 = aClass9Array210[id];
-        class9.aClass30_Sub2_Sub1_Sub1_207 = CustomWepLoader(sprite, "");
-    }
+	public static Class9 addInterface(int id)
+	{
+		Class9 class9 = aClass9Array210[id] = new Class9();
+		class9.anInt250 = id;
+		class9.anInt236 = id;
+		class9.anInt220 = 512;
+		class9.anInt267 = 334;
+		return class9;
+	}
+		public static void addSpecButton(int id, int sprite, int sprite2, int width, int height, String s)
+	{
+		Class9 class9 = aClass9Array210[id] = new Class9();
+		class9.aClass30_Sub2_Sub1_Sub1_207 = CustomWepLoader(sprite, "");
+		if (sprite2 == sprite)
+		  class9.aClass30_Sub2_Sub1_Sub1_260 = CustomWepLoader(sprite, "a");
+		else
+		  class9.aClass30_Sub2_Sub1_Sub1_260 = CustomWepLoader(sprite2, "");
+		class9.aString221 = s;
+		class9.anInt214  = 0;
+		class9.anInt217  = 1;
+		class9.anInt220 = width;
+		class9.anInt230  = 52;
+		class9.anInt236 = id;
+		class9.anInt250 = id;
+		class9.anInt262 = 5;
+		class9.anInt267 = height;
+	}
 
 
-    public static void addToggleButton(int id, int sprite, int setconfig, int width, int height, String s)
-    {
-        Class9 class9 = addInterface(id);
-        class9.aClass30_Sub2_Sub1_Sub1_207 = CustomWepLoader(sprite, "");
-        class9.aClass30_Sub2_Sub1_Sub1_260 = CustomWepLoader(sprite, "a");
-        class9.anIntArray212 = new int[1];
-        class9.anIntArray212[0] = 1;
-        class9.anIntArray245 = new int[1];
-        class9.anIntArray245[0] = 1;
-        class9.anIntArrayArray226 = new int[1][3];
-        class9.anIntArrayArray226[0][0] = 5;
-        class9.anIntArrayArray226[0][1] = setconfig;
-        class9.anIntArrayArray226[0][2] = 0;
-        class9.anInt217  = 4;
-        class9.anInt220 = width;
-        class9.anInt230  = -1;
-        class9.anInt236 = id;
-        class9.anInt250 = id;
-        class9.anInt262 = 5;
-        class9.anInt267 = height;
-        class9.aString221  = s;
-    }
+	public static void addText(int id, String text, Class30_Sub2_Sub1_Sub4 wid[], int idx, int color, boolean centered) {
+		Class9 class9 = aClass9Array210[id] = new Class9();
+		if(centered)
+		  class9.aBoolean223 = true;
+		class9.aBoolean268 = true;
+		class9.aClass30_Sub2_Sub1_Sub4_243 = wid[idx];
+		class9.aString248 = text;
+		class9.anInt232 = color;
+		class9.anInt250 = id;
+		class9.anInt262 = 4;
+	}
 
-    public void child(int frame, int id, int x, int y)
-    { anIntArray240[frame] = id; anIntArray241[frame] = x; anIntArray272[frame] = y; }
+	public static void textColor(int id, int color)
+	{ Class9 class9 = aClass9Array210[id]; class9.anInt232 = color; }
 
-    public void totalChildren(int id, int x, int y)
-    { anIntArray240 = new int[id]; anIntArray241 = new int[x]; anIntArray272 = new int[y]; }
+	public static void textSize(int id, Class30_Sub2_Sub1_Sub4 wid[], int idx)
+	{ Class9 class9 = aClass9Array210[id]; class9.aClass30_Sub2_Sub1_Sub4_243 = wid[idx]; }
+
+	public static void addCacheSprite(int id, int sprite1, int sprite2, String sprites)
+	{
+		Class9 class9 = aClass9Array210[id] = new Class9();
+		class9.aClass30_Sub2_Sub1_Sub1_207 = method207(sprite1, false, aClass44, sprites);
+		class9.aClass30_Sub2_Sub1_Sub1_260 = method207(sprite2, false, aClass44, sprites);
+		class9.anInt236 = id;
+		class9.anInt250 = id;
+		class9.anInt262 = 5;
+	}
+	
+	public static void sprite1(int id, int sprite)
+	{ Class9 class9 = aClass9Array210[id];
+		class9.aClass30_Sub2_Sub1_Sub1_207 = CustomWepLoader(sprite, "");
+	}
+
+
+	public static void addToggleButton(int id, int sprite, int setconfig, int width, int height, String s)
+	{
+		Class9 class9 = addInterface(id);
+		class9.aClass30_Sub2_Sub1_Sub1_207 = CustomWepLoader(sprite, "");
+		class9.aClass30_Sub2_Sub1_Sub1_260 = CustomWepLoader(sprite, "a");
+		class9.anIntArray212 = new int[1];
+		class9.anIntArray212[0] = 1;
+		class9.anIntArray245 = new int[1];
+		class9.anIntArray245[0] = 1;
+		class9.anIntArrayArray226 = new int[1][3];
+		class9.anIntArrayArray226[0][0] = 5;
+		class9.anIntArrayArray226[0][1] = setconfig;
+		class9.anIntArrayArray226[0][2] = 0;
+		class9.anInt217  = 4;
+		class9.anInt220 = width;
+		class9.anInt230  = -1;
+		class9.anInt236 = id;
+		class9.anInt250 = id;
+		class9.anInt262 = 5;
+		class9.anInt267 = height;
+		class9.aString221  = s;
+	}
+
+	public void child(int frame, int id, int x, int y)
+	{ anIntArray240[frame] = id; anIntArray241[frame] = x; anIntArray272[frame] = y; }
+
+	public void totalChildren(int id, int x, int y)
+	{ anIntArray240 = new int[id]; anIntArray241 = new int[x]; anIntArray272 = new int[y]; }
 
 public static void harrysoptiontab(Class44 sl, Class30_Sub2_Sub1_Sub4 tda[])
 {
-        String s1 = "";
-        int i1 = 0;
+		String s1 = "";
+		int i1 = 0;
 
 Class9 Tab = addTab(19120);
 Tab.anInt236 = 5608;
@@ -3319,28 +3321,28 @@ Tab.anIntArray272[0] = 0;
 
 Tab = addTab(19145);
 
-        Tab.anInt236 = 5608;
-        Tab.anInt250 = 19145;
-        Tab.anInt262 = 5;
-        Tab.anInt217 = 4;
-        Tab.anInt214 = 0;
-        Tab.anInt220 = 34;
-        Tab.anInt267 = 34;
-        Tab.aByte254 = 0;
-        Tab.anInt230 = -1;
-        Tab.anIntArray245 = new int[1];
-        Tab.anIntArray212 = new int[1];
-        Tab.anIntArray245[0] = 1;
-        Tab.anIntArray212[0] = 1;
-        Tab.anIntArrayArray226 = new int[1][3];
-        Tab.anIntArrayArray226[0][0] = 5;
-        Tab.anIntArrayArray226[0][1] = 505;
-        Tab.anIntArrayArray226[0][2] = 0;
-        s1 = "MISCGRAPHICS3,1";
-        i1 = s1.lastIndexOf(",");
-        Tab.aClass30_Sub2_Sub1_Sub1_260 = method207(Integer.parseInt(s1.substring(i1 + 1)), false, aClass44, s1.substring(0, i1));
-        Tab.aClass30_Sub2_Sub1_Sub4_243 = tda[1];
-        Tab.aString221 = "Select";
+		Tab.anInt236 = 5608;
+		Tab.anInt250 = 19145;
+		Tab.anInt262 = 5;
+		Tab.anInt217 = 4;
+		Tab.anInt214 = 0;
+		Tab.anInt220 = 34;
+		Tab.anInt267 = 34;
+		Tab.aByte254 = 0;
+		Tab.anInt230 = -1;
+		Tab.anIntArray245 = new int[1];
+		Tab.anIntArray212 = new int[1];
+		Tab.anIntArray245[0] = 1;
+		Tab.anIntArray212[0] = 1;
+		Tab.anIntArrayArray226 = new int[1][3];
+		Tab.anIntArrayArray226[0][0] = 5;
+		Tab.anIntArrayArray226[0][1] = 505;
+		Tab.anIntArrayArray226[0][2] = 0;
+		s1 = "MISCGRAPHICS3,1";
+		i1 = s1.lastIndexOf(",");
+		Tab.aClass30_Sub2_Sub1_Sub1_260 = method207(Integer.parseInt(s1.substring(i1 + 1)), false, aClass44, s1.substring(0, i1));
+		Tab.aClass30_Sub2_Sub1_Sub4_243 = tda[1];
+		Tab.aString221 = "Select";
 Tab = addTab(19146);
 Tab.anInt236 = 5608;
 Tab.anInt250 = 19146;
@@ -3364,165 +3366,165 @@ s1 = "MISCGRAPHICS3,0";
 i1 = s1.lastIndexOf(",");
 Tab.aClass30_Sub2_Sub1_Sub1_260 = customsprite(Integer.parseInt(s1.substring(i1 + 1)), false, aClass44, s1.substring(0, i1));
 Tab = addTab(19147);
-        Tab.anInt236 = 5608;
-        Tab.anInt250 = 19147;
-        Tab.anInt262 = 5;
-        Tab.anInt217 = 4;
-        Tab.anInt214 = 0;
-        Tab.anInt220 = 34;
-        Tab.anInt267 = 34;
-        Tab.aByte254 = 0;
-        Tab.anInt230 = -1;
-        Tab.anIntArray245 = new int[1];
-        Tab.anIntArray212 = new int[1];
-        Tab.anIntArray245[0] = 1;
-        Tab.anIntArray212[0] = 1;
-        Tab.anIntArrayArray226 = new int[1][3];
-        Tab.anIntArrayArray226[0][0] = 5;
-        Tab.anIntArrayArray226[0][1] = 506;
-        Tab.anIntArrayArray226[0][2] = 0;
-        s1 = "MISCGRAPHICS3,1";
-        i1 = s1.lastIndexOf(",");
-        Tab.aClass30_Sub2_Sub1_Sub1_260 = method207(Integer.parseInt(s1.substring(i1 + 1)), false, aClass44, s1.substring(0, i1));
-        Tab.aClass30_Sub2_Sub1_Sub4_243 = tda[1];
-        Tab.aString221 = "Select";
+		Tab.anInt236 = 5608;
+		Tab.anInt250 = 19147;
+		Tab.anInt262 = 5;
+		Tab.anInt217 = 4;
+		Tab.anInt214 = 0;
+		Tab.anInt220 = 34;
+		Tab.anInt267 = 34;
+		Tab.aByte254 = 0;
+		Tab.anInt230 = -1;
+		Tab.anIntArray245 = new int[1];
+		Tab.anIntArray212 = new int[1];
+		Tab.anIntArray245[0] = 1;
+		Tab.anIntArray212[0] = 1;
+		Tab.anIntArrayArray226 = new int[1][3];
+		Tab.anIntArrayArray226[0][0] = 5;
+		Tab.anIntArrayArray226[0][1] = 506;
+		Tab.anIntArrayArray226[0][2] = 0;
+		s1 = "MISCGRAPHICS3,1";
+		i1 = s1.lastIndexOf(",");
+		Tab.aClass30_Sub2_Sub1_Sub1_260 = method207(Integer.parseInt(s1.substring(i1 + 1)), false, aClass44, s1.substring(0, i1));
+		Tab.aClass30_Sub2_Sub1_Sub4_243 = tda[1];
+		Tab.aString221 = "Select";
 Tab = addTab(19148);
-        Tab.anInt236 = 5608;
-        Tab.anInt250 = 19148;
-        Tab.anInt262 = 5;
-        Tab.anInt217 = 4;
-        Tab.anInt214 = 0;
-        Tab.anInt220 = 34;
-        Tab.anInt267 = 34;
-        Tab.aByte254 = 0;
-        Tab.anInt230 = -1;
-        Tab.anIntArray245 = new int[1];
-        Tab.anIntArray212 = new int[1];
-        Tab.anIntArray245[0] = 1;
-        Tab.anIntArray212[0] = 1;
-        Tab.anIntArrayArray226 = new int[1][3];
-        Tab.anIntArrayArray226[0][0] = 5;
-        Tab.anIntArrayArray226[0][1] = 507;
-        Tab.anIntArrayArray226[0][2] = 0;
-        s1 = "MISCGRAPHICS3,1";
-        i1 = s1.lastIndexOf(",");
-        Tab.aClass30_Sub2_Sub1_Sub1_260 = method207(Integer.parseInt(s1.substring(i1 + 1)), false, aClass44, s1.substring(0, i1));
-        Tab.aClass30_Sub2_Sub1_Sub4_243 = tda[1];
-        Tab.aString221 = "Select";
+		Tab.anInt236 = 5608;
+		Tab.anInt250 = 19148;
+		Tab.anInt262 = 5;
+		Tab.anInt217 = 4;
+		Tab.anInt214 = 0;
+		Tab.anInt220 = 34;
+		Tab.anInt267 = 34;
+		Tab.aByte254 = 0;
+		Tab.anInt230 = -1;
+		Tab.anIntArray245 = new int[1];
+		Tab.anIntArray212 = new int[1];
+		Tab.anIntArray245[0] = 1;
+		Tab.anIntArray212[0] = 1;
+		Tab.anIntArrayArray226 = new int[1][3];
+		Tab.anIntArrayArray226[0][0] = 5;
+		Tab.anIntArrayArray226[0][1] = 507;
+		Tab.anIntArrayArray226[0][2] = 0;
+		s1 = "MISCGRAPHICS3,1";
+		i1 = s1.lastIndexOf(",");
+		Tab.aClass30_Sub2_Sub1_Sub1_260 = method207(Integer.parseInt(s1.substring(i1 + 1)), false, aClass44, s1.substring(0, i1));
+		Tab.aClass30_Sub2_Sub1_Sub4_243 = tda[1];
+		Tab.aString221 = "Select";
 Tab = addTab(19149);
-        Tab.anInt236 = 5608;
-        Tab.anInt250 = 19149;
-        Tab.anInt262 = 5;
-        Tab.anInt217 = 4;
-        Tab.anInt214 = 0;
-        Tab.anInt220 = 34;
-        Tab.anInt267 = 34;
-        Tab.aByte254 = 0;
-        Tab.anInt230 = -1;
-        Tab.anIntArray245 = new int[1];
-        Tab.anIntArray212 = new int[1];
-        Tab.anIntArray245[0] = 1;
-        Tab.anIntArray212[0] = 1;
-        Tab.anIntArrayArray226 = new int[1][3];
-        Tab.anIntArrayArray226[0][0] = 5;
-        Tab.anIntArrayArray226[0][1] = 508;
-        Tab.anIntArrayArray226[0][2] = 0;
-        s1 = "MISCGRAPHICS3,1";
-        i1 = s1.lastIndexOf(",");
-        Tab.aClass30_Sub2_Sub1_Sub1_260 = method207(Integer.parseInt(s1.substring(i1 + 1)), false, aClass44, s1.substring(0, i1));
-        Tab.aClass30_Sub2_Sub1_Sub4_243 = tda[1];
-        Tab.aString221 = "Select";
+		Tab.anInt236 = 5608;
+		Tab.anInt250 = 19149;
+		Tab.anInt262 = 5;
+		Tab.anInt217 = 4;
+		Tab.anInt214 = 0;
+		Tab.anInt220 = 34;
+		Tab.anInt267 = 34;
+		Tab.aByte254 = 0;
+		Tab.anInt230 = -1;
+		Tab.anIntArray245 = new int[1];
+		Tab.anIntArray212 = new int[1];
+		Tab.anIntArray245[0] = 1;
+		Tab.anIntArray212[0] = 1;
+		Tab.anIntArrayArray226 = new int[1][3];
+		Tab.anIntArrayArray226[0][0] = 5;
+		Tab.anIntArrayArray226[0][1] = 508;
+		Tab.anIntArrayArray226[0][2] = 0;
+		s1 = "MISCGRAPHICS3,1";
+		i1 = s1.lastIndexOf(",");
+		Tab.aClass30_Sub2_Sub1_Sub1_260 = method207(Integer.parseInt(s1.substring(i1 + 1)), false, aClass44, s1.substring(0, i1));
+		Tab.aClass30_Sub2_Sub1_Sub4_243 = tda[1];
+		Tab.aString221 = "Select";
 Tab = addTab(19150);
-        Tab.anInt236 = 5608;
-        Tab.anInt250 = 19150;
-        Tab.anInt262 = 5;
-        Tab.anInt217 = 4;
-        Tab.anInt214 = 0;
-        Tab.anInt220 = 34;
-        Tab.anInt267 = 34;
-        Tab.aByte254 = 0;
-        Tab.anInt230 = -1;
-        Tab.anIntArray245 = new int[1];
-        Tab.anIntArray212 = new int[1];
-        Tab.anIntArray245[0] = 1;
-        Tab.anIntArray212[0] = 1;
-        Tab.anIntArrayArray226 = new int[1][3];
-        Tab.anIntArrayArray226[0][0] = 5;
-        Tab.anIntArrayArray226[0][1] = 509;
-        Tab.anIntArrayArray226[0][2] = 0;
-        s1 = "MISCGRAPHICS3,1";
-        i1 = s1.lastIndexOf(",");
-        Tab.aClass30_Sub2_Sub1_Sub1_260 = method207(Integer.parseInt(s1.substring(i1 + 1)), false, aClass44, s1.substring(0, i1));
-        Tab.aClass30_Sub2_Sub1_Sub4_243 = tda[1];
-        Tab.aString221 = "Select";
+		Tab.anInt236 = 5608;
+		Tab.anInt250 = 19150;
+		Tab.anInt262 = 5;
+		Tab.anInt217 = 4;
+		Tab.anInt214 = 0;
+		Tab.anInt220 = 34;
+		Tab.anInt267 = 34;
+		Tab.aByte254 = 0;
+		Tab.anInt230 = -1;
+		Tab.anIntArray245 = new int[1];
+		Tab.anIntArray212 = new int[1];
+		Tab.anIntArray245[0] = 1;
+		Tab.anIntArray212[0] = 1;
+		Tab.anIntArrayArray226 = new int[1][3];
+		Tab.anIntArrayArray226[0][0] = 5;
+		Tab.anIntArrayArray226[0][1] = 509;
+		Tab.anIntArrayArray226[0][2] = 0;
+		s1 = "MISCGRAPHICS3,1";
+		i1 = s1.lastIndexOf(",");
+		Tab.aClass30_Sub2_Sub1_Sub1_260 = method207(Integer.parseInt(s1.substring(i1 + 1)), false, aClass44, s1.substring(0, i1));
+		Tab.aClass30_Sub2_Sub1_Sub4_243 = tda[1];
+		Tab.aString221 = "Select";
 Tab = addTab(19151);
-        Tab.anInt236 = 5608;
-        Tab.anInt250 = 19151;
-        Tab.anInt262 = 5;
-        Tab.anInt217 = 4;
-        Tab.anInt214 = 0;
-        Tab.anInt220 = 34;
-        Tab.anInt267 = 34;
-        Tab.aByte254 = 0;
-        Tab.anInt230 = -1;
-        Tab.anIntArray245 = new int[1];
-        Tab.anIntArray212 = new int[1];
-        Tab.anIntArray245[0] = 1;
-        Tab.anIntArray212[0] = 1;
-        Tab.anIntArrayArray226 = new int[1][3];
-        Tab.anIntArrayArray226[0][0] = 5;
-        Tab.anIntArrayArray226[0][1] = 510;
-        Tab.anIntArrayArray226[0][2] = 0;
-        s1 = "MISCGRAPHICS3,1";
-        i1 = s1.lastIndexOf(",");
-        Tab.aClass30_Sub2_Sub1_Sub1_260 = method207(Integer.parseInt(s1.substring(i1 + 1)), false, aClass44, s1.substring(0, i1));
-        Tab.aClass30_Sub2_Sub1_Sub4_243 = tda[1];
-        Tab.aString221 = "Select";
+		Tab.anInt236 = 5608;
+		Tab.anInt250 = 19151;
+		Tab.anInt262 = 5;
+		Tab.anInt217 = 4;
+		Tab.anInt214 = 0;
+		Tab.anInt220 = 34;
+		Tab.anInt267 = 34;
+		Tab.aByte254 = 0;
+		Tab.anInt230 = -1;
+		Tab.anIntArray245 = new int[1];
+		Tab.anIntArray212 = new int[1];
+		Tab.anIntArray245[0] = 1;
+		Tab.anIntArray212[0] = 1;
+		Tab.anIntArrayArray226 = new int[1][3];
+		Tab.anIntArrayArray226[0][0] = 5;
+		Tab.anIntArrayArray226[0][1] = 510;
+		Tab.anIntArrayArray226[0][2] = 0;
+		s1 = "MISCGRAPHICS3,1";
+		i1 = s1.lastIndexOf(",");
+		Tab.aClass30_Sub2_Sub1_Sub1_260 = method207(Integer.parseInt(s1.substring(i1 + 1)), false, aClass44, s1.substring(0, i1));
+		Tab.aClass30_Sub2_Sub1_Sub4_243 = tda[1];
+		Tab.aString221 = "Select";
 Tab = addTab(19152);
-        Tab.anInt236 = 5608;
-        Tab.anInt250 = 19152;
-        Tab.anInt262 = 5;
-        Tab.anInt217 = 4;
-        Tab.anInt214 = 0;
-        Tab.anInt220 = 34;
-        Tab.anInt267 = 34;
-        Tab.aByte254 = 0;
-        Tab.anInt230 = -1;
-        Tab.anIntArray245 = new int[1];
-        Tab.anIntArray212 = new int[1];
-        Tab.anIntArray245[0] = 1;
-        Tab.anIntArray212[0] = 1;
-        Tab.anIntArrayArray226 = new int[1][3];
-        Tab.anIntArrayArray226[0][0] = 5;
-        Tab.anIntArrayArray226[0][1] = 511;
-        Tab.anIntArrayArray226[0][2] = 0;
-        s1 = "MISCGRAPHICS3,1";
-        i1 = s1.lastIndexOf(",");
-        Tab.aClass30_Sub2_Sub1_Sub1_260 = method207(Integer.parseInt(s1.substring(i1 + 1)), false, aClass44, s1.substring(0, i1));
-        Tab.aClass30_Sub2_Sub1_Sub4_243 = tda[1];
-        Tab.aString221 = "Select";
+		Tab.anInt236 = 5608;
+		Tab.anInt250 = 19152;
+		Tab.anInt262 = 5;
+		Tab.anInt217 = 4;
+		Tab.anInt214 = 0;
+		Tab.anInt220 = 34;
+		Tab.anInt267 = 34;
+		Tab.aByte254 = 0;
+		Tab.anInt230 = -1;
+		Tab.anIntArray245 = new int[1];
+		Tab.anIntArray212 = new int[1];
+		Tab.anIntArray245[0] = 1;
+		Tab.anIntArray212[0] = 1;
+		Tab.anIntArrayArray226 = new int[1][3];
+		Tab.anIntArrayArray226[0][0] = 5;
+		Tab.anIntArrayArray226[0][1] = 511;
+		Tab.anIntArrayArray226[0][2] = 0;
+		s1 = "MISCGRAPHICS3,1";
+		i1 = s1.lastIndexOf(",");
+		Tab.aClass30_Sub2_Sub1_Sub1_260 = method207(Integer.parseInt(s1.substring(i1 + 1)), false, aClass44, s1.substring(0, i1));
+		Tab.aClass30_Sub2_Sub1_Sub4_243 = tda[1];
+		Tab.aString221 = "Select";
 Tab = addTab(19153);
-        Tab.anInt236 = 5608;
-        Tab.anInt250 = 19153;
-        Tab.anInt262 = 5;
-        Tab.anInt217 = 4;
-        Tab.anInt214 = 0;
-        Tab.anInt220 = 34;
-        Tab.anInt267 = 34;
-        Tab.aByte254 = 0;
-        Tab.anInt230 = -1;
-        Tab.anIntArray245 = new int[1];
-        Tab.anIntArray212 = new int[1];
-        Tab.anIntArray245[0] = 1;
-        Tab.anIntArray212[0] = 1;
-        Tab.anIntArrayArray226 = new int[1][3];
-        Tab.anIntArrayArray226[0][0] = 5;
-        Tab.anIntArrayArray226[0][1] = 512;
-        Tab.anIntArrayArray226[0][2] = 0;
-        s1 = "MISCGRAPHICS3,1";
-        i1 = s1.lastIndexOf(",");
-        Tab.aClass30_Sub2_Sub1_Sub1_260 = method207(Integer.parseInt(s1.substring(i1 + 1)), false, aClass44, s1.substring(0, i1));
-        Tab.aClass30_Sub2_Sub1_Sub4_243 = tda[1];
+		Tab.anInt236 = 5608;
+		Tab.anInt250 = 19153;
+		Tab.anInt262 = 5;
+		Tab.anInt217 = 4;
+		Tab.anInt214 = 0;
+		Tab.anInt220 = 34;
+		Tab.anInt267 = 34;
+		Tab.aByte254 = 0;
+		Tab.anInt230 = -1;
+		Tab.anIntArray245 = new int[1];
+		Tab.anIntArray212 = new int[1];
+		Tab.anIntArray245[0] = 1;
+		Tab.anIntArray212[0] = 1;
+		Tab.anIntArrayArray226 = new int[1][3];
+		Tab.anIntArrayArray226[0][0] = 5;
+		Tab.anIntArrayArray226[0][1] = 512;
+		Tab.anIntArrayArray226[0][2] = 0;
+		s1 = "MISCGRAPHICS3,1";
+		i1 = s1.lastIndexOf(",");
+		Tab.aClass30_Sub2_Sub1_Sub1_260 = method207(Integer.parseInt(s1.substring(i1 + 1)), false, aClass44, s1.substring(0, i1));
+		Tab.aClass30_Sub2_Sub1_Sub4_243 = tda[1];
 Tab.aString221 = "Select";
 
 
@@ -3898,333 +3900,333 @@ Tab.anIntArray241[32] = 3;
 Tab.anIntArray272[32] = 399; 
 }
 
-    public static void multiicon()
-    {
-        Class9 class9 = aClass9Array210[19156] = new Class9();
-        addmulti(19157, 0, 0);
-        class9.anInt261 = 0;
-        class9.aBoolean266 = false;
-        class9.anIntArray240 = new int[1];
-        class9.anIntArray241 = new int[1];
-        class9.anIntArray272 = new int[1];
-        class9.anIntArray240[0] = 19157;
-        class9.anIntArray241[0] = 475;
-        class9.anIntArray272[0] = 297;
-    }
+	public static void multiicon()
+	{
+		Class9 class9 = aClass9Array210[19156] = new Class9();
+		addmulti(19157, 0, 0);
+		class9.anInt261 = 0;
+		class9.aBoolean266 = false;
+		class9.anIntArray240 = new int[1];
+		class9.anIntArray241 = new int[1];
+		class9.anIntArray272 = new int[1];
+		class9.anIntArray240[0] = 19157;
+		class9.anIntArray241[0] = 475;
+		class9.anIntArray272[0] = 297;
+	}
 
 
-    public static void getClanChat(Class44 class44, Class30_Sub2_Sub1_Sub4 aclass30_sub2_sub1_sub4[])
-    {
-        String s = "./Files/interface/";
-        int i = 0;
-        Class9 class9 = aClass9Array210[18852] = new Class9();
-        class9.anInt250 = 18852;
-        class9.anInt236 = 18852;
-        class9.anInt262 = 0;
-        class9.anInt217 = 0;
-        class9.anInt220 = 190;
-        class9.anInt267 = 262;
-        class9.anIntArray240 = new int[23];
-        class9.anIntArray241 = new int[23];
-        class9.anIntArray272 = new int[23];
-        class9.anIntArray240[0] = 1744;
-        class9.anIntArray241[0] = 3;
-        class9.anIntArray272[0] = 14;
-        class9.anIntArray240[1] = 18853;
-        class9.anIntArray241[1] = 50;
-        class9.anIntArray272[1] = 16;
-        class9.anIntArray240[2] = 18854;
-        class9.anIntArray241[2] = 50;
-        class9.anIntArray272[2] = 30;
-        class9.anIntArray240[3] = 18855;
-        class9.anIntArray241[3] = 45;
-        class9.anIntArray272[3] = 125;
-        class9.anIntArray240[4] = 18856;
-        class9.anIntArray241[4] = 3;
-        class9.anIntArray272[4] = 140;
-        class9.anIntArray240[5] = 18857;
-        class9.anIntArray241[5] = 16;
-        class9.anIntArray272[5] = 45;
-        class9.anIntArray240[6] = 18858;
-        class9.anIntArray241[6] = 97;
-        class9.anIntArray272[6] = 45;
-        class9.anIntArray240[7] = 18859;
-        class9.anIntArray241[7] = 16;
-        class9.anIntArray272[7] = 84;
-        class9.anIntArray240[8] = 18860;
-        class9.anIntArray241[8] = 97;
-        class9.anIntArray272[8] = 84;
-        class9.anIntArray240[9] = 18861;
-        class9.anIntArray241[9] = 12;
-        class9.anIntArray272[9] = 57;
-        class9.anIntArray240[10] = 18862;
-        class9.anIntArray241[10] = 93;
-        class9.anIntArray272[10] = 57;
-        class9.anIntArray240[11] = 18863;
-        class9.anIntArray241[11] = 13;
-        class9.anIntArray272[11] = 96;
-        class9.anIntArray240[12] = 18864;
-        class9.anIntArray241[12] = 93;
-        class9.anIntArray272[12] = 97;
-        class9.anIntArray240[13] = 19065;
-        class9.anIntArray241[13] = 0;
-        class9.anIntArray272[13] = 125;
-        class9.anIntArray240[14] = 19065;
-        class9.anIntArray241[14] = 36;
-        class9.anIntArray272[14] = 125;
-        class9.anIntArray240[15] = 19065;
-        class9.anIntArray241[15] = 72;
-        class9.anIntArray272[15] = 125;
-        class9.anIntArray240[16] = 19065;
-        class9.anIntArray241[16] = 108;
-        class9.anIntArray272[16] = 125;
-        class9.anIntArray240[17] = 19065;
-        class9.anIntArray241[17] = 127;
-        class9.anIntArray272[17] = 125;
-        class9.anIntArray240[18] = 19065;
-        class9.anIntArray241[18] = 0;
-        class9.anIntArray272[18] = 219;
-        class9.anIntArray240[19] = 19065;
-        class9.anIntArray241[19] = 36;
-        class9.anIntArray272[19] = 219;
-        class9.anIntArray240[20] = 19065;
-        class9.anIntArray241[20] = 72;
-        class9.anIntArray272[20] = 219;
-        class9.anIntArray240[21] = 19065;
-        class9.anIntArray241[21] = 108;
-        class9.anIntArray272[21] = 219;
-        class9.anIntArray240[22] = 19065;
-        class9.anIntArray241[22] = 127;
-        class9.anIntArray272[22] = 219;
-        Class9 class9_1 = class9;
-        aClass9Array210[18853] = new Class9();
-        class9.anInt250 = 18853;
-        class9.anInt236 = 18852;
-        class9.anInt262 = 4;
-        class9.anInt217 = 0;
-        class9.anInt220 = 120;
-        class9.anInt267 = 12;
-        class9.aBoolean223 = true;
-        class9.aClass30_Sub2_Sub1_Sub4_243 = aclass30_sub2_sub1_sub4[0];
-        class9.aBoolean268 = false;
-        class9.aString248 = "ClanName:@whi@ N/A";
-        class9.anInt232 = 0xffff00;
-        Class9 class9_2 = class9;
-        aClass9Array210[18854] = new Class9();
-        class9.anInt250 = 18854;
-        class9.anInt236 = 18852;
-        class9.anInt262 = 4;
-        class9.anInt217 = 0;
-        class9.anInt220 = 110;
-        class9.anInt267 = 12;
-        class9.aBoolean223 = true;
-        class9.aClass30_Sub2_Sub1_Sub4_243 = aclass30_sub2_sub1_sub4[0];
-        class9.aBoolean268 = false;
-        class9.aString248 = "Rank:@whi@ N/A";
-        class9.anInt232 = 0xffff00;
-        Class9 class9_3 = class9;
-        aClass9Array210[18855] = new Class9();
-        class9.anInt250 = 18855;
-        class9.anInt236 = 18852;
-        class9.anInt262 = 4;
-        class9.anInt217 = 0;
-        class9.anInt220 = 96;
-        class9.anInt267 = 18;
-        class9.aBoolean223 = true;
-        class9.aClass30_Sub2_Sub1_Sub4_243 = aclass30_sub2_sub1_sub4[1];
-        class9.aBoolean268 = false;
-        class9.aString248 = "Clan Mates List";
-        class9.anInt232 = 0xffff00;
-        Class9 class9_4 = class9;
-        aClass9Array210[18856] = new Class9();
-        class9.anInt250 = 18856;
-        class9.anInt236 = 18852;
-        class9.anInt262 = 0;
-        class9.anInt217 = 0;
-        class9.anInt220 = 160;
-        class9.anInt267 = 100;
-        class9.anInt267 = 1520;
-        class9.aBoolean266 = false;
-        class9.anIntArray240 = new int[200];
-        class9.anIntArray241 = new int[200];
-        class9.anIntArray272 = new int[200];
-        int j = 18865;
-        int k = 8;
-        for(int l = 0; l < 199; l++)
-        {
-            class9.anIntArray240[l] = j;
-            class9.anIntArray241[l] = 7;
-            class9.anIntArray272[l] = k;
-            j++;
-            l++;
-            class9.anIntArray240[l] = j;
-            class9.anIntArray241[l] = 102;
-            class9.anIntArray272[l] = k;
-            j++;
-            k += 15;
-        }
+	public static void getClanChat(Class44 class44, Class30_Sub2_Sub1_Sub4 aclass30_sub2_sub1_sub4[])
+	{
+		String s = "./Files/interface/";
+		int i = 0;
+		Class9 class9 = aClass9Array210[18852] = new Class9();
+		class9.anInt250 = 18852;
+		class9.anInt236 = 18852;
+		class9.anInt262 = 0;
+		class9.anInt217 = 0;
+		class9.anInt220 = 190;
+		class9.anInt267 = 262;
+		class9.anIntArray240 = new int[23];
+		class9.anIntArray241 = new int[23];
+		class9.anIntArray272 = new int[23];
+		class9.anIntArray240[0] = 1744;
+		class9.anIntArray241[0] = 3;
+		class9.anIntArray272[0] = 14;
+		class9.anIntArray240[1] = 18853;
+		class9.anIntArray241[1] = 50;
+		class9.anIntArray272[1] = 16;
+		class9.anIntArray240[2] = 18854;
+		class9.anIntArray241[2] = 50;
+		class9.anIntArray272[2] = 30;
+		class9.anIntArray240[3] = 18855;
+		class9.anIntArray241[3] = 45;
+		class9.anIntArray272[3] = 125;
+		class9.anIntArray240[4] = 18856;
+		class9.anIntArray241[4] = 3;
+		class9.anIntArray272[4] = 140;
+		class9.anIntArray240[5] = 18857;
+		class9.anIntArray241[5] = 16;
+		class9.anIntArray272[5] = 45;
+		class9.anIntArray240[6] = 18858;
+		class9.anIntArray241[6] = 97;
+		class9.anIntArray272[6] = 45;
+		class9.anIntArray240[7] = 18859;
+		class9.anIntArray241[7] = 16;
+		class9.anIntArray272[7] = 84;
+		class9.anIntArray240[8] = 18860;
+		class9.anIntArray241[8] = 97;
+		class9.anIntArray272[8] = 84;
+		class9.anIntArray240[9] = 18861;
+		class9.anIntArray241[9] = 12;
+		class9.anIntArray272[9] = 57;
+		class9.anIntArray240[10] = 18862;
+		class9.anIntArray241[10] = 93;
+		class9.anIntArray272[10] = 57;
+		class9.anIntArray240[11] = 18863;
+		class9.anIntArray241[11] = 13;
+		class9.anIntArray272[11] = 96;
+		class9.anIntArray240[12] = 18864;
+		class9.anIntArray241[12] = 93;
+		class9.anIntArray272[12] = 97;
+		class9.anIntArray240[13] = 19065;
+		class9.anIntArray241[13] = 0;
+		class9.anIntArray272[13] = 125;
+		class9.anIntArray240[14] = 19065;
+		class9.anIntArray241[14] = 36;
+		class9.anIntArray272[14] = 125;
+		class9.anIntArray240[15] = 19065;
+		class9.anIntArray241[15] = 72;
+		class9.anIntArray272[15] = 125;
+		class9.anIntArray240[16] = 19065;
+		class9.anIntArray241[16] = 108;
+		class9.anIntArray272[16] = 125;
+		class9.anIntArray240[17] = 19065;
+		class9.anIntArray241[17] = 127;
+		class9.anIntArray272[17] = 125;
+		class9.anIntArray240[18] = 19065;
+		class9.anIntArray241[18] = 0;
+		class9.anIntArray272[18] = 219;
+		class9.anIntArray240[19] = 19065;
+		class9.anIntArray241[19] = 36;
+		class9.anIntArray272[19] = 219;
+		class9.anIntArray240[20] = 19065;
+		class9.anIntArray241[20] = 72;
+		class9.anIntArray272[20] = 219;
+		class9.anIntArray240[21] = 19065;
+		class9.anIntArray241[21] = 108;
+		class9.anIntArray272[21] = 219;
+		class9.anIntArray240[22] = 19065;
+		class9.anIntArray241[22] = 127;
+		class9.anIntArray272[22] = 219;
+//		Class9 class9_1 = class9;	//REMOVED Said its not used 4/20/17
+		aClass9Array210[18853] = new Class9();
+		class9.anInt250 = 18853;
+		class9.anInt236 = 18852;
+		class9.anInt262 = 4;
+		class9.anInt217 = 0;
+		class9.anInt220 = 120;
+		class9.anInt267 = 12;
+		class9.aBoolean223 = true;
+		class9.aClass30_Sub2_Sub1_Sub4_243 = aclass30_sub2_sub1_sub4[0];
+		class9.aBoolean268 = false;
+		class9.aString248 = "ClanName:@whi@ N/A";
+		class9.anInt232 = 0xffff00;
+//		Class9 class9_2 = class9;	//REMOVED Said its not used 4/20/17
+		aClass9Array210[18854] = new Class9();
+		class9.anInt250 = 18854;
+		class9.anInt236 = 18852;
+		class9.anInt262 = 4;
+		class9.anInt217 = 0;
+		class9.anInt220 = 110;
+		class9.anInt267 = 12;
+		class9.aBoolean223 = true;
+		class9.aClass30_Sub2_Sub1_Sub4_243 = aclass30_sub2_sub1_sub4[0];
+		class9.aBoolean268 = false;
+		class9.aString248 = "Rank:@whi@ N/A";
+		class9.anInt232 = 0xffff00;
+//		Class9 class9_3 = class9;	//REMOVED Said its not used 4/20/17
+		aClass9Array210[18855] = new Class9();
+		class9.anInt250 = 18855;
+		class9.anInt236 = 18852;
+		class9.anInt262 = 4;
+		class9.anInt217 = 0;
+		class9.anInt220 = 96;
+		class9.anInt267 = 18;
+		class9.aBoolean223 = true;
+		class9.aClass30_Sub2_Sub1_Sub4_243 = aclass30_sub2_sub1_sub4[1];
+		class9.aBoolean268 = false;
+		class9.aString248 = "Clan Mates List";
+		class9.anInt232 = 0xffff00;
+//		Class9 class9_4 = class9;	//REMOVED Said its not used 4/20/17
+		aClass9Array210[18856] = new Class9();
+		class9.anInt250 = 18856;
+		class9.anInt236 = 18852;
+		class9.anInt262 = 0;
+		class9.anInt217 = 0;
+		class9.anInt220 = 160;
+		class9.anInt267 = 100;
+		class9.anInt267 = 1520;
+		class9.aBoolean266 = false;
+		class9.anIntArray240 = new int[200];
+		class9.anIntArray241 = new int[200];
+		class9.anIntArray272 = new int[200];
+		int j = 18865;
+		int k = 8;
+		for(int l = 0; l < 199; l++)
+		{
+			class9.anIntArray240[l] = j;
+			class9.anIntArray241[l] = 7;
+			class9.anIntArray272[l] = k;
+			j++;
+			l++;
+			class9.anIntArray240[l] = j;
+			class9.anIntArray241[l] = 102;
+			class9.anIntArray272[l] = k;
+			j++;
+			k += 15;
+		}
 
-        Class9 class9_5 = class9;
-        aClass9Array210[18857] = new Class9();
-        class9.anInt250 = 18857;
-        class9.anInt236 = 18852;
-        class9.anInt262 = 5;
-        class9.anInt217 = 1;
-        class9.anInt220 = 72;
-        class9.anInt267 = 36;
-        s = "combatboxes,0";
-        i = s.lastIndexOf(",");
-        class9.aClass30_Sub2_Sub1_Sub1_207 = class9.method207(Integer.parseInt(s.substring(i + 1)), false, aClass44, s.substring(0, i));
-        Class9 _tmp = class9;
-        class9.aString221 = "Select";
-        Class9 class9_6 = class9;
-        aClass9Array210[18858] = new Class9();
-        class9.anInt250 = 18858;
-        class9.anInt236 = 18852;
-        class9.anInt262 = 5;
-        class9.anInt217 = 1;
-        class9.anInt220 = 72;
-        class9.anInt267 = 36;
-        s = "combatboxes,0";
-        i = s.lastIndexOf(",");
-        class9.aClass30_Sub2_Sub1_Sub1_207 = class9.method207(Integer.parseInt(s.substring(i + 1)), false, aClass44, s.substring(0, i));
-        Class9 _tmp1 = class9;
-        class9.aString221 = "Select";
-        Class9 class9_7 = class9;
-        aClass9Array210[18859] = new Class9();
-        class9.anInt250 = 18859;
-        class9.anInt236 = 18852;
-        class9.anInt262 = 5;
-        class9.anInt217 = 1;
-        class9.anInt220 = 72;
-        class9.anInt267 = 36;
-        s = "combatboxes,0";
-        i = s.lastIndexOf(",");
-        class9.aClass30_Sub2_Sub1_Sub1_207 = class9.method207(Integer.parseInt(s.substring(i + 1)), false, aClass44, s.substring(0, i));
-        Class9 _tmp2 = class9;
-        class9.aString221 = "Select";
-        Class9 class9_8 = class9;
-        aClass9Array210[18860] = new Class9();
-        class9.anInt250 = 18860;
-        class9.anInt236 = 18852;
-        class9.anInt262 = 5;
-        class9.anInt217 = 1;
-        class9.anInt220 = 72;
-        class9.anInt267 = 36;
-        s = "combatboxes,0";
-        i = s.lastIndexOf(",");
-        class9.aClass30_Sub2_Sub1_Sub1_207 = class9.method207(Integer.parseInt(s.substring(i + 1)), false, aClass44, s.substring(0, i));
-        Class9 _tmp3 = class9;
-        class9.aString221 = "Select";
-        Class9 class9_9 = class9;
-        aClass9Array210[18861] = new Class9();
-        class9.anInt250 = 18861;
-        class9.anInt236 = 18852;
-        class9.anInt262 = 4;
-        class9.anInt217 = 0;
-        class9.anInt220 = 78;
-        class9.anInt267 = 12;
-        class9.aBoolean223 = true;
-        class9.aClass30_Sub2_Sub1_Sub4_243 = aclass30_sub2_sub1_sub4[0];
-        class9.aBoolean268 = false;
-        class9.aString248 = "Invite";
-        class9.anInt232 = 0xffff00;
-        Class9 class9_10 = class9;
-        aClass9Array210[18862] = new Class9();
-        class9.anInt250 = 18862;
-        class9.anInt236 = 18852;
-        class9.anInt262 = 4;
-        class9.anInt217 = 0;
-        class9.anInt220 = 78;
-        class9.anInt267 = 12;
-        class9.aBoolean223 = true;
-        class9.aClass30_Sub2_Sub1_Sub4_243 = aclass30_sub2_sub1_sub4[0];
-        class9.aBoolean268 = false;
-        class9.aString248 = "Kick";
-        class9.anInt232 = 0xffff00;
-        Class9 class9_11 = class9;
-        aClass9Array210[18863] = new Class9();
-        class9.anInt250 = 18863;
-        class9.anInt236 = 18852;
-        class9.anInt262 = 4;
-        class9.anInt217 = 0;
-        class9.anInt220 = 78;
-        class9.anInt267 = 12;
-        class9.aBoolean223 = true;
-        class9.aClass30_Sub2_Sub1_Sub4_243 = aclass30_sub2_sub1_sub4[0];
-        class9.aBoolean268 = false;
-        class9.aString248 = "Pro/De-Mote";
-        class9.anInt232 = 0xffff00;
-        Class9 class9_12 = class9;
-        aClass9Array210[18864] = new Class9();
-        class9.anInt250 = 18864;
-        class9.anInt236 = 18852;
-        class9.anInt262 = 4;
-        class9.anInt217 = 0;
-        class9.anInt220 = 78;
-        class9.anInt267 = 12;
-        class9.aBoolean223 = true;
-        class9.aClass30_Sub2_Sub1_Sub4_243 = aclass30_sub2_sub1_sub4[0];
-        class9.aBoolean268 = false;
-        class9.aString248 = "Delete";
-        class9.anInt232 = 0xffff00;
-        Class9 class9_13 = class9;
-        aClass9Array210[19065] = new Class9();
-        class9.anInt250 = 19065;
-        class9.anInt236 = 18852;
-        class9.anInt262 = 5;
-        class9.anInt217 = 0;
-        class9.anInt220 = 36;
-        class9.anInt267 = 6;
-        s = "miscgraphics,3";
-        i = s.lastIndexOf(",");
-        class9.aClass30_Sub2_Sub1_Sub1_207 = class9.method207(Integer.parseInt(s.substring(i + 1)), false, aClass44, s.substring(0, i));
+//		Class9 class9_5 = class9;	//REMOVED Said its not used 4/20/17
+		aClass9Array210[18857] = new Class9();
+		class9.anInt250 = 18857;
+		class9.anInt236 = 18852;
+		class9.anInt262 = 5;
+		class9.anInt217 = 1;
+		class9.anInt220 = 72;
+		class9.anInt267 = 36;
+		s = "combatboxes,0";
+		i = s.lastIndexOf(",");
+		class9.aClass30_Sub2_Sub1_Sub1_207 = class9.method207(Integer.parseInt(s.substring(i + 1)), false, aClass44, s.substring(0, i));
+//		Class9 _tmp = class9;	//REMOVED Said its not used 4/20/17
+		class9.aString221 = "Select";
+//		Class9 class9_6 = class9;	//REMOVED Said its not used 4/20/17
+		aClass9Array210[18858] = new Class9();
+		class9.anInt250 = 18858;
+		class9.anInt236 = 18852;
+		class9.anInt262 = 5;
+		class9.anInt217 = 1;
+		class9.anInt220 = 72;
+		class9.anInt267 = 36;
+		s = "combatboxes,0";
+		i = s.lastIndexOf(",");
+		class9.aClass30_Sub2_Sub1_Sub1_207 = class9.method207(Integer.parseInt(s.substring(i + 1)), false, aClass44, s.substring(0, i));
+//		Class9 _tmp1 = class9;	//REMOVED Said its not used 4/20/17
+		class9.aString221 = "Select";
+//		Class9 class9_7 = class9;	//REMOVED Said its not used 4/20/17
+		aClass9Array210[18859] = new Class9();
+		class9.anInt250 = 18859;
+		class9.anInt236 = 18852;
+		class9.anInt262 = 5;
+		class9.anInt217 = 1;
+		class9.anInt220 = 72;
+		class9.anInt267 = 36;
+		s = "combatboxes,0";
+		i = s.lastIndexOf(",");
+		class9.aClass30_Sub2_Sub1_Sub1_207 = class9.method207(Integer.parseInt(s.substring(i + 1)), false, aClass44, s.substring(0, i));
+//		Class9 _tmp2 = class9;	//REMOVED Said its not used 4/20/17
+		class9.aString221 = "Select";
+//		Class9 class9_8 = class9;	//REMOVED Said its not used 4/20/17
+		aClass9Array210[18860] = new Class9();
+		class9.anInt250 = 18860;
+		class9.anInt236 = 18852;
+		class9.anInt262 = 5;
+		class9.anInt217 = 1;
+		class9.anInt220 = 72;
+		class9.anInt267 = 36;
+		s = "combatboxes,0";
+		i = s.lastIndexOf(",");
+		class9.aClass30_Sub2_Sub1_Sub1_207 = class9.method207(Integer.parseInt(s.substring(i + 1)), false, aClass44, s.substring(0, i));
+//		Class9 _tmp3 = class9;	//REMOVED Said its not used 4/20/17
+		class9.aString221 = "Select";
+//		Class9 class9_9 = class9;	//REMOVED Said its not used 4/20/17
+		aClass9Array210[18861] = new Class9();
+		class9.anInt250 = 18861;
+		class9.anInt236 = 18852;
+		class9.anInt262 = 4;
+		class9.anInt217 = 0;
+		class9.anInt220 = 78;
+		class9.anInt267 = 12;
+		class9.aBoolean223 = true;
+		class9.aClass30_Sub2_Sub1_Sub4_243 = aclass30_sub2_sub1_sub4[0];
+		class9.aBoolean268 = false;
+		class9.aString248 = "Invite";
+		class9.anInt232 = 0xffff00;
+//		Class9 class9_10 = class9;	//REMOVED Said its not used 4/20/17
+		aClass9Array210[18862] = new Class9();
+		class9.anInt250 = 18862;
+		class9.anInt236 = 18852;
+		class9.anInt262 = 4;
+		class9.anInt217 = 0;
+		class9.anInt220 = 78;
+		class9.anInt267 = 12;
+		class9.aBoolean223 = true;
+		class9.aClass30_Sub2_Sub1_Sub4_243 = aclass30_sub2_sub1_sub4[0];
+		class9.aBoolean268 = false;
+		class9.aString248 = "Kick";
+		class9.anInt232 = 0xffff00;
+//		Class9 class9_11 = class9;	//REMOVED Said its not used 4/20/17
+		aClass9Array210[18863] = new Class9();
+		class9.anInt250 = 18863;
+		class9.anInt236 = 18852;
+		class9.anInt262 = 4;
+		class9.anInt217 = 0;
+		class9.anInt220 = 78;
+		class9.anInt267 = 12;
+		class9.aBoolean223 = true;
+		class9.aClass30_Sub2_Sub1_Sub4_243 = aclass30_sub2_sub1_sub4[0];
+		class9.aBoolean268 = false;
+		class9.aString248 = "Pro/De-Mote";
+		class9.anInt232 = 0xffff00;
+//		Class9 class9_12 = class9;	//REMOVED Said its not used 4/20/17
+		aClass9Array210[18864] = new Class9();
+		class9.anInt250 = 18864;
+		class9.anInt236 = 18852;
+		class9.anInt262 = 4;
+		class9.anInt217 = 0;
+		class9.anInt220 = 78;
+		class9.anInt267 = 12;
+		class9.aBoolean223 = true;
+		class9.aClass30_Sub2_Sub1_Sub4_243 = aclass30_sub2_sub1_sub4[0];
+		class9.aBoolean268 = false;
+		class9.aString248 = "Delete";
+		class9.anInt232 = 0xffff00;
+//		Class9 class9_13 = class9;	//REMOVED Said its not used 4/20/17
+		aClass9Array210[19065] = new Class9();
+		class9.anInt250 = 19065;
+		class9.anInt236 = 18852;
+		class9.anInt262 = 5;
+		class9.anInt217 = 0;
+		class9.anInt220 = 36;
+		class9.anInt267 = 6;
+		s = "miscgraphics,3";
+		i = s.lastIndexOf(",");
+		class9.aClass30_Sub2_Sub1_Sub1_207 = class9.method207(Integer.parseInt(s.substring(i + 1)), false, aClass44, s.substring(0, i));
 
 
 
-        class9 = addTab(16456);
-        class9.anInt261 = 0;
-        class9.aBoolean266 = false;
-        class9.anIntArray240 = new int[12];
-        class9.anIntArray241 = new int[12];
-        class9.anIntArray272 = new int[12];
-        class9.anIntArray240[11] = 1688;
-        class9.anIntArray241[11] = 20;
-        class9.anIntArray272[11] = 46;
-        class9.anIntArray240[0] = 1660;
-        class9.anIntArray241[0] = 74;
-        class9.anIntArray272[0] = 4;
-        class9.anIntArray240[1] = 1660;
-        class9.anIntArray241[1] = 74;
-        class9.anIntArray272[1] = 45;
-        class9.anIntArray240[2] = 1660;
-        class9.anIntArray241[2] = 74;
-        class9.anIntArray272[2] = 84;
-        class9.anIntArray240[3] = 1660;
-        class9.anIntArray241[3] = 74;
-        class9.anIntArray272[3] = 125;
-        class9.anIntArray240[4] = 1660;
-        class9.anIntArray241[4] = 74;
-        class9.anIntArray272[4] = 165;
-        class9.anIntArray240[5] = 1660;
-        class9.anIntArray241[5] = 33;
-        class9.anIntArray272[5] = 45;
-        class9.anIntArray240[6] = 1660;
-        class9.anIntArray241[6] = 114;
-        class9.anIntArray272[6] = 45;
-        class9.anIntArray240[7] = 1660;
-        class9.anIntArray241[7] = 19;
-        class9.anIntArray272[7] = 84;
-        class9.anIntArray240[8] = 1660;
-        class9.anIntArray241[8] = 131;
-        class9.anIntArray272[8] = 84;
-        class9.anIntArray240[9] = 1660;
-        class9.anIntArray241[9] = 19;
-        class9.anIntArray272[9] = 165;
-        class9.anIntArray240[10] = 1660;
-        class9.anIntArray241[10] = 131;
-        class9.anIntArray272[10] = 165;
-    }
+		class9 = addTab(16456);
+		class9.anInt261 = 0;
+		class9.aBoolean266 = false;
+		class9.anIntArray240 = new int[12];
+		class9.anIntArray241 = new int[12];
+		class9.anIntArray272 = new int[12];
+		class9.anIntArray240[11] = 1688;
+		class9.anIntArray241[11] = 20;
+		class9.anIntArray272[11] = 46;
+		class9.anIntArray240[0] = 1660;
+		class9.anIntArray241[0] = 74;
+		class9.anIntArray272[0] = 4;
+		class9.anIntArray240[1] = 1660;
+		class9.anIntArray241[1] = 74;
+		class9.anIntArray272[1] = 45;
+		class9.anIntArray240[2] = 1660;
+		class9.anIntArray241[2] = 74;
+		class9.anIntArray272[2] = 84;
+		class9.anIntArray240[3] = 1660;
+		class9.anIntArray241[3] = 74;
+		class9.anIntArray272[3] = 125;
+		class9.anIntArray240[4] = 1660;
+		class9.anIntArray241[4] = 74;
+		class9.anIntArray272[4] = 165;
+		class9.anIntArray240[5] = 1660;
+		class9.anIntArray241[5] = 33;
+		class9.anIntArray272[5] = 45;
+		class9.anIntArray240[6] = 1660;
+		class9.anIntArray241[6] = 114;
+		class9.anIntArray272[6] = 45;
+		class9.anIntArray240[7] = 1660;
+		class9.anIntArray241[7] = 19;
+		class9.anIntArray272[7] = 84;
+		class9.anIntArray240[8] = 1660;
+		class9.anIntArray241[8] = 131;
+		class9.anIntArray272[8] = 84;
+		class9.anIntArray240[9] = 1660;
+		class9.anIntArray241[9] = 19;
+		class9.anIntArray272[9] = 165;
+		class9.anIntArray240[10] = 1660;
+		class9.anIntArray241[10] = 131;
+		class9.anIntArray272[10] = 165;
+	}
 
    public static String equipmentSprite = "./Files/Spirts/Equipment/";
 		
@@ -4258,267 +4260,267 @@ Tab.anIntArray272[32] = 399;
 		t.anIntArray272[26] = 212;
 	}
 public void specialBar(int id) //7599
-    {
-        /*addActionButton(ID, SpriteOFF, SpriteON, Width, Height, "SpriteText");*/
-            addSpecButton(id-12, 7587, -1, 150, 26, "Use @gre@Special Attack");
-        /*removeSomething(ID);*/
-        for (int i = id-11; i < id; i++)
-            removeSomething(i);
+	{
+		/*addActionButton(ID, SpriteOFF, SpriteON, Width, Height, "SpriteText");*/
+			addSpecButton(id-12, 7587, -1, 150, 26, "Use @gre@Special Attack");
+		/*removeSomething(ID);*/
+		for (int i = id-11; i < id; i++)
+			removeSomething(i);
 
-        Class9 class9 = aClass9Array210[id-12];
-            class9.anInt220 = 150;
-            class9.anInt267 = 26;
+		Class9 class9 = aClass9Array210[id-12];
+			class9.anInt220 = 150;
+			class9.anInt267 = 26;
 
-        class9 = aClass9Array210[id];
-            class9.anInt220 = 150;
-            class9.anInt267 = 26;
+		class9 = aClass9Array210[id];
+			class9.anInt220 = 150;
+			class9.anInt267 = 26;
 
-            class9.child(0, id-12, 0, 0);
+			class9.child(0, id-12, 0, 0);
 
-            class9.child(12, id+1, 3, 7);
+			class9.child(12, id+1, 3, 7);
 
-            class9.child(23, id+12, 16, 8);
+			class9.child(23, id+12, 16, 8);
 
-        for (int i = 13; i < 23; i++) {
-            class9.anIntArray272[i] -= 1;
-        }
+		for (int i = 13; i < 23; i++) {
+			class9.anIntArray272[i] -= 1;
+		}
 
-        class9 = aClass9Array210[id+1];
-            class9.anInt262 = 5;
-            class9.aClass30_Sub2_Sub1_Sub1_207 = CustomWepLoader(7600, "");
+		class9 = aClass9Array210[id+1];
+			class9.anInt262 = 5;
+			class9.aClass30_Sub2_Sub1_Sub1_207 = CustomWepLoader(7600, "");
 
-        for (int i = id+2; i < id+12; i++) {
-        class9 = aClass9Array210[i];
-            class9.anInt262 = 5;
-        }
+		for (int i = id+2; i < id+12; i++) {
+		class9 = aClass9Array210[i];
+			class9.anInt262 = 5;
+		}
 
-        sprite1(id+2, 7601);sprite1(id+3, 7602);
-        sprite1(id+4, 7603);sprite1(id+5, 7604);
-        sprite1(id+6, 7605);sprite1(id+7, 7606);
-        sprite1(id+8, 7607);sprite1(id+9, 7608);
-        sprite1(id+10, 7609);sprite1(id+11, 7610);
-    }
+		sprite1(id+2, 7601);sprite1(id+3, 7602);
+		sprite1(id+4, 7603);sprite1(id+5, 7604);
+		sprite1(id+6, 7605);sprite1(id+7, 7606);
+		sprite1(id+8, 7607);sprite1(id+9, 7608);
+		sprite1(id+10, 7609);sprite1(id+11, 7610);
+	}
 
-    public static void Sidebar0(Class30_Sub2_Sub1_Sub4[] wid)
-    {
-        /*Sidebar0a(id, id2, id3, "text1", "text2", "text3", "text4", str1x, str1y, str2x, str2y, str3x, str3y, str4x, str4y, img1x, img1y, img2x, img2y, img3x, img3y, img4x, img4y, wid);*/
-            Sidebar0a(1698, 1701, 7499, "Chop", "Hack", "Smash", "Block", 42, 75, 127, 75, 39, 128, 125, 128, 122, 103, 40, 50, 122, 50, 40, 103, wid);
-            Sidebar0a(2276, 2279, 7574, "Stab", "Lunge", "Slash", "Block", 43, 75, 124, 75, 41, 128, 125, 128, 122, 103, 40, 50, 122, 50, 40, 103, wid);
-            Sidebar0a(2423, 2426, 7599, "Chop", "Slash", "Lunge", "Block", 42, 75, 125, 75, 40, 128, 125, 128, 122, 103, 40, 50, 122, 50, 40, 103, wid);
-            Sidebar0a(3796, 3799, 7624, "Pound", "Pummel", "Spike", "Block", 39, 75, 121, 75, 41, 128, 125, 128, 122, 103, 40, 50, 122, 50, 40, 103, wid);
-            Sidebar0a(4679, 4682, 7674, "Lunge", "Swipe", "Pound", "Block", 40, 75, 124, 75, 39, 128, 125, 128, 122, 103, 40, 50, 122, 50, 40, 103, wid);
-            Sidebar0a(4705, 4708, 7699, "Chop", "Slash", "Smash", "Block", 42, 75, 125, 75, 39, 128, 125, 128, 122, 103, 40, 50, 122, 50, 40, 103, wid);
-            Sidebar0a(5570, 5573, 7724, "Spike", "Impale", "Smash", "Block", 41, 75, 123, 75, 39, 128, 125, 128, 122, 103, 40, 50, 122, 50, 40, 103, wid);
-            Sidebar0a(7762, 7765, 7800, "Chop", "Slash", "Lunge", "Block", 42, 75, 125, 75, 40, 128, 125, 128, 122, 103, 40, 50, 122, 50, 40, 103, wid);
-        /*Sidebar0b(id, id2, "text1", "text2", "text3", "text4", str1x, str1y, str2x, str2y, str3x, str3y, str4x, str4y, img1x, img1y, img2x, img2y, img3x, img3y, img4x, img4y, wid);*/
-            Sidebar0b(776, 779, "Reap", "Chop", "Jab", "Block", 42, 75, 126, 75, 46, 128, 125, 128, 122, 103, 122, 50, 40, 103, 40, 50, wid);
-        /*Sidebar0c(id, id2, id3, "text1", "text2", "text3", str1x, str1y, str2x, str2y, str3x, str3y, img1x, img1y, img2x, img2y, img3x, img3y, wid);*/
-            Sidebar0c(425, 428, 7474, "Pound", "Pummel", "Block", 39, 75, 121, 75, 42, 128, 40, 103, 40, 50, 122, 50, wid);
-            Sidebar0c(1749, 1752, 7524, "Accurate", "Rapid", "Longrange", 33, 75, 125, 75, 29, 128, 40, 103, 40, 50, 122, 50, wid);
-            Sidebar0c(1764, 1767, 7549, "Accurate", "Rapid", "Longrange", 33, 75, 125, 75, 29, 128, 40, 103, 40, 50, 122, 50, wid);
-            Sidebar0c(4446, 4449, 7649, "Accurate", "Rapid", "Longrange", 33, 75, 125, 75, 29, 128, 40, 103, 40, 50, 122, 50, wid);
-            Sidebar0c(5855, 5857, 7749, "Punch", "Kick", "Block", 40, 75, 129, 75, 42, 128, 40, 50, 122, 50, 40, 103, wid);
-            Sidebar0c(6103, 6132, 6117, "Bash", "Pound", "Block", 43, 75, 124, 75, 42, 128, 40, 103, 40, 50, 122, 50, wid);
-            Sidebar0c(8460, 8463, 8493, "Jab", "Swipe", "Fend", 46, 75, 124, 75, 43, 128, 40, 103, 40, 50, 122, 50, wid);
-            Sidebar0c(12290, 12293, 12323, "Flick", "Lash", "Deflect", 44, 75, 127, 75, 36, 128, 40, 50, 40, 103, 122, 50, wid);
-        /*Sidebar0d(id, id2, "text1", "text2", "text3", str1x, str1y, str2x, str2y, str3x, str3y, img1x, img1y, img2x, img2y, img3x, img3y, wid);*/
-            Sidebar0d(328, 331, "Bash", "Pound", "Focus", 42, 66, 39, 101, 41, 136, 40, 120, 40, 50, 40, 85, wid);
+	public static void Sidebar0(Class30_Sub2_Sub1_Sub4[] wid)
+	{
+		/*Sidebar0a(id, id2, id3, "text1", "text2", "text3", "text4", str1x, str1y, str2x, str2y, str3x, str3y, str4x, str4y, img1x, img1y, img2x, img2y, img3x, img3y, img4x, img4y, wid);*/
+			Sidebar0a(1698, 1701, 7499, "Chop", "Hack", "Smash", "Block", 42, 75, 127, 75, 39, 128, 125, 128, 122, 103, 40, 50, 122, 50, 40, 103, wid);
+			Sidebar0a(2276, 2279, 7574, "Stab", "Lunge", "Slash", "Block", 43, 75, 124, 75, 41, 128, 125, 128, 122, 103, 40, 50, 122, 50, 40, 103, wid);
+			Sidebar0a(2423, 2426, 7599, "Chop", "Slash", "Lunge", "Block", 42, 75, 125, 75, 40, 128, 125, 128, 122, 103, 40, 50, 122, 50, 40, 103, wid);
+			Sidebar0a(3796, 3799, 7624, "Pound", "Pummel", "Spike", "Block", 39, 75, 121, 75, 41, 128, 125, 128, 122, 103, 40, 50, 122, 50, 40, 103, wid);
+			Sidebar0a(4679, 4682, 7674, "Lunge", "Swipe", "Pound", "Block", 40, 75, 124, 75, 39, 128, 125, 128, 122, 103, 40, 50, 122, 50, 40, 103, wid);
+			Sidebar0a(4705, 4708, 7699, "Chop", "Slash", "Smash", "Block", 42, 75, 125, 75, 39, 128, 125, 128, 122, 103, 40, 50, 122, 50, 40, 103, wid);
+			Sidebar0a(5570, 5573, 7724, "Spike", "Impale", "Smash", "Block", 41, 75, 123, 75, 39, 128, 125, 128, 122, 103, 40, 50, 122, 50, 40, 103, wid);
+			Sidebar0a(7762, 7765, 7800, "Chop", "Slash", "Lunge", "Block", 42, 75, 125, 75, 40, 128, 125, 128, 122, 103, 40, 50, 122, 50, 40, 103, wid);
+		/*Sidebar0b(id, id2, "text1", "text2", "text3", "text4", str1x, str1y, str2x, str2y, str3x, str3y, str4x, str4y, img1x, img1y, img2x, img2y, img3x, img3y, img4x, img4y, wid);*/
+			Sidebar0b(776, 779, "Reap", "Chop", "Jab", "Block", 42, 75, 126, 75, 46, 128, 125, 128, 122, 103, 122, 50, 40, 103, 40, 50, wid);
+		/*Sidebar0c(id, id2, id3, "text1", "text2", "text3", str1x, str1y, str2x, str2y, str3x, str3y, img1x, img1y, img2x, img2y, img3x, img3y, wid);*/
+			Sidebar0c(425, 428, 7474, "Pound", "Pummel", "Block", 39, 75, 121, 75, 42, 128, 40, 103, 40, 50, 122, 50, wid);
+			Sidebar0c(1749, 1752, 7524, "Accurate", "Rapid", "Longrange", 33, 75, 125, 75, 29, 128, 40, 103, 40, 50, 122, 50, wid);
+			Sidebar0c(1764, 1767, 7549, "Accurate", "Rapid", "Longrange", 33, 75, 125, 75, 29, 128, 40, 103, 40, 50, 122, 50, wid);
+			Sidebar0c(4446, 4449, 7649, "Accurate", "Rapid", "Longrange", 33, 75, 125, 75, 29, 128, 40, 103, 40, 50, 122, 50, wid);
+			Sidebar0c(5855, 5857, 7749, "Punch", "Kick", "Block", 40, 75, 129, 75, 42, 128, 40, 50, 122, 50, 40, 103, wid);
+			Sidebar0c(6103, 6132, 6117, "Bash", "Pound", "Block", 43, 75, 124, 75, 42, 128, 40, 103, 40, 50, 122, 50, wid);
+			Sidebar0c(8460, 8463, 8493, "Jab", "Swipe", "Fend", 46, 75, 124, 75, 43, 128, 40, 103, 40, 50, 122, 50, wid);
+			Sidebar0c(12290, 12293, 12323, "Flick", "Lash", "Deflect", 44, 75, 127, 75, 36, 128, 40, 50, 40, 103, 122, 50, wid);
+		/*Sidebar0d(id, id2, "text1", "text2", "text3", str1x, str1y, str2x, str2y, str3x, str3y, img1x, img1y, img2x, img2y, img3x, img3y, wid);*/
+			Sidebar0d(328, 331, "Bash", "Pound", "Focus", 42, 66, 39, 101, 41, 136, 40, 120, 40, 50, 40, 85, wid);
 
-        Class9 class9 = addInterface(19300);
-        /*textSize(ID, wid, Size);*/
-            textSize(3983, wid, 0);
-        /*addToggleButton(id, sprite, config, width, height, wid);*/
-            addToggleButton(150, 150, 172, 150, 44, "Auto Retaliate");
+		Class9 class9 = addInterface(19300);
+		/*textSize(ID, wid, Size);*/
+			textSize(3983, wid, 0);
+		/*addToggleButton(id, sprite, config, width, height, wid);*/
+			addToggleButton(150, 150, 172, 150, 44, "Auto Retaliate");
 
-        class9.totalChildren(2, 2, 2);
-            class9.child(0, 3983, 52, 25); //combat level
-            class9.child(1, 150, 21, 153); //auto retaliate
+		class9.totalChildren(2, 2, 2);
+			class9.child(0, 3983, 52, 25); //combat level
+			class9.child(1, 150, 21, 153); //auto retaliate
 
-        class9 = aClass9Array210[3983];
-            class9.aBoolean223 = true;
-            class9.anInt232 = 0xff981f;
-    }
+		class9 = aClass9Array210[3983];
+			class9.aBoolean223 = true;
+			class9.anInt232 = 0xff981f;
+	}
 
-    public static void Sidebar0a(int id, int id2, int id3, String text1, String text2, String text3, String text4,
-                                               int str1x, int str1y, int str2x, int str2y, int str3x, int str3y, int str4x, int str4y,
-                                               int img1x, int img1y, int img2x, int img2y, int img3x, int img3y, int img4x, int img4y, Class30_Sub2_Sub1_Sub4[] wid) //4button spec
-    {
-        Class9 class9 = addInterface(id); //2423
-        /*addText(ID, "Text", wid, Size, Colour, Centered);*/
-            addText(id2, "-2", wid, 3, 0xff981f, true); //2426
-            addText(id2+11, text1, wid, 0, 0xff981f, false);
-            addText(id2+12, text2, wid, 0, 0xff981f, false);
-            addText(id2+13, text3, wid, 0, 0xff981f, false);
-            addText(id2+14, text4, wid, 0, 0xff981f, false);
-        /*specialBar(ID);*/
-            class9.specialBar(id3); //7599
+	public static void Sidebar0a(int id, int id2, int id3, String text1, String text2, String text3, String text4,
+											   int str1x, int str1y, int str2x, int str2y, int str3x, int str3y, int str4x, int str4y,
+											   int img1x, int img1y, int img2x, int img2y, int img3x, int img3y, int img4x, int img4y, Class30_Sub2_Sub1_Sub4[] wid) //4button spec
+	{
+		Class9 class9 = addInterface(id); //2423
+		/*addText(ID, "Text", wid, Size, Colour, Centered);*/
+			addText(id2, "-2", wid, 3, 0xff981f, true); //2426
+			addText(id2+11, text1, wid, 0, 0xff981f, false);
+			addText(id2+12, text2, wid, 0, 0xff981f, false);
+			addText(id2+13, text3, wid, 0, 0xff981f, false);
+			addText(id2+14, text4, wid, 0, 0xff981f, false);
+		/*specialBar(ID);*/
+			class9.specialBar(id3); //7599
 
-            class9.anInt220 = 190;
-            class9.anInt267 = 261;
+			class9.anInt220 = 190;
+			class9.anInt267 = 261;
 
-        int last = 15; int frame = 0;
-        class9.totalChildren(last, last, last);
+		int last = 15; int frame = 0;
+		class9.totalChildren(last, last, last);
 
-            class9.child(frame, id2+3, 21, 46); frame++; //2429
-            class9.child(frame, id2+4, 104, 99); frame++; //2430
-            class9.child(frame, id2+5, 21, 99); frame++; //2431
-            class9.child(frame, id2+6, 105, 46); frame++; //2432
+			class9.child(frame, id2+3, 21, 46); frame++; //2429
+			class9.child(frame, id2+4, 104, 99); frame++; //2430
+			class9.child(frame, id2+5, 21, 99); frame++; //2431
+			class9.child(frame, id2+6, 105, 46); frame++; //2432
 
-            class9.child(frame, id2+7, img1x, img1y); frame++; //bottomright 2433
-            class9.child(frame, id2+8, img2x, img2y); frame++; //topleft 2434
-            class9.child(frame, id2+9, img3x, img3y); frame++; //bottomleft 2435
-            class9.child(frame, id2+10, img4x, img4y); frame++; //topright 2436
+			class9.child(frame, id2+7, img1x, img1y); frame++; //bottomright 2433
+			class9.child(frame, id2+8, img2x, img2y); frame++; //topleft 2434
+			class9.child(frame, id2+9, img3x, img3y); frame++; //bottomleft 2435
+			class9.child(frame, id2+10, img4x, img4y); frame++; //topright 2436
 
-            class9.child(frame, id2+11, str1x, str1y); frame++; //chop 2437
-            class9.child(frame, id2+12, str2x, str2y); frame++; //slash 2438
-            class9.child(frame, id2+13, str3x, str3y); frame++; //lunge 2439
-            class9.child(frame, id2+14, str4x, str4y); frame++; //block 2440
+			class9.child(frame, id2+11, str1x, str1y); frame++; //chop 2437
+			class9.child(frame, id2+12, str2x, str2y); frame++; //slash 2438
+			class9.child(frame, id2+13, str3x, str3y); frame++; //lunge 2439
+			class9.child(frame, id2+14, str4x, str4y); frame++; //block 2440
 
-            class9.child(frame, 19300, 0, 0); frame++; //stuffs
-            class9.child(frame, id2, 94, 4); frame++; //weapon 2426
-            class9.child(frame, id3, 21, 205); frame++; //special attack 7599
+			class9.child(frame, 19300, 0, 0); frame++; //stuffs
+			class9.child(frame, id2, 94, 4); frame++; //weapon 2426
+			class9.child(frame, id3, 21, 205); frame++; //special attack 7599
 
-        for (int i = id2+3; i < id2+7; i++) { //2429 - 2433
-        class9 = aClass9Array210[i];
-            class9.aClass30_Sub2_Sub1_Sub1_207 = CustomWepLoader(19301, ""); class9.aClass30_Sub2_Sub1_Sub1_260 = CustomWepLoader(19301, "a");
-            class9.anInt220 = 68; class9.anInt267 = 44;
-        }
-    }
+		for (int i = id2+3; i < id2+7; i++) { //2429 - 2433
+		class9 = aClass9Array210[i];
+			class9.aClass30_Sub2_Sub1_Sub1_207 = CustomWepLoader(19301, ""); class9.aClass30_Sub2_Sub1_Sub1_260 = CustomWepLoader(19301, "a");
+			class9.anInt220 = 68; class9.anInt267 = 44;
+		}
+	}
 
-    public static void Sidebar0b(int id, int id2, String text1, String text2, String text3, String text4,
-                                               int str1x, int str1y, int str2x, int str2y, int str3x, int str3y, int str4x, int str4y,
-                                               int img1x, int img1y, int img2x, int img2y, int img3x, int img3y, int img4x, int img4y, Class30_Sub2_Sub1_Sub4[] wid) //4button nospec
-    {
-        Class9 class9 = addInterface(id); //2423
-        /*addText(ID, "Text", wid, Size, Colour, Centered);*/
-            addText(id2, "-2", wid, 3, 0xff981f, true); //2426
-            addText(id2+11, text1, wid, 0, 0xff981f, false);
-            addText(id2+12, text2, wid, 0, 0xff981f, false);
-            addText(id2+13, text3, wid, 0, 0xff981f, false);
-            addText(id2+14, text4, wid, 0, 0xff981f, false);
+	public static void Sidebar0b(int id, int id2, String text1, String text2, String text3, String text4,
+											   int str1x, int str1y, int str2x, int str2y, int str3x, int str3y, int str4x, int str4y,
+											   int img1x, int img1y, int img2x, int img2y, int img3x, int img3y, int img4x, int img4y, Class30_Sub2_Sub1_Sub4[] wid) //4button nospec
+	{
+		Class9 class9 = addInterface(id); //2423
+		/*addText(ID, "Text", wid, Size, Colour, Centered);*/
+			addText(id2, "-2", wid, 3, 0xff981f, true); //2426
+			addText(id2+11, text1, wid, 0, 0xff981f, false);
+			addText(id2+12, text2, wid, 0, 0xff981f, false);
+			addText(id2+13, text3, wid, 0, 0xff981f, false);
+			addText(id2+14, text4, wid, 0, 0xff981f, false);
 
-            class9.anInt220 = 190;
-            class9.anInt267 = 261;
+			class9.anInt220 = 190;
+			class9.anInt267 = 261;
 
-        int last = 14; int frame = 0;
-        class9.totalChildren(last, last, last);
+		int last = 14; int frame = 0;
+		class9.totalChildren(last, last, last);
 
-            class9.child(frame, id2+3, 21, 46); frame++; //2429
-            class9.child(frame, id2+4, 104, 99); frame++; //2430
-            class9.child(frame, id2+5, 21, 99); frame++; //2431
-            class9.child(frame, id2+6, 105, 46); frame++; //2432
+			class9.child(frame, id2+3, 21, 46); frame++; //2429
+			class9.child(frame, id2+4, 104, 99); frame++; //2430
+			class9.child(frame, id2+5, 21, 99); frame++; //2431
+			class9.child(frame, id2+6, 105, 46); frame++; //2432
 
-            class9.child(frame, id2+7, img1x, img1y); frame++; //bottomright 2433
-            class9.child(frame, id2+8, img2x, img2y); frame++; //topleft 2434
-            class9.child(frame, id2+9, img3x, img3y); frame++; //bottomleft 2435
-            class9.child(frame, id2+10, img4x, img4y); frame++; //topright 2436
+			class9.child(frame, id2+7, img1x, img1y); frame++; //bottomright 2433
+			class9.child(frame, id2+8, img2x, img2y); frame++; //topleft 2434
+			class9.child(frame, id2+9, img3x, img3y); frame++; //bottomleft 2435
+			class9.child(frame, id2+10, img4x, img4y); frame++; //topright 2436
 
-            class9.child(frame, id2+11, str1x, str1y); frame++; //chop 2437
-            class9.child(frame, id2+12, str2x, str2y); frame++; //slash 2438
-            class9.child(frame, id2+13, str3x, str3y); frame++; //lunge 2439
-            class9.child(frame, id2+14, str4x, str4y); frame++; //block 2440
+			class9.child(frame, id2+11, str1x, str1y); frame++; //chop 2437
+			class9.child(frame, id2+12, str2x, str2y); frame++; //slash 2438
+			class9.child(frame, id2+13, str3x, str3y); frame++; //lunge 2439
+			class9.child(frame, id2+14, str4x, str4y); frame++; //block 2440
 
-            class9.child(frame, 19300, 0, 0); frame++; //stuffs
-            class9.child(frame, id2, 94, 4); frame++; //weapon 2426
+			class9.child(frame, 19300, 0, 0); frame++; //stuffs
+			class9.child(frame, id2, 94, 4); frame++; //weapon 2426
 
-        for (int i = id2+3; i < id2+7; i++) { //2429 - 2433
-        class9 = aClass9Array210[i];
-            class9.aClass30_Sub2_Sub1_Sub1_207 = CustomWepLoader(19301, ""); class9.aClass30_Sub2_Sub1_Sub1_260 = CustomWepLoader(19301, "a");
-            class9.anInt220 = 68; class9.anInt267 = 44;
-        }
-    }
+		for (int i = id2+3; i < id2+7; i++) { //2429 - 2433
+		class9 = aClass9Array210[i];
+			class9.aClass30_Sub2_Sub1_Sub1_207 = CustomWepLoader(19301, ""); class9.aClass30_Sub2_Sub1_Sub1_260 = CustomWepLoader(19301, "a");
+			class9.anInt220 = 68; class9.anInt267 = 44;
+		}
+	}
 
-    public static void Sidebar0c(int id, int id2, int id3, String text1, String text2, String text3,
-                                               int str1x, int str1y, int str2x, int str2y, int str3x, int str3y,
-                                               int img1x, int img1y, int img2x, int img2y, int img3x, int img3y, Class30_Sub2_Sub1_Sub4[] wid) //3button spec
-    {
-        Class9 class9 = addInterface(id); //2423
-        /*addText(ID, "Text", wid, Size, Colour, Centered);*/
-            addText(id2, "-2", wid, 3, 0xff981f, true); //2426
-            addText(id2+9, text1, wid, 0, 0xff981f, false);
-            addText(id2+10, text2, wid, 0, 0xff981f, false);
-            addText(id2+11, text3, wid, 0, 0xff981f, false);
-        /*specialBar(ID);*/
-            class9.specialBar(id3); //7599
+	public static void Sidebar0c(int id, int id2, int id3, String text1, String text2, String text3,
+											   int str1x, int str1y, int str2x, int str2y, int str3x, int str3y,
+											   int img1x, int img1y, int img2x, int img2y, int img3x, int img3y, Class30_Sub2_Sub1_Sub4[] wid) //3button spec
+	{
+		Class9 class9 = addInterface(id); //2423
+		/*addText(ID, "Text", wid, Size, Colour, Centered);*/
+			addText(id2, "-2", wid, 3, 0xff981f, true); //2426
+			addText(id2+9, text1, wid, 0, 0xff981f, false);
+			addText(id2+10, text2, wid, 0, 0xff981f, false);
+			addText(id2+11, text3, wid, 0, 0xff981f, false);
+		/*specialBar(ID);*/
+			class9.specialBar(id3); //7599
 
-            class9.anInt220 = 190;
-            class9.anInt267 = 261;
+			class9.anInt220 = 190;
+			class9.anInt267 = 261;
 
-        int last = 12; int frame = 0;
-        class9.totalChildren(last, last, last);
+		int last = 12; int frame = 0;
+		class9.totalChildren(last, last, last);
 
-            class9.child(frame, id2+3, 21, 99); frame++;
-            class9.child(frame, id2+4, 105, 46); frame++;
-            class9.child(frame, id2+5, 21, 46); frame++;
+			class9.child(frame, id2+3, 21, 99); frame++;
+			class9.child(frame, id2+4, 105, 46); frame++;
+			class9.child(frame, id2+5, 21, 46); frame++;
 
-            class9.child(frame, id2+6, img1x, img1y); frame++; //topleft
-            class9.child(frame, id2+7, img2x, img2y); frame++; //bottomleft
-            class9.child(frame, id2+8, img3x, img3y); frame++; //topright
+			class9.child(frame, id2+6, img1x, img1y); frame++; //topleft
+			class9.child(frame, id2+7, img2x, img2y); frame++; //bottomleft
+			class9.child(frame, id2+8, img3x, img3y); frame++; //topright
 
-            class9.child(frame, id2+9, str1x, str1y); frame++; //chop
-            class9.child(frame, id2+10, str2x, str2y); frame++; //slash
-            class9.child(frame, id2+11, str3x, str3y); frame++; //lunge
+			class9.child(frame, id2+9, str1x, str1y); frame++; //chop
+			class9.child(frame, id2+10, str2x, str2y); frame++; //slash
+			class9.child(frame, id2+11, str3x, str3y); frame++; //lunge
 
-            class9.child(frame, 19300, 0, 0); frame++; //stuffs
-            class9.child(frame, id2, 94, 4); frame++; //weapon
-            class9.child(frame, id3, 21, 205); frame++; //special attack 7599
+			class9.child(frame, 19300, 0, 0); frame++; //stuffs
+			class9.child(frame, id2, 94, 4); frame++; //weapon
+			class9.child(frame, id3, 21, 205); frame++; //special attack 7599
 
-        for (int i = id2+3; i < id2+6; i++) {
-        class9 = aClass9Array210[i];
-            class9.aClass30_Sub2_Sub1_Sub1_207 = CustomWepLoader(19301, ""); class9.aClass30_Sub2_Sub1_Sub1_260 = CustomWepLoader(19301, "a");
-            class9.anInt220 = 68; class9.anInt267 = 44;
-        }
-    }
+		for (int i = id2+3; i < id2+6; i++) {
+		class9 = aClass9Array210[i];
+			class9.aClass30_Sub2_Sub1_Sub1_207 = CustomWepLoader(19301, ""); class9.aClass30_Sub2_Sub1_Sub1_260 = CustomWepLoader(19301, "a");
+			class9.anInt220 = 68; class9.anInt267 = 44;
+		}
+	}
 
-    public static void Sidebar0d(int id, int id2, String text1, String text2, String text3,
-                                               int str1x, int str1y, int str2x, int str2y, int str3x, int str3y,
-                                               int img1x, int img1y, int img2x, int img2y, int img3x, int img3y, Class30_Sub2_Sub1_Sub4[] wid) //3button nospec (magic intf)
-    {
-        Class9 class9 = addInterface(id); //2423
-        /*addText(ID, "Text", wid, Size, Colour, Centered);*/
-            addText(id2, "-2", wid, 3, 0xff981f, true); //2426
-            addText(id2+9, text1, wid, 0, 0xff981f, false);
-            addText(id2+10, text2, wid, 0, 0xff981f, false);
-            addText(id2+11, text3, wid, 0, 0xff981f, false);
+	public static void Sidebar0d(int id, int id2, String text1, String text2, String text3,
+											   int str1x, int str1y, int str2x, int str2y, int str3x, int str3y,
+											   int img1x, int img1y, int img2x, int img2y, int img3x, int img3y, Class30_Sub2_Sub1_Sub4[] wid) //3button nospec (magic intf)
+	{
+		Class9 class9 = addInterface(id); //2423
+		/*addText(ID, "Text", wid, Size, Colour, Centered);*/
+			addText(id2, "-2", wid, 3, 0xff981f, true); //2426
+			addText(id2+9, text1, wid, 0, 0xff981f, false);
+			addText(id2+10, text2, wid, 0, 0xff981f, false);
+			addText(id2+11, text3, wid, 0, 0xff981f, false);
 
-            addText(353, "Spell", wid, 0, 0xff981f, false);
-            addText(354, "Spell", wid, 0, 0xff981f, false);
+			addText(353, "Spell", wid, 0, 0xff981f, false);
+			addText(354, "Spell", wid, 0, 0xff981f, false);
 
-            addCacheSprite(337, 19, 0, "combaticons");
-            addCacheSprite(338, 13, 0, "combaticons2");
-            addCacheSprite(339, 14, 0, "combaticons2");
+			addCacheSprite(337, 19, 0, "combaticons");
+			addCacheSprite(338, 13, 0, "combaticons2");
+			addCacheSprite(339, 14, 0, "combaticons2");
 
-        /*addToggleButton(id, sprite, config, width, height, tooltip);*/
-            addToggleButton(349, 349, 108, 68, 44, "Select");
-            addToggleButton(350, 350, 108, 68, 44, "Select");
+		/*addToggleButton(id, sprite, config, width, height, tooltip);*/
+			addToggleButton(349, 349, 108, 68, 44, "Select");
+			addToggleButton(350, 350, 108, 68, 44, "Select");
 
-            class9.anInt220 = 190;
-            class9.anInt267 = 261;
+			class9.anInt220 = 190;
+			class9.anInt267 = 261;
 
-        int last = 15; int frame = 0;
-        class9.totalChildren(last, last, last);
+		int last = 15; int frame = 0;
+		class9.totalChildren(last, last, last);
 
-            class9.child(frame, id2+3, 20, 115); frame++;
-            class9.child(frame, id2+4, 20, 80); frame++;
-            class9.child(frame, id2+5, 20, 45); frame++;
+			class9.child(frame, id2+3, 20, 115); frame++;
+			class9.child(frame, id2+4, 20, 80); frame++;
+			class9.child(frame, id2+5, 20, 45); frame++;
 
-            class9.child(frame, id2+6, img1x, img1y); frame++; //topleft
-            class9.child(frame, id2+7, img2x, img2y); frame++; //bottomleft
-            class9.child(frame, id2+8, img3x, img3y); frame++; //topright
+			class9.child(frame, id2+6, img1x, img1y); frame++; //topleft
+			class9.child(frame, id2+7, img2x, img2y); frame++; //bottomleft
+			class9.child(frame, id2+8, img3x, img3y); frame++; //topright
 
-            class9.child(frame, id2+9, str1x, str1y); frame++; //bash
-            class9.child(frame, id2+10, str2x, str2y); frame++; //pound
-            class9.child(frame, id2+11, str3x, str3y); frame++; //focus
+			class9.child(frame, id2+9, str1x, str1y); frame++; //bash
+			class9.child(frame, id2+10, str2x, str2y); frame++; //pound
+			class9.child(frame, id2+11, str3x, str3y); frame++; //focus
 
-            class9.child(frame, 349, 105, 46); frame++; //spell1
-            class9.child(frame, 350, 104, 106); frame++; //spell2
+			class9.child(frame, 349, 105, 46); frame++; //spell1
+			class9.child(frame, 350, 104, 106); frame++; //spell2
 
-            class9.child(frame, 353, 125, 74); frame++; //spell
-            class9.child(frame, 354, 125, 134); frame++; //spell
+			class9.child(frame, 353, 125, 74); frame++; //spell
+			class9.child(frame, 354, 125, 134); frame++; //spell
 
-            class9.child(frame, 19300, 0, 0); frame++; //stuffs
-            class9.child(frame, id2, 94, 4); frame++; //weapon
-    }
+			class9.child(frame, 19300, 0, 0); frame++; //stuffs
+			class9.child(frame, id2, 94, 4); frame++; //weapon
+	}
 
 	public static void EquipmentScreen(Class30_Sub2_Sub1_Sub4[] wid)
 	{
@@ -4695,18 +4697,18 @@ public void specialBar(int id) //7599
 			class9.anIntArray272[44] = 280;
 
 	}
-    public static void removeSomething(int i)
-    {
-        Class9 class9 = aClass9Array210[i] = new Class9();
-        class9.anInt250 = i;
-        class9.anInt236 = i;
-        class9.anInt262 = 5;
-        class9.anInt217 = 1;
-        class9.anInt214 = 0;
-        class9.aByte254 = 0;
-        class9.anInt230 = 52;
-    }  
-    private static Class30_Sub2_Sub1_Sub1 CustomSpriteLoader(int i, String s) 
+	public static void removeSomething(int i)
+	{
+		Class9 class9 = aClass9Array210[i] = new Class9();
+		class9.anInt250 = i;
+		class9.anInt236 = i;
+		class9.anInt262 = 5;
+		class9.anInt217 = 1;
+		class9.anInt214 = 0;
+		class9.aByte254 = 0;
+		class9.anInt230 = 52;
+	}  
+	private static Class30_Sub2_Sub1_Sub1 CustomSpriteLoader(int i, String s) 
 {
 long l = (Class50.method585((byte)1, s) << 8) + (long)i;
 Class30_Sub2_Sub1_Sub1 class30_sub2_sub1_sub1 = (Class30_Sub2_Sub1_Sub1)aClass12_238.method222(l);
@@ -4722,23 +4724,23 @@ return null;
 return class30_sub2_sub1_sub1;
 }
 
-    public static void addDPButton(int i, int j, int k, int width, int height, String s)
-    {
-        Class9 class9 = aClass9Array210[i] = new Class9();
-        class9.anInt250 = i;
-        class9.anInt236 = i;
-        class9.anInt262 = 5;
-        class9.anInt217 = 1;
-        class9.anInt214 = 0;
-        class9.anInt220 = width;
-        class9.anInt267 = height;
-        class9.aByte254 = 0;
-        class9.anInt230 = 52;
-        class9.aClass30_Sub2_Sub1_Sub1_207 = CustomSpriteLoader(j, "custom");
-        class9.aClass30_Sub2_Sub1_Sub1_260 = CustomSpriteLoader(k, "custom");
-        class9.aString221 = s;
-    }
-    public static void addChar(int ID) { 
+	public static void addDPButton(int i, int j, int k, int width, int height, String s)
+	{
+		Class9 class9 = aClass9Array210[i] = new Class9();
+		class9.anInt250 = i;
+		class9.anInt236 = i;
+		class9.anInt262 = 5;
+		class9.anInt217 = 1;
+		class9.anInt214 = 0;
+		class9.anInt220 = width;
+		class9.anInt267 = height;
+		class9.aByte254 = 0;
+		class9.anInt230 = 52;
+		class9.aClass30_Sub2_Sub1_Sub1_207 = CustomSpriteLoader(j, "custom");
+		class9.aClass30_Sub2_Sub1_Sub1_260 = CustomSpriteLoader(k, "custom");
+		class9.aString221 = s;
+	}
+	public static void addChar(int ID) { 
 	Class9 class9 = aClass9Array210[ID] = new Class9(); 
 	class9.anInt250 = ID; 
 	class9.anInt236 = ID; 
@@ -4755,2076 +4757,2076 @@ return class30_sub2_sub1_sub1;
 	class9.anInt257 = -1; 
 	class9.anInt258 = -1; 
 }
-    public static void addInterfaceSprite(int i, int j, int k, String s)
-    {
-        Class9 class9 = aClass9Array210[i] = new Class9();
-        class9.anInt250 = i;
-        class9.anInt236 = i;
-        class9.anInt262 = 5;
-        class9.anInt217 = 1;
-        class9.anInt214 = 0;
-        class9.anInt220 = 1;
-        class9.anInt267 = 1;
-        class9.aByte254 = 0;
-        class9.anInt230 = 52;
-        class9.aClass30_Sub2_Sub1_Sub1_207 = CustomSpriteLoader(j, "Custom");
-        class9.aClass30_Sub2_Sub1_Sub1_260 = CustomSpriteLoader(k, "Custom");
-        class9.aString221 = s;
-    }
+	public static void addInterfaceSprite(int i, int j, int k, String s)
+	{
+		Class9 class9 = aClass9Array210[i] = new Class9();
+		class9.anInt250 = i;
+		class9.anInt236 = i;
+		class9.anInt262 = 5;
+		class9.anInt217 = 1;
+		class9.anInt214 = 0;
+		class9.anInt220 = 1;
+		class9.anInt267 = 1;
+		class9.aByte254 = 0;
+		class9.anInt230 = 52;
+		class9.aClass30_Sub2_Sub1_Sub1_207 = CustomSpriteLoader(j, "Custom");
+		class9.aClass30_Sub2_Sub1_Sub1_260 = CustomSpriteLoader(k, "Custom");
+		class9.aString221 = s;
+	}
 
 
-    public static void Welcome()
-    {
-        Class9 class9 = addTab(3023);
-        addwelcome(3024, 1, 1);
-        addwelcome2(3025, 2, 2, "Ok");
-        class9.anInt261 = 0;
-        class9.aBoolean266 = false;
-        class9.anIntArray240 = new int[8];
-        class9.anIntArray241 = new int[8];
-        class9.anIntArray272 = new int[8];
-        class9.anIntArray240[0] = 3024;
-        class9.anIntArray241[0] = -30;
-        class9.anIntArray272[0] = -5;
-        class9.anIntArray240[1] = 3025;
-        class9.anIntArray241[1] = 115;
-        class9.anIntArray272[1] = 205;
-        class9.anIntArray240[2] = 14655;
-        class9.anIntArray241[2] = 280;
-        class9.anIntArray272[2] = 52;
-        class9.anIntArray240[3] = 13579;
-        class9.anIntArray241[3] = 450;
-        class9.anIntArray272[3] = 240;
-        class9.anIntArray240[4] = 13582;
-        class9.anIntArray241[4] = 50;
-        class9.anIntArray272[4] = 240;
-        class9.anIntArray240[5] = 13580;
-        class9.anIntArray241[5] = 250;
-        class9.anIntArray272[5] = 245;
-        class9.anIntArray240[6] = 13581;
-        class9.anIntArray241[6] = 250;
-        class9.anIntArray272[6] = 260;
-        class9.anIntArray240[7] = 13589;
-        class9.anIntArray241[7] = 215;
-        class9.anIntArray272[7] = 275;
-    }
-public static void getPrayer(Class44 class44, Class30_Sub2_Sub1_Sub4 aclass30_sub2_sub1_sub4[])
-    {
-        String s = "./Files/interface/";
-        String s1 = "";
-        int i = 0;
-        Class9 class9 = aClass9Array210[19040] = new Class9();
-        class9.anInt236 = 5608;
-        class9.anInt250 = 19040;
-        class9.anInt262 = 5;
-        class9.anInt217 = 4;
-        class9.anInt214 = 0;
-        class9.anInt220 = 34;
-        class9.anInt267 = 34;
-        class9.aByte254 = 0;
-        class9.anInt230 = -1;
-        class9.anIntArray245 = new int[1];
-        class9.anIntArray212 = new int[1];
-        class9.anIntArray245[0] = 1;
-        class9.anIntArray212[0] = 1;
-        class9.anIntArrayArray226 = new int[1][3];
-        class9.anIntArrayArray226[0][0] = 5;
-        class9.anIntArrayArray226[0][1] = 101;
-        class9.anIntArrayArray226[0][2] = 0;
-        s1 = "prayerglow,0";
-        i = s1.lastIndexOf(",");
-        class9.aClass30_Sub2_Sub1_Sub1_260 = class9.method207(Integer.parseInt(s1.substring(i + 1)), false, aClass44, s1.substring(0, i));
-        class9.aClass30_Sub2_Sub1_Sub4_243 = aclass30_sub2_sub1_sub4[1];
-        class9.aString221 = "Select";
-        class9 = aClass9Array210[19045] = new Class9();
-        class9.anInt236 = 5608;
-        class9.anInt250 = 19045;
-        class9.anInt262 = 4;
-        class9.anInt217 = 0;
-        class9.anInt220 = 174;
-        class9.anInt267 = 26;
-        class9.anInt214 = 0;
-        class9.aByte254 = 0;
-        class9.anInt230 = -1;
-        class9.aBoolean223 = true;
-        class9.aBoolean268 = true;
-        class9.aClass30_Sub2_Sub1_Sub4_243 = aclass30_sub2_sub1_sub4[1];
-        class9.aString248 = "Level 60: Chivalry";
-        class9.aString228 = "";
-        class9.anInt232 = 0xffff00;
-        class9.anInt219 = 0;
-        class9.anInt216 = 0;
-        class9.anInt239 = 0;
-        class9 = aClass9Array210[19041] = new Class9();
-        class9.anInt236 = 5608;
-        class9.anInt250 = 19041;
-        class9.anInt262 = 0;
-        class9.anInt217 = 0;
-        class9.anInt220 = 182;
-        class9.anInt267 = 76;
-        class9.aBoolean266 = true;
-        class9.anInt214 = 0;
-        class9.aByte254 = 0;
-        class9.anInt230 = -1;
-        class9.anInt261 = 0;
-        class9.anIntArray240 = new int[4];
-        class9.anIntArray241 = new int[4];
-        class9.anIntArray272 = new int[4];
-        class9.anIntArray240[0] = 19044;
-        class9.anIntArray241[0] = 3;
-        class9.anIntArray272[0] = 5;
-        class9.anIntArray240[1] = 19045;
-        class9.anIntArray241[1] = 3;
-        class9.anIntArray272[1] = 8;
-        class9.anIntArray240[2] = 19042;
-        class9.anIntArray241[2] = 3;
-        class9.anIntArray272[2] = 41;
-        class9.anIntArray240[3] = 18504;
-        class9.anIntArray241[3] = 3;
-        class9.anIntArray272[3] = 53;
-        class9 = aClass9Array210[19042] = new Class9();
-        class9.anInt236 = 5608;
-        class9.anInt250 = 19042;
-        class9.anInt262 = 4;
-        class9.anInt217 = 0;
-        class9.anInt220 = 174;
-        class9.anInt267 = 11;
-        class9.anInt214 = 0;
-        class9.aByte254 = 0;
-        class9.anInt230 = -1;
-        class9.aBoolean223 = true;
-        class9.aBoolean268 = true;
-        class9.aClass30_Sub2_Sub1_Sub4_243 = aclass30_sub2_sub1_sub4[0];
-        class9.aString248 = "Increases your Defence by 20%,";
-        class9.aString228 = "";
-        class9.anInt232 = 0x6b6f33;
-        class9.anInt219 = 0;
-        class9.anInt216 = 0;
-        class9.anInt239 = 0;
-        class9 = aClass9Array210[18504] = new Class9();
-        class9.anInt236 = 5608;
-        class9.anInt250 = 18504;
-        class9.anInt262 = 4;
-        class9.anInt217 = 0;
-        class9.anInt220 = 174;
-        class9.anInt267 = 11;
-        class9.anInt214 = 0;
-        class9.aByte254 = 0;
-        class9.anInt230 = -1;
-        class9.aBoolean223 = true;
-        class9.aBoolean268 = true;
-        class9.aClass30_Sub2_Sub1_Sub4_243 = aclass30_sub2_sub1_sub4[0];
-        class9.aString248 = "Strength by 18% and Attack by 15%";
-        class9.aString228 = "";
-        class9.anInt232 = 0x6b6f33;
-        class9.anInt219 = 0;
-        class9.anInt216 = 0;
-        class9.anInt239 = 0;
-        class9 = aClass9Array210[19043] = new Class9();
-        class9.anInt236 = 5608;
-        class9.anInt250 = 19043;
-        class9.anInt262 = 5;
-        class9.anInt217 = 0;
-        class9.anInt220 = 30;
-        class9.anInt267 = 30;
-        class9.anInt230 = 19041;
-        class9.anIntArray245 = new int[1];
-        class9.anIntArray212 = new int[1];
-        class9.anIntArray245[0] = 3;
-        class9.anIntArray212[0] = 59;
-        class9.anIntArrayArray226 = new int[1][3];
-        class9.anIntArrayArray226[0][0] = 2;
-        class9.anIntArrayArray226[0][1] = 5;
-        class9.anIntArrayArray226[0][2] = 0;
-        s1 = "prayeroff3,0";
-        i = s1.lastIndexOf(",");
-        class9.aClass30_Sub2_Sub1_Sub1_207 = class9.drawSprite((new StringBuilder()).append(s1.substring(0, i)).append("_").append(Integer.parseInt(s1.substring(i + 1))).append(".dat").toString());
-        s1 = "prayeron3,0";
-        i = s1.lastIndexOf(",");
-        class9.aClass30_Sub2_Sub1_Sub1_260 = class9.drawSprite((new StringBuilder()).append(s1.substring(0, i)).append("_").append(Integer.parseInt(s1.substring(i + 1))).append(".dat").toString());
-        class9 = aClass9Array210[19044] = new Class9();
-        class9.anInt236 = 5608;
-        class9.anInt250 = 19044;
-        class9.anInt262 = 3;
-        class9.anInt217 = 0;
-        class9.anInt214 = 0;
-        class9.anInt220 = 174;
-        class9.anInt267 = 68;
-        class9.aByte254 = 0;
-        class9.anInt230 = -1;
-        class9.aBoolean227 = true;
-        class9.anInt232 = 0;
-        class9.anInt219 = 0;
-        class9.anInt216 = 0;
-        class9.anInt239 = 0;
-        class9 = aClass9Array210[19046] = new Class9();
-        class9.anInt236 = 5608;
-        class9.anInt250 = 19046;
-        class9.anInt262 = 5;
-        class9.anInt217 = 4;
-        class9.anInt214 = 0;
-        class9.anInt220 = 34;
-        class9.anInt267 = 34;
-        class9.aByte254 = 0;
-        class9.anInt230 = -1;
-        class9.anIntArray245 = new int[1];
-        class9.anIntArray212 = new int[1];
-        class9.anIntArray245[0] = 1;
-        class9.anIntArray212[0] = 1;
-        class9.anIntArrayArray226 = new int[1][3];
-        class9.anIntArrayArray226[0][0] = 5;
-        class9.anIntArrayArray226[0][1] = 102;
-        class9.anIntArrayArray226[0][2] = 0;
-        s1 = "prayerglow,0";
-        i = s1.lastIndexOf(",");
-        class9.aClass30_Sub2_Sub1_Sub1_260 = class9.method207(Integer.parseInt(s1.substring(i + 1)), false, aClass44, s1.substring(0, i));
-        class9.aClass30_Sub2_Sub1_Sub4_243 = aclass30_sub2_sub1_sub4[1];
-        class9.aString221 = "Select";
-        class9 = aClass9Array210[19047] = new Class9();
-        class9.anInt236 = 5608;
-        class9.anInt250 = 19047;
-        class9.anInt262 = 4;
-        class9.anInt217 = 0;
-        class9.anInt220 = 174;
-        class9.anInt267 = 26;
-        class9.anInt214 = 0;
-        class9.aByte254 = 0;
-        class9.anInt230 = -1;
-        class9.aBoolean223 = true;
-        class9.aBoolean268 = true;
-        class9.aClass30_Sub2_Sub1_Sub4_243 = aclass30_sub2_sub1_sub4[1];
-        class9.aString248 = "Level 70: Piety";
-        class9.aString228 = "";
-        class9.anInt232 = 0xffff00;
-        class9.anInt219 = 0;
-        class9.anInt216 = 0;
-        class9.anInt239 = 0;
-        class9 = aClass9Array210[19048] = new Class9();
-        class9.anInt236 = 5608;
-        class9.anInt250 = 19048;
-        class9.anInt262 = 0;
-        class9.anInt217 = 0;
-        class9.anInt220 = 182;
-        class9.anInt267 = 76;
-        class9.aBoolean266 = true;
-        class9.anInt214 = 0;
-        class9.aByte254 = 0;
-        class9.anInt230 = -1;
-        class9.anInt261 = 0;
-        class9.anIntArray240 = new int[4];
-        class9.anIntArray241 = new int[4];
-        class9.anIntArray272 = new int[4];
-        class9.anIntArray240[0] = 19044;
-        class9.anIntArray241[0] = 3;
-        class9.anIntArray272[0] = 5;
-        class9.anIntArray240[1] = 19047;
-        class9.anIntArray241[1] = 3;
-        class9.anIntArray272[1] = 8;
-        class9.anIntArray240[2] = 19049;
-        class9.anIntArray241[2] = 3;
-        class9.anIntArray272[2] = 41;
-        class9.anIntArray240[3] = 18502;
-        class9.anIntArray241[3] = 3;
-        class9.anIntArray272[3] = 53;
-        class9 = aClass9Array210[19049] = new Class9();
-        class9.anInt236 = 5608;
-        class9.anInt250 = 19049;
-        class9.anInt262 = 4;
-        class9.anInt217 = 0;
-        class9.anInt220 = 174;
-        class9.anInt267 = 11;
-        class9.anInt214 = 0;
-        class9.aByte254 = 0;
-        class9.anInt230 = -1;
-        class9.aBoolean223 = true;
-        class9.aBoolean268 = true;
-        class9.aClass30_Sub2_Sub1_Sub4_243 = aclass30_sub2_sub1_sub4[0];
-        class9.aString248 = "Increases your Defence by 25%";
-        class9.aString228 = "";
-        class9.anInt232 = 0x6b6f33;
-        class9.anInt219 = 0;
-        class9.anInt216 = 0;
-        class9.anInt239 = 0;
-        class9 = aClass9Array210[18502] = new Class9();
-        class9.anInt236 = 5608;
-        class9.anInt250 = 18502;
-        class9.anInt262 = 4;
-        class9.anInt217 = 0;
-        class9.anInt220 = 174;
-        class9.anInt267 = 11;
-        class9.anInt214 = 0;
-        class9.aByte254 = 0;
-        class9.anInt230 = -1;
-        class9.aBoolean223 = true;
-        class9.aBoolean268 = true;
-        class9.aClass30_Sub2_Sub1_Sub4_243 = aclass30_sub2_sub1_sub4[0];
-        class9.aString248 = "Strength by 23% and Attack by 20%";
-        class9.aString228 = "";
-        class9.anInt232 = 0x6b6f33;
-        class9.anInt219 = 0;
-        class9.anInt216 = 0;
-        class9.anInt239 = 0;
-        class9 = aClass9Array210[19050] = new Class9();
-        class9.anInt236 = 5608;
-        class9.anInt250 = 19050;
-        class9.anInt262 = 5;
-        class9.anInt217 = 0;
-        class9.anInt220 = 30;
-        class9.anInt267 = 30;
-        class9.anInt230 = 19048;
-        class9.anIntArray245 = new int[1];
-        class9.anIntArray212 = new int[1];
-        class9.anIntArray245[0] = 3;
-        class9.anIntArray212[0] = 69;
-        class9.anIntArrayArray226 = new int[1][3];
-        class9.anIntArrayArray226[0][0] = 2;
-        class9.anIntArrayArray226[0][1] = 5;
-        class9.anIntArrayArray226[0][2] = 0;
-        s1 = "prayeroff3,1";
-        i = s1.lastIndexOf(",");
-        class9.aClass30_Sub2_Sub1_Sub1_207 = class9.drawSprite((new StringBuilder()).append(s1.substring(0, i)).append("_").append(Integer.parseInt(s1.substring(i + 1))).append(".dat").toString());
-        s1 = "prayeron3,1";
-        i = s1.lastIndexOf(",");
-        class9.aClass30_Sub2_Sub1_Sub1_260 = class9.drawSprite((new StringBuilder()).append(s1.substring(0, i)).append("_").append(Integer.parseInt(s1.substring(i + 1))).append(".dat").toString());
-        class9 = aClass9Array210[19051] = new Class9();
-        class9.anInt236 = 5608;
-        class9.anInt250 = 19051;
-        class9.anInt262 = 3;
-        class9.anInt217 = 0;
-        class9.anInt214 = 0;
-        class9.anInt220 = 174;
-        class9.anInt267 = 68;
-        class9.aByte254 = 0;
-        class9.anInt230 = -1;
-        class9.aBoolean227 = true;
-        class9.anInt232 = 0;
-        class9.anInt219 = 0;
-        class9.anInt216 = 0;
-        class9.anInt239 = 0;
+	public static void Welcome()
+	{
+		Class9 class9 = addTab(3023);
+		addwelcome(3024, 1, 1);
+		addwelcome2(3025, 2, 2, "Ok");
+		class9.anInt261 = 0;
+		class9.aBoolean266 = false;
+		class9.anIntArray240 = new int[8];
+		class9.anIntArray241 = new int[8];
+		class9.anIntArray272 = new int[8];
+		class9.anIntArray240[0] = 3024;
+		class9.anIntArray241[0] = -30;
+		class9.anIntArray272[0] = -5;
+		class9.anIntArray240[1] = 3025;
+		class9.anIntArray241[1] = 115;
+		class9.anIntArray272[1] = 205;
+		class9.anIntArray240[2] = 14655;
+		class9.anIntArray241[2] = 280;
+		class9.anIntArray272[2] = 52;
+		class9.anIntArray240[3] = 13579;
+		class9.anIntArray241[3] = 450;
+		class9.anIntArray272[3] = 240;
+		class9.anIntArray240[4] = 13582;
+		class9.anIntArray241[4] = 50;
+		class9.anIntArray272[4] = 240;
+		class9.anIntArray240[5] = 13580;
+		class9.anIntArray241[5] = 250;
+		class9.anIntArray272[5] = 245;
+		class9.anIntArray240[6] = 13581;
+		class9.anIntArray241[6] = 250;
+		class9.anIntArray272[6] = 260;
+		class9.anIntArray240[7] = 13589;
+		class9.anIntArray241[7] = 215;
+		class9.anIntArray272[7] = 275;
+	}
+	
+	public static void getPrayer(Class44 class44, Class30_Sub2_Sub1_Sub4 aclass30_sub2_sub1_sub4[]){
+//		String s = "./Files/interface/";	//REMOVED Said its not used 4/20/17
+		String s1 = "";
+		int i = 0;
+		Class9 class9 = aClass9Array210[19040] = new Class9();
+		class9.anInt236 = 5608;
+		class9.anInt250 = 19040;
+		class9.anInt262 = 5;
+		class9.anInt217 = 4;
+		class9.anInt214 = 0;
+		class9.anInt220 = 34;
+		class9.anInt267 = 34;
+		class9.aByte254 = 0;
+		class9.anInt230 = -1;
+		class9.anIntArray245 = new int[1];
+		class9.anIntArray212 = new int[1];
+		class9.anIntArray245[0] = 1;
+		class9.anIntArray212[0] = 1;
+		class9.anIntArrayArray226 = new int[1][3];
+		class9.anIntArrayArray226[0][0] = 5;
+		class9.anIntArrayArray226[0][1] = 101;
+		class9.anIntArrayArray226[0][2] = 0;
+		s1 = "prayerglow,0";
+		i = s1.lastIndexOf(",");
+		class9.aClass30_Sub2_Sub1_Sub1_260 = class9.method207(Integer.parseInt(s1.substring(i + 1)), false, aClass44, s1.substring(0, i));
+		class9.aClass30_Sub2_Sub1_Sub4_243 = aclass30_sub2_sub1_sub4[1];
+		class9.aString221 = "Select";
+		class9 = aClass9Array210[19045] = new Class9();
+		class9.anInt236 = 5608;
+		class9.anInt250 = 19045;
+		class9.anInt262 = 4;
+		class9.anInt217 = 0;
+		class9.anInt220 = 174;
+		class9.anInt267 = 26;
+		class9.anInt214 = 0;
+		class9.aByte254 = 0;
+		class9.anInt230 = -1;
+		class9.aBoolean223 = true;
+		class9.aBoolean268 = true;
+		class9.aClass30_Sub2_Sub1_Sub4_243 = aclass30_sub2_sub1_sub4[1];
+		class9.aString248 = "Level 60: Chivalry";
+		class9.aString228 = "";
+		class9.anInt232 = 0xffff00;
+		class9.anInt219 = 0;
+		class9.anInt216 = 0;
+		class9.anInt239 = 0;
+		class9 = aClass9Array210[19041] = new Class9();
+		class9.anInt236 = 5608;
+		class9.anInt250 = 19041;
+		class9.anInt262 = 0;
+		class9.anInt217 = 0;
+		class9.anInt220 = 182;
+		class9.anInt267 = 76;
+		class9.aBoolean266 = true;
+		class9.anInt214 = 0;
+		class9.aByte254 = 0;
+		class9.anInt230 = -1;
+		class9.anInt261 = 0;
+		class9.anIntArray240 = new int[4];
+		class9.anIntArray241 = new int[4];
+		class9.anIntArray272 = new int[4];
+		class9.anIntArray240[0] = 19044;
+		class9.anIntArray241[0] = 3;
+		class9.anIntArray272[0] = 5;
+		class9.anIntArray240[1] = 19045;
+		class9.anIntArray241[1] = 3;
+		class9.anIntArray272[1] = 8;
+		class9.anIntArray240[2] = 19042;
+		class9.anIntArray241[2] = 3;
+		class9.anIntArray272[2] = 41;
+		class9.anIntArray240[3] = 18504;
+		class9.anIntArray241[3] = 3;
+		class9.anIntArray272[3] = 53;
+		class9 = aClass9Array210[19042] = new Class9();
+		class9.anInt236 = 5608;
+		class9.anInt250 = 19042;
+		class9.anInt262 = 4;
+		class9.anInt217 = 0;
+		class9.anInt220 = 174;
+		class9.anInt267 = 11;
+		class9.anInt214 = 0;
+		class9.aByte254 = 0;
+		class9.anInt230 = -1;
+		class9.aBoolean223 = true;
+		class9.aBoolean268 = true;
+		class9.aClass30_Sub2_Sub1_Sub4_243 = aclass30_sub2_sub1_sub4[0];
+		class9.aString248 = "Increases your Defence by 20%,";
+		class9.aString228 = "";
+		class9.anInt232 = 0x6b6f33;
+		class9.anInt219 = 0;
+		class9.anInt216 = 0;
+		class9.anInt239 = 0;
+		class9 = aClass9Array210[18504] = new Class9();
+		class9.anInt236 = 5608;
+		class9.anInt250 = 18504;
+		class9.anInt262 = 4;
+		class9.anInt217 = 0;
+		class9.anInt220 = 174;
+		class9.anInt267 = 11;
+		class9.anInt214 = 0;
+		class9.aByte254 = 0;
+		class9.anInt230 = -1;
+		class9.aBoolean223 = true;
+		class9.aBoolean268 = true;
+		class9.aClass30_Sub2_Sub1_Sub4_243 = aclass30_sub2_sub1_sub4[0];
+		class9.aString248 = "Strength by 18% and Attack by 15%";
+		class9.aString228 = "";
+		class9.anInt232 = 0x6b6f33;
+		class9.anInt219 = 0;
+		class9.anInt216 = 0;
+		class9.anInt239 = 0;
+		class9 = aClass9Array210[19043] = new Class9();
+		class9.anInt236 = 5608;
+		class9.anInt250 = 19043;
+		class9.anInt262 = 5;
+		class9.anInt217 = 0;
+		class9.anInt220 = 30;
+		class9.anInt267 = 30;
+		class9.anInt230 = 19041;
+		class9.anIntArray245 = new int[1];
+		class9.anIntArray212 = new int[1];
+		class9.anIntArray245[0] = 3;
+		class9.anIntArray212[0] = 59;
+		class9.anIntArrayArray226 = new int[1][3];
+		class9.anIntArrayArray226[0][0] = 2;
+		class9.anIntArrayArray226[0][1] = 5;
+		class9.anIntArrayArray226[0][2] = 0;
+		s1 = "prayeroff3,0";
+		i = s1.lastIndexOf(",");
+		class9.aClass30_Sub2_Sub1_Sub1_207 = class9.drawSprite((new StringBuilder()).append(s1.substring(0, i)).append("_").append(Integer.parseInt(s1.substring(i + 1))).append(".dat").toString());
+		s1 = "prayeron3,0";
+		i = s1.lastIndexOf(",");
+		class9.aClass30_Sub2_Sub1_Sub1_260 = class9.drawSprite((new StringBuilder()).append(s1.substring(0, i)).append("_").append(Integer.parseInt(s1.substring(i + 1))).append(".dat").toString());
+		class9 = aClass9Array210[19044] = new Class9();
+		class9.anInt236 = 5608;
+		class9.anInt250 = 19044;
+		class9.anInt262 = 3;
+		class9.anInt217 = 0;
+		class9.anInt214 = 0;
+		class9.anInt220 = 174;
+		class9.anInt267 = 68;
+		class9.aByte254 = 0;
+		class9.anInt230 = -1;
+		class9.aBoolean227 = true;
+		class9.anInt232 = 0;
+		class9.anInt219 = 0;
+		class9.anInt216 = 0;
+		class9.anInt239 = 0;
+		class9 = aClass9Array210[19046] = new Class9();
+		class9.anInt236 = 5608;
+		class9.anInt250 = 19046;
+		class9.anInt262 = 5;
+		class9.anInt217 = 4;
+		class9.anInt214 = 0;
+		class9.anInt220 = 34;
+		class9.anInt267 = 34;
+		class9.aByte254 = 0;
+		class9.anInt230 = -1;
+		class9.anIntArray245 = new int[1];
+		class9.anIntArray212 = new int[1];
+		class9.anIntArray245[0] = 1;
+		class9.anIntArray212[0] = 1;
+		class9.anIntArrayArray226 = new int[1][3];
+		class9.anIntArrayArray226[0][0] = 5;
+		class9.anIntArrayArray226[0][1] = 102;
+		class9.anIntArrayArray226[0][2] = 0;
+		s1 = "prayerglow,0";
+		i = s1.lastIndexOf(",");
+		class9.aClass30_Sub2_Sub1_Sub1_260 = class9.method207(Integer.parseInt(s1.substring(i + 1)), false, aClass44, s1.substring(0, i));
+		class9.aClass30_Sub2_Sub1_Sub4_243 = aclass30_sub2_sub1_sub4[1];
+		class9.aString221 = "Select";
+		class9 = aClass9Array210[19047] = new Class9();
+		class9.anInt236 = 5608;
+		class9.anInt250 = 19047;
+		class9.anInt262 = 4;
+		class9.anInt217 = 0;
+		class9.anInt220 = 174;
+		class9.anInt267 = 26;
+		class9.anInt214 = 0;
+		class9.aByte254 = 0;
+		class9.anInt230 = -1;
+		class9.aBoolean223 = true;
+		class9.aBoolean268 = true;
+		class9.aClass30_Sub2_Sub1_Sub4_243 = aclass30_sub2_sub1_sub4[1];
+		class9.aString248 = "Level 70: Piety";
+		class9.aString228 = "";
+		class9.anInt232 = 0xffff00;
+		class9.anInt219 = 0;
+		class9.anInt216 = 0;
+		class9.anInt239 = 0;
+		class9 = aClass9Array210[19048] = new Class9();
+		class9.anInt236 = 5608;
+		class9.anInt250 = 19048;
+		class9.anInt262 = 0;
+		class9.anInt217 = 0;
+		class9.anInt220 = 182;
+		class9.anInt267 = 76;
+		class9.aBoolean266 = true;
+		class9.anInt214 = 0;
+		class9.aByte254 = 0;
+		class9.anInt230 = -1;
+		class9.anInt261 = 0;
+		class9.anIntArray240 = new int[4];
+		class9.anIntArray241 = new int[4];
+		class9.anIntArray272 = new int[4];
+		class9.anIntArray240[0] = 19044;
+		class9.anIntArray241[0] = 3;
+		class9.anIntArray272[0] = 5;
+		class9.anIntArray240[1] = 19047;
+		class9.anIntArray241[1] = 3;
+		class9.anIntArray272[1] = 8;
+		class9.anIntArray240[2] = 19049;
+		class9.anIntArray241[2] = 3;
+		class9.anIntArray272[2] = 41;
+		class9.anIntArray240[3] = 18502;
+		class9.anIntArray241[3] = 3;
+		class9.anIntArray272[3] = 53;
+		class9 = aClass9Array210[19049] = new Class9();
+		class9.anInt236 = 5608;
+		class9.anInt250 = 19049;
+		class9.anInt262 = 4;
+		class9.anInt217 = 0;
+		class9.anInt220 = 174;
+		class9.anInt267 = 11;
+		class9.anInt214 = 0;
+		class9.aByte254 = 0;
+		class9.anInt230 = -1;
+		class9.aBoolean223 = true;
+		class9.aBoolean268 = true;
+		class9.aClass30_Sub2_Sub1_Sub4_243 = aclass30_sub2_sub1_sub4[0];
+		class9.aString248 = "Increases your Defence by 25%";
+		class9.aString228 = "";
+		class9.anInt232 = 0x6b6f33;
+		class9.anInt219 = 0;
+		class9.anInt216 = 0;
+		class9.anInt239 = 0;
+		class9 = aClass9Array210[18502] = new Class9();
+		class9.anInt236 = 5608;
+		class9.anInt250 = 18502;
+		class9.anInt262 = 4;
+		class9.anInt217 = 0;
+		class9.anInt220 = 174;
+		class9.anInt267 = 11;
+		class9.anInt214 = 0;
+		class9.aByte254 = 0;
+		class9.anInt230 = -1;
+		class9.aBoolean223 = true;
+		class9.aBoolean268 = true;
+		class9.aClass30_Sub2_Sub1_Sub4_243 = aclass30_sub2_sub1_sub4[0];
+		class9.aString248 = "Strength by 23% and Attack by 20%";
+		class9.aString228 = "";
+		class9.anInt232 = 0x6b6f33;
+		class9.anInt219 = 0;
+		class9.anInt216 = 0;
+		class9.anInt239 = 0;
+		class9 = aClass9Array210[19050] = new Class9();
+		class9.anInt236 = 5608;
+		class9.anInt250 = 19050;
+		class9.anInt262 = 5;
+		class9.anInt217 = 0;
+		class9.anInt220 = 30;
+		class9.anInt267 = 30;
+		class9.anInt230 = 19048;
+		class9.anIntArray245 = new int[1];
+		class9.anIntArray212 = new int[1];
+		class9.anIntArray245[0] = 3;
+		class9.anIntArray212[0] = 69;
+		class9.anIntArrayArray226 = new int[1][3];
+		class9.anIntArrayArray226[0][0] = 2;
+		class9.anIntArrayArray226[0][1] = 5;
+		class9.anIntArrayArray226[0][2] = 0;
+		s1 = "prayeroff3,1";
+		i = s1.lastIndexOf(",");
+		class9.aClass30_Sub2_Sub1_Sub1_207 = class9.drawSprite((new StringBuilder()).append(s1.substring(0, i)).append("_").append(Integer.parseInt(s1.substring(i + 1))).append(".dat").toString());
+		s1 = "prayeron3,1";
+		i = s1.lastIndexOf(",");
+		class9.aClass30_Sub2_Sub1_Sub1_260 = class9.drawSprite((new StringBuilder()).append(s1.substring(0, i)).append("_").append(Integer.parseInt(s1.substring(i + 1))).append(".dat").toString());
+		class9 = aClass9Array210[19051] = new Class9();
+		class9.anInt236 = 5608;
+		class9.anInt250 = 19051;
+		class9.anInt262 = 3;
+		class9.anInt217 = 0;
+		class9.anInt214 = 0;
+		class9.anInt220 = 174;
+		class9.anInt267 = 68;
+		class9.aByte254 = 0;
+		class9.anInt230 = -1;
+		class9.aBoolean227 = true;
+		class9.anInt232 = 0;
+		class9.anInt219 = 0;
+		class9.anInt216 = 0;
+		class9.anInt239 = 0;
 
-    }
-    public static void getLunar(Class44 class44, Class30_Sub2_Sub1_Sub4 aclass30_sub2_sub1_sub4[])
-    {
-        String s = "./Files/interface/";
-        String s1 = "";
-        int i = 0;
-        Class9 class9 = aClass9Array210[18787] = new Class9();
-        class9.anInt250 = 18787;
-        class9.anInt236 = 18787;
-        class9.anInt262 = 0;
-        class9.anInt217 = 0;
-        class9.anInt220 = 512;
-        class9.anInt267 = 334;
-        class9.anIntArray240 = new int[41];
-        class9.anIntArray241 = new int[41];
-        class9.anIntArray272 = new int[41];
-        class9.anIntArray240[0] = 12856;
-        class9.anIntArray241[0] = 3;
-        class9.anIntArray272[0] = 178;
-        class9.anIntArray240[1] = 18788;
-        class9.anIntArray241[1] = 20;
-        class9.anIntArray272[1] = 22;
-        class9.anIntArray240[2] = 18789;
-        class9.anIntArray241[2] = 3;
-        class9.anIntArray272[2] = 184;
-        class9.anIntArray240[3] = 18804;
-        class9.anIntArray241[3] = 60;
-        class9.anIntArray272[3] = 22;
-        class9.anIntArray240[4] = 18805;
-        class9.anIntArray241[4] = 3;
-        class9.anIntArray272[4] = 184;
-        class9.anIntArray240[5] = 18808;
-        class9.anIntArray241[5] = 100;
-        class9.anIntArray272[5] = 22;
-        class9.anIntArray240[6] = 18809;
-        class9.anIntArray241[6] = 3;
-        class9.anIntArray272[6] = 184;
-        class9.anIntArray240[7] = 18824;
-        class9.anIntArray241[7] = 140;
-        class9.anIntArray272[7] = 22;
-        class9.anIntArray240[8] = 18828;
-        class9.anIntArray241[8] = 20;
-        class9.anIntArray272[8] = 54;
-        class9.anIntArray240[9] = 18829;
-        class9.anIntArray241[9] = 3;
-        class9.anIntArray272[9] = 184;
-        class9.anIntArray240[10] = 18832;
-        class9.anIntArray241[10] = 60;
-        class9.anIntArray272[10] = 54;
-        class9.anIntArray240[11] = 18833;
-        class9.anIntArray241[11] = 3;
-        class9.anIntArray272[11] = 184;
-        class9.anIntArray240[12] = 18836;
-        class9.anIntArray241[12] = 100;
-        class9.anIntArray272[12] = 54;
-        class9.anIntArray240[13] = 18837;
-        class9.anIntArray241[13] = 3;
-        class9.anIntArray272[13] = 184;
-        class9.anIntArray240[14] = 18840;
-        class9.anIntArray241[14] = 140;
-        class9.anIntArray272[14] = 54;
-        class9.anIntArray240[15] = 18841;
-        class9.anIntArray241[15] = 3;
-        class9.anIntArray272[15] = 184;
-        class9.anIntArray240[16] = 18825;
-        class9.anIntArray241[16] = 3;
-        class9.anIntArray272[16] = 184;
-        class9.anIntArray240[17] = 18792;
-        class9.anIntArray241[17] = 20;
-        class9.anIntArray272[17] = 86;
-        class9.anIntArray240[18] = 18793;
-        class9.anIntArray241[18] = 3;
-        class9.anIntArray272[18] = 184;
-        class9.anIntArray240[19] = 18796;
-        class9.anIntArray241[19] = 60;
-        class9.anIntArray272[19] = 86;
-        class9.anIntArray240[20] = 18797;
-        class9.anIntArray241[20] = 3;
-        class9.anIntArray272[20] = 184;
-        class9.anIntArray240[21] = 18800;
-        class9.anIntArray241[21] = 100;
-        class9.anIntArray272[21] = 86;
-        class9.anIntArray240[22] = 18801;
-        class9.anIntArray241[22] = 3;
-        class9.anIntArray272[22] = 184;
-        class9.anIntArray240[23] = 18812;
-        class9.anIntArray241[23] = 140;
-        class9.anIntArray272[23] = 86;
-        class9.anIntArray240[24] = 18813;
-        class9.anIntArray241[24] = 3;
-        class9.anIntArray272[24] = 184;
-        class9.anIntArray240[25] = 18816;
-        class9.anIntArray241[25] = 20;
-        class9.anIntArray272[25] = 118;
-        class9.anIntArray240[26] = 18817;
-        class9.anIntArray241[26] = 3;
-        class9.anIntArray272[26] = 184;
-        class9.anIntArray240[27] = 18820;
-        class9.anIntArray241[27] = 60;
-        class9.anIntArray272[27] = 118;
-        class9.anIntArray240[28] = 18821;
-        class9.anIntArray241[28] = 3;
-        class9.anIntArray272[28] = 184;
-        class9.anIntArray240[29] = 18844;
-        class9.anIntArray241[29] = 100;
-        class9.anIntArray272[29] = 118;
-        class9.anIntArray240[30] = 18845;
-        class9.anIntArray241[30] = 3;
-        class9.anIntArray272[30] = 184;
-        class9.anIntArray240[31] = 18848;
-        class9.anIntArray241[31] = 140;
-        class9.anIntArray272[31] = 118;
-        class9.anIntArray240[32] = 18849;
-        class9.anIntArray241[32] = 3;
-        class9.anIntArray272[32] = 184;
-        class9.anIntArray240[33] = 18852;
-        class9.anIntArray241[33] = 20;
-        class9.anIntArray272[33] = 150;
-        class9.anIntArray240[34] = 18853;
-        class9.anIntArray241[34] = 3;
-        class9.anIntArray272[34] = 184;
-        class9.anIntArray240[35] = 18856;
-        class9.anIntArray241[35] = 60;
-        class9.anIntArray272[35] = 150;
-        class9.anIntArray240[36] = 18857;
-        class9.anIntArray241[36] = 3;
-        class9.anIntArray272[36] = 184;
-        class9.anIntArray240[37] = 18860;
-        class9.anIntArray241[37] = 100;
-        class9.anIntArray272[37] = 150;
-        class9.anIntArray240[38] = 18861;
-        class9.anIntArray241[38] = 3;
-        class9.anIntArray272[38] = 184;
-        class9.anIntArray240[39] = 18864;
-        class9.anIntArray241[39] = 140;
-        class9.anIntArray272[39] = 150;
-        class9.anIntArray240[40] = 18865;
-        class9.anIntArray241[40] = 3;
-        class9.anIntArray272[40] = 184;
-        class9 = aClass9Array210[18788] = new Class9();
-        class9.anInt236 = 18787;
-        class9.anInt250 = 18788;
-        class9.anInt262 = 5;
-        class9.anInt217 = 1;
-        class9.anInt220 = 20;
-        class9.anInt267 = 20;
-        class9.anInt230 = 18789;
-        s1 = "magicon3,0";
-        i = s1.lastIndexOf(",");
-        class9.aClass30_Sub2_Sub1_Sub1_207 = class9.drawSprite((new StringBuilder()).append(s1.substring(0, i)).append("_").append(Integer.parseInt(s1.substring(i + 1))).append(".DAT").toString());
-        Class9 _tmp = class9;
-        class9.aString221 = "Cast @gre@Home teleport";
-        class9.anInt237 = 10;
-        class9 = aClass9Array210[18789] = new Class9();
-        class9.anInt236 = 18787;
-        class9.anInt250 = 18789;
-        class9.anInt262 = 0;
-        class9.anInt217 = 0;
-        class9.anInt220 = 182;
-        class9.anInt267 = 76;
-        class9.aBoolean266 = true;
-        class9.anIntArray240 = new int[2];
-        class9.anIntArray241 = new int[2];
-        class9.anIntArray272 = new int[2];
-        class9.anIntArray240[0] = 18790;
-        class9.anIntArray241[0] = 3;
-        class9.anIntArray272[0] = 5;
-        class9.anIntArray240[1] = 18791;
-        class9.anIntArray241[1] = 3;
-        class9.anIntArray272[1] = 18;
-        class9 = aClass9Array210[18790] = new Class9();
-        class9.anInt236 = 18787;
-        class9.anInt250 = 18790;
-        class9.anInt262 = 4;
-        class9.anInt217 = 0;
-        class9.anInt220 = 177;
-        class9.anInt267 = 15;
-        class9.aBoolean223 = true;
-        class9.aClass30_Sub2_Sub1_Sub4_243 = aclass30_sub2_sub1_sub4[1];
-        class9.aBoolean268 = true;
-        class9.aString248 = "Level 1 : Home teleport";
-        class9.aString228 = "";
-        class9.anInt232 = 0xfff000;
-        class9 = aClass9Array210[18791] = new Class9();
-        class9.anInt236 = 18787;
-        class9.anInt250 = 18791;
-        class9.anInt262 = 4;
-        class9.anInt217 = 0;
-        class9.anInt220 = 175;
-        class9.anInt267 = 10;
-        class9.aBoolean223 = true;
-        class9.aClass30_Sub2_Sub1_Sub4_243 = aclass30_sub2_sub1_sub4[0];
-        class9.aBoolean268 = true;
-        class9.aString248 = "Requires no runes to use.";
-        class9.aString228 = "";
-        class9.anInt232 = 0x6b6f33;
-        class9 = aClass9Array210[18792] = new Class9();
-        class9.anInt236 = 18787;
-        class9.anInt250 = 18792;
-        class9.anInt262 = 5;
-        class9.anInt217 = 1;
-        class9.anInt220 = 20;
-        class9.anInt267 = 20;
-        class9.anInt230 = 18793;
-        class9.anIntArray245 = new int[1];
-        class9.anIntArray212 = new int[1];
-        class9.anIntArray245[0] = 3;
-        class9.anIntArray212[0] = 66;
-        class9.anIntArrayArray226 = new int[1][3];
-        class9.anIntArrayArray226[0][0] = 2;
-        class9.anIntArrayArray226[0][1] = 6;
-        class9.anIntArrayArray226[0][2] = 0;
-        s1 = "magicoff3,1";
-        i = s1.lastIndexOf(",");
-        class9.aClass30_Sub2_Sub1_Sub1_207 = class9.drawSprite((new StringBuilder()).append(s1.substring(0, i)).append("_").append(Integer.parseInt(s1.substring(i + 1))).append(".DAT").toString());
-        s1 = "magicon3,1";
-        i = s1.lastIndexOf(",");
-        class9.aClass30_Sub2_Sub1_Sub1_260 = class9.drawSprite((new StringBuilder()).append(s1.substring(0, i)).append("_").append(Integer.parseInt(s1.substring(i + 1))).append(".DAT").toString());
-        class9.aString218 = "NPC Contact";
-        Class9 _tmp1 = class9;
-        class9.aString221 = "Cast @gre@NPC Contact";
-        class9.anInt237 = 10;
-        class9 = aClass9Array210[18793] = new Class9();
-        class9.anInt236 = 18787;
-        class9.anInt250 = 18793;
-        class9.anInt262 = 0;
-        class9.anInt217 = 0;
-        class9.anInt220 = 182;
-        class9.anInt267 = 76;
-        class9.aBoolean266 = true;
-        class9.anIntArray240 = new int[2];
-        class9.anIntArray241 = new int[2];
-        class9.anIntArray272 = new int[2];
-        class9.anIntArray240[0] = 18794;
-        class9.anIntArray241[0] = 3;
-        class9.anIntArray272[0] = 5;
-        class9.anIntArray240[1] = 18795;
-        class9.anIntArray241[1] = 3;
-        class9.anIntArray272[1] = 18;
-        class9 = aClass9Array210[18794] = new Class9();
-        class9.anInt236 = 18787;
-        class9.anInt250 = 18794;
-        class9.anInt262 = 4;
-        class9.anInt217 = 0;
-        class9.anInt220 = 177;
-        class9.anInt267 = 15;
-        class9.aBoolean223 = true;
-        class9.aClass30_Sub2_Sub1_Sub4_243 = aclass30_sub2_sub1_sub4[1];
-        class9.aBoolean268 = true;
-        class9.aString248 = "Level 67 : NPC Contact";
-        class9.aString228 = "";
-        class9.anInt232 = 0xfff000;
-        class9 = aClass9Array210[18795] = new Class9();
-        class9.anInt236 = 18787;
-        class9.anInt250 = 18795;
-        class9.anInt262 = 4;
-        class9.anInt217 = 0;
-        class9.anInt220 = 175;
-        class9.anInt267 = 10;
-        class9.aBoolean223 = true;
-        class9.aClass30_Sub2_Sub1_Sub4_243 = aclass30_sub2_sub1_sub4[0];
-        class9.aBoolean268 = true;
-        class9.aString248 = "1 Astral, 1 Law, 10 Earth";
-        class9.aString228 = "";
-        class9.anInt232 = 0x6b6f33;
-        class9 = aClass9Array210[18796] = new Class9();
-        class9.anInt236 = 18787;
-        class9.anInt250 = 18796;
-        class9.anInt262 = 5;
-        class9.anInt217 = 2;
-        class9.anInt220 = 20;
-        class9.anInt267 = 20;
-        class9.anInt230 = 18797;
-        class9.anIntArray245 = new int[1];
-        class9.anIntArray212 = new int[1];
-        class9.anIntArray245[0] = 3;
-        class9.anIntArray212[0] = 67;
-        class9.anIntArrayArray226 = new int[1][3];
-        class9.anIntArrayArray226[0][0] = 2;
-        class9.anIntArrayArray226[0][1] = 6;
-        class9.anIntArrayArray226[0][2] = 0;
-        s1 = "magicoff3,2";
-        i = s1.lastIndexOf(",");
-        class9.aClass30_Sub2_Sub1_Sub1_207 = class9.drawSprite((new StringBuilder()).append(s1.substring(0, i)).append("_").append(Integer.parseInt(s1.substring(i + 1))).append(".DAT").toString());
-        s1 = "magicon3,2";
-        i = s1.lastIndexOf(",");
-        class9.aClass30_Sub2_Sub1_Sub1_260 = class9.drawSprite((new StringBuilder()).append(s1.substring(0, i)).append("_").append(Integer.parseInt(s1.substring(i + 1))).append(".DAT").toString());
-        class9.aString222 = "Cast on";
-        class9.aString218 = "Cure other";
-        class9.anInt237 = 10;
-        class9 = aClass9Array210[18797] = new Class9();
-        class9.anInt236 = 18787;
-        class9.anInt250 = 18797;
-        class9.anInt262 = 0;
-        class9.anInt217 = 0;
-        class9.anInt220 = 182;
-        class9.anInt267 = 76;
-        class9.aBoolean266 = true;
-        class9.anIntArray240 = new int[2];
-        class9.anIntArray241 = new int[2];
-        class9.anIntArray272 = new int[2];
-        class9.anIntArray240[0] = 18798;
-        class9.anIntArray241[0] = 3;
-        class9.anIntArray272[0] = 5;
-        class9.anIntArray240[1] = 18799;
-        class9.anIntArray241[1] = 3;
-        class9.anIntArray272[1] = 18;
-        class9 = aClass9Array210[18798] = new Class9();
-        class9.anInt236 = 18787;
-        class9.anInt250 = 18798;
-        class9.anInt262 = 4;
-        class9.anInt217 = 0;
-        class9.anInt220 = 177;
-        class9.anInt267 = 15;
-        class9.aBoolean223 = true;
-        class9.aClass30_Sub2_Sub1_Sub4_243 = aclass30_sub2_sub1_sub4[1];
-        class9.aBoolean268 = true;
-        class9.aString248 = "Level 68 : Cure other";
-        class9.aString228 = "";
-        class9.anInt232 = 0xfff000;
-        class9 = aClass9Array210[18799] = new Class9();
-        class9.anInt236 = 18787;
-        class9.anInt250 = 18799;
-        class9.anInt262 = 4;
-        class9.anInt217 = 0;
-        class9.anInt220 = 175;
-        class9.anInt267 = 10;
-        class9.aBoolean223 = true;
-        class9.aClass30_Sub2_Sub1_Sub4_243 = aclass30_sub2_sub1_sub4[0];
-        class9.aBoolean268 = true;
-        class9.aString248 = "2 Astral, 2 Cosmic";
-        class9.aString228 = "";
-        class9.anInt232 = 0x6b6f33;
-        class9 = aClass9Array210[18800] = new Class9();
-        class9.anInt236 = 18787;
-        class9.anInt250 = 18800;
-        class9.anInt262 = 5;
-        class9.anInt217 = 1;
-        class9.anInt220 = 20;
-        class9.anInt267 = 20;
-        class9.anInt230 = 18801;
-        class9.anIntArray245 = new int[1];
-        class9.anIntArray212 = new int[1];
-        class9.anIntArray245[0] = 3;
-        class9.anIntArray212[0] = 67;
-        class9.anIntArrayArray226 = new int[1][3];
-        class9.anIntArrayArray226[0][0] = 2;
-        class9.anIntArrayArray226[0][1] = 6;
-        class9.anIntArrayArray226[0][2] = 0;
-        s1 = "magicoff3,3";
-        i = s1.lastIndexOf(",");
-        class9.aClass30_Sub2_Sub1_Sub1_207 = class9.drawSprite((new StringBuilder()).append(s1.substring(0, i)).append("_").append(Integer.parseInt(s1.substring(i + 1))).append(".DAT").toString());
-        s1 = "magicon3,3";
-        i = s1.lastIndexOf(",");
-        class9.aClass30_Sub2_Sub1_Sub1_260 = class9.drawSprite((new StringBuilder()).append(s1.substring(0, i)).append("_").append(Integer.parseInt(s1.substring(i + 1))).append(".DAT").toString());
-        Class9 _tmp2 = class9;
-        class9.aString221 = "Cast @gre@Humidify";
-        class9.anInt237 = 10;
-        class9 = aClass9Array210[18801] = new Class9();
-        class9.anInt236 = 18787;
-        class9.anInt250 = 18801;
-        class9.anInt262 = 0;
-        class9.anInt217 = 0;
-        class9.anInt220 = 182;
-        class9.anInt267 = 76;
-        class9.aBoolean266 = true;
-        class9.anIntArray240 = new int[2];
-        class9.anIntArray241 = new int[2];
-        class9.anIntArray272 = new int[2];
-        class9.anIntArray240[0] = 18802;
-        class9.anIntArray241[0] = 3;
-        class9.anIntArray272[0] = 5;
-        class9.anIntArray240[1] = 18803;
-        class9.anIntArray241[1] = 3;
-        class9.anIntArray272[1] = 18;
-        class9 = aClass9Array210[18802] = new Class9();
-        class9.anInt236 = 18802;
-        class9.anInt250 = 18802;
-        class9.anInt262 = 4;
-        class9.anInt217 = 0;
-        class9.anInt220 = 177;
-        class9.anInt267 = 15;
-        class9.aBoolean223 = true;
-        class9.aClass30_Sub2_Sub1_Sub4_243 = aclass30_sub2_sub1_sub4[1];
-        class9.aBoolean268 = true;
-        class9.aString248 = "Level 68 : Humidify";
-        class9.aString228 = "";
-        class9.anInt232 = 0xfff000;
-        class9 = aClass9Array210[18803] = new Class9();
-        class9.anInt236 = 18787;
-        class9.anInt250 = 18803;
-        class9.anInt262 = 4;
-        class9.anInt217 = 0;
-        class9.anInt220 = 175;
-        class9.anInt267 = 10;
-        class9.aBoolean223 = true;
-        class9.aClass30_Sub2_Sub1_Sub4_243 = aclass30_sub2_sub1_sub4[0];
-        class9.aBoolean268 = true;
-        class9.aString248 = "2 Astral, 5 Water";
-        class9.aString228 = "";
-        class9.anInt232 = 0x6b6f33;
-        class9 = aClass9Array210[18804] = new Class9();
-        class9.anInt236 = 18787;
-        class9.anInt250 = 18804;
-        class9.anInt262 = 5;
-        class9.anInt217 = 1;
-        class9.anInt220 = 20;
-        class9.anInt267 = 20;
-        class9.anInt230 = 18805;
-        s1 = "magicon3,4";
-        i = s1.lastIndexOf(",");
-        class9.aClass30_Sub2_Sub1_Sub1_207 = class9.drawSprite((new StringBuilder()).append(s1.substring(0, i)).append("_").append(Integer.parseInt(s1.substring(i + 1))).append(".DAT").toString());
-        Class9 _tmp3 = class9;
-        class9.aString221 = "Cast @gre@Minigame teleport";
-        class9.anInt237 = 10;
-        class9 = aClass9Array210[18805] = new Class9();
-        class9.anInt236 = 18787;
-        class9.anInt250 = 18805;
-        class9.anInt262 = 0;
-        class9.anInt217 = 0;
-        class9.anInt220 = 182;
-        class9.anInt267 = 76;
-        class9.aBoolean266 = true;
-        class9.anIntArray240 = new int[2];
-        class9.anIntArray241 = new int[2];
-        class9.anIntArray272 = new int[2];
-        class9.anIntArray240[0] = 18806;
-        class9.anIntArray241[0] = 3;
-        class9.anIntArray272[0] = 5;
-        class9.anIntArray240[1] = 18807;
-        class9.anIntArray241[1] = 3;
-        class9.anIntArray272[1] = 18;
-        class9 = aClass9Array210[18806] = new Class9();
-        class9.anInt236 = 18787;
-        class9.anInt250 = 18806;
-        class9.anInt262 = 4;
-        class9.anInt217 = 0;
-        class9.anInt220 = 177;
-        class9.anInt267 = 15;
-        class9.aBoolean223 = true;
-        class9.aClass30_Sub2_Sub1_Sub4_243 = aclass30_sub2_sub1_sub4[1];
-        class9.aBoolean268 = true;
-        class9.aString248 = "Level 1 : Minigame teleport";
-        class9.aString228 = "";
-        class9.anInt232 = 0xfff000;
-        class9 = aClass9Array210[18807] = new Class9();
-        class9.anInt236 = 18787;
-        class9.anInt250 = 18807;
-        class9.anInt262 = 4;
-        class9.anInt217 = 0;
-        class9.anInt220 = 175;
-        class9.anInt267 = 10;
-        class9.aBoolean223 = true;
-        class9.aClass30_Sub2_Sub1_Sub4_243 = aclass30_sub2_sub1_sub4[0];
-        class9.aBoolean268 = true;
-        class9.aString248 = "Requires no runes to use.";
-        class9.aString228 = "";
-        class9.anInt232 = 0x6b6f33;
-        class9 = aClass9Array210[18808] = new Class9();
-        class9.anInt236 = 18787;
-        class9.anInt250 = 18808;
-        class9.anInt262 = 5;
-        class9.anInt217 = 1;
-        class9.anInt220 = 20;
-        class9.anInt267 = 20;
-        class9.anInt230 = 18809;
-        s1 = "magicon3,5";
-        i = s1.lastIndexOf(",");
-        class9.aClass30_Sub2_Sub1_Sub1_207 = class9.drawSprite((new StringBuilder()).append(s1.substring(0, i)).append("_").append(Integer.parseInt(s1.substring(i + 1))).append(".DAT").toString());
-        Class9 _tmp4 = class9;
-        class9.aString221 = "Cast @gre@Monster teleport";
-        class9.anInt237 = 16;
-        class9 = aClass9Array210[18809] = new Class9();
-        class9.anInt236 = 18787;
-        class9.anInt250 = 18809;
-        class9.anInt262 = 0;
-        class9.anInt217 = 0;
-        class9.anInt220 = 182;
-        class9.anInt267 = 76;
-        class9.aBoolean266 = true;
-        class9.anIntArray240 = new int[2];
-        class9.anIntArray241 = new int[2];
-        class9.anIntArray272 = new int[2];
-        class9.anIntArray240[0] = 18810;
-        class9.anIntArray241[0] = 3;
-        class9.anIntArray272[0] = 5;
-        class9.anIntArray240[1] = 18811;
-        class9.anIntArray241[1] = 3;
-        class9.anIntArray272[1] = 18;
-        class9 = aClass9Array210[18810] = new Class9();
-        class9.anInt236 = 18787;
-        class9.anInt250 = 18810;
-        class9.anInt262 = 4;
-        class9.anInt217 = 0;
-        class9.anInt220 = 177;
-        class9.anInt267 = 15;
-        class9.aBoolean223 = true;
-        class9.aClass30_Sub2_Sub1_Sub4_243 = aclass30_sub2_sub1_sub4[1];
-        class9.aBoolean268 = true;
-        class9.aString248 = "Level 1 : Monster teleport";
-        class9.aString228 = "";
-        class9.anInt232 = 0xfff000;
-        class9 = aClass9Array210[18811] = new Class9();
-        class9.anInt236 = 18787;
-        class9.anInt250 = 18811;
-        class9.anInt262 = 4;
-        class9.anInt217 = 0;
-        class9.anInt220 = 175;
-        class9.anInt267 = 10;
-        class9.aBoolean223 = true;
-        class9.aClass30_Sub2_Sub1_Sub4_243 = aclass30_sub2_sub1_sub4[0];
-        class9.aBoolean268 = true;
-        class9.aString248 = "Requires no runes to use.";
-        class9.aString228 = "";
-        class9.anInt232 = 0x6b6f33;
-        class9 = aClass9Array210[18812] = new Class9();
-        class9.anInt236 = 18787;
-        class9.anInt250 = 18812;
-        class9.anInt262 = 5;
-        class9.anInt217 = 1;
-        class9.anInt220 = 20;
-        class9.anInt267 = 20;
-        class9.anInt230 = 18813;
-        class9.anIntArray245 = new int[1];
-        class9.anIntArray212 = new int[1];
-        class9.anIntArray245[0] = 3;
-        class9.anIntArray212[0] = 70;
-        class9.anIntArrayArray226 = new int[1][3];
-        class9.anIntArrayArray226[0][0] = 2;
-        class9.anIntArrayArray226[0][1] = 6;
-        class9.anIntArrayArray226[0][2] = 0;
-        s1 = "magicoff3,6";
-        i = s1.lastIndexOf(",");
-        class9.aClass30_Sub2_Sub1_Sub1_207 = class9.drawSprite((new StringBuilder()).append(s1.substring(0, i)).append("_").append(Integer.parseInt(s1.substring(i + 1))).append(".DAT").toString());
-        s1 = "magicon3,6";
-        i = s1.lastIndexOf(",");
-        class9.aClass30_Sub2_Sub1_Sub1_260 = class9.drawSprite((new StringBuilder()).append(s1.substring(0, i)).append("_").append(Integer.parseInt(s1.substring(i + 1))).append(".DAT").toString());
-        Class9 _tmp5 = class9;
-        class9.aString221 = "Cast @gre@Cure me";
-        class9.anInt237 = 10;
-        class9 = aClass9Array210[18813] = new Class9();
-        class9.anInt236 = 18787;
-        class9.anInt250 = 18813;
-        class9.anInt262 = 0;
-        class9.anInt217 = 0;
-        class9.anInt220 = 182;
-        class9.anInt267 = 76;
-        class9.aBoolean266 = true;
-        class9.anIntArray240 = new int[2];
-        class9.anIntArray241 = new int[2];
-        class9.anIntArray272 = new int[2];
-        class9.anIntArray240[0] = 18814;
-        class9.anIntArray241[0] = 3;
-        class9.anIntArray272[0] = 5;
-        class9.anIntArray240[1] = 18815;
-        class9.anIntArray241[1] = 3;
-        class9.anIntArray272[1] = 18;
-        class9 = aClass9Array210[18814] = new Class9();
-        class9.anInt236 = 18787;
-        class9.anInt250 = 18814;
-        class9.anInt262 = 4;
-        class9.anInt217 = 0;
-        class9.anInt220 = 177;
-        class9.anInt267 = 15;
-        class9.aBoolean223 = true;
-        class9.aClass30_Sub2_Sub1_Sub4_243 = aclass30_sub2_sub1_sub4[1];
-        class9.aBoolean268 = true;
-        class9.aString248 = "Level 71 : Cure me";
-        class9.aString228 = "";
-        class9.anInt232 = 0xfff000;
-        class9 = aClass9Array210[18815] = new Class9();
-        class9.anInt236 = 18787;
-        class9.anInt250 = 18815;
-        class9.anInt262 = 4;
-        class9.anInt217 = 0;
-        class9.anInt220 = 175;
-        class9.anInt267 = 10;
-        class9.aBoolean223 = true;
-        class9.aClass30_Sub2_Sub1_Sub4_243 = aclass30_sub2_sub1_sub4[0];
-        class9.aBoolean268 = true;
-        class9.aString248 = "1 Astral, 5 Earth";
-        class9.aString228 = "";
-        class9.anInt232 = 0x6b6f33;
-        class9 = aClass9Array210[18816] = new Class9();
-        class9.anInt236 = 18787;
-        class9.anInt250 = 18816;
-        class9.anInt262 = 5;
-        class9.anInt217 = 1;
-        class9.anInt220 = 20;
-        class9.anInt267 = 20;
-        class9.anInt230 = 18817;
-        class9.anIntArray245 = new int[1];
-        class9.anIntArray212 = new int[1];
-        class9.anIntArray245[0] = 3;
-        class9.anIntArray212[0] = 73;
-        class9.anIntArrayArray226 = new int[1][3];
-        class9.anIntArrayArray226[0][0] = 2;
-        class9.anIntArrayArray226[0][1] = 6;
-        class9.anIntArrayArray226[0][2] = 0;
-        s1 = "magicoff3,7";
-        i = s1.lastIndexOf(",");
-        class9.aClass30_Sub2_Sub1_Sub1_207 = class9.drawSprite((new StringBuilder()).append(s1.substring(0, i)).append("_").append(Integer.parseInt(s1.substring(i + 1))).append(".DAT").toString());
-        s1 = "magicon3,7";
-        i = s1.lastIndexOf(",");
-        class9.aClass30_Sub2_Sub1_Sub1_260 = class9.drawSprite((new StringBuilder()).append(s1.substring(0, i)).append("_").append(Integer.parseInt(s1.substring(i + 1))).append(".DAT").toString());
-        Class9 _tmp6 = class9;
-        class9.aString221 = "Cast @gre@Cure group";
-        class9.anInt237 = 10;
-        class9 = aClass9Array210[18817] = new Class9();
-        class9.anInt236 = 18787;
-        class9.anInt250 = 18817;
-        class9.anInt262 = 0;
-        class9.anInt217 = 0;
-        class9.anInt220 = 182;
-        class9.anInt267 = 76;
-        class9.aBoolean266 = true;
-        class9.anIntArray240 = new int[2];
-        class9.anIntArray241 = new int[2];
-        class9.anIntArray272 = new int[2];
-        class9.anIntArray240[0] = 18818;
-        class9.anIntArray241[0] = 3;
-        class9.anIntArray272[0] = 5;
-        class9.anIntArray240[1] = 18819;
-        class9.anIntArray241[1] = 3;
-        class9.anIntArray272[1] = 18;
-        class9 = aClass9Array210[18818] = new Class9();
-        class9.anInt236 = 18787;
-        class9.anInt250 = 18818;
-        class9.anInt262 = 4;
-        class9.anInt217 = 0;
-        class9.anInt220 = 177;
-        class9.anInt267 = 15;
-        class9.aBoolean223 = true;
-        class9.aClass30_Sub2_Sub1_Sub4_243 = aclass30_sub2_sub1_sub4[1];
-        class9.aBoolean268 = true;
-        class9.aString248 = "Level 74 : Cure group";
-        class9.aString228 = "";
-        class9.anInt232 = 0xfff000;
-        class9 = aClass9Array210[18819] = new Class9();
-        class9.anInt236 = 18787;
-        class9.anInt250 = 18819;
-        class9.anInt262 = 4;
-        class9.anInt217 = 0;
-        class9.anInt220 = 175;
-        class9.anInt267 = 10;
-        class9.aBoolean223 = true;
-        class9.aClass30_Sub2_Sub1_Sub4_243 = aclass30_sub2_sub1_sub4[0];
-        class9.aBoolean268 = true;
-        class9.aString248 = "3 Astral, 15 Earth";
-        class9.aString228 = "";
-        class9.anInt232 = 0x6b6f33;
-        class9 = aClass9Array210[18820] = new Class9();
-        class9.anInt236 = 18787;
-        class9.anInt250 = 18820;
-        class9.anInt262 = 5;
-        class9.anInt217 = 2;
-        class9.anInt220 = 20;
-        class9.anInt267 = 20;
-        class9.anInt230 = 18821;
-        class9.anIntArray245 = new int[1];
-        class9.anIntArray212 = new int[1];
-        class9.anIntArray245[0] = 3;
-        class9.anIntArray212[0] = 74;
-        class9.anIntArrayArray226 = new int[1][3];
-        class9.anIntArrayArray226[0][0] = 2;
-        class9.anIntArrayArray226[0][1] = 6;
-        class9.anIntArrayArray226[0][2] = 0;
-        s1 = "magicoff3,8";
-        i = s1.lastIndexOf(",");
-        class9.aClass30_Sub2_Sub1_Sub1_207 = class9.drawSprite((new StringBuilder()).append(s1.substring(0, i)).append("_").append(Integer.parseInt(s1.substring(i + 1))).append(".DAT").toString());
-        s1 = "magicon3,8";
-        i = s1.lastIndexOf(",");
-        class9.aClass30_Sub2_Sub1_Sub1_260 = class9.drawSprite((new StringBuilder()).append(s1.substring(0, i)).append("_").append(Integer.parseInt(s1.substring(i + 1))).append(".DAT").toString());
-        class9.aString222 = "Cast on";
-        class9.aString218 = "Stat spy";
-        class9.anInt237 = 10;
-        class9 = aClass9Array210[18821] = new Class9();
-        class9.anInt236 = 18787;
-        class9.anInt250 = 18821;
-        class9.anInt262 = 0;
-        class9.anInt217 = 0;
-        class9.anInt220 = 182;
-        class9.anInt267 = 76;
-        class9.aBoolean266 = true;
-        class9.anIntArray240 = new int[2];
-        class9.anIntArray241 = new int[2];
-        class9.anIntArray272 = new int[2];
-        class9.anIntArray240[0] = 18822;
-        class9.anIntArray241[0] = 3;
-        class9.anIntArray272[0] = 5;
-        class9.anIntArray240[1] = 18823;
-        class9.anIntArray241[1] = 3;
-        class9.anIntArray272[1] = 18;
-        class9 = aClass9Array210[18822] = new Class9();
-        class9.anInt236 = 18787;
-        class9.anInt250 = 18822;
-        class9.anInt262 = 4;
-        class9.anInt217 = 0;
-        class9.anInt220 = 177;
-        class9.anInt267 = 15;
-        class9.aBoolean223 = true;
-        class9.aClass30_Sub2_Sub1_Sub4_243 = aclass30_sub2_sub1_sub4[1];
-        class9.aBoolean268 = true;
-        class9.aString248 = "Level 75 : Stat spy";
-        class9.aString228 = "";
-        class9.anInt232 = 0xfff000;
-        class9 = aClass9Array210[18823] = new Class9();
-        class9.anInt236 = 18787;
-        class9.anInt250 = 18823;
-        class9.anInt262 = 4;
-        class9.anInt217 = 0;
-        class9.anInt220 = 175;
-        class9.anInt267 = 10;
-        class9.aBoolean223 = true;
-        class9.aClass30_Sub2_Sub1_Sub4_243 = aclass30_sub2_sub1_sub4[0];
-        class9.aBoolean268 = true;
-        class9.aString248 = "1 Astral, 2 Death, 10 Earth";
-        class9.aString228 = "";
-        class9.anInt232 = 0x6b6f33;
-        class9 = aClass9Array210[18824] = new Class9();
-        class9.anInt236 = 18787;
-        class9.anInt250 = 18824;
-        class9.anInt262 = 5;
-        class9.anInt217 = 1;
-        class9.anInt220 = 20;
-        class9.anInt267 = 20;
-        class9.anInt230 = 18825;
-        s1 = "magicon3,9";
-        i = s1.lastIndexOf(",");
-        class9.aClass30_Sub2_Sub1_Sub1_207 = class9.drawSprite((new StringBuilder()).append(s1.substring(0, i)).append("_").append(Integer.parseInt(s1.substring(i + 1))).append(".DAT").toString());
-        Class9 _tmp7 = class9;
-        class9.aString221 = "Cast @gre@Pk teleport";
-        class9.anInt237 = 10;
-        class9 = aClass9Array210[18825] = new Class9();
-        class9.anInt236 = 18787;
-        class9.anInt250 = 18825;
-        class9.anInt262 = 0;
-        class9.anInt217 = 0;
-        class9.anInt220 = 182;
-        class9.anInt267 = 76;
-        class9.aBoolean266 = true;
-        class9.anIntArray240 = new int[2];
-        class9.anIntArray241 = new int[2];
-        class9.anIntArray272 = new int[2];
-        class9.anIntArray240[0] = 18826;
-        class9.anIntArray241[0] = 3;
-        class9.anIntArray272[0] = 5;
-        class9.anIntArray240[1] = 18827;
-        class9.anIntArray241[1] = 3;
-        class9.anIntArray272[1] = 18;
-        class9 = aClass9Array210[18826] = new Class9();
-        class9.anInt236 = 18787;
-        class9.anInt250 = 18826;
-        class9.anInt262 = 4;
-        class9.anInt217 = 0;
-        class9.anInt220 = 177;
-        class9.anInt267 = 15;
-        class9.aBoolean223 = true;
-        class9.aClass30_Sub2_Sub1_Sub4_243 = aclass30_sub2_sub1_sub4[1];
-        class9.aBoolean268 = true;
-        class9.aString248 = "Level 1 : Pk teleport";
-        class9.aString228 = "";
-        class9.anInt232 = 0xfff000;
-        class9 = aClass9Array210[18827] = new Class9();
-        class9.anInt236 = 18787;
-        class9.anInt250 = 18827;
-        class9.anInt262 = 4;
-        class9.anInt217 = 0;
-        class9.anInt220 = 175;
-        class9.anInt267 = 10;
-        class9.aBoolean223 = true;
-        class9.aClass30_Sub2_Sub1_Sub4_243 = aclass30_sub2_sub1_sub4[0];
-        class9.aBoolean268 = true;
-        class9.aString248 = "Requires no runes to use.";
-        class9.aString228 = "";
-        class9.anInt232 = 0x6b6f33;
-        class9 = aClass9Array210[18828] = new Class9();
-        class9.anInt236 = 18787;
-        class9.anInt250 = 18828;
-        class9.anInt262 = 5;
-        class9.anInt217 = 1;
-        class9.anInt220 = 20;
-        class9.anInt267 = 20;
-        class9.anInt230 = 18829;
-        s1 = "magicon3,10";
-        i = s1.lastIndexOf(",");
-        class9.aClass30_Sub2_Sub1_Sub1_207 = class9.drawSprite((new StringBuilder()).append(s1.substring(0, i)).append("_").append(Integer.parseInt(s1.substring(i + 1))).append(".DAT").toString());
-        Class9 _tmp8 = class9;
-        class9.aString221 = "Cast @gre@Ape atoll teleport";
-        class9.anInt237 = 10;
-        class9 = aClass9Array210[18829] = new Class9();
-        class9.anInt236 = 18787;
-        class9.anInt250 = 18829;
-        class9.anInt262 = 0;
-        class9.anInt217 = 0;
-        class9.anInt220 = 182;
-        class9.anInt267 = 76;
-        class9.aBoolean266 = true;
-        class9.anIntArray240 = new int[2];
-        class9.anIntArray241 = new int[2];
-        class9.anIntArray272 = new int[2];
-        class9.anIntArray240[0] = 18830;
-        class9.anIntArray241[0] = 3;
-        class9.anIntArray272[0] = 5;
-        class9.anIntArray240[1] = 18831;
-        class9.anIntArray241[1] = 3;
-        class9.anIntArray272[1] = 18;
-        class9 = aClass9Array210[18830] = new Class9();
-        class9.anInt236 = 18787;
-        class9.anInt250 = 18830;
-        class9.anInt262 = 4;
-        class9.anInt217 = 0;
-        class9.anInt220 = 177;
-        class9.anInt267 = 15;
-        class9.aBoolean223 = true;
-        class9.aClass30_Sub2_Sub1_Sub4_243 = aclass30_sub2_sub1_sub4[1];
-        class9.aBoolean268 = true;
-        class9.aString248 = "Level 1 : Ape atoll teleport";
-        class9.aString228 = "";
-        class9.anInt232 = 0xfff000;
-        class9 = aClass9Array210[18831] = new Class9();
-        class9.anInt236 = 18787;
-        class9.anInt250 = 18831;
-        class9.anInt262 = 4;
-        class9.anInt217 = 0;
-        class9.anInt220 = 175;
-        class9.anInt267 = 10;
-        class9.aBoolean223 = true;
-        class9.aClass30_Sub2_Sub1_Sub4_243 = aclass30_sub2_sub1_sub4[0];
-        class9.aBoolean268 = true;
-        class9.aString248 = "Requires no runes to use.";
-        class9.aString228 = "";
-        class9.anInt232 = 0x6b6f33;
-        class9 = aClass9Array210[18832] = new Class9();
-        class9.anInt236 = 18787;
-        class9.anInt250 = 18832;
-        class9.anInt262 = 5;
-        class9.anInt217 = 1;
-        class9.anInt220 = 20;
-        class9.anInt267 = 20;
-        class9.anInt230 = 18833;
-        s1 = "magicon3,11";
-        i = s1.lastIndexOf(",");
-        class9.aClass30_Sub2_Sub1_Sub1_207 = class9.drawSprite((new StringBuilder()).append(s1.substring(0, i)).append("_").append(Integer.parseInt(s1.substring(i + 1))).append(".DAT").toString());
-        Class9 _tmp9 = class9;
-        class9.aString221 = "Cast @gre@Catherby teleport";
-        class9.anInt237 = 10;
-        class9 = aClass9Array210[18833] = new Class9();
-        class9.anInt236 = 18787;
-        class9.anInt250 = 18833;
-        class9.anInt262 = 0;
-        class9.anInt217 = 0;
-        class9.anInt220 = 182;
-        class9.anInt267 = 76;
-        class9.aBoolean266 = true;
-        class9.anIntArray240 = new int[2];
-        class9.anIntArray241 = new int[2];
-        class9.anIntArray272 = new int[2];
-        class9.anIntArray240[0] = 18834;
-        class9.anIntArray241[0] = 3;
-        class9.anIntArray272[0] = 5;
-        class9.anIntArray240[1] = 18835;
-        class9.anIntArray241[1] = 3;
-        class9.anIntArray272[1] = 18;
-        class9 = aClass9Array210[18834] = new Class9();
-        class9.anInt236 = 18787;
-        class9.anInt250 = 18834;
-        class9.anInt262 = 4;
-        class9.anInt217 = 0;
-        class9.anInt220 = 177;
-        class9.anInt267 = 15;
-        class9.aBoolean223 = true;
-        class9.aClass30_Sub2_Sub1_Sub4_243 = aclass30_sub2_sub1_sub4[1];
-        class9.aBoolean268 = true;
-        class9.aString248 = "Level 1 : Catherby teleport";
-        class9.aString228 = "";
-        class9.anInt232 = 0xfff000;
-        class9 = aClass9Array210[18835] = new Class9();
-        class9.anInt236 = 18787;
-        class9.anInt250 = 18835;
-        class9.anInt262 = 4;
-        class9.anInt217 = 0;
-        class9.anInt220 = 175;
-        class9.anInt267 = 10;
-        class9.aBoolean223 = true;
-        class9.aClass30_Sub2_Sub1_Sub4_243 = aclass30_sub2_sub1_sub4[0];
-        class9.aBoolean268 = true;
-        class9.aString248 = "Requires no runes to use.";
-        class9.aString228 = "";
-        class9.anInt232 = 0x6b6f33;
-        class9 = aClass9Array210[18836] = new Class9();
-        class9.anInt236 = 18787;
-        class9.anInt250 = 18836;
-        class9.anInt262 = 5;
-        class9.anInt217 = 1;
-        class9.anInt220 = 23;
-        class9.anInt267 = 22;
-        class9.anInt230 = 18837;
-        s1 = "magicon3,12";
-        i = s1.lastIndexOf(",");
-        class9.aClass30_Sub2_Sub1_Sub1_207 = class9.drawSprite((new StringBuilder()).append(s1.substring(0, i)).append("_").append(Integer.parseInt(s1.substring(i + 1))).append(".DAT").toString());
-        Class9 _tmp10 = class9;
-        class9.aString221 = "Cast @gre@Training teleport";
-        class9.anInt237 = 10;
-        class9 = aClass9Array210[18837] = new Class9();
-        class9.anInt236 = 18787;
-        class9.anInt250 = 18837;
-        class9.anInt262 = 0;
-        class9.anInt217 = 0;
-        class9.anInt220 = 182;
-        class9.anInt267 = 76;
-        class9.aBoolean266 = true;
-        class9.anIntArray240 = new int[2];
-        class9.anIntArray241 = new int[2];
-        class9.anIntArray272 = new int[2];
-        class9.anIntArray240[0] = 18838;
-        class9.anIntArray241[0] = 3;
-        class9.anIntArray272[0] = 5;
-        class9.anIntArray240[1] = 18839;
-        class9.anIntArray241[1] = 3;
-        class9.anIntArray272[1] = 18;
-        class9 = aClass9Array210[18838] = new Class9();
-        class9.anInt236 = 18787;
-        class9.anInt250 = 18838;
-        class9.anInt262 = 4;
-        class9.anInt217 = 0;
-        class9.anInt220 = 177;
-        class9.anInt267 = 15;
-        class9.aBoolean223 = true;
-        class9.aClass30_Sub2_Sub1_Sub4_243 = aclass30_sub2_sub1_sub4[1];
-        class9.aBoolean268 = true;
-        class9.aString248 = "Level 1 : Training teleport";
-        class9.aString228 = "";
-        class9.anInt232 = 0xfff000;
-        class9 = aClass9Array210[18839] = new Class9();
-        class9.anInt236 = 18787;
-        class9.anInt250 = 18839;
-        class9.anInt262 = 4;
-        class9.anInt217 = 0;
-        class9.anInt220 = 175;
-        class9.anInt267 = 10;
-        class9.aBoolean223 = true;
-        class9.aClass30_Sub2_Sub1_Sub4_243 = aclass30_sub2_sub1_sub4[0];
-        class9.aBoolean268 = true;
-        class9.aString248 = "Requires no runes to use.";
-        class9.aString228 = "";
-        class9.anInt232 = 0x6b6f33;
-        class9 = aClass9Array210[18840] = new Class9();
-        class9.anInt236 = 18787;
-        class9.anInt250 = 18840;
-        class9.anInt262 = 5;
-        class9.anInt217 = 1;
-        class9.anInt220 = 23;
-        class9.anInt267 = 22;
-        class9.anInt230 = 18841;
-        s1 = "magicon3,13";
-        i = s1.lastIndexOf(",");
-        class9.aClass30_Sub2_Sub1_Sub1_207 = class9.drawSprite((new StringBuilder()).append(s1.substring(0, i)).append("_").append(Integer.parseInt(s1.substring(i + 1))).append(".DAT").toString());
-        Class9 _tmp11 = class9;
-        class9.aString221 = "Cast @gre@Ice plateau teleport";
-        class9.anInt237 = 10;
-        class9 = aClass9Array210[18841] = new Class9();
-        class9.anInt236 = 18787;
-        class9.anInt250 = 18841;
-        class9.anInt262 = 0;
-        class9.anInt217 = 0;
-        class9.anInt220 = 182;
-        class9.anInt267 = 76;
-        class9.aBoolean266 = true;
-        class9.anIntArray240 = new int[2];
-        class9.anIntArray241 = new int[2];
-        class9.anIntArray272 = new int[2];
-        class9.anIntArray240[0] = 18842;
-        class9.anIntArray241[0] = 3;
-        class9.anIntArray272[0] = 5;
-        class9.anIntArray240[1] = 18843;
-        class9.anIntArray241[1] = 3;
-        class9.anIntArray272[1] = 18;
-        class9 = aClass9Array210[18842] = new Class9();
-        class9.anInt236 = 18787;
-        class9.anInt250 = 18842;
-        class9.anInt262 = 4;
-        class9.anInt217 = 0;
-        class9.anInt220 = 177;
-        class9.anInt267 = 15;
-        class9.aBoolean223 = true;
-        class9.aClass30_Sub2_Sub1_Sub4_243 = aclass30_sub2_sub1_sub4[1];
-        class9.aBoolean268 = true;
-        class9.aString248 = "Level 1 : Ice plateau teleport";
-        class9.aString228 = "";
-        class9.anInt232 = 0xfff000;
-        class9 = aClass9Array210[18843] = new Class9();
-        class9.anInt236 = 18787;
-        class9.anInt250 = 18843;
-        class9.anInt262 = 4;
-        class9.anInt217 = 0;
-        class9.anInt220 = 175;
-        class9.anInt267 = 10;
-        class9.aBoolean223 = true;
-        class9.aClass30_Sub2_Sub1_Sub4_243 = aclass30_sub2_sub1_sub4[0];
-        class9.aBoolean268 = true;
-        class9.aString248 = "Requires no runes to use.";
-        class9.aString228 = "";
-        class9.anInt232 = 0x6b6f33;
-        class9 = aClass9Array210[18844] = new Class9();
-        class9.anInt236 = 18787;
-        class9.anInt250 = 18844;
-        class9.anInt262 = 5;
-        class9.anInt217 = 2;
-        class9.anInt220 = 23;
-        class9.anInt267 = 22;
-        class9.anInt230 = 18845;
-        class9.anIntArray245 = new int[1];
-        class9.anIntArray212 = new int[1];
-        class9.anIntArray245[0] = 3;
-        class9.anIntArray212[0] = 90;
-        class9.anIntArrayArray226 = new int[1][3];
-        class9.anIntArrayArray226[0][0] = 2;
-        class9.anIntArrayArray226[0][1] = 6;
-        class9.anIntArrayArray226[0][2] = 0;
-        s1 = "magicoff3,14";
-        i = s1.lastIndexOf(",");
-        class9.aClass30_Sub2_Sub1_Sub1_207 = class9.drawSprite((new StringBuilder()).append(s1.substring(0, i)).append("_").append(Integer.parseInt(s1.substring(i + 1))).append(".DAT").toString());
-        s1 = "magicon3,14";
-        i = s1.lastIndexOf(",");
-        class9.aClass30_Sub2_Sub1_Sub1_260 = class9.drawSprite((new StringBuilder()).append(s1.substring(0, i)).append("_").append(Integer.parseInt(s1.substring(i + 1))).append(".DAT").toString());
-        class9.aString218 = "Energy transfer";
-        class9.aString222 = "Cast on";
-        class9.anInt237 = 10;
-        class9 = aClass9Array210[18845] = new Class9();
-        class9.anInt236 = 18787;
-        class9.anInt250 = 18845;
-        class9.anInt262 = 0;
-        class9.anInt217 = 0;
-        class9.anInt220 = 182;
-        class9.anInt267 = 76;
-        class9.aBoolean266 = true;
-        class9.anIntArray240 = new int[2];
-        class9.anIntArray241 = new int[2];
-        class9.anIntArray272 = new int[2];
-        class9.anIntArray240[0] = 18846;
-        class9.anIntArray241[0] = 3;
-        class9.anIntArray272[0] = 5;
-        class9.anIntArray240[1] = 18847;
-        class9.anIntArray241[1] = 3;
-        class9.anIntArray272[1] = 18;
-        class9 = aClass9Array210[18846] = new Class9();
-        class9.anInt236 = 18787;
-        class9.anInt250 = 18846;
-        class9.anInt262 = 4;
-        class9.anInt217 = 0;
-        class9.anInt220 = 177;
-        class9.anInt267 = 15;
-        class9.aBoolean223 = true;
-        class9.aClass30_Sub2_Sub1_Sub4_243 = aclass30_sub2_sub1_sub4[1];
-        class9.aBoolean268 = true;
-        class9.aString248 = "Level 91 : Energy transfer";
-        class9.aString228 = "";
-        class9.anInt232 = 0xfff000;
-        class9 = aClass9Array210[18847] = new Class9();
-        class9.anInt236 = 18787;
-        class9.anInt250 = 18847;
-        class9.anInt262 = 4;
-        class9.anInt217 = 0;
-        class9.anInt220 = 175;
-        class9.anInt267 = 10;
-        class9.aBoolean223 = true;
-        class9.aClass30_Sub2_Sub1_Sub4_243 = aclass30_sub2_sub1_sub4[0];
-        class9.aBoolean268 = true;
-        class9.aString248 = "5 Astral, 5 Blood";
-        class9.aString228 = "";
-        class9.anInt232 = 0x6b6f33;
-        class9 = aClass9Array210[18848] = new Class9();
-        class9.anInt236 = 18787;
-        class9.anInt250 = 18848;
-        class9.anInt262 = 5;
-        class9.anInt217 = 2;
-        class9.anInt220 = 23;
-        class9.anInt267 = 22;
-        class9.anInt230 = 18849;
-        class9.anIntArray245 = new int[1];
-        class9.anIntArray212 = new int[1];
-        class9.anIntArray245[0] = 3;
-        class9.anIntArray212[0] = 91;
-        class9.anIntArrayArray226 = new int[1][3];
-        class9.anIntArrayArray226[0][0] = 2;
-        class9.anIntArrayArray226[0][1] = 6;
-        class9.anIntArrayArray226[0][2] = 0;
-        s1 = "magicoff3,15";
-        i = s1.lastIndexOf(",");
-        class9.aClass30_Sub2_Sub1_Sub1_207 = class9.drawSprite((new StringBuilder()).append(s1.substring(0, i)).append("_").append(Integer.parseInt(s1.substring(i + 1))).append(".DAT").toString());
-        s1 = "magicon3,15";
-        i = s1.lastIndexOf(",");
-        class9.aClass30_Sub2_Sub1_Sub1_260 = class9.drawSprite((new StringBuilder()).append(s1.substring(0, i)).append("_").append(Integer.parseInt(s1.substring(i + 1))).append(".DAT").toString());
-        class9.aString218 = "Heal other";
-        class9.aString222 = "Cast on";
-        class9.anInt237 = 10;
-        class9 = aClass9Array210[18849] = new Class9();
-        class9.anInt236 = 18787;
-        class9.anInt250 = 18849;
-        class9.anInt262 = 0;
-        class9.anInt217 = 0;
-        class9.anInt220 = 182;
-        class9.anInt267 = 76;
-        class9.aBoolean266 = true;
-        class9.anIntArray240 = new int[2];
-        class9.anIntArray241 = new int[2];
-        class9.anIntArray272 = new int[2];
-        class9.anIntArray240[0] = 18850;
-        class9.anIntArray241[0] = 3;
-        class9.anIntArray272[0] = 5;
-        class9.anIntArray240[1] = 18851;
-        class9.anIntArray241[1] = 3;
-        class9.anIntArray272[1] = 18;
-        class9 = aClass9Array210[18850] = new Class9();
-        class9.anInt236 = 18787;
-        class9.anInt250 = 18846;
-        class9.anInt262 = 4;
-        class9.anInt217 = 0;
-        class9.anInt220 = 177;
-        class9.anInt267 = 15;
-        class9.aBoolean223 = true;
-        class9.aClass30_Sub2_Sub1_Sub4_243 = aclass30_sub2_sub1_sub4[1];
-        class9.aBoolean268 = true;
-        class9.aString248 = "Level 92 : Heal other";
-        class9.aString228 = "";
-        class9.anInt232 = 0xfff000;
-        class9 = aClass9Array210[18851] = new Class9();
-        class9.anInt236 = 18787;
-        class9.anInt250 = 18847;
-        class9.anInt262 = 4;
-        class9.anInt217 = 0;
-        class9.anInt220 = 175;
-        class9.anInt267 = 10;
-        class9.aBoolean223 = true;
-        class9.aClass30_Sub2_Sub1_Sub4_243 = aclass30_sub2_sub1_sub4[0];
-        class9.aBoolean268 = true;
-        class9.aString248 = "3 Astral, 3 Blood, 3 Fire";
-        class9.aString228 = "";
-        class9.anInt232 = 0x6b6f33;
-        class9 = aClass9Array210[18852] = new Class9();
-        class9.anInt236 = 18787;
-        class9.anInt250 = 18852;
-        class9.anInt262 = 5;
-        class9.anInt217 = 2;
-        class9.anInt220 = 23;
-        class9.anInt267 = 22;
-        class9.anInt230 = 18853;
-        class9.anIntArray245 = new int[1];
-        class9.anIntArray212 = new int[1];
-        class9.anIntArray245[0] = 3;
-        class9.anIntArray212[0] = 92;
-        class9.anIntArrayArray226 = new int[1][3];
-        class9.anIntArrayArray226[0][0] = 2;
-        class9.anIntArrayArray226[0][1] = 6;
-        class9.anIntArrayArray226[0][2] = 0;
-        s1 = "magicoff3,16";
-        i = s1.lastIndexOf(",");
-        class9.aClass30_Sub2_Sub1_Sub1_207 = class9.drawSprite((new StringBuilder()).append(s1.substring(0, i)).append("_").append(Integer.parseInt(s1.substring(i + 1))).append(".DAT").toString());
-        s1 = "magicon3,16";
-        i = s1.lastIndexOf(",");
-        class9.aClass30_Sub2_Sub1_Sub1_260 = class9.drawSprite((new StringBuilder()).append(s1.substring(0, i)).append("_").append(Integer.parseInt(s1.substring(i + 1))).append(".DAT").toString());
-        class9.aString218 = "Vengeance other";
-        class9.aString222 = "Cast on";
-        class9.anInt237 = 10;
-        class9 = aClass9Array210[18853] = new Class9();
-        class9.anInt236 = 18787;
-        class9.anInt250 = 18853;
-        class9.anInt262 = 0;
-        class9.anInt217 = 0;
-        class9.anInt220 = 182;
-        class9.anInt267 = 76;
-        class9.aBoolean266 = true;
-        class9.anIntArray240 = new int[2];
-        class9.anIntArray241 = new int[2];
-        class9.anIntArray272 = new int[2];
-        class9.anIntArray240[0] = 18854;
-        class9.anIntArray241[0] = 3;
-        class9.anIntArray272[0] = 5;
-        class9.anIntArray240[1] = 18855;
-        class9.anIntArray241[1] = 3;
-        class9.anIntArray272[1] = 18;
-        class9 = aClass9Array210[18854] = new Class9();
-        class9.anInt236 = 18787;
-        class9.anInt250 = 18846;
-        class9.anInt262 = 4;
-        class9.anInt217 = 0;
-        class9.anInt220 = 177;
-        class9.anInt267 = 15;
-        class9.aBoolean223 = true;
-        class9.aClass30_Sub2_Sub1_Sub4_243 = aclass30_sub2_sub1_sub4[1];
-        class9.aBoolean268 = true;
-        class9.aString248 = "Level 93 : Vengeance other";
-        class9.aString228 = "";
-        class9.anInt232 = 0xfff000;
-        class9 = aClass9Array210[18855] = new Class9();
-        class9.anInt236 = 18787;
-        class9.anInt250 = 18847;
-        class9.anInt262 = 4;
-        class9.anInt217 = 0;
-        class9.anInt220 = 175;
-        class9.anInt267 = 10;
-        class9.aBoolean223 = true;
-        class9.aClass30_Sub2_Sub1_Sub4_243 = aclass30_sub2_sub1_sub4[0];
-        class9.aBoolean268 = true;
-        class9.aString248 = "3 Astral, 2 Death, 3 Earthh";
-        class9.aString228 = "";
-        class9.anInt232 = 0x6b6f33;
-        class9 = aClass9Array210[18856] = new Class9();
-        class9.anInt236 = 18787;
-        class9.anInt250 = 18856;
-        class9.anInt262 = 5;
-        class9.anInt217 = 1;
-        class9.anInt220 = 23;
-        class9.anInt267 = 22;
-        class9.anInt230 = 18857;
-        class9.anIntArray245 = new int[1];
-        class9.anIntArray212 = new int[1];
-        class9.anIntArray245[0] = 3;
-        class9.anIntArray212[0] = 93;
-        class9.anIntArrayArray226 = new int[1][3];
-        class9.anIntArrayArray226[0][0] = 2;
-        class9.anIntArrayArray226[0][1] = 6;
-        class9.anIntArrayArray226[0][2] = 0;
-        s1 = "magicoff3,17";
-        i = s1.lastIndexOf(",");
-        class9.aClass30_Sub2_Sub1_Sub1_207 = class9.drawSprite((new StringBuilder()).append(s1.substring(0, i)).append("_").append(Integer.parseInt(s1.substring(i + 1))).append(".DAT").toString());
-        s1 = "magicon3,17";
-        i = s1.lastIndexOf(",");
-        class9.aClass30_Sub2_Sub1_Sub1_260 = class9.drawSprite((new StringBuilder()).append(s1.substring(0, i)).append("_").append(Integer.parseInt(s1.substring(i + 1))).append(".DAT").toString());
-        Class9 _tmp12 = class9;
-        class9.aString221 = "Cast @gre@Vengeance";
-        class9.anInt237 = 10;
-        class9 = aClass9Array210[18857] = new Class9();
-        class9.anInt236 = 18787;
-        class9.anInt250 = 18857;
-        class9.anInt262 = 0;
-        class9.anInt217 = 0;
-        class9.anInt220 = 182;
-        class9.anInt267 = 76;
-        class9.aBoolean266 = true;
-        class9.anIntArray240 = new int[2];
-        class9.anIntArray241 = new int[2];
-        class9.anIntArray272 = new int[2];
-        class9.anIntArray240[0] = 18858;
-        class9.anIntArray241[0] = 3;
-        class9.anIntArray272[0] = 5;
-        class9.anIntArray240[1] = 18859;
-        class9.anIntArray241[1] = 3;
-        class9.anIntArray272[1] = 18;
-        class9 = aClass9Array210[18858] = new Class9();
-        class9.anInt236 = 18787;
-        class9.anInt250 = 18858;
-        class9.anInt262 = 4;
-        class9.anInt217 = 0;
-        class9.anInt220 = 177;
-        class9.anInt267 = 15;
-        class9.aBoolean223 = true;
-        class9.aClass30_Sub2_Sub1_Sub4_243 = aclass30_sub2_sub1_sub4[1];
-        class9.aBoolean268 = true;
-        class9.aString248 = "Level 94 : Vengeance";
-        class9.aString228 = "";
-        class9.anInt232 = 0xfff000;
-        class9 = aClass9Array210[18859] = new Class9();
-        class9.anInt236 = 18787;
-        class9.anInt250 = 18859;
-        class9.anInt262 = 4;
-        class9.anInt217 = 0;
-        class9.anInt220 = 175;
-        class9.anInt267 = 10;
-        class9.aBoolean223 = true;
-        class9.aClass30_Sub2_Sub1_Sub4_243 = aclass30_sub2_sub1_sub4[0];
-        class9.aBoolean268 = true;
-        class9.aString248 = "4 Astral, 2 Death, 10 Earth";
-        class9.aString228 = "";
-        class9.anInt232 = 0x6b6f33;
-        class9 = aClass9Array210[18860] = new Class9();
-        class9.anInt236 = 18787;
-        class9.anInt250 = 18860;
-        class9.anInt262 = 5;
-        class9.anInt217 = 1;
-        class9.anInt220 = 23;
-        class9.anInt267 = 22;
-        class9.anInt230 = 18861;
-        class9.anIntArray245 = new int[1];
-        class9.anIntArray212 = new int[1];
-        class9.anIntArray245[0] = 3;
-        class9.anIntArray212[0] = 94;
-        class9.anIntArrayArray226 = new int[1][3];
-        class9.anIntArrayArray226[0][0] = 2;
-        class9.anIntArrayArray226[0][1] = 6;
-        class9.anIntArrayArray226[0][2] = 0;
-        s1 = "magicoff3,18";
-        i = s1.lastIndexOf(",");
-        class9.aClass30_Sub2_Sub1_Sub1_207 = class9.drawSprite((new StringBuilder()).append(s1.substring(0, i)).append("_").append(Integer.parseInt(s1.substring(i + 1))).append(".DAT").toString());
-        s1 = "magicon3,18";
-        i = s1.lastIndexOf(",");
-        class9.aClass30_Sub2_Sub1_Sub1_260 = class9.drawSprite((new StringBuilder()).append(s1.substring(0, i)).append("_").append(Integer.parseInt(s1.substring(i + 1))).append(".DAT").toString());
-        Class9 _tmp13 = class9;
-        class9.aString221 = "Cast @gre@Heal group";
-        class9.anInt237 = 10;
-        class9 = aClass9Array210[18861] = new Class9();
-        class9.anInt236 = 18787;
-        class9.anInt250 = 18861;
-        class9.anInt262 = 0;
-        class9.anInt217 = 0;
-        class9.anInt220 = 182;
-        class9.anInt267 = 76;
-        class9.aBoolean266 = true;
-        class9.anIntArray240 = new int[2];
-        class9.anIntArray241 = new int[2];
-        class9.anIntArray272 = new int[2];
-        class9.anIntArray240[0] = 18862;
-        class9.anIntArray241[0] = 3;
-        class9.anIntArray272[0] = 5;
-        class9.anIntArray240[1] = 18863;
-        class9.anIntArray241[1] = 3;
-        class9.anIntArray272[1] = 18;
-        class9 = aClass9Array210[18862] = new Class9();
-        class9.anInt236 = 18787;
-        class9.anInt250 = 18862;
-        class9.anInt262 = 4;
-        class9.anInt217 = 0;
-        class9.anInt220 = 177;
-        class9.anInt267 = 15;
-        class9.aBoolean223 = true;
-        class9.aClass30_Sub2_Sub1_Sub4_243 = aclass30_sub2_sub1_sub4[1];
-        class9.aBoolean268 = true;
-        class9.aString248 = "Level 95 : Heal group";
-        class9.aString228 = "";
-        class9.anInt232 = 0xfff000;
-        class9 = aClass9Array210[18863] = new Class9();
-        class9.anInt236 = 18787;
-        class9.anInt250 = 18863;
-        class9.anInt262 = 4;
-        class9.anInt217 = 0;
-        class9.anInt220 = 175;
-        class9.anInt267 = 10;
-        class9.aBoolean223 = true;
-        class9.aClass30_Sub2_Sub1_Sub4_243 = aclass30_sub2_sub1_sub4[0];
-        class9.aBoolean268 = true;
-        class9.aString248 = "5 Astral, 5 Death, 10 Blood";
-        class9.aString228 = "";
-        class9.anInt232 = 0x6b6f33;
-        class9 = aClass9Array210[18864] = new Class9();
-        class9.anInt236 = 18787;
-        class9.anInt250 = 18864;
-        class9.anInt262 = 5;
-        class9.anInt217 = 1;
-        class9.anInt220 = 23;
-        class9.anInt267 = 22;
-        class9.anInt230 = 18865;
-        class9.anIntArray245 = new int[1];
-        class9.anIntArray212 = new int[1];
-        class9.anIntArray245[0] = 3;
-        class9.anIntArray212[0] = 95;
-        class9.anIntArrayArray226 = new int[1][3];
-        class9.anIntArrayArray226[0][0] = 2;
-        class9.anIntArrayArray226[0][1] = 6;
-        class9.anIntArrayArray226[0][2] = 0;
-        s1 = "magicoff3,19";
-        i = s1.lastIndexOf(",");
-        class9.aClass30_Sub2_Sub1_Sub1_207 = class9.drawSprite((new StringBuilder()).append(s1.substring(0, i)).append("_").append(Integer.parseInt(s1.substring(i + 1))).append(".DAT").toString());
-        s1 = "magicon3,19";
-        i = s1.lastIndexOf(",");
-        class9.aClass30_Sub2_Sub1_Sub1_260 = class9.drawSprite((new StringBuilder()).append(s1.substring(0, i)).append("_").append(Integer.parseInt(s1.substring(i + 1))).append(".DAT").toString());
-        Class9 _tmp14 = class9;
-        class9.aString221 = "Cast @gre@Spellbook swap";
-        class9.anInt237 = 10;
-        class9 = aClass9Array210[18865] = new Class9();
-        class9.anInt236 = 18787;
-        class9.anInt250 = 18865;
-        class9.anInt262 = 0;
-        class9.anInt217 = 0;
-        class9.anInt220 = 182;
-        class9.anInt267 = 76;
-        class9.aBoolean266 = true;
-        class9.anIntArray240 = new int[2];
-        class9.anIntArray241 = new int[2];
-        class9.anIntArray272 = new int[2];
-        class9.anIntArray240[0] = 18866;
-        class9.anIntArray241[0] = 3;
-        class9.anIntArray272[0] = 5;
-        class9.anIntArray240[1] = 18867;
-        class9.anIntArray241[1] = 3;
-        class9.anIntArray272[1] = 18;
-        class9 = aClass9Array210[18866] = new Class9();
-        class9.anInt236 = 18787;
-        class9.anInt250 = 18862;
-        class9.anInt262 = 4;
-        class9.anInt217 = 0;
-        class9.anInt220 = 177;
-        class9.anInt267 = 15;
-        class9.aBoolean223 = true;
-        class9.aClass30_Sub2_Sub1_Sub4_243 = aclass30_sub2_sub1_sub4[1];
-        class9.aBoolean268 = true;
-        class9.aString248 = "Level 96 : Spellbook swap";
-        class9.aString228 = "";
-        class9.anInt232 = 0xfff000;
-        class9 = aClass9Array210[18867] = new Class9();
-        class9.anInt236 = 18787;
-        class9.anInt250 = 18863;
-        class9.anInt262 = 4;
-        class9.anInt217 = 0;
-        class9.anInt220 = 175;
-        class9.anInt267 = 10;
-        class9.aBoolean223 = true;
-        class9.aClass30_Sub2_Sub1_Sub4_243 = aclass30_sub2_sub1_sub4[0];
-        class9.aBoolean268 = true;
-        class9.aString248 = "5 Astral, 5 Death, 10 Law";
-        class9.aString228 = "";
-        class9.anInt232 = 0x6b6f33;
-    }
+	}
+	public static void getLunar(Class44 class44, Class30_Sub2_Sub1_Sub4 aclass30_sub2_sub1_sub4[])
+	{
+//		String s = "./Files/interface/";	//REMOVED Said its not used 4/20/17
+		String s1 = "";
+		int i = 0;
+		Class9 class9 = aClass9Array210[18787] = new Class9();
+		class9.anInt250 = 18787;
+		class9.anInt236 = 18787;
+		class9.anInt262 = 0;
+		class9.anInt217 = 0;
+		class9.anInt220 = 512;
+		class9.anInt267 = 334;
+		class9.anIntArray240 = new int[41];
+		class9.anIntArray241 = new int[41];
+		class9.anIntArray272 = new int[41];
+		class9.anIntArray240[0] = 12856;
+		class9.anIntArray241[0] = 3;
+		class9.anIntArray272[0] = 178;
+		class9.anIntArray240[1] = 18788;
+		class9.anIntArray241[1] = 20;
+		class9.anIntArray272[1] = 22;
+		class9.anIntArray240[2] = 18789;
+		class9.anIntArray241[2] = 3;
+		class9.anIntArray272[2] = 184;
+		class9.anIntArray240[3] = 18804;
+		class9.anIntArray241[3] = 60;
+		class9.anIntArray272[3] = 22;
+		class9.anIntArray240[4] = 18805;
+		class9.anIntArray241[4] = 3;
+		class9.anIntArray272[4] = 184;
+		class9.anIntArray240[5] = 18808;
+		class9.anIntArray241[5] = 100;
+		class9.anIntArray272[5] = 22;
+		class9.anIntArray240[6] = 18809;
+		class9.anIntArray241[6] = 3;
+		class9.anIntArray272[6] = 184;
+		class9.anIntArray240[7] = 18824;
+		class9.anIntArray241[7] = 140;
+		class9.anIntArray272[7] = 22;
+		class9.anIntArray240[8] = 18828;
+		class9.anIntArray241[8] = 20;
+		class9.anIntArray272[8] = 54;
+		class9.anIntArray240[9] = 18829;
+		class9.anIntArray241[9] = 3;
+		class9.anIntArray272[9] = 184;
+		class9.anIntArray240[10] = 18832;
+		class9.anIntArray241[10] = 60;
+		class9.anIntArray272[10] = 54;
+		class9.anIntArray240[11] = 18833;
+		class9.anIntArray241[11] = 3;
+		class9.anIntArray272[11] = 184;
+		class9.anIntArray240[12] = 18836;
+		class9.anIntArray241[12] = 100;
+		class9.anIntArray272[12] = 54;
+		class9.anIntArray240[13] = 18837;
+		class9.anIntArray241[13] = 3;
+		class9.anIntArray272[13] = 184;
+		class9.anIntArray240[14] = 18840;
+		class9.anIntArray241[14] = 140;
+		class9.anIntArray272[14] = 54;
+		class9.anIntArray240[15] = 18841;
+		class9.anIntArray241[15] = 3;
+		class9.anIntArray272[15] = 184;
+		class9.anIntArray240[16] = 18825;
+		class9.anIntArray241[16] = 3;
+		class9.anIntArray272[16] = 184;
+		class9.anIntArray240[17] = 18792;
+		class9.anIntArray241[17] = 20;
+		class9.anIntArray272[17] = 86;
+		class9.anIntArray240[18] = 18793;
+		class9.anIntArray241[18] = 3;
+		class9.anIntArray272[18] = 184;
+		class9.anIntArray240[19] = 18796;
+		class9.anIntArray241[19] = 60;
+		class9.anIntArray272[19] = 86;
+		class9.anIntArray240[20] = 18797;
+		class9.anIntArray241[20] = 3;
+		class9.anIntArray272[20] = 184;
+		class9.anIntArray240[21] = 18800;
+		class9.anIntArray241[21] = 100;
+		class9.anIntArray272[21] = 86;
+		class9.anIntArray240[22] = 18801;
+		class9.anIntArray241[22] = 3;
+		class9.anIntArray272[22] = 184;
+		class9.anIntArray240[23] = 18812;
+		class9.anIntArray241[23] = 140;
+		class9.anIntArray272[23] = 86;
+		class9.anIntArray240[24] = 18813;
+		class9.anIntArray241[24] = 3;
+		class9.anIntArray272[24] = 184;
+		class9.anIntArray240[25] = 18816;
+		class9.anIntArray241[25] = 20;
+		class9.anIntArray272[25] = 118;
+		class9.anIntArray240[26] = 18817;
+		class9.anIntArray241[26] = 3;
+		class9.anIntArray272[26] = 184;
+		class9.anIntArray240[27] = 18820;
+		class9.anIntArray241[27] = 60;
+		class9.anIntArray272[27] = 118;
+		class9.anIntArray240[28] = 18821;
+		class9.anIntArray241[28] = 3;
+		class9.anIntArray272[28] = 184;
+		class9.anIntArray240[29] = 18844;
+		class9.anIntArray241[29] = 100;
+		class9.anIntArray272[29] = 118;
+		class9.anIntArray240[30] = 18845;
+		class9.anIntArray241[30] = 3;
+		class9.anIntArray272[30] = 184;
+		class9.anIntArray240[31] = 18848;
+		class9.anIntArray241[31] = 140;
+		class9.anIntArray272[31] = 118;
+		class9.anIntArray240[32] = 18849;
+		class9.anIntArray241[32] = 3;
+		class9.anIntArray272[32] = 184;
+		class9.anIntArray240[33] = 18852;
+		class9.anIntArray241[33] = 20;
+		class9.anIntArray272[33] = 150;
+		class9.anIntArray240[34] = 18853;
+		class9.anIntArray241[34] = 3;
+		class9.anIntArray272[34] = 184;
+		class9.anIntArray240[35] = 18856;
+		class9.anIntArray241[35] = 60;
+		class9.anIntArray272[35] = 150;
+		class9.anIntArray240[36] = 18857;
+		class9.anIntArray241[36] = 3;
+		class9.anIntArray272[36] = 184;
+		class9.anIntArray240[37] = 18860;
+		class9.anIntArray241[37] = 100;
+		class9.anIntArray272[37] = 150;
+		class9.anIntArray240[38] = 18861;
+		class9.anIntArray241[38] = 3;
+		class9.anIntArray272[38] = 184;
+		class9.anIntArray240[39] = 18864;
+		class9.anIntArray241[39] = 140;
+		class9.anIntArray272[39] = 150;
+		class9.anIntArray240[40] = 18865;
+		class9.anIntArray241[40] = 3;
+		class9.anIntArray272[40] = 184;
+		class9 = aClass9Array210[18788] = new Class9();
+		class9.anInt236 = 18787;
+		class9.anInt250 = 18788;
+		class9.anInt262 = 5;
+		class9.anInt217 = 1;
+		class9.anInt220 = 20;
+		class9.anInt267 = 20;
+		class9.anInt230 = 18789;
+		s1 = "magicon3,0";
+		i = s1.lastIndexOf(",");
+		class9.aClass30_Sub2_Sub1_Sub1_207 = class9.drawSprite((new StringBuilder()).append(s1.substring(0, i)).append("_").append(Integer.parseInt(s1.substring(i + 1))).append(".DAT").toString());
+//		Class9 _tmp = class9;	//REMOVED Said its not used 4/20/17
+		class9.aString221 = "Cast @gre@Home teleport";
+		class9.anInt237 = 10;
+		class9 = aClass9Array210[18789] = new Class9();
+		class9.anInt236 = 18787;
+		class9.anInt250 = 18789;
+		class9.anInt262 = 0;
+		class9.anInt217 = 0;
+		class9.anInt220 = 182;
+		class9.anInt267 = 76;
+		class9.aBoolean266 = true;
+		class9.anIntArray240 = new int[2];
+		class9.anIntArray241 = new int[2];
+		class9.anIntArray272 = new int[2];
+		class9.anIntArray240[0] = 18790;
+		class9.anIntArray241[0] = 3;
+		class9.anIntArray272[0] = 5;
+		class9.anIntArray240[1] = 18791;
+		class9.anIntArray241[1] = 3;
+		class9.anIntArray272[1] = 18;
+		class9 = aClass9Array210[18790] = new Class9();
+		class9.anInt236 = 18787;
+		class9.anInt250 = 18790;
+		class9.anInt262 = 4;
+		class9.anInt217 = 0;
+		class9.anInt220 = 177;
+		class9.anInt267 = 15;
+		class9.aBoolean223 = true;
+		class9.aClass30_Sub2_Sub1_Sub4_243 = aclass30_sub2_sub1_sub4[1];
+		class9.aBoolean268 = true;
+		class9.aString248 = "Level 1 : Home teleport";
+		class9.aString228 = "";
+		class9.anInt232 = 0xfff000;
+		class9 = aClass9Array210[18791] = new Class9();
+		class9.anInt236 = 18787;
+		class9.anInt250 = 18791;
+		class9.anInt262 = 4;
+		class9.anInt217 = 0;
+		class9.anInt220 = 175;
+		class9.anInt267 = 10;
+		class9.aBoolean223 = true;
+		class9.aClass30_Sub2_Sub1_Sub4_243 = aclass30_sub2_sub1_sub4[0];
+		class9.aBoolean268 = true;
+		class9.aString248 = "Requires no runes to use.";
+		class9.aString228 = "";
+		class9.anInt232 = 0x6b6f33;
+		class9 = aClass9Array210[18792] = new Class9();
+		class9.anInt236 = 18787;
+		class9.anInt250 = 18792;
+		class9.anInt262 = 5;
+		class9.anInt217 = 1;
+		class9.anInt220 = 20;
+		class9.anInt267 = 20;
+		class9.anInt230 = 18793;
+		class9.anIntArray245 = new int[1];
+		class9.anIntArray212 = new int[1];
+		class9.anIntArray245[0] = 3;
+		class9.anIntArray212[0] = 66;
+		class9.anIntArrayArray226 = new int[1][3];
+		class9.anIntArrayArray226[0][0] = 2;
+		class9.anIntArrayArray226[0][1] = 6;
+		class9.anIntArrayArray226[0][2] = 0;
+		s1 = "magicoff3,1";
+		i = s1.lastIndexOf(",");
+		class9.aClass30_Sub2_Sub1_Sub1_207 = class9.drawSprite((new StringBuilder()).append(s1.substring(0, i)).append("_").append(Integer.parseInt(s1.substring(i + 1))).append(".DAT").toString());
+		s1 = "magicon3,1";
+		i = s1.lastIndexOf(",");
+		class9.aClass30_Sub2_Sub1_Sub1_260 = class9.drawSprite((new StringBuilder()).append(s1.substring(0, i)).append("_").append(Integer.parseInt(s1.substring(i + 1))).append(".DAT").toString());
+		class9.aString218 = "NPC Contact";
+//		Class9 _tmp1 = class9;	//REMOVED Said its not used 4/20/17
+		class9.aString221 = "Cast @gre@NPC Contact";
+		class9.anInt237 = 10;
+		class9 = aClass9Array210[18793] = new Class9();
+		class9.anInt236 = 18787;
+		class9.anInt250 = 18793;
+		class9.anInt262 = 0;
+		class9.anInt217 = 0;
+		class9.anInt220 = 182;
+		class9.anInt267 = 76;
+		class9.aBoolean266 = true;
+		class9.anIntArray240 = new int[2];
+		class9.anIntArray241 = new int[2];
+		class9.anIntArray272 = new int[2];
+		class9.anIntArray240[0] = 18794;
+		class9.anIntArray241[0] = 3;
+		class9.anIntArray272[0] = 5;
+		class9.anIntArray240[1] = 18795;
+		class9.anIntArray241[1] = 3;
+		class9.anIntArray272[1] = 18;
+		class9 = aClass9Array210[18794] = new Class9();
+		class9.anInt236 = 18787;
+		class9.anInt250 = 18794;
+		class9.anInt262 = 4;
+		class9.anInt217 = 0;
+		class9.anInt220 = 177;
+		class9.anInt267 = 15;
+		class9.aBoolean223 = true;
+		class9.aClass30_Sub2_Sub1_Sub4_243 = aclass30_sub2_sub1_sub4[1];
+		class9.aBoolean268 = true;
+		class9.aString248 = "Level 67 : NPC Contact";
+		class9.aString228 = "";
+		class9.anInt232 = 0xfff000;
+		class9 = aClass9Array210[18795] = new Class9();
+		class9.anInt236 = 18787;
+		class9.anInt250 = 18795;
+		class9.anInt262 = 4;
+		class9.anInt217 = 0;
+		class9.anInt220 = 175;
+		class9.anInt267 = 10;
+		class9.aBoolean223 = true;
+		class9.aClass30_Sub2_Sub1_Sub4_243 = aclass30_sub2_sub1_sub4[0];
+		class9.aBoolean268 = true;
+		class9.aString248 = "1 Astral, 1 Law, 10 Earth";
+		class9.aString228 = "";
+		class9.anInt232 = 0x6b6f33;
+		class9 = aClass9Array210[18796] = new Class9();
+		class9.anInt236 = 18787;
+		class9.anInt250 = 18796;
+		class9.anInt262 = 5;
+		class9.anInt217 = 2;
+		class9.anInt220 = 20;
+		class9.anInt267 = 20;
+		class9.anInt230 = 18797;
+		class9.anIntArray245 = new int[1];
+		class9.anIntArray212 = new int[1];
+		class9.anIntArray245[0] = 3;
+		class9.anIntArray212[0] = 67;
+		class9.anIntArrayArray226 = new int[1][3];
+		class9.anIntArrayArray226[0][0] = 2;
+		class9.anIntArrayArray226[0][1] = 6;
+		class9.anIntArrayArray226[0][2] = 0;
+		s1 = "magicoff3,2";
+		i = s1.lastIndexOf(",");
+		class9.aClass30_Sub2_Sub1_Sub1_207 = class9.drawSprite((new StringBuilder()).append(s1.substring(0, i)).append("_").append(Integer.parseInt(s1.substring(i + 1))).append(".DAT").toString());
+		s1 = "magicon3,2";
+		i = s1.lastIndexOf(",");
+		class9.aClass30_Sub2_Sub1_Sub1_260 = class9.drawSprite((new StringBuilder()).append(s1.substring(0, i)).append("_").append(Integer.parseInt(s1.substring(i + 1))).append(".DAT").toString());
+		class9.aString222 = "Cast on";
+		class9.aString218 = "Cure other";
+		class9.anInt237 = 10;
+		class9 = aClass9Array210[18797] = new Class9();
+		class9.anInt236 = 18787;
+		class9.anInt250 = 18797;
+		class9.anInt262 = 0;
+		class9.anInt217 = 0;
+		class9.anInt220 = 182;
+		class9.anInt267 = 76;
+		class9.aBoolean266 = true;
+		class9.anIntArray240 = new int[2];
+		class9.anIntArray241 = new int[2];
+		class9.anIntArray272 = new int[2];
+		class9.anIntArray240[0] = 18798;
+		class9.anIntArray241[0] = 3;
+		class9.anIntArray272[0] = 5;
+		class9.anIntArray240[1] = 18799;
+		class9.anIntArray241[1] = 3;
+		class9.anIntArray272[1] = 18;
+		class9 = aClass9Array210[18798] = new Class9();
+		class9.anInt236 = 18787;
+		class9.anInt250 = 18798;
+		class9.anInt262 = 4;
+		class9.anInt217 = 0;
+		class9.anInt220 = 177;
+		class9.anInt267 = 15;
+		class9.aBoolean223 = true;
+		class9.aClass30_Sub2_Sub1_Sub4_243 = aclass30_sub2_sub1_sub4[1];
+		class9.aBoolean268 = true;
+		class9.aString248 = "Level 68 : Cure other";
+		class9.aString228 = "";
+		class9.anInt232 = 0xfff000;
+		class9 = aClass9Array210[18799] = new Class9();
+		class9.anInt236 = 18787;
+		class9.anInt250 = 18799;
+		class9.anInt262 = 4;
+		class9.anInt217 = 0;
+		class9.anInt220 = 175;
+		class9.anInt267 = 10;
+		class9.aBoolean223 = true;
+		class9.aClass30_Sub2_Sub1_Sub4_243 = aclass30_sub2_sub1_sub4[0];
+		class9.aBoolean268 = true;
+		class9.aString248 = "2 Astral, 2 Cosmic";
+		class9.aString228 = "";
+		class9.anInt232 = 0x6b6f33;
+		class9 = aClass9Array210[18800] = new Class9();
+		class9.anInt236 = 18787;
+		class9.anInt250 = 18800;
+		class9.anInt262 = 5;
+		class9.anInt217 = 1;
+		class9.anInt220 = 20;
+		class9.anInt267 = 20;
+		class9.anInt230 = 18801;
+		class9.anIntArray245 = new int[1];
+		class9.anIntArray212 = new int[1];
+		class9.anIntArray245[0] = 3;
+		class9.anIntArray212[0] = 67;
+		class9.anIntArrayArray226 = new int[1][3];
+		class9.anIntArrayArray226[0][0] = 2;
+		class9.anIntArrayArray226[0][1] = 6;
+		class9.anIntArrayArray226[0][2] = 0;
+		s1 = "magicoff3,3";
+		i = s1.lastIndexOf(",");
+		class9.aClass30_Sub2_Sub1_Sub1_207 = class9.drawSprite((new StringBuilder()).append(s1.substring(0, i)).append("_").append(Integer.parseInt(s1.substring(i + 1))).append(".DAT").toString());
+		s1 = "magicon3,3";
+		i = s1.lastIndexOf(",");
+		class9.aClass30_Sub2_Sub1_Sub1_260 = class9.drawSprite((new StringBuilder()).append(s1.substring(0, i)).append("_").append(Integer.parseInt(s1.substring(i + 1))).append(".DAT").toString());
+//		Class9 _tmp2 = class9;	//REMOVED Said its not used 4/20/17
+		class9.aString221 = "Cast @gre@Humidify";
+		class9.anInt237 = 10;
+		class9 = aClass9Array210[18801] = new Class9();
+		class9.anInt236 = 18787;
+		class9.anInt250 = 18801;
+		class9.anInt262 = 0;
+		class9.anInt217 = 0;
+		class9.anInt220 = 182;
+		class9.anInt267 = 76;
+		class9.aBoolean266 = true;
+		class9.anIntArray240 = new int[2];
+		class9.anIntArray241 = new int[2];
+		class9.anIntArray272 = new int[2];
+		class9.anIntArray240[0] = 18802;
+		class9.anIntArray241[0] = 3;
+		class9.anIntArray272[0] = 5;
+		class9.anIntArray240[1] = 18803;
+		class9.anIntArray241[1] = 3;
+		class9.anIntArray272[1] = 18;
+		class9 = aClass9Array210[18802] = new Class9();
+		class9.anInt236 = 18802;
+		class9.anInt250 = 18802;
+		class9.anInt262 = 4;
+		class9.anInt217 = 0;
+		class9.anInt220 = 177;
+		class9.anInt267 = 15;
+		class9.aBoolean223 = true;
+		class9.aClass30_Sub2_Sub1_Sub4_243 = aclass30_sub2_sub1_sub4[1];
+		class9.aBoolean268 = true;
+		class9.aString248 = "Level 68 : Humidify";
+		class9.aString228 = "";
+		class9.anInt232 = 0xfff000;
+		class9 = aClass9Array210[18803] = new Class9();
+		class9.anInt236 = 18787;
+		class9.anInt250 = 18803;
+		class9.anInt262 = 4;
+		class9.anInt217 = 0;
+		class9.anInt220 = 175;
+		class9.anInt267 = 10;
+		class9.aBoolean223 = true;
+		class9.aClass30_Sub2_Sub1_Sub4_243 = aclass30_sub2_sub1_sub4[0];
+		class9.aBoolean268 = true;
+		class9.aString248 = "2 Astral, 5 Water";
+		class9.aString228 = "";
+		class9.anInt232 = 0x6b6f33;
+		class9 = aClass9Array210[18804] = new Class9();
+		class9.anInt236 = 18787;
+		class9.anInt250 = 18804;
+		class9.anInt262 = 5;
+		class9.anInt217 = 1;
+		class9.anInt220 = 20;
+		class9.anInt267 = 20;
+		class9.anInt230 = 18805;
+		s1 = "magicon3,4";
+		i = s1.lastIndexOf(",");
+		class9.aClass30_Sub2_Sub1_Sub1_207 = class9.drawSprite((new StringBuilder()).append(s1.substring(0, i)).append("_").append(Integer.parseInt(s1.substring(i + 1))).append(".DAT").toString());
+//		Class9 _tmp3 = class9;	//REMOVED Said its not used 4/20/17
+		class9.aString221 = "Cast @gre@Minigame teleport";
+		class9.anInt237 = 10;
+		class9 = aClass9Array210[18805] = new Class9();
+		class9.anInt236 = 18787;
+		class9.anInt250 = 18805;
+		class9.anInt262 = 0;
+		class9.anInt217 = 0;
+		class9.anInt220 = 182;
+		class9.anInt267 = 76;
+		class9.aBoolean266 = true;
+		class9.anIntArray240 = new int[2];
+		class9.anIntArray241 = new int[2];
+		class9.anIntArray272 = new int[2];
+		class9.anIntArray240[0] = 18806;
+		class9.anIntArray241[0] = 3;
+		class9.anIntArray272[0] = 5;
+		class9.anIntArray240[1] = 18807;
+		class9.anIntArray241[1] = 3;
+		class9.anIntArray272[1] = 18;
+		class9 = aClass9Array210[18806] = new Class9();
+		class9.anInt236 = 18787;
+		class9.anInt250 = 18806;
+		class9.anInt262 = 4;
+		class9.anInt217 = 0;
+		class9.anInt220 = 177;
+		class9.anInt267 = 15;
+		class9.aBoolean223 = true;
+		class9.aClass30_Sub2_Sub1_Sub4_243 = aclass30_sub2_sub1_sub4[1];
+		class9.aBoolean268 = true;
+		class9.aString248 = "Level 1 : Minigame teleport";
+		class9.aString228 = "";
+		class9.anInt232 = 0xfff000;
+		class9 = aClass9Array210[18807] = new Class9();
+		class9.anInt236 = 18787;
+		class9.anInt250 = 18807;
+		class9.anInt262 = 4;
+		class9.anInt217 = 0;
+		class9.anInt220 = 175;
+		class9.anInt267 = 10;
+		class9.aBoolean223 = true;
+		class9.aClass30_Sub2_Sub1_Sub4_243 = aclass30_sub2_sub1_sub4[0];
+		class9.aBoolean268 = true;
+		class9.aString248 = "Requires no runes to use.";
+		class9.aString228 = "";
+		class9.anInt232 = 0x6b6f33;
+		class9 = aClass9Array210[18808] = new Class9();
+		class9.anInt236 = 18787;
+		class9.anInt250 = 18808;
+		class9.anInt262 = 5;
+		class9.anInt217 = 1;
+		class9.anInt220 = 20;
+		class9.anInt267 = 20;
+		class9.anInt230 = 18809;
+		s1 = "magicon3,5";
+		i = s1.lastIndexOf(",");
+		class9.aClass30_Sub2_Sub1_Sub1_207 = class9.drawSprite((new StringBuilder()).append(s1.substring(0, i)).append("_").append(Integer.parseInt(s1.substring(i + 1))).append(".DAT").toString());
+//		Class9 _tmp4 = class9;	//REMOVED Said its not used 4/20/17
+		class9.aString221 = "Cast @gre@Monster teleport";
+		class9.anInt237 = 16;
+		class9 = aClass9Array210[18809] = new Class9();
+		class9.anInt236 = 18787;
+		class9.anInt250 = 18809;
+		class9.anInt262 = 0;
+		class9.anInt217 = 0;
+		class9.anInt220 = 182;
+		class9.anInt267 = 76;
+		class9.aBoolean266 = true;
+		class9.anIntArray240 = new int[2];
+		class9.anIntArray241 = new int[2];
+		class9.anIntArray272 = new int[2];
+		class9.anIntArray240[0] = 18810;
+		class9.anIntArray241[0] = 3;
+		class9.anIntArray272[0] = 5;
+		class9.anIntArray240[1] = 18811;
+		class9.anIntArray241[1] = 3;
+		class9.anIntArray272[1] = 18;
+		class9 = aClass9Array210[18810] = new Class9();
+		class9.anInt236 = 18787;
+		class9.anInt250 = 18810;
+		class9.anInt262 = 4;
+		class9.anInt217 = 0;
+		class9.anInt220 = 177;
+		class9.anInt267 = 15;
+		class9.aBoolean223 = true;
+		class9.aClass30_Sub2_Sub1_Sub4_243 = aclass30_sub2_sub1_sub4[1];
+		class9.aBoolean268 = true;
+		class9.aString248 = "Level 1 : Monster teleport";
+		class9.aString228 = "";
+		class9.anInt232 = 0xfff000;
+		class9 = aClass9Array210[18811] = new Class9();
+		class9.anInt236 = 18787;
+		class9.anInt250 = 18811;
+		class9.anInt262 = 4;
+		class9.anInt217 = 0;
+		class9.anInt220 = 175;
+		class9.anInt267 = 10;
+		class9.aBoolean223 = true;
+		class9.aClass30_Sub2_Sub1_Sub4_243 = aclass30_sub2_sub1_sub4[0];
+		class9.aBoolean268 = true;
+		class9.aString248 = "Requires no runes to use.";
+		class9.aString228 = "";
+		class9.anInt232 = 0x6b6f33;
+		class9 = aClass9Array210[18812] = new Class9();
+		class9.anInt236 = 18787;
+		class9.anInt250 = 18812;
+		class9.anInt262 = 5;
+		class9.anInt217 = 1;
+		class9.anInt220 = 20;
+		class9.anInt267 = 20;
+		class9.anInt230 = 18813;
+		class9.anIntArray245 = new int[1];
+		class9.anIntArray212 = new int[1];
+		class9.anIntArray245[0] = 3;
+		class9.anIntArray212[0] = 70;
+		class9.anIntArrayArray226 = new int[1][3];
+		class9.anIntArrayArray226[0][0] = 2;
+		class9.anIntArrayArray226[0][1] = 6;
+		class9.anIntArrayArray226[0][2] = 0;
+		s1 = "magicoff3,6";
+		i = s1.lastIndexOf(",");
+		class9.aClass30_Sub2_Sub1_Sub1_207 = class9.drawSprite((new StringBuilder()).append(s1.substring(0, i)).append("_").append(Integer.parseInt(s1.substring(i + 1))).append(".DAT").toString());
+		s1 = "magicon3,6";
+		i = s1.lastIndexOf(",");
+		class9.aClass30_Sub2_Sub1_Sub1_260 = class9.drawSprite((new StringBuilder()).append(s1.substring(0, i)).append("_").append(Integer.parseInt(s1.substring(i + 1))).append(".DAT").toString());
+//		Class9 _tmp5 = class9;	//REMOVED Said its not used 4/20/17
+		class9.aString221 = "Cast @gre@Cure me";
+		class9.anInt237 = 10;
+		class9 = aClass9Array210[18813] = new Class9();
+		class9.anInt236 = 18787;
+		class9.anInt250 = 18813;
+		class9.anInt262 = 0;
+		class9.anInt217 = 0;
+		class9.anInt220 = 182;
+		class9.anInt267 = 76;
+		class9.aBoolean266 = true;
+		class9.anIntArray240 = new int[2];
+		class9.anIntArray241 = new int[2];
+		class9.anIntArray272 = new int[2];
+		class9.anIntArray240[0] = 18814;
+		class9.anIntArray241[0] = 3;
+		class9.anIntArray272[0] = 5;
+		class9.anIntArray240[1] = 18815;
+		class9.anIntArray241[1] = 3;
+		class9.anIntArray272[1] = 18;
+		class9 = aClass9Array210[18814] = new Class9();
+		class9.anInt236 = 18787;
+		class9.anInt250 = 18814;
+		class9.anInt262 = 4;
+		class9.anInt217 = 0;
+		class9.anInt220 = 177;
+		class9.anInt267 = 15;
+		class9.aBoolean223 = true;
+		class9.aClass30_Sub2_Sub1_Sub4_243 = aclass30_sub2_sub1_sub4[1];
+		class9.aBoolean268 = true;
+		class9.aString248 = "Level 71 : Cure me";
+		class9.aString228 = "";
+		class9.anInt232 = 0xfff000;
+		class9 = aClass9Array210[18815] = new Class9();
+		class9.anInt236 = 18787;
+		class9.anInt250 = 18815;
+		class9.anInt262 = 4;
+		class9.anInt217 = 0;
+		class9.anInt220 = 175;
+		class9.anInt267 = 10;
+		class9.aBoolean223 = true;
+		class9.aClass30_Sub2_Sub1_Sub4_243 = aclass30_sub2_sub1_sub4[0];
+		class9.aBoolean268 = true;
+		class9.aString248 = "1 Astral, 5 Earth";
+		class9.aString228 = "";
+		class9.anInt232 = 0x6b6f33;
+		class9 = aClass9Array210[18816] = new Class9();
+		class9.anInt236 = 18787;
+		class9.anInt250 = 18816;
+		class9.anInt262 = 5;
+		class9.anInt217 = 1;
+		class9.anInt220 = 20;
+		class9.anInt267 = 20;
+		class9.anInt230 = 18817;
+		class9.anIntArray245 = new int[1];
+		class9.anIntArray212 = new int[1];
+		class9.anIntArray245[0] = 3;
+		class9.anIntArray212[0] = 73;
+		class9.anIntArrayArray226 = new int[1][3];
+		class9.anIntArrayArray226[0][0] = 2;
+		class9.anIntArrayArray226[0][1] = 6;
+		class9.anIntArrayArray226[0][2] = 0;
+		s1 = "magicoff3,7";
+		i = s1.lastIndexOf(",");
+		class9.aClass30_Sub2_Sub1_Sub1_207 = class9.drawSprite((new StringBuilder()).append(s1.substring(0, i)).append("_").append(Integer.parseInt(s1.substring(i + 1))).append(".DAT").toString());
+		s1 = "magicon3,7";
+		i = s1.lastIndexOf(",");
+		class9.aClass30_Sub2_Sub1_Sub1_260 = class9.drawSprite((new StringBuilder()).append(s1.substring(0, i)).append("_").append(Integer.parseInt(s1.substring(i + 1))).append(".DAT").toString());
+//		Class9 _tmp6 = class9;	//REMOVED Said its not used 4/20/17
+		class9.aString221 = "Cast @gre@Cure group";
+		class9.anInt237 = 10;
+		class9 = aClass9Array210[18817] = new Class9();
+		class9.anInt236 = 18787;
+		class9.anInt250 = 18817;
+		class9.anInt262 = 0;
+		class9.anInt217 = 0;
+		class9.anInt220 = 182;
+		class9.anInt267 = 76;
+		class9.aBoolean266 = true;
+		class9.anIntArray240 = new int[2];
+		class9.anIntArray241 = new int[2];
+		class9.anIntArray272 = new int[2];
+		class9.anIntArray240[0] = 18818;
+		class9.anIntArray241[0] = 3;
+		class9.anIntArray272[0] = 5;
+		class9.anIntArray240[1] = 18819;
+		class9.anIntArray241[1] = 3;
+		class9.anIntArray272[1] = 18;
+		class9 = aClass9Array210[18818] = new Class9();
+		class9.anInt236 = 18787;
+		class9.anInt250 = 18818;
+		class9.anInt262 = 4;
+		class9.anInt217 = 0;
+		class9.anInt220 = 177;
+		class9.anInt267 = 15;
+		class9.aBoolean223 = true;
+		class9.aClass30_Sub2_Sub1_Sub4_243 = aclass30_sub2_sub1_sub4[1];
+		class9.aBoolean268 = true;
+		class9.aString248 = "Level 74 : Cure group";
+		class9.aString228 = "";
+		class9.anInt232 = 0xfff000;
+		class9 = aClass9Array210[18819] = new Class9();
+		class9.anInt236 = 18787;
+		class9.anInt250 = 18819;
+		class9.anInt262 = 4;
+		class9.anInt217 = 0;
+		class9.anInt220 = 175;
+		class9.anInt267 = 10;
+		class9.aBoolean223 = true;
+		class9.aClass30_Sub2_Sub1_Sub4_243 = aclass30_sub2_sub1_sub4[0];
+		class9.aBoolean268 = true;
+		class9.aString248 = "3 Astral, 15 Earth";
+		class9.aString228 = "";
+		class9.anInt232 = 0x6b6f33;
+		class9 = aClass9Array210[18820] = new Class9();
+		class9.anInt236 = 18787;
+		class9.anInt250 = 18820;
+		class9.anInt262 = 5;
+		class9.anInt217 = 2;
+		class9.anInt220 = 20;
+		class9.anInt267 = 20;
+		class9.anInt230 = 18821;
+		class9.anIntArray245 = new int[1];
+		class9.anIntArray212 = new int[1];
+		class9.anIntArray245[0] = 3;
+		class9.anIntArray212[0] = 74;
+		class9.anIntArrayArray226 = new int[1][3];
+		class9.anIntArrayArray226[0][0] = 2;
+		class9.anIntArrayArray226[0][1] = 6;
+		class9.anIntArrayArray226[0][2] = 0;
+		s1 = "magicoff3,8";
+		i = s1.lastIndexOf(",");
+		class9.aClass30_Sub2_Sub1_Sub1_207 = class9.drawSprite((new StringBuilder()).append(s1.substring(0, i)).append("_").append(Integer.parseInt(s1.substring(i + 1))).append(".DAT").toString());
+		s1 = "magicon3,8";
+		i = s1.lastIndexOf(",");
+		class9.aClass30_Sub2_Sub1_Sub1_260 = class9.drawSprite((new StringBuilder()).append(s1.substring(0, i)).append("_").append(Integer.parseInt(s1.substring(i + 1))).append(".DAT").toString());
+		class9.aString222 = "Cast on";
+		class9.aString218 = "Stat spy";
+		class9.anInt237 = 10;
+		class9 = aClass9Array210[18821] = new Class9();
+		class9.anInt236 = 18787;
+		class9.anInt250 = 18821;
+		class9.anInt262 = 0;
+		class9.anInt217 = 0;
+		class9.anInt220 = 182;
+		class9.anInt267 = 76;
+		class9.aBoolean266 = true;
+		class9.anIntArray240 = new int[2];
+		class9.anIntArray241 = new int[2];
+		class9.anIntArray272 = new int[2];
+		class9.anIntArray240[0] = 18822;
+		class9.anIntArray241[0] = 3;
+		class9.anIntArray272[0] = 5;
+		class9.anIntArray240[1] = 18823;
+		class9.anIntArray241[1] = 3;
+		class9.anIntArray272[1] = 18;
+		class9 = aClass9Array210[18822] = new Class9();
+		class9.anInt236 = 18787;
+		class9.anInt250 = 18822;
+		class9.anInt262 = 4;
+		class9.anInt217 = 0;
+		class9.anInt220 = 177;
+		class9.anInt267 = 15;
+		class9.aBoolean223 = true;
+		class9.aClass30_Sub2_Sub1_Sub4_243 = aclass30_sub2_sub1_sub4[1];
+		class9.aBoolean268 = true;
+		class9.aString248 = "Level 75 : Stat spy";
+		class9.aString228 = "";
+		class9.anInt232 = 0xfff000;
+		class9 = aClass9Array210[18823] = new Class9();
+		class9.anInt236 = 18787;
+		class9.anInt250 = 18823;
+		class9.anInt262 = 4;
+		class9.anInt217 = 0;
+		class9.anInt220 = 175;
+		class9.anInt267 = 10;
+		class9.aBoolean223 = true;
+		class9.aClass30_Sub2_Sub1_Sub4_243 = aclass30_sub2_sub1_sub4[0];
+		class9.aBoolean268 = true;
+		class9.aString248 = "1 Astral, 2 Death, 10 Earth";
+		class9.aString228 = "";
+		class9.anInt232 = 0x6b6f33;
+		class9 = aClass9Array210[18824] = new Class9();
+		class9.anInt236 = 18787;
+		class9.anInt250 = 18824;
+		class9.anInt262 = 5;
+		class9.anInt217 = 1;
+		class9.anInt220 = 20;
+		class9.anInt267 = 20;
+		class9.anInt230 = 18825;
+		s1 = "magicon3,9";
+		i = s1.lastIndexOf(",");
+		class9.aClass30_Sub2_Sub1_Sub1_207 = class9.drawSprite((new StringBuilder()).append(s1.substring(0, i)).append("_").append(Integer.parseInt(s1.substring(i + 1))).append(".DAT").toString());
+//		Class9 _tmp7 = class9;	//REMOVED Said its not used 4/20/17
+		class9.aString221 = "Cast @gre@Pk teleport";
+		class9.anInt237 = 10;
+		class9 = aClass9Array210[18825] = new Class9();
+		class9.anInt236 = 18787;
+		class9.anInt250 = 18825;
+		class9.anInt262 = 0;
+		class9.anInt217 = 0;
+		class9.anInt220 = 182;
+		class9.anInt267 = 76;
+		class9.aBoolean266 = true;
+		class9.anIntArray240 = new int[2];
+		class9.anIntArray241 = new int[2];
+		class9.anIntArray272 = new int[2];
+		class9.anIntArray240[0] = 18826;
+		class9.anIntArray241[0] = 3;
+		class9.anIntArray272[0] = 5;
+		class9.anIntArray240[1] = 18827;
+		class9.anIntArray241[1] = 3;
+		class9.anIntArray272[1] = 18;
+		class9 = aClass9Array210[18826] = new Class9();
+		class9.anInt236 = 18787;
+		class9.anInt250 = 18826;
+		class9.anInt262 = 4;
+		class9.anInt217 = 0;
+		class9.anInt220 = 177;
+		class9.anInt267 = 15;
+		class9.aBoolean223 = true;
+		class9.aClass30_Sub2_Sub1_Sub4_243 = aclass30_sub2_sub1_sub4[1];
+		class9.aBoolean268 = true;
+		class9.aString248 = "Level 1 : Pk teleport";
+		class9.aString228 = "";
+		class9.anInt232 = 0xfff000;
+		class9 = aClass9Array210[18827] = new Class9();
+		class9.anInt236 = 18787;
+		class9.anInt250 = 18827;
+		class9.anInt262 = 4;
+		class9.anInt217 = 0;
+		class9.anInt220 = 175;
+		class9.anInt267 = 10;
+		class9.aBoolean223 = true;
+		class9.aClass30_Sub2_Sub1_Sub4_243 = aclass30_sub2_sub1_sub4[0];
+		class9.aBoolean268 = true;
+		class9.aString248 = "Requires no runes to use.";
+		class9.aString228 = "";
+		class9.anInt232 = 0x6b6f33;
+		class9 = aClass9Array210[18828] = new Class9();
+		class9.anInt236 = 18787;
+		class9.anInt250 = 18828;
+		class9.anInt262 = 5;
+		class9.anInt217 = 1;
+		class9.anInt220 = 20;
+		class9.anInt267 = 20;
+		class9.anInt230 = 18829;
+		s1 = "magicon3,10";
+		i = s1.lastIndexOf(",");
+		class9.aClass30_Sub2_Sub1_Sub1_207 = class9.drawSprite((new StringBuilder()).append(s1.substring(0, i)).append("_").append(Integer.parseInt(s1.substring(i + 1))).append(".DAT").toString());
+//		Class9 _tmp8 = class9;	//REMOVED Said its not used 4/20/17
+		class9.aString221 = "Cast @gre@Ape atoll teleport";
+		class9.anInt237 = 10;
+		class9 = aClass9Array210[18829] = new Class9();
+		class9.anInt236 = 18787;
+		class9.anInt250 = 18829;
+		class9.anInt262 = 0;
+		class9.anInt217 = 0;
+		class9.anInt220 = 182;
+		class9.anInt267 = 76;
+		class9.aBoolean266 = true;
+		class9.anIntArray240 = new int[2];
+		class9.anIntArray241 = new int[2];
+		class9.anIntArray272 = new int[2];
+		class9.anIntArray240[0] = 18830;
+		class9.anIntArray241[0] = 3;
+		class9.anIntArray272[0] = 5;
+		class9.anIntArray240[1] = 18831;
+		class9.anIntArray241[1] = 3;
+		class9.anIntArray272[1] = 18;
+		class9 = aClass9Array210[18830] = new Class9();
+		class9.anInt236 = 18787;
+		class9.anInt250 = 18830;
+		class9.anInt262 = 4;
+		class9.anInt217 = 0;
+		class9.anInt220 = 177;
+		class9.anInt267 = 15;
+		class9.aBoolean223 = true;
+		class9.aClass30_Sub2_Sub1_Sub4_243 = aclass30_sub2_sub1_sub4[1];
+		class9.aBoolean268 = true;
+		class9.aString248 = "Level 1 : Ape atoll teleport";
+		class9.aString228 = "";
+		class9.anInt232 = 0xfff000;
+		class9 = aClass9Array210[18831] = new Class9();
+		class9.anInt236 = 18787;
+		class9.anInt250 = 18831;
+		class9.anInt262 = 4;
+		class9.anInt217 = 0;
+		class9.anInt220 = 175;
+		class9.anInt267 = 10;
+		class9.aBoolean223 = true;
+		class9.aClass30_Sub2_Sub1_Sub4_243 = aclass30_sub2_sub1_sub4[0];
+		class9.aBoolean268 = true;
+		class9.aString248 = "Requires no runes to use.";
+		class9.aString228 = "";
+		class9.anInt232 = 0x6b6f33;
+		class9 = aClass9Array210[18832] = new Class9();
+		class9.anInt236 = 18787;
+		class9.anInt250 = 18832;
+		class9.anInt262 = 5;
+		class9.anInt217 = 1;
+		class9.anInt220 = 20;
+		class9.anInt267 = 20;
+		class9.anInt230 = 18833;
+		s1 = "magicon3,11";
+		i = s1.lastIndexOf(",");
+		class9.aClass30_Sub2_Sub1_Sub1_207 = class9.drawSprite((new StringBuilder()).append(s1.substring(0, i)).append("_").append(Integer.parseInt(s1.substring(i + 1))).append(".DAT").toString());
+//		Class9 _tmp9 = class9;	//REMOVED Said its not used 4/20/17
+		class9.aString221 = "Cast @gre@Catherby teleport";
+		class9.anInt237 = 10;
+		class9 = aClass9Array210[18833] = new Class9();
+		class9.anInt236 = 18787;
+		class9.anInt250 = 18833;
+		class9.anInt262 = 0;
+		class9.anInt217 = 0;
+		class9.anInt220 = 182;
+		class9.anInt267 = 76;
+		class9.aBoolean266 = true;
+		class9.anIntArray240 = new int[2];
+		class9.anIntArray241 = new int[2];
+		class9.anIntArray272 = new int[2];
+		class9.anIntArray240[0] = 18834;
+		class9.anIntArray241[0] = 3;
+		class9.anIntArray272[0] = 5;
+		class9.anIntArray240[1] = 18835;
+		class9.anIntArray241[1] = 3;
+		class9.anIntArray272[1] = 18;
+		class9 = aClass9Array210[18834] = new Class9();
+		class9.anInt236 = 18787;
+		class9.anInt250 = 18834;
+		class9.anInt262 = 4;
+		class9.anInt217 = 0;
+		class9.anInt220 = 177;
+		class9.anInt267 = 15;
+		class9.aBoolean223 = true;
+		class9.aClass30_Sub2_Sub1_Sub4_243 = aclass30_sub2_sub1_sub4[1];
+		class9.aBoolean268 = true;
+		class9.aString248 = "Level 1 : Catherby teleport";
+		class9.aString228 = "";
+		class9.anInt232 = 0xfff000;
+		class9 = aClass9Array210[18835] = new Class9();
+		class9.anInt236 = 18787;
+		class9.anInt250 = 18835;
+		class9.anInt262 = 4;
+		class9.anInt217 = 0;
+		class9.anInt220 = 175;
+		class9.anInt267 = 10;
+		class9.aBoolean223 = true;
+		class9.aClass30_Sub2_Sub1_Sub4_243 = aclass30_sub2_sub1_sub4[0];
+		class9.aBoolean268 = true;
+		class9.aString248 = "Requires no runes to use.";
+		class9.aString228 = "";
+		class9.anInt232 = 0x6b6f33;
+		class9 = aClass9Array210[18836] = new Class9();
+		class9.anInt236 = 18787;
+		class9.anInt250 = 18836;
+		class9.anInt262 = 5;
+		class9.anInt217 = 1;
+		class9.anInt220 = 23;
+		class9.anInt267 = 22;
+		class9.anInt230 = 18837;
+		s1 = "magicon3,12";
+		i = s1.lastIndexOf(",");
+		class9.aClass30_Sub2_Sub1_Sub1_207 = class9.drawSprite((new StringBuilder()).append(s1.substring(0, i)).append("_").append(Integer.parseInt(s1.substring(i + 1))).append(".DAT").toString());
+//		Class9 _tmp10 = class9;	//REMOVED Said its not used 4/20/17
+		class9.aString221 = "Cast @gre@Training teleport";
+		class9.anInt237 = 10;
+		class9 = aClass9Array210[18837] = new Class9();
+		class9.anInt236 = 18787;
+		class9.anInt250 = 18837;
+		class9.anInt262 = 0;
+		class9.anInt217 = 0;
+		class9.anInt220 = 182;
+		class9.anInt267 = 76;
+		class9.aBoolean266 = true;
+		class9.anIntArray240 = new int[2];
+		class9.anIntArray241 = new int[2];
+		class9.anIntArray272 = new int[2];
+		class9.anIntArray240[0] = 18838;
+		class9.anIntArray241[0] = 3;
+		class9.anIntArray272[0] = 5;
+		class9.anIntArray240[1] = 18839;
+		class9.anIntArray241[1] = 3;
+		class9.anIntArray272[1] = 18;
+		class9 = aClass9Array210[18838] = new Class9();
+		class9.anInt236 = 18787;
+		class9.anInt250 = 18838;
+		class9.anInt262 = 4;
+		class9.anInt217 = 0;
+		class9.anInt220 = 177;
+		class9.anInt267 = 15;
+		class9.aBoolean223 = true;
+		class9.aClass30_Sub2_Sub1_Sub4_243 = aclass30_sub2_sub1_sub4[1];
+		class9.aBoolean268 = true;
+		class9.aString248 = "Level 1 : Training teleport";
+		class9.aString228 = "";
+		class9.anInt232 = 0xfff000;
+		class9 = aClass9Array210[18839] = new Class9();
+		class9.anInt236 = 18787;
+		class9.anInt250 = 18839;
+		class9.anInt262 = 4;
+		class9.anInt217 = 0;
+		class9.anInt220 = 175;
+		class9.anInt267 = 10;
+		class9.aBoolean223 = true;
+		class9.aClass30_Sub2_Sub1_Sub4_243 = aclass30_sub2_sub1_sub4[0];
+		class9.aBoolean268 = true;
+		class9.aString248 = "Requires no runes to use.";
+		class9.aString228 = "";
+		class9.anInt232 = 0x6b6f33;
+		class9 = aClass9Array210[18840] = new Class9();
+		class9.anInt236 = 18787;
+		class9.anInt250 = 18840;
+		class9.anInt262 = 5;
+		class9.anInt217 = 1;
+		class9.anInt220 = 23;
+		class9.anInt267 = 22;
+		class9.anInt230 = 18841;
+		s1 = "magicon3,13";
+		i = s1.lastIndexOf(",");
+		class9.aClass30_Sub2_Sub1_Sub1_207 = class9.drawSprite((new StringBuilder()).append(s1.substring(0, i)).append("_").append(Integer.parseInt(s1.substring(i + 1))).append(".DAT").toString());
+//		Class9 _tmp11 = class9;	//REMOVED Said its not used 4/20/17
+		class9.aString221 = "Cast @gre@Ice plateau teleport";
+		class9.anInt237 = 10;
+		class9 = aClass9Array210[18841] = new Class9();
+		class9.anInt236 = 18787;
+		class9.anInt250 = 18841;
+		class9.anInt262 = 0;
+		class9.anInt217 = 0;
+		class9.anInt220 = 182;
+		class9.anInt267 = 76;
+		class9.aBoolean266 = true;
+		class9.anIntArray240 = new int[2];
+		class9.anIntArray241 = new int[2];
+		class9.anIntArray272 = new int[2];
+		class9.anIntArray240[0] = 18842;
+		class9.anIntArray241[0] = 3;
+		class9.anIntArray272[0] = 5;
+		class9.anIntArray240[1] = 18843;
+		class9.anIntArray241[1] = 3;
+		class9.anIntArray272[1] = 18;
+		class9 = aClass9Array210[18842] = new Class9();
+		class9.anInt236 = 18787;
+		class9.anInt250 = 18842;
+		class9.anInt262 = 4;
+		class9.anInt217 = 0;
+		class9.anInt220 = 177;
+		class9.anInt267 = 15;
+		class9.aBoolean223 = true;
+		class9.aClass30_Sub2_Sub1_Sub4_243 = aclass30_sub2_sub1_sub4[1];
+		class9.aBoolean268 = true;
+		class9.aString248 = "Level 1 : Ice plateau teleport";
+		class9.aString228 = "";
+		class9.anInt232 = 0xfff000;
+		class9 = aClass9Array210[18843] = new Class9();
+		class9.anInt236 = 18787;
+		class9.anInt250 = 18843;
+		class9.anInt262 = 4;
+		class9.anInt217 = 0;
+		class9.anInt220 = 175;
+		class9.anInt267 = 10;
+		class9.aBoolean223 = true;
+		class9.aClass30_Sub2_Sub1_Sub4_243 = aclass30_sub2_sub1_sub4[0];
+		class9.aBoolean268 = true;
+		class9.aString248 = "Requires no runes to use.";
+		class9.aString228 = "";
+		class9.anInt232 = 0x6b6f33;
+		class9 = aClass9Array210[18844] = new Class9();
+		class9.anInt236 = 18787;
+		class9.anInt250 = 18844;
+		class9.anInt262 = 5;
+		class9.anInt217 = 2;
+		class9.anInt220 = 23;
+		class9.anInt267 = 22;
+		class9.anInt230 = 18845;
+		class9.anIntArray245 = new int[1];
+		class9.anIntArray212 = new int[1];
+		class9.anIntArray245[0] = 3;
+		class9.anIntArray212[0] = 90;
+		class9.anIntArrayArray226 = new int[1][3];
+		class9.anIntArrayArray226[0][0] = 2;
+		class9.anIntArrayArray226[0][1] = 6;
+		class9.anIntArrayArray226[0][2] = 0;
+		s1 = "magicoff3,14";
+		i = s1.lastIndexOf(",");
+		class9.aClass30_Sub2_Sub1_Sub1_207 = class9.drawSprite((new StringBuilder()).append(s1.substring(0, i)).append("_").append(Integer.parseInt(s1.substring(i + 1))).append(".DAT").toString());
+		s1 = "magicon3,14";
+		i = s1.lastIndexOf(",");
+		class9.aClass30_Sub2_Sub1_Sub1_260 = class9.drawSprite((new StringBuilder()).append(s1.substring(0, i)).append("_").append(Integer.parseInt(s1.substring(i + 1))).append(".DAT").toString());
+		class9.aString218 = "Energy transfer";
+		class9.aString222 = "Cast on";
+		class9.anInt237 = 10;
+		class9 = aClass9Array210[18845] = new Class9();
+		class9.anInt236 = 18787;
+		class9.anInt250 = 18845;
+		class9.anInt262 = 0;
+		class9.anInt217 = 0;
+		class9.anInt220 = 182;
+		class9.anInt267 = 76;
+		class9.aBoolean266 = true;
+		class9.anIntArray240 = new int[2];
+		class9.anIntArray241 = new int[2];
+		class9.anIntArray272 = new int[2];
+		class9.anIntArray240[0] = 18846;
+		class9.anIntArray241[0] = 3;
+		class9.anIntArray272[0] = 5;
+		class9.anIntArray240[1] = 18847;
+		class9.anIntArray241[1] = 3;
+		class9.anIntArray272[1] = 18;
+		class9 = aClass9Array210[18846] = new Class9();
+		class9.anInt236 = 18787;
+		class9.anInt250 = 18846;
+		class9.anInt262 = 4;
+		class9.anInt217 = 0;
+		class9.anInt220 = 177;
+		class9.anInt267 = 15;
+		class9.aBoolean223 = true;
+		class9.aClass30_Sub2_Sub1_Sub4_243 = aclass30_sub2_sub1_sub4[1];
+		class9.aBoolean268 = true;
+		class9.aString248 = "Level 91 : Energy transfer";
+		class9.aString228 = "";
+		class9.anInt232 = 0xfff000;
+		class9 = aClass9Array210[18847] = new Class9();
+		class9.anInt236 = 18787;
+		class9.anInt250 = 18847;
+		class9.anInt262 = 4;
+		class9.anInt217 = 0;
+		class9.anInt220 = 175;
+		class9.anInt267 = 10;
+		class9.aBoolean223 = true;
+		class9.aClass30_Sub2_Sub1_Sub4_243 = aclass30_sub2_sub1_sub4[0];
+		class9.aBoolean268 = true;
+		class9.aString248 = "5 Astral, 5 Blood";
+		class9.aString228 = "";
+		class9.anInt232 = 0x6b6f33;
+		class9 = aClass9Array210[18848] = new Class9();
+		class9.anInt236 = 18787;
+		class9.anInt250 = 18848;
+		class9.anInt262 = 5;
+		class9.anInt217 = 2;
+		class9.anInt220 = 23;
+		class9.anInt267 = 22;
+		class9.anInt230 = 18849;
+		class9.anIntArray245 = new int[1];
+		class9.anIntArray212 = new int[1];
+		class9.anIntArray245[0] = 3;
+		class9.anIntArray212[0] = 91;
+		class9.anIntArrayArray226 = new int[1][3];
+		class9.anIntArrayArray226[0][0] = 2;
+		class9.anIntArrayArray226[0][1] = 6;
+		class9.anIntArrayArray226[0][2] = 0;
+		s1 = "magicoff3,15";
+		i = s1.lastIndexOf(",");
+		class9.aClass30_Sub2_Sub1_Sub1_207 = class9.drawSprite((new StringBuilder()).append(s1.substring(0, i)).append("_").append(Integer.parseInt(s1.substring(i + 1))).append(".DAT").toString());
+		s1 = "magicon3,15";
+		i = s1.lastIndexOf(",");
+		class9.aClass30_Sub2_Sub1_Sub1_260 = class9.drawSprite((new StringBuilder()).append(s1.substring(0, i)).append("_").append(Integer.parseInt(s1.substring(i + 1))).append(".DAT").toString());
+		class9.aString218 = "Heal other";
+		class9.aString222 = "Cast on";
+		class9.anInt237 = 10;
+		class9 = aClass9Array210[18849] = new Class9();
+		class9.anInt236 = 18787;
+		class9.anInt250 = 18849;
+		class9.anInt262 = 0;
+		class9.anInt217 = 0;
+		class9.anInt220 = 182;
+		class9.anInt267 = 76;
+		class9.aBoolean266 = true;
+		class9.anIntArray240 = new int[2];
+		class9.anIntArray241 = new int[2];
+		class9.anIntArray272 = new int[2];
+		class9.anIntArray240[0] = 18850;
+		class9.anIntArray241[0] = 3;
+		class9.anIntArray272[0] = 5;
+		class9.anIntArray240[1] = 18851;
+		class9.anIntArray241[1] = 3;
+		class9.anIntArray272[1] = 18;
+		class9 = aClass9Array210[18850] = new Class9();
+		class9.anInt236 = 18787;
+		class9.anInt250 = 18846;
+		class9.anInt262 = 4;
+		class9.anInt217 = 0;
+		class9.anInt220 = 177;
+		class9.anInt267 = 15;
+		class9.aBoolean223 = true;
+		class9.aClass30_Sub2_Sub1_Sub4_243 = aclass30_sub2_sub1_sub4[1];
+		class9.aBoolean268 = true;
+		class9.aString248 = "Level 92 : Heal other";
+		class9.aString228 = "";
+		class9.anInt232 = 0xfff000;
+		class9 = aClass9Array210[18851] = new Class9();
+		class9.anInt236 = 18787;
+		class9.anInt250 = 18847;
+		class9.anInt262 = 4;
+		class9.anInt217 = 0;
+		class9.anInt220 = 175;
+		class9.anInt267 = 10;
+		class9.aBoolean223 = true;
+		class9.aClass30_Sub2_Sub1_Sub4_243 = aclass30_sub2_sub1_sub4[0];
+		class9.aBoolean268 = true;
+		class9.aString248 = "3 Astral, 3 Blood, 3 Fire";
+		class9.aString228 = "";
+		class9.anInt232 = 0x6b6f33;
+		class9 = aClass9Array210[18852] = new Class9();
+		class9.anInt236 = 18787;
+		class9.anInt250 = 18852;
+		class9.anInt262 = 5;
+		class9.anInt217 = 2;
+		class9.anInt220 = 23;
+		class9.anInt267 = 22;
+		class9.anInt230 = 18853;
+		class9.anIntArray245 = new int[1];
+		class9.anIntArray212 = new int[1];
+		class9.anIntArray245[0] = 3;
+		class9.anIntArray212[0] = 92;
+		class9.anIntArrayArray226 = new int[1][3];
+		class9.anIntArrayArray226[0][0] = 2;
+		class9.anIntArrayArray226[0][1] = 6;
+		class9.anIntArrayArray226[0][2] = 0;
+		s1 = "magicoff3,16";
+		i = s1.lastIndexOf(",");
+		class9.aClass30_Sub2_Sub1_Sub1_207 = class9.drawSprite((new StringBuilder()).append(s1.substring(0, i)).append("_").append(Integer.parseInt(s1.substring(i + 1))).append(".DAT").toString());
+		s1 = "magicon3,16";
+		i = s1.lastIndexOf(",");
+		class9.aClass30_Sub2_Sub1_Sub1_260 = class9.drawSprite((new StringBuilder()).append(s1.substring(0, i)).append("_").append(Integer.parseInt(s1.substring(i + 1))).append(".DAT").toString());
+		class9.aString218 = "Vengeance other";
+		class9.aString222 = "Cast on";
+		class9.anInt237 = 10;
+		class9 = aClass9Array210[18853] = new Class9();
+		class9.anInt236 = 18787;
+		class9.anInt250 = 18853;
+		class9.anInt262 = 0;
+		class9.anInt217 = 0;
+		class9.anInt220 = 182;
+		class9.anInt267 = 76;
+		class9.aBoolean266 = true;
+		class9.anIntArray240 = new int[2];
+		class9.anIntArray241 = new int[2];
+		class9.anIntArray272 = new int[2];
+		class9.anIntArray240[0] = 18854;
+		class9.anIntArray241[0] = 3;
+		class9.anIntArray272[0] = 5;
+		class9.anIntArray240[1] = 18855;
+		class9.anIntArray241[1] = 3;
+		class9.anIntArray272[1] = 18;
+		class9 = aClass9Array210[18854] = new Class9();
+		class9.anInt236 = 18787;
+		class9.anInt250 = 18846;
+		class9.anInt262 = 4;
+		class9.anInt217 = 0;
+		class9.anInt220 = 177;
+		class9.anInt267 = 15;
+		class9.aBoolean223 = true;
+		class9.aClass30_Sub2_Sub1_Sub4_243 = aclass30_sub2_sub1_sub4[1];
+		class9.aBoolean268 = true;
+		class9.aString248 = "Level 93 : Vengeance other";
+		class9.aString228 = "";
+		class9.anInt232 = 0xfff000;
+		class9 = aClass9Array210[18855] = new Class9();
+		class9.anInt236 = 18787;
+		class9.anInt250 = 18847;
+		class9.anInt262 = 4;
+		class9.anInt217 = 0;
+		class9.anInt220 = 175;
+		class9.anInt267 = 10;
+		class9.aBoolean223 = true;
+		class9.aClass30_Sub2_Sub1_Sub4_243 = aclass30_sub2_sub1_sub4[0];
+		class9.aBoolean268 = true;
+		class9.aString248 = "3 Astral, 2 Death, 3 Earthh";
+		class9.aString228 = "";
+		class9.anInt232 = 0x6b6f33;
+		class9 = aClass9Array210[18856] = new Class9();
+		class9.anInt236 = 18787;
+		class9.anInt250 = 18856;
+		class9.anInt262 = 5;
+		class9.anInt217 = 1;
+		class9.anInt220 = 23;
+		class9.anInt267 = 22;
+		class9.anInt230 = 18857;
+		class9.anIntArray245 = new int[1];
+		class9.anIntArray212 = new int[1];
+		class9.anIntArray245[0] = 3;
+		class9.anIntArray212[0] = 93;
+		class9.anIntArrayArray226 = new int[1][3];
+		class9.anIntArrayArray226[0][0] = 2;
+		class9.anIntArrayArray226[0][1] = 6;
+		class9.anIntArrayArray226[0][2] = 0;
+		s1 = "magicoff3,17";
+		i = s1.lastIndexOf(",");
+		class9.aClass30_Sub2_Sub1_Sub1_207 = class9.drawSprite((new StringBuilder()).append(s1.substring(0, i)).append("_").append(Integer.parseInt(s1.substring(i + 1))).append(".DAT").toString());
+		s1 = "magicon3,17";
+		i = s1.lastIndexOf(",");
+		class9.aClass30_Sub2_Sub1_Sub1_260 = class9.drawSprite((new StringBuilder()).append(s1.substring(0, i)).append("_").append(Integer.parseInt(s1.substring(i + 1))).append(".DAT").toString());
+//		Class9 _tmp12 = class9;	//REMOVED Said its not used 4/20/17
+		class9.aString221 = "Cast @gre@Vengeance";
+		class9.anInt237 = 10;
+		class9 = aClass9Array210[18857] = new Class9();
+		class9.anInt236 = 18787;
+		class9.anInt250 = 18857;
+		class9.anInt262 = 0;
+		class9.anInt217 = 0;
+		class9.anInt220 = 182;
+		class9.anInt267 = 76;
+		class9.aBoolean266 = true;
+		class9.anIntArray240 = new int[2];
+		class9.anIntArray241 = new int[2];
+		class9.anIntArray272 = new int[2];
+		class9.anIntArray240[0] = 18858;
+		class9.anIntArray241[0] = 3;
+		class9.anIntArray272[0] = 5;
+		class9.anIntArray240[1] = 18859;
+		class9.anIntArray241[1] = 3;
+		class9.anIntArray272[1] = 18;
+		class9 = aClass9Array210[18858] = new Class9();
+		class9.anInt236 = 18787;
+		class9.anInt250 = 18858;
+		class9.anInt262 = 4;
+		class9.anInt217 = 0;
+		class9.anInt220 = 177;
+		class9.anInt267 = 15;
+		class9.aBoolean223 = true;
+		class9.aClass30_Sub2_Sub1_Sub4_243 = aclass30_sub2_sub1_sub4[1];
+		class9.aBoolean268 = true;
+		class9.aString248 = "Level 94 : Vengeance";
+		class9.aString228 = "";
+		class9.anInt232 = 0xfff000;
+		class9 = aClass9Array210[18859] = new Class9();
+		class9.anInt236 = 18787;
+		class9.anInt250 = 18859;
+		class9.anInt262 = 4;
+		class9.anInt217 = 0;
+		class9.anInt220 = 175;
+		class9.anInt267 = 10;
+		class9.aBoolean223 = true;
+		class9.aClass30_Sub2_Sub1_Sub4_243 = aclass30_sub2_sub1_sub4[0];
+		class9.aBoolean268 = true;
+		class9.aString248 = "4 Astral, 2 Death, 10 Earth";
+		class9.aString228 = "";
+		class9.anInt232 = 0x6b6f33;
+		class9 = aClass9Array210[18860] = new Class9();
+		class9.anInt236 = 18787;
+		class9.anInt250 = 18860;
+		class9.anInt262 = 5;
+		class9.anInt217 = 1;
+		class9.anInt220 = 23;
+		class9.anInt267 = 22;
+		class9.anInt230 = 18861;
+		class9.anIntArray245 = new int[1];
+		class9.anIntArray212 = new int[1];
+		class9.anIntArray245[0] = 3;
+		class9.anIntArray212[0] = 94;
+		class9.anIntArrayArray226 = new int[1][3];
+		class9.anIntArrayArray226[0][0] = 2;
+		class9.anIntArrayArray226[0][1] = 6;
+		class9.anIntArrayArray226[0][2] = 0;
+		s1 = "magicoff3,18";
+		i = s1.lastIndexOf(",");
+		class9.aClass30_Sub2_Sub1_Sub1_207 = class9.drawSprite((new StringBuilder()).append(s1.substring(0, i)).append("_").append(Integer.parseInt(s1.substring(i + 1))).append(".DAT").toString());
+		s1 = "magicon3,18";
+		i = s1.lastIndexOf(",");
+		class9.aClass30_Sub2_Sub1_Sub1_260 = class9.drawSprite((new StringBuilder()).append(s1.substring(0, i)).append("_").append(Integer.parseInt(s1.substring(i + 1))).append(".DAT").toString());
+//		Class9 _tmp13 = class9;	//REMOVED Said its not used 4/20/17
+		class9.aString221 = "Cast @gre@Heal group";
+		class9.anInt237 = 10;
+		class9 = aClass9Array210[18861] = new Class9();
+		class9.anInt236 = 18787;
+		class9.anInt250 = 18861;
+		class9.anInt262 = 0;
+		class9.anInt217 = 0;
+		class9.anInt220 = 182;
+		class9.anInt267 = 76;
+		class9.aBoolean266 = true;
+		class9.anIntArray240 = new int[2];
+		class9.anIntArray241 = new int[2];
+		class9.anIntArray272 = new int[2];
+		class9.anIntArray240[0] = 18862;
+		class9.anIntArray241[0] = 3;
+		class9.anIntArray272[0] = 5;
+		class9.anIntArray240[1] = 18863;
+		class9.anIntArray241[1] = 3;
+		class9.anIntArray272[1] = 18;
+		class9 = aClass9Array210[18862] = new Class9();
+		class9.anInt236 = 18787;
+		class9.anInt250 = 18862;
+		class9.anInt262 = 4;
+		class9.anInt217 = 0;
+		class9.anInt220 = 177;
+		class9.anInt267 = 15;
+		class9.aBoolean223 = true;
+		class9.aClass30_Sub2_Sub1_Sub4_243 = aclass30_sub2_sub1_sub4[1];
+		class9.aBoolean268 = true;
+		class9.aString248 = "Level 95 : Heal group";
+		class9.aString228 = "";
+		class9.anInt232 = 0xfff000;
+		class9 = aClass9Array210[18863] = new Class9();
+		class9.anInt236 = 18787;
+		class9.anInt250 = 18863;
+		class9.anInt262 = 4;
+		class9.anInt217 = 0;
+		class9.anInt220 = 175;
+		class9.anInt267 = 10;
+		class9.aBoolean223 = true;
+		class9.aClass30_Sub2_Sub1_Sub4_243 = aclass30_sub2_sub1_sub4[0];
+		class9.aBoolean268 = true;
+		class9.aString248 = "5 Astral, 5 Death, 10 Blood";
+		class9.aString228 = "";
+		class9.anInt232 = 0x6b6f33;
+		class9 = aClass9Array210[18864] = new Class9();
+		class9.anInt236 = 18787;
+		class9.anInt250 = 18864;
+		class9.anInt262 = 5;
+		class9.anInt217 = 1;
+		class9.anInt220 = 23;
+		class9.anInt267 = 22;
+		class9.anInt230 = 18865;
+		class9.anIntArray245 = new int[1];
+		class9.anIntArray212 = new int[1];
+		class9.anIntArray245[0] = 3;
+		class9.anIntArray212[0] = 95;
+		class9.anIntArrayArray226 = new int[1][3];
+		class9.anIntArrayArray226[0][0] = 2;
+		class9.anIntArrayArray226[0][1] = 6;
+		class9.anIntArrayArray226[0][2] = 0;
+		s1 = "magicoff3,19";
+		i = s1.lastIndexOf(",");
+		class9.aClass30_Sub2_Sub1_Sub1_207 = class9.drawSprite((new StringBuilder()).append(s1.substring(0, i)).append("_").append(Integer.parseInt(s1.substring(i + 1))).append(".DAT").toString());
+		s1 = "magicon3,19";
+		i = s1.lastIndexOf(",");
+		class9.aClass30_Sub2_Sub1_Sub1_260 = class9.drawSprite((new StringBuilder()).append(s1.substring(0, i)).append("_").append(Integer.parseInt(s1.substring(i + 1))).append(".DAT").toString());
+//		Class9 _tmp14 = class9;	//REMOVED Said its not used 4/20/17
+		class9.aString221 = "Cast @gre@Spellbook swap";
+		class9.anInt237 = 10;
+		class9 = aClass9Array210[18865] = new Class9();
+		class9.anInt236 = 18787;
+		class9.anInt250 = 18865;
+		class9.anInt262 = 0;
+		class9.anInt217 = 0;
+		class9.anInt220 = 182;
+		class9.anInt267 = 76;
+		class9.aBoolean266 = true;
+		class9.anIntArray240 = new int[2];
+		class9.anIntArray241 = new int[2];
+		class9.anIntArray272 = new int[2];
+		class9.anIntArray240[0] = 18866;
+		class9.anIntArray241[0] = 3;
+		class9.anIntArray272[0] = 5;
+		class9.anIntArray240[1] = 18867;
+		class9.anIntArray241[1] = 3;
+		class9.anIntArray272[1] = 18;
+		class9 = aClass9Array210[18866] = new Class9();
+		class9.anInt236 = 18787;
+		class9.anInt250 = 18862;
+		class9.anInt262 = 4;
+		class9.anInt217 = 0;
+		class9.anInt220 = 177;
+		class9.anInt267 = 15;
+		class9.aBoolean223 = true;
+		class9.aClass30_Sub2_Sub1_Sub4_243 = aclass30_sub2_sub1_sub4[1];
+		class9.aBoolean268 = true;
+		class9.aString248 = "Level 96 : Spellbook swap";
+		class9.aString228 = "";
+		class9.anInt232 = 0xfff000;
+		class9 = aClass9Array210[18867] = new Class9();
+		class9.anInt236 = 18787;
+		class9.anInt250 = 18863;
+		class9.anInt262 = 4;
+		class9.anInt217 = 0;
+		class9.anInt220 = 175;
+		class9.anInt267 = 10;
+		class9.aBoolean223 = true;
+		class9.aClass30_Sub2_Sub1_Sub4_243 = aclass30_sub2_sub1_sub4[0];
+		class9.aBoolean268 = true;
+		class9.aString248 = "5 Astral, 5 Death, 10 Law";
+		class9.aString228 = "";
+		class9.anInt232 = 0x6b6f33;
+	}
 
-    public static Class30_Sub2_Sub1_Sub1 drawSprite(String s)
-    {
-        String s1 = "./Files/interface/";
-        Class30_Sub2_Sub1_Sub1 class30_sub2_sub1_sub1;
-        try
-        {
-            class30_sub2_sub1_sub1 = new Class30_Sub2_Sub1_Sub1((new StringBuilder()).append(s1).append("").append(s).toString());
-        }
-        catch(Exception exception)
-        {
-            System.out.println("EXCEPTION!!!");
-            return null;
-        }
-        return class30_sub2_sub1_sub1;
-    }
+	public static Class30_Sub2_Sub1_Sub1 drawSprite(String s)
+	{
+		String s1 = "./Files/interface/";
+		Class30_Sub2_Sub1_Sub1 class30_sub2_sub1_sub1;
+		try
+		{
+			class30_sub2_sub1_sub1 = new Class30_Sub2_Sub1_Sub1((new StringBuilder()).append(s1).append("").append(s).toString());
+		}
+		catch(Exception exception)
+		{
+			System.out.println("EXCEPTION!!!");
+			return null;
+		}
+		return class30_sub2_sub1_sub1;
+	}
 
-    private static Class30_Sub2_Sub1_Sub1 customsprite(int i, boolean flag, Class44 class44, String s)
-    {
-        long l = (Class50.method585((byte)1, s) << 8) + (long)i;
-        if(flag)
-        {
-            throw new NullPointerException();
-        }
-        Class30_Sub2_Sub1_Sub1 class30_sub2_sub1_sub1 = (Class30_Sub2_Sub1_Sub1)aClass12_238.method222(l);
-        if(class30_sub2_sub1_sub1 != null)
-        {
-            return class30_sub2_sub1_sub1;
-        }
-        try
-        {
-            class30_sub2_sub1_sub1 = new Class30_Sub2_Sub1_Sub1((new StringBuilder()).append("./Files/interface/").append(s).append(" ").append(i).append(".png").toString());
-            aClass12_238.method223(class30_sub2_sub1_sub1, l, (byte)2);
-        }
-        catch(Exception exception)
-        {
-            return null;
-        }
-        return class30_sub2_sub1_sub1;
-    }
+	private static Class30_Sub2_Sub1_Sub1 customsprite(int i, boolean flag, Class44 class44, String s)
+	{
+		long l = (Class50.method585((byte)1, s) << 8) + (long)i;
+		if(flag)
+		{
+			throw new NullPointerException();
+		}
+		Class30_Sub2_Sub1_Sub1 class30_sub2_sub1_sub1 = (Class30_Sub2_Sub1_Sub1)aClass12_238.method222(l);
+		if(class30_sub2_sub1_sub1 != null)
+		{
+			return class30_sub2_sub1_sub1;
+		}
+		try
+		{
+			class30_sub2_sub1_sub1 = new Class30_Sub2_Sub1_Sub1((new StringBuilder()).append("./Files/interface/").append(s).append(" ").append(i).append(".png").toString());
+			aClass12_238.method223(class30_sub2_sub1_sub1, l, (byte)2);
+		}
+		catch(Exception exception)
+		{
+			return null;
+		}
+		return class30_sub2_sub1_sub1;
+	}
 
-    public static void addSpellClick(int i, int j, int k, String s)
-    {
-        Class9 class9 = aClass9Array210[i] = new Class9();
-        class9.anInt220 = i;
-        class9.anInt236 = i;
-        class9.anInt262 = 5;
-        class9.anInt217 = 1;
-        class9.anInt214 = 0;
-        class9.anInt220 = 20;
-        class9.anInt267 = 20;
-        class9.aByte254 = 0;
-        class9.anInt230 = 52;
-        class9.aClass30_Sub2_Sub1_Sub1_207 = method207(j, false, aClass44, "magicon2");
-        class9.aClass30_Sub2_Sub1_Sub1_260 = method207(k, false, aClass44, "magicon2");
-class9.aString221 = s;
-        Class9 _tmp = class9;
-          
-    }
+	public static void addSpellClick(int i, int j, int k, String s)
+	{
+		Class9 class9 = aClass9Array210[i] = new Class9();
+		class9.anInt220 = i;
+		class9.anInt236 = i;
+		class9.anInt262 = 5;
+		class9.anInt217 = 1;
+		class9.anInt214 = 0;
+		class9.anInt220 = 20;
+		class9.anInt267 = 20;
+		class9.aByte254 = 0;
+		class9.anInt230 = 52;
+		class9.aClass30_Sub2_Sub1_Sub1_207 = method207(j, false, aClass44, "magicon2");
+		class9.aClass30_Sub2_Sub1_Sub1_260 = method207(k, false, aClass44, "magicon2");
+		class9.aString221 = s;
+//		Class9 _tmp = class9;	//REMOVED Said its not used 4/20/17
+		  
+	}
 
-public static void addSpellClick2(int id, int spriteOnId, int spriteOffId)
-{
-Class9 spell = aClass9Array210[id] = new Class9();
-spell.anInt250 = id;
-spell.anInt236 = id;
-spell.anInt262 = 5;
-spell.anInt217 = 1;
-spell.anInt214 = 0;
-spell.anInt220 = 2;
-spell.anInt267 = 2;
-spell.aByte254 = (byte)0;
-spell.anInt230 = 52;
-spell.aClass30_Sub2_Sub1_Sub1_207 = pleasework(spriteOnId, "custom");
-spell.aClass30_Sub2_Sub1_Sub1_260 = pleasework(spriteOffId, "custom");        	
-}
+	public static void addSpellClick2(int id, int spriteOnId, int spriteOffId)
+	{
+		Class9 spell = aClass9Array210[id] = new Class9();
+		spell.anInt250 = id;
+		spell.anInt236 = id;
+		spell.anInt262 = 5;
+		spell.anInt217 = 1;
+		spell.anInt214 = 0;
+		spell.anInt220 = 2;
+		spell.anInt267 = 2;
+		spell.aByte254 = (byte)0;
+		spell.anInt230 = 52;
+		spell.aClass30_Sub2_Sub1_Sub1_207 = pleasework(spriteOnId, "custom");
+		spell.aClass30_Sub2_Sub1_Sub1_260 = pleasework(spriteOffId, "custom");			
+	}
 
 
 /*
-    public static void addSpellClick2(int i, int j, int k)
-    {
-        Class9 class9 = aClass9Array210[i] = new Class9();
-        class9.anInt250 = i;
-        class9.anInt236 = i;
-        class9.anInt262 = 5;
-        class9.anInt217 = 1;
-        class9.anInt214 = 0;
-        class9.anInt220 = 2;
-        class9.anInt267 = 2;
-        class9.aByte254 = 0;
-        class9.anInt230 = 52;
-        class9.aClass30_Sub2_Sub1_Sub1_207 = pleasework(j, "custom");
-        class9.aClass30_Sub2_Sub1_Sub1_260 = pleasework(k, "custom");
-    }
+	public static void addSpellClick2(int i, int j, int k)
+	{
+		Class9 class9 = aClass9Array210[i] = new Class9();
+		class9.anInt250 = i;
+		class9.anInt236 = i;
+		class9.anInt262 = 5;
+		class9.anInt217 = 1;
+		class9.anInt214 = 0;
+		class9.anInt220 = 2;
+		class9.anInt267 = 2;
+		class9.aByte254 = 0;
+		class9.anInt230 = 52;
+		class9.aClass30_Sub2_Sub1_Sub1_207 = pleasework(j, "custom");
+		class9.aClass30_Sub2_Sub1_Sub1_260 = pleasework(k, "custom");
+	}
 */
 
-    public static void addSpellClick4(int i, int j, int k, String s)
-    {
-        Class9 class9 = aClass9Array210[i] = new Class9();
-        class9.anInt250 = i;
-        class9.anInt236 = i;
-        class9.anInt262 = 5;
-        class9.anInt217 = 1;
-        class9.anInt214 = 0;
-        class9.anInt220 = 20;
-        class9.anInt267 = 20;
-        class9.aByte254 = 0;
-        class9.anInt230 = 52;
-        class9.aClass30_Sub2_Sub1_Sub1_207 = Run(j, "custom2");
-        class9.aClass30_Sub2_Sub1_Sub1_260 = Run(k, "custom2");
-        Class9 _tmp = class9;
-        class9.aString221 = s;
-    }
+	public static void addSpellClick4(int i, int j, int k, String s)
+	{
+		Class9 class9 = aClass9Array210[i] = new Class9();
+		class9.anInt250 = i;
+		class9.anInt236 = i;
+		class9.anInt262 = 5;
+		class9.anInt217 = 1;
+		class9.anInt214 = 0;
+		class9.anInt220 = 20;
+		class9.anInt267 = 20;
+		class9.aByte254 = 0;
+		class9.anInt230 = 52;
+		class9.aClass30_Sub2_Sub1_Sub1_207 = Run(j, "custom2");
+		class9.aClass30_Sub2_Sub1_Sub1_260 = Run(k, "custom2");
+//		Class9 _tmp = class9;	//REMOVED Said its not used 4/20/17
+		class9.aString221 = s;
+	}
 
-    public static void addSpellClick4(int i, int j, int k)
-    {
-        Class9 class9 = aClass9Array210[i] = new Class9();
-        class9.anInt250 = i;
-        class9.anInt236 = i;
-        class9.anInt262 = 5;
-        class9.anInt217 = 1;
-        class9.anInt214 = 0;
-        class9.anInt220 = 20;
-        class9.anInt267 = 20;
-        class9.aByte254 = 0;
-        class9.anInt230 = 52;
-        class9.aClass30_Sub2_Sub1_Sub1_207 = Run(j, "custom2");
-        class9.aClass30_Sub2_Sub1_Sub1_260 = Run(k, "custom2");
-    }
+	public static void addSpellClick4(int i, int j, int k)
+	{
+		Class9 class9 = aClass9Array210[i] = new Class9();
+		class9.anInt250 = i;
+		class9.anInt236 = i;
+		class9.anInt262 = 5;
+		class9.anInt217 = 1;
+		class9.anInt214 = 0;
+		class9.anInt220 = 20;
+		class9.anInt267 = 20;
+		class9.aByte254 = 0;
+		class9.anInt230 = 52;
+		class9.aClass30_Sub2_Sub1_Sub1_207 = Run(j, "custom2");
+		class9.aClass30_Sub2_Sub1_Sub1_260 = Run(k, "custom2");
+	}
 
 
-    public static void addwelcome(int i, int j, int k)
-    {
-        Class9 class9 = aClass9Array210[i] = new Class9();
-        class9.anInt220 = i;
-        class9.anInt236 = i;
-        class9.anInt262 = 5;
-        class9.anInt217 = 1;
-        class9.anInt214 = 0;
-        class9.anInt220 = 20;
-        class9.anInt267 = 20;
-        class9.aByte254 = 0;
-        class9.anInt230 = 52;
-        class9.aClass30_Sub2_Sub1_Sub1_207 = welcome(j, false, aClass44, "welcome");
-        class9.aClass30_Sub2_Sub1_Sub1_260 = welcome(k, false, aClass44, "welcome");
-    }
+	public static void addwelcome(int i, int j, int k)
+	{
+		Class9 class9 = aClass9Array210[i] = new Class9();
+		class9.anInt220 = i;
+		class9.anInt236 = i;
+		class9.anInt262 = 5;
+		class9.anInt217 = 1;
+		class9.anInt214 = 0;
+		class9.anInt220 = 20;
+		class9.anInt267 = 20;
+		class9.aByte254 = 0;
+		class9.anInt230 = 52;
+		class9.aClass30_Sub2_Sub1_Sub1_207 = welcome(j, false, aClass44, "welcome");
+		class9.aClass30_Sub2_Sub1_Sub1_260 = welcome(k, false, aClass44, "welcome");
+	}
 
-    public static void addwelcome2(int i, int j, int k, String s)
-    {
-        Class9 class9 = aClass9Array210[i] = new Class9();
-        class9.anInt250 = i;
-        class9.anInt236 = i;
-        class9.anInt262 = 5;
-        class9.anInt217 = 1;
-        class9.anInt214 = 0;
-        class9.anInt220 = 280;
-        class9.anInt267 = 35;
-        class9.aByte254 = 0;
-        class9.anInt230 = 52;
-        class9.aClass30_Sub2_Sub1_Sub1_207 = welcome(j, "welcome");
-        class9.aClass30_Sub2_Sub1_Sub1_260 = welcome(k, "welcome");
+	public static void addwelcome2(int i, int j, int k, String s)
+	{
+		Class9 class9 = aClass9Array210[i] = new Class9();
+		class9.anInt250 = i;
+		class9.anInt236 = i;
+		class9.anInt262 = 5;
+		class9.anInt217 = 1;
+		class9.anInt214 = 0;
+		class9.anInt220 = 280;
+		class9.anInt267 = 35;
+		class9.aByte254 = 0;
+		class9.anInt230 = 52;
+		class9.aClass30_Sub2_Sub1_Sub1_207 = welcome(j, "welcome");
+		class9.aClass30_Sub2_Sub1_Sub1_260 = welcome(k, "welcome");
   class9.aString221 = s;
-        Class9 _tmp = class9;
-      
-    }
+//		Class9 _tmp = class9;	//REMOVED Said its not used 4/20/17
+	  
+	}
 
-    public static Class9 addTab(int i)
-    {
-        Class9 class9 = aClass9Array210[i] = new Class9();
-        class9.anInt250 = i;
-        class9.anInt236 = i;
-        class9.anInt262 = 0;
-        class9.anInt217 = 0;
-        class9.anInt214 = 0;
-        class9.anInt220 = 512;
-        class9.anInt267 = 334;
-        class9.aByte254 = 0;
-        class9.anInt230 = 0;
-        return class9;
-    }
+	public static Class9 addTab(int i)
+	{
+		Class9 class9 = aClass9Array210[i] = new Class9();
+		class9.anInt250 = i;
+		class9.anInt236 = i;
+		class9.anInt262 = 0;
+		class9.anInt217 = 0;
+		class9.anInt214 = 0;
+		class9.anInt220 = 512;
+		class9.anInt267 = 334;
+		class9.aByte254 = 0;
+		class9.anInt230 = 0;
+		return class9;
+	}
 
 
 public static Class9 addTabb(int id)
 	{
-    	Class9 class9 = aClass9Array210[id] = new Class9();
-    	class9.anInt250 = id;//250
-        class9.anInt236 = id;//236
-        class9.anInt262 = 0;//262
-        class9.anInt217 = 0;//217
-        class9.anInt214 = 0;
-        class9.anInt220 = 512;//220
-        class9.anInt267 = 700;//anint267
-        class9.aByte254 = (byte)0;
-        class9.anInt230 = -1;//Int 230
-        return class9;
+		Class9 class9 = aClass9Array210[id] = new Class9();
+		class9.anInt250 = id;//250
+		class9.anInt236 = id;//236
+		class9.anInt262 = 0;//262
+		class9.anInt217 = 0;//217
+		class9.anInt214 = 0;
+		class9.anInt220 = 512;//220
+		class9.anInt267 = 700;//anint267
+		class9.aByte254 = (byte)0;
+		class9.anInt230 = -1;//Int 230
+		return class9;
 	}
 
-    public static void addmulti(int i, int j, int k)
-    {
-        Class9 class9 = aClass9Array210[i] = new Class9();
-        class9.anInt220 = i;
-        class9.anInt236 = i;
-        class9.anInt262 = 5;
-        class9.anInt217 = 1;
-        class9.anInt214 = 0;
-        class9.anInt220 = 20;
-        class9.anInt267 = 20;
-        class9.aByte254 = 0;
-        class9.anInt230 = 52;
-        class9.aClass30_Sub2_Sub1_Sub1_207 = method207(j, false, aClass44, "OVERLAY_MULTIWAY");
-        class9.aClass30_Sub2_Sub1_Sub1_260 = method207(k, false, aClass44, "OVERLAY_MULTIWAY");
-    }
+	public static void addmulti(int i, int j, int k)
+	{
+		Class9 class9 = aClass9Array210[i] = new Class9();
+		class9.anInt220 = i;
+		class9.anInt236 = i;
+		class9.anInt262 = 5;
+		class9.anInt217 = 1;
+		class9.anInt214 = 0;
+		class9.anInt220 = 20;
+		class9.anInt267 = 20;
+		class9.aByte254 = 0;
+		class9.anInt230 = 52;
+		class9.aClass30_Sub2_Sub1_Sub1_207 = method207(j, false, aClass44, "OVERLAY_MULTIWAY");
+		class9.aClass30_Sub2_Sub1_Sub1_260 = method207(k, false, aClass44, "OVERLAY_MULTIWAY");
+	}
 
 public static void method205(Class44 class44, Class30_Sub2_Sub1_Sub4 aclass30_sub2_sub1_sub4[], byte byte0, Class44 class44_1)
-    {
-        aClass12_238 = new Class12(false, 50000);
-        Class30_Sub2_Sub2 class30_sub2_sub2 = new Class30_Sub2_Sub2(class44.method571("data", null), 891);
+	{
+		aClass12_238 = new Class12(false, 50000);
+		Class30_Sub2_Sub2 class30_sub2_sub2 = new Class30_Sub2_Sub2(class44.method571("data", null), 891);
 
-        int i = -1;
-        int j = class30_sub2_sub2.method410();
-        aClass9Array210 = new Class9[j + 30001];
-        do
-        {
-            if(class30_sub2_sub2.anInt1406 >= class30_sub2_sub2.aByteArray1405.length)
-                break;
-            int k = class30_sub2_sub2.method410();
-            if(k == 65535)
-            {
-                i = class30_sub2_sub2.method410();
-                k = class30_sub2_sub2.method410();
-            }
-            Class9 class9 = aClass9Array210[k] = new Class9();
-            class9.anInt250 = k;
-            class9.anInt236 = i;
-            class9.anInt262 = class30_sub2_sub2.method408();
-            class9.anInt217 = class30_sub2_sub2.method408();
-            class9.anInt214 = class30_sub2_sub2.method410();
-            class9.anInt220 = class30_sub2_sub2.method410();
-            class9.anInt267 = class30_sub2_sub2.method410();
-            class9.aByte254 = (byte)class30_sub2_sub2.method408();
-            class9.anInt230 = class30_sub2_sub2.method408();
-            if(class9.anInt230 != 0)
-                class9.anInt230 = (class9.anInt230 - 1 << 8) + class30_sub2_sub2.method408();
-            else
-                class9.anInt230 = -1;
-            int l = class30_sub2_sub2.method408();
-            if(l > 0)
-            {
-                class9.anIntArray245 = new int[l];
-                class9.anIntArray212 = new int[l];
-                for(int i1 = 0; i1 < l; i1++)
-                {
-                    class9.anIntArray245[i1] = class30_sub2_sub2.method408();
-                    class9.anIntArray212[i1] = class30_sub2_sub2.method410();
-                }
+		int i = -1;
+		int j = class30_sub2_sub2.method410();
+		aClass9Array210 = new Class9[j + 30001];
+		do
+		{
+			if(class30_sub2_sub2.anInt1406 >= class30_sub2_sub2.aByteArray1405.length)
+				break;
+			int k = class30_sub2_sub2.method410();
+			if(k == 65535)
+			{
+				i = class30_sub2_sub2.method410();
+				k = class30_sub2_sub2.method410();
+			}
+			Class9 class9 = aClass9Array210[k] = new Class9();
+			class9.anInt250 = k;
+			class9.anInt236 = i;
+			class9.anInt262 = class30_sub2_sub2.method408();
+			class9.anInt217 = class30_sub2_sub2.method408();
+			class9.anInt214 = class30_sub2_sub2.method410();
+			class9.anInt220 = class30_sub2_sub2.method410();
+			class9.anInt267 = class30_sub2_sub2.method410();
+			class9.aByte254 = (byte)class30_sub2_sub2.method408();
+			class9.anInt230 = class30_sub2_sub2.method408();
+			if(class9.anInt230 != 0)
+				class9.anInt230 = (class9.anInt230 - 1 << 8) + class30_sub2_sub2.method408();
+			else
+				class9.anInt230 = -1;
+			int l = class30_sub2_sub2.method408();
+			if(l > 0)
+			{
+				class9.anIntArray245 = new int[l];
+				class9.anIntArray212 = new int[l];
+				for(int i1 = 0; i1 < l; i1++)
+				{
+					class9.anIntArray245[i1] = class30_sub2_sub2.method408();
+					class9.anIntArray212[i1] = class30_sub2_sub2.method410();
+				}
 
-            }
-            int j1 = class30_sub2_sub2.method408();
-            if(j1 > 0)
-            {
-                class9.anIntArrayArray226 = new int[j1][];
-                for(int k1 = 0; k1 < j1; k1++)
-                {
-                    int j3 = class30_sub2_sub2.method410();
-                    class9.anIntArrayArray226[k1] = new int[j3];
-                    for(int l4 = 0; l4 < j3; l4++)
-                        class9.anIntArrayArray226[k1][l4] = class30_sub2_sub2.method410();
+			}
+			int j1 = class30_sub2_sub2.method408();
+			if(j1 > 0)
+			{
+				class9.anIntArrayArray226 = new int[j1][];
+				for(int k1 = 0; k1 < j1; k1++)
+				{
+					int j3 = class30_sub2_sub2.method410();
+					class9.anIntArrayArray226[k1] = new int[j3];
+					for(int l4 = 0; l4 < j3; l4++)
+						class9.anIntArrayArray226[k1][l4] = class30_sub2_sub2.method410();
 
-                }
+				}
 
-            }
-            if(class9.anInt262 == 0)
-            {
-                class9.anInt261 = class30_sub2_sub2.method410();
-                class9.aBoolean266 = class30_sub2_sub2.method408() == 1;
-                int l1 = class30_sub2_sub2.method410();
-                class9.anIntArray240 = new int[l1];
-                class9.anIntArray241 = new int[l1];
-                class9.anIntArray272 = new int[l1];
-                if(class9.anInt250 == 5608)
-                {
-                    class9.anIntArray240 = new int[67];
-                    class9.anIntArray241 = new int[67];
-                    class9.anIntArray272 = new int[67];
-                    class9.anIntArray240[61] = 19040;
-                    class9.anIntArray241[61] = 102;
-                    class9.anIntArray272[61] = 152;
-                    class9.anIntArray240[62] = 19046;
-                    class9.anIntArray241[62] = 143;
-                    class9.anIntArray272[62] = 152;
-                    class9.anIntArray240[63] = 19043;
-                    class9.anIntArray241[63] = 107;
-                    class9.anIntArray272[63] = 151;
-                    class9.anIntArray240[64] = 19041;
-                    class9.anIntArray241[64] = 5;
-                    class9.anIntArray272[64] = 184;
-                    class9.anIntArray240[65] = 19050;
-                    class9.anIntArray241[65] = 143;
-                    class9.anIntArray272[65] = 159;
-                    class9.anIntArray240[66] = 19048;
-                    class9.anIntArray241[66] = 5;
-                    class9.anIntArray272[66] = 184;
-                }
-                for(int k3 = 0; k3 < l1; k3++)
-                {
-                    class9.anIntArray240[k3] = class30_sub2_sub2.method410();
-                    class9.anIntArray241[k3] = class30_sub2_sub2.method411();
-                    class9.anIntArray272[k3] = class30_sub2_sub2.method411();
-                }
+			}
+			if(class9.anInt262 == 0)
+			{
+				class9.anInt261 = class30_sub2_sub2.method410();
+				class9.aBoolean266 = class30_sub2_sub2.method408() == 1;
+				int l1 = class30_sub2_sub2.method410();
+				class9.anIntArray240 = new int[l1];
+				class9.anIntArray241 = new int[l1];
+				class9.anIntArray272 = new int[l1];
+				if(class9.anInt250 == 5608)
+				{
+					class9.anIntArray240 = new int[67];
+					class9.anIntArray241 = new int[67];
+					class9.anIntArray272 = new int[67];
+					class9.anIntArray240[61] = 19040;
+					class9.anIntArray241[61] = 102;
+					class9.anIntArray272[61] = 152;
+					class9.anIntArray240[62] = 19046;
+					class9.anIntArray241[62] = 143;
+					class9.anIntArray272[62] = 152;
+					class9.anIntArray240[63] = 19043;
+					class9.anIntArray241[63] = 107;
+					class9.anIntArray272[63] = 151;
+					class9.anIntArray240[64] = 19041;
+					class9.anIntArray241[64] = 5;
+					class9.anIntArray272[64] = 184;
+					class9.anIntArray240[65] = 19050;
+					class9.anIntArray241[65] = 143;
+					class9.anIntArray272[65] = 159;
+					class9.anIntArray240[66] = 19048;
+					class9.anIntArray241[66] = 5;
+					class9.anIntArray272[66] = 184;
+				}
+				for(int k3 = 0; k3 < l1; k3++)
+				{
+					class9.anIntArray240[k3] = class30_sub2_sub2.method410();
+					class9.anIntArray241[k3] = class30_sub2_sub2.method411();
+					class9.anIntArray272[k3] = class30_sub2_sub2.method411();
+				}
 
-            }
+			}
 if(class9.anInt250 == 10600)
 {
 class9.anInt220 = 8;
@@ -6835,163 +6837,163 @@ if(class9.anInt250 == 10494)
 class9.anInt220 = 8;
 class9.anInt267 = 1;
 }
-            if(class9.anInt262 == 1)
-            {
-                class9.anInt211 = class30_sub2_sub2.method410();
-                class9.aBoolean251 = class30_sub2_sub2.method408() == 1;
-            }
-            if(class9.anInt262 == 2)
-            {
-                class9.anIntArray253 = new int[class9.anInt220 * class9.anInt267];
-                class9.anIntArray252 = new int[class9.anInt220 * class9.anInt267];
-                class9.aBoolean259 = class30_sub2_sub2.method408() == 1;
-                class9.aBoolean249 = class30_sub2_sub2.method408() == 1;
-                class9.aBoolean242 = class30_sub2_sub2.method408() == 1;
-                class9.aBoolean235 = class30_sub2_sub2.method408() == 1;
-                class9.anInt231 = class30_sub2_sub2.method408();
-                class9.anInt244 = class30_sub2_sub2.method408();
-                class9.anIntArray215 = new int[20];
-                class9.anIntArray247 = new int[20];
-                class9.aClass30_Sub2_Sub1_Sub1Array209 = new Class30_Sub2_Sub1_Sub1[20];
-                for(int i2 = 0; i2 < 20; i2++)
-                {
-                    int l3 = class30_sub2_sub2.method408();
-                    if(l3 != 1)
-                        continue;
-                    class9.anIntArray215[i2] = class30_sub2_sub2.method411();
-                    class9.anIntArray247[i2] = class30_sub2_sub2.method411();
-                    String s1 = class30_sub2_sub2.method415();
-                    if(class44_1 != null && s1.length() > 0)
-                    {
-                        int i5 = s1.lastIndexOf(",");
-                        class9.aClass30_Sub2_Sub1_Sub1Array209[i2] = method207(Integer.parseInt(s1.substring(i5 + 1)), false, class44_1, s1.substring(0, i5));
-                    }
-                }
+			if(class9.anInt262 == 1)
+			{
+				class9.anInt211 = class30_sub2_sub2.method410();
+				class9.aBoolean251 = class30_sub2_sub2.method408() == 1;
+			}
+			if(class9.anInt262 == 2)
+			{
+				class9.anIntArray253 = new int[class9.anInt220 * class9.anInt267];
+				class9.anIntArray252 = new int[class9.anInt220 * class9.anInt267];
+				class9.aBoolean259 = class30_sub2_sub2.method408() == 1;
+				class9.aBoolean249 = class30_sub2_sub2.method408() == 1;
+				class9.aBoolean242 = class30_sub2_sub2.method408() == 1;
+				class9.aBoolean235 = class30_sub2_sub2.method408() == 1;
+				class9.anInt231 = class30_sub2_sub2.method408();
+				class9.anInt244 = class30_sub2_sub2.method408();
+				class9.anIntArray215 = new int[20];
+				class9.anIntArray247 = new int[20];
+				class9.aClass30_Sub2_Sub1_Sub1Array209 = new Class30_Sub2_Sub1_Sub1[20];
+				for(int i2 = 0; i2 < 20; i2++)
+				{
+					int l3 = class30_sub2_sub2.method408();
+					if(l3 != 1)
+						continue;
+					class9.anIntArray215[i2] = class30_sub2_sub2.method411();
+					class9.anIntArray247[i2] = class30_sub2_sub2.method411();
+					String s1 = class30_sub2_sub2.method415();
+					if(class44_1 != null && s1.length() > 0)
+					{
+						int i5 = s1.lastIndexOf(",");
+						class9.aClass30_Sub2_Sub1_Sub1Array209[i2] = method207(Integer.parseInt(s1.substring(i5 + 1)), false, class44_1, s1.substring(0, i5));
+					}
+				}
 
 
-                class9.aStringArray225 = new String[5];
-                for(int j2 = 0; j2 < 5; j2++)
-                {
-                    class9.aStringArray225[j2] = class30_sub2_sub2.method415();
+				class9.aStringArray225 = new String[5];
+				for(int j2 = 0; j2 < 5; j2++)
+				{
+					class9.aStringArray225[j2] = class30_sub2_sub2.method415();
 
-                    if(class9.aStringArray225[j2].length() == 0)
-                        class9.aStringArray225[j2] = null;
-                }
+					if(class9.aStringArray225[j2].length() == 0)
+						class9.aStringArray225[j2] = null;
+				}
 
-            }
+			}
 	if(class9.anInt262 == 3)
-                class9.aBoolean227 = class30_sub2_sub2.method408() == 1;
-            if(class9.anInt262 == 4 || class9.anInt262 == 1)
-            {
-                class9.aBoolean223 = class30_sub2_sub2.method408() == 1;
-                int k2 = class30_sub2_sub2.method408();
-                if(aclass30_sub2_sub1_sub4 != null)
-                    class9.aClass30_Sub2_Sub1_Sub4_243 = aclass30_sub2_sub1_sub4[k2];
-                class9.aBoolean268 = class30_sub2_sub2.method408() == 1;
-            }
-            if(class9.anInt262 == 4)
-            {
-                class9.aString248 = class30_sub2_sub2.method415();
-                class9.aString228 = class30_sub2_sub2.method415();
-            }
-            if(class9.anInt262 == 1 || class9.anInt262 == 3 || class9.anInt262 == 4)
-                class9.anInt232 = class30_sub2_sub2.method413();
-            if(class9.anInt262 == 3 || class9.anInt262 == 4)
-            {
-                class9.anInt219 = class30_sub2_sub2.method413();
-                class9.anInt216 = class30_sub2_sub2.method413();
-                class9.anInt239 = class30_sub2_sub2.method413();
-            }
-            if(class9.anInt262 == 5)
-            {
-                String s = class30_sub2_sub2.method415();
-                if(class44_1 != null && s.length() > 0)
-                {
-                    int i4 = s.lastIndexOf(",");
-                    class9.aClass30_Sub2_Sub1_Sub1_207 = method207(Integer.parseInt(s.substring(i4 + 1)), false, class44_1, s.substring(0, i4));
-                }
-                s = class30_sub2_sub2.method415();
-                if(class44_1 != null && s.length() > 0)
-                {
-                    int j4 = s.lastIndexOf(",");
-                    class9.aClass30_Sub2_Sub1_Sub1_260 = method207(Integer.parseInt(s.substring(j4 + 1)), false, class44_1, s.substring(0, j4));
-                }
-            }
-            if(class9.anInt262 == 6)
-            {
-                int l2 = class30_sub2_sub2.method408();
-                if(l2 != 0)
-                {
-                    class9.anInt233 = 1;
-                    class9.anInt234 = (l2 - 1 << 8) + class30_sub2_sub2.method408();
-                }
-                l2 = class30_sub2_sub2.method408();
-                if(l2 != 0)
-                {
-                    class9.anInt255 = 1;
-                    class9.anInt256 = (l2 - 1 << 8) + class30_sub2_sub2.method408();
-                }
-                l2 = class30_sub2_sub2.method408();
-                if(l2 != 0)
-                    class9.anInt257 = (l2 - 1 << 8) + class30_sub2_sub2.method408();
-                else
-                    class9.anInt257 = -1;
-                l2 = class30_sub2_sub2.method408();
-                if(l2 != 0)
-                    class9.anInt258 = (l2 - 1 << 8) + class30_sub2_sub2.method408();
-                else
-                    class9.anInt258 = -1;
-                class9.anInt269 = class30_sub2_sub2.method410();
-                class9.anInt270 = class30_sub2_sub2.method410();
-                class9.anInt271 = class30_sub2_sub2.method410();
-            }
-            if(class9.anInt262 == 7)
-            {
-                class9.anIntArray253 = new int[class9.anInt220 * class9.anInt267];
-                class9.anIntArray252 = new int[class9.anInt220 * class9.anInt267];
-                class9.aBoolean223 = class30_sub2_sub2.method408() == 1;
-                int i3 = class30_sub2_sub2.method408();
-                if(aclass30_sub2_sub1_sub4 != null)
-                    class9.aClass30_Sub2_Sub1_Sub4_243 = aclass30_sub2_sub1_sub4[i3];
-                class9.aBoolean268 = class30_sub2_sub2.method408() == 1;
-                class9.anInt232 = class30_sub2_sub2.method413();
-                class9.anInt231 = class30_sub2_sub2.method411();
-                class9.anInt244 = class30_sub2_sub2.method411();
-                class9.aBoolean249 = class30_sub2_sub2.method408() == 1;
-                class9.aStringArray225 = new String[5];
-                for(int k4 = 0; k4 < 5; k4++)
-                {
-                    class9.aStringArray225[k4] = class30_sub2_sub2.method415();
-                    if(class9.aStringArray225[k4].length() == 0)
-                        class9.aStringArray225[k4] = null;
-                }
+				class9.aBoolean227 = class30_sub2_sub2.method408() == 1;
+			if(class9.anInt262 == 4 || class9.anInt262 == 1)
+			{
+				class9.aBoolean223 = class30_sub2_sub2.method408() == 1;
+				int k2 = class30_sub2_sub2.method408();
+				if(aclass30_sub2_sub1_sub4 != null)
+					class9.aClass30_Sub2_Sub1_Sub4_243 = aclass30_sub2_sub1_sub4[k2];
+				class9.aBoolean268 = class30_sub2_sub2.method408() == 1;
+			}
+			if(class9.anInt262 == 4)
+			{
+				class9.aString248 = class30_sub2_sub2.method415();
+				class9.aString228 = class30_sub2_sub2.method415();
+			}
+			if(class9.anInt262 == 1 || class9.anInt262 == 3 || class9.anInt262 == 4)
+				class9.anInt232 = class30_sub2_sub2.method413();
+			if(class9.anInt262 == 3 || class9.anInt262 == 4)
+			{
+				class9.anInt219 = class30_sub2_sub2.method413();
+				class9.anInt216 = class30_sub2_sub2.method413();
+				class9.anInt239 = class30_sub2_sub2.method413();
+			}
+			if(class9.anInt262 == 5)
+			{
+				String s = class30_sub2_sub2.method415();
+				if(class44_1 != null && s.length() > 0)
+				{
+					int i4 = s.lastIndexOf(",");
+					class9.aClass30_Sub2_Sub1_Sub1_207 = method207(Integer.parseInt(s.substring(i4 + 1)), false, class44_1, s.substring(0, i4));
+				}
+				s = class30_sub2_sub2.method415();
+				if(class44_1 != null && s.length() > 0)
+				{
+					int j4 = s.lastIndexOf(",");
+					class9.aClass30_Sub2_Sub1_Sub1_260 = method207(Integer.parseInt(s.substring(j4 + 1)), false, class44_1, s.substring(0, j4));
+				}
+			}
+			if(class9.anInt262 == 6)
+			{
+				int l2 = class30_sub2_sub2.method408();
+				if(l2 != 0)
+				{
+					class9.anInt233 = 1;
+					class9.anInt234 = (l2 - 1 << 8) + class30_sub2_sub2.method408();
+				}
+				l2 = class30_sub2_sub2.method408();
+				if(l2 != 0)
+				{
+					class9.anInt255 = 1;
+					class9.anInt256 = (l2 - 1 << 8) + class30_sub2_sub2.method408();
+				}
+				l2 = class30_sub2_sub2.method408();
+				if(l2 != 0)
+					class9.anInt257 = (l2 - 1 << 8) + class30_sub2_sub2.method408();
+				else
+					class9.anInt257 = -1;
+				l2 = class30_sub2_sub2.method408();
+				if(l2 != 0)
+					class9.anInt258 = (l2 - 1 << 8) + class30_sub2_sub2.method408();
+				else
+					class9.anInt258 = -1;
+				class9.anInt269 = class30_sub2_sub2.method410();
+				class9.anInt270 = class30_sub2_sub2.method410();
+				class9.anInt271 = class30_sub2_sub2.method410();
+			}
+			if(class9.anInt262 == 7)
+			{
+				class9.anIntArray253 = new int[class9.anInt220 * class9.anInt267];
+				class9.anIntArray252 = new int[class9.anInt220 * class9.anInt267];
+				class9.aBoolean223 = class30_sub2_sub2.method408() == 1;
+				int i3 = class30_sub2_sub2.method408();
+				if(aclass30_sub2_sub1_sub4 != null)
+					class9.aClass30_Sub2_Sub1_Sub4_243 = aclass30_sub2_sub1_sub4[i3];
+				class9.aBoolean268 = class30_sub2_sub2.method408() == 1;
+				class9.anInt232 = class30_sub2_sub2.method413();
+				class9.anInt231 = class30_sub2_sub2.method411();
+				class9.anInt244 = class30_sub2_sub2.method411();
+				class9.aBoolean249 = class30_sub2_sub2.method408() == 1;
+				class9.aStringArray225 = new String[5];
+				for(int k4 = 0; k4 < 5; k4++)
+				{
+					class9.aStringArray225[k4] = class30_sub2_sub2.method415();
+					if(class9.aStringArray225[k4].length() == 0)
+						class9.aStringArray225[k4] = null;
+				}
 
-            }
-            if(class9.anInt217 == 2 || class9.anInt262 == 2)
-            {
-                class9.aString222 = class30_sub2_sub2.method415();
-                class9.aString218 = class30_sub2_sub2.method415();
-                class9.anInt237 = class30_sub2_sub2.method410();
-            }
-            if(class9.anInt262 == 8)
-                class9.aString248 = class30_sub2_sub2.method415();
-            if(class9.anInt217 == 1 || class9.anInt217 == 4 || class9.anInt217 == 5 || class9.anInt217 == 6)
-            {
-                class9.aString221 = class30_sub2_sub2.method415();
-                if(class9.aString221.length() == 0)
-                {
-                    if(class9.anInt217 == 1)
-                        class9.aString221 = "Ok";
-                    if(class9.anInt217 == 4)
-                        class9.aString221 = "Select";
-                    if(class9.anInt217 == 5)
-                        class9.aString221 = "Select";
-                    if(class9.anInt217 == 6)
-                        class9.aString221 = "Continue";
-                }
-            }
-        } while(true);
-        aClass44 = aClass44;
+			}
+			if(class9.anInt217 == 2 || class9.anInt262 == 2)
+			{
+				class9.aString222 = class30_sub2_sub2.method415();
+				class9.aString218 = class30_sub2_sub2.method415();
+				class9.anInt237 = class30_sub2_sub2.method410();
+			}
+			if(class9.anInt262 == 8)
+				class9.aString248 = class30_sub2_sub2.method415();
+			if(class9.anInt217 == 1 || class9.anInt217 == 4 || class9.anInt217 == 5 || class9.anInt217 == 6)
+			{
+				class9.aString221 = class30_sub2_sub2.method415();
+				if(class9.aString221.length() == 0)
+				{
+					if(class9.anInt217 == 1)
+						class9.aString221 = "Ok";
+					if(class9.anInt217 == 4)
+						class9.aString221 = "Select";
+					if(class9.anInt217 == 5)
+						class9.aString221 = "Select";
+					if(class9.anInt217 == 6)
+						class9.aString221 = "Continue";
+				}
+			}
+		} while(true);
+//		aClass44 = aClass44;	//REMOVED Said its not used 4/20/17
 assault();
 PestControl(class44_1, aclass30_sub2_sub1_sub4);
 Prayer(aclass30_sub2_sub1_sub4);
@@ -7011,282 +7013,282 @@ harrysoptiontab(class44_1, aclass30_sub2_sub1_sub4);
 EmoteTab();
 EmoteTab3();
 EquipmentTab(aclass30_sub2_sub1_sub4);
-        getClanChat(class44_1, aclass30_sub2_sub1_sub4);
-        getLunar(class44_1, aclass30_sub2_sub1_sub4);
-        Welcome();
+		getClanChat(class44_1, aclass30_sub2_sub1_sub4);
+		getLunar(class44_1, aclass30_sub2_sub1_sub4);
+		Welcome();
 
-        aClass12_238 = null;
-        if(byte0 != -84);
-    }
+		aClass12_238 = null;
+		if(byte0 != -84);
+	}
 
 public static void addSpellClick3(int i, int spriteOnId, int spriteOffId, String s)
-    {
+	{
 
 
-        Class9 class9 = aClass9Array210[i] = new Class9();
-        class9.anInt220 = i;
-        class9.anInt236 = i;
+		Class9 class9 = aClass9Array210[i] = new Class9();
+		class9.anInt220 = i;
+		class9.anInt236 = i;
 class9.anInt250 = i;
-        class9.anInt262 = 5;
-        class9.anInt217 = 1;
-        class9.anInt214 = 0;
-        class9.anInt220 = 20;
-        class9.anInt267 = 20;
-        class9.aByte254 = 0;
-        class9.anInt230 = 52;
+		class9.anInt262 = 5;
+		class9.anInt217 = 1;
+		class9.anInt214 = 0;
+		class9.anInt220 = 20;
+		class9.anInt267 = 20;
+		class9.aByte254 = 0;
+		class9.anInt230 = 52;
  class9.aClass30_Sub2_Sub1_Sub1_207 = pleasework(spriteOnId, "custom");
- class9.aClass30_Sub2_Sub1_Sub1_260 = pleasework(spriteOffId, "custom");       
+ class9.aClass30_Sub2_Sub1_Sub1_260 = pleasework(spriteOffId, "custom");	   
 class9.aString221 = s;
-    }
+	}
 
-    private Class30_Sub2_Sub4_Sub6 method206(int i, int j)
-    {
-        Class30_Sub2_Sub4_Sub6 class30_sub2_sub4_sub6 = (Class30_Sub2_Sub4_Sub6)aClass12_264.method222((i << 16) + j);
-        if(class30_sub2_sub4_sub6 != null)
-        {
-            return class30_sub2_sub4_sub6;
-        }
-        if(i == 1)
-        {
-            class30_sub2_sub4_sub6 = Class30_Sub2_Sub4_Sub6.method462(anInt213, j);
-        }
-        if(i == 2)
-        {
-            class30_sub2_sub4_sub6 = Class5.method159(j).method160(true);
-        }
-        if(i == 3)
-        {
-            class30_sub2_sub4_sub6 = client.aClass30_Sub2_Sub4_Sub1_Sub2_1126.method453((byte)-41);
-        }
-        if(i == 4)
-        {
-            class30_sub2_sub4_sub6 = Class8.method198(j).method202(50, true);
-        }
-        if(i == 5)
-        {
-            class30_sub2_sub4_sub6 = null;
-        }
-        if(class30_sub2_sub4_sub6 != null)
-        {
-            aClass12_264.method223(class30_sub2_sub4_sub6, (i << 16) + j, (byte)2);
-        }
-        return class30_sub2_sub4_sub6;
-    }
+	private Class30_Sub2_Sub4_Sub6 method206(int i, int j)
+	{
+		Class30_Sub2_Sub4_Sub6 class30_sub2_sub4_sub6 = (Class30_Sub2_Sub4_Sub6)aClass12_264.method222((i << 16) + j);
+		if(class30_sub2_sub4_sub6 != null)
+		{
+			return class30_sub2_sub4_sub6;
+		}
+		if(i == 1)
+		{
+			class30_sub2_sub4_sub6 = Class30_Sub2_Sub4_Sub6.method462(anInt213, j);
+		}
+		if(i == 2)
+		{
+			class30_sub2_sub4_sub6 = Class5.method159(j).method160(true);
+		}
+		if(i == 3)
+		{
+			class30_sub2_sub4_sub6 = client.aClass30_Sub2_Sub4_Sub1_Sub2_1126.method453((byte)-41);
+		}
+		if(i == 4)
+		{
+			class30_sub2_sub4_sub6 = Class8.method198(j).method202(50, true);
+		}
+		if(i == 5)
+		{
+			class30_sub2_sub4_sub6 = null;
+		}
+		if(class30_sub2_sub4_sub6 != null)
+		{
+			aClass12_264.method223(class30_sub2_sub4_sub6, (i << 16) + j, (byte)2);
+		}
+		return class30_sub2_sub4_sub6;
+	}
 
-    private static Class30_Sub2_Sub1_Sub1 method207(int i, boolean flag, Class44 class44, String s)
-    {
-        long l = (Class50.method585((byte)1, s) << 8) + (long)i;
-        if(flag)
-        {
-            throw new NullPointerException();
-        }
-        Class30_Sub2_Sub1_Sub1 class30_sub2_sub1_sub1 = (Class30_Sub2_Sub1_Sub1)aClass12_238.method222(l);
-        if(class30_sub2_sub1_sub1 != null)
-        {
-            return class30_sub2_sub1_sub1;
-        }
-        try
-        {
-            class30_sub2_sub1_sub1 = new Class30_Sub2_Sub1_Sub1(class44, s, i);
-            aClass12_238.method223(class30_sub2_sub1_sub1, l, (byte)2);
-        }
-        catch(Exception exception)
-        {
-            return null;
-        }
-        return class30_sub2_sub1_sub1;
-    }
+	private static Class30_Sub2_Sub1_Sub1 method207(int i, boolean flag, Class44 class44, String s)
+	{
+		long l = (Class50.method585((byte)1, s) << 8) + (long)i;
+		if(flag)
+		{
+			throw new NullPointerException();
+		}
+		Class30_Sub2_Sub1_Sub1 class30_sub2_sub1_sub1 = (Class30_Sub2_Sub1_Sub1)aClass12_238.method222(l);
+		if(class30_sub2_sub1_sub1 != null)
+		{
+			return class30_sub2_sub1_sub1;
+		}
+		try
+		{
+			class30_sub2_sub1_sub1 = new Class30_Sub2_Sub1_Sub1(class44, s, i);
+			aClass12_238.method223(class30_sub2_sub1_sub1, l, (byte)2);
+		}
+		catch(Exception exception)
+		{
+			return null;
+		}
+		return class30_sub2_sub1_sub1;
+	}
 
-    public static void method208(int i, boolean flag, int j, Class30_Sub2_Sub4_Sub6 class30_sub2_sub4_sub6)
-    {
-        if(flag)
-        {
-            return;
-        }
-        aClass12_264.method224();
-        if(class30_sub2_sub4_sub6 != null && j != 4)
-        {
-            aClass12_264.method223(class30_sub2_sub4_sub6, (j << 16) + i, (byte)2);
-        }
-    }
+	public static void method208(int i, boolean flag, int j, Class30_Sub2_Sub4_Sub6 class30_sub2_sub4_sub6)
+	{
+		if(flag)
+		{
+			return;
+		}
+		aClass12_264.method224();
+		if(class30_sub2_sub4_sub6 != null && j != 4)
+		{
+			aClass12_264.method223(class30_sub2_sub4_sub6, (j << 16) + i, (byte)2);
+		}
+	}
 
-    private static Class30_Sub2_Sub1_Sub1 welcome(int i, String s)
-    {
-        long l = (Class50.method585((byte)1, s) << 8) + (long)i;
-        Class30_Sub2_Sub1_Sub1 class30_sub2_sub1_sub1 = (Class30_Sub2_Sub1_Sub1)aClass12_238.method222(l);
-        if(class30_sub2_sub1_sub1 != null)
-        {
-            return class30_sub2_sub1_sub1;
-        }
-        try
-        {
-            class30_sub2_sub1_sub1 = new Class30_Sub2_Sub1_Sub1((new StringBuilder()).append("./Files/interface/").append(s).append(" ").append(i).append(".png").toString());
-            aClass12_238.method223(class30_sub2_sub1_sub1, l, (byte)2);
-        }
-        catch(Exception exception)
-        {
-            return null;
-        }
-        return class30_sub2_sub1_sub1;
-    }
+	private static Class30_Sub2_Sub1_Sub1 welcome(int i, String s)
+	{
+		long l = (Class50.method585((byte)1, s) << 8) + (long)i;
+		Class30_Sub2_Sub1_Sub1 class30_sub2_sub1_sub1 = (Class30_Sub2_Sub1_Sub1)aClass12_238.method222(l);
+		if(class30_sub2_sub1_sub1 != null)
+		{
+			return class30_sub2_sub1_sub1;
+		}
+		try
+		{
+			class30_sub2_sub1_sub1 = new Class30_Sub2_Sub1_Sub1((new StringBuilder()).append("./Files/interface/").append(s).append(" ").append(i).append(".png").toString());
+			aClass12_238.method223(class30_sub2_sub1_sub1, l, (byte)2);
+		}
+		catch(Exception exception)
+		{
+			return null;
+		}
+		return class30_sub2_sub1_sub1;
+	}
 
-    private static Class30_Sub2_Sub1_Sub1 welcome(int i, boolean flag, Class44 class44, String s)
-    {
-        long l = (Class50.method585((byte)1, s) << 8) + (long)i;
-        if(flag)
-        {
-            throw new NullPointerException();
-        }
-        Class30_Sub2_Sub1_Sub1 class30_sub2_sub1_sub1 = (Class30_Sub2_Sub1_Sub1)aClass12_238.method222(l);
-        if(class30_sub2_sub1_sub1 != null)
-        {
-            return class30_sub2_sub1_sub1;
-        }
-        try
-        {
-            class30_sub2_sub1_sub1 = new Class30_Sub2_Sub1_Sub1((new StringBuilder()).append("./Files/interface/").append(s).append(" ").append(i).append(".png").toString());
-            aClass12_238.method223(class30_sub2_sub1_sub1, l, (byte)2);
-        }
-        catch(Exception exception)
-        {
-            return null;
-        }
-        return class30_sub2_sub1_sub1;
-    }
+	private static Class30_Sub2_Sub1_Sub1 welcome(int i, boolean flag, Class44 class44, String s)
+	{
+		long l = (Class50.method585((byte)1, s) << 8) + (long)i;
+		if(flag)
+		{
+			throw new NullPointerException();
+		}
+		Class30_Sub2_Sub1_Sub1 class30_sub2_sub1_sub1 = (Class30_Sub2_Sub1_Sub1)aClass12_238.method222(l);
+		if(class30_sub2_sub1_sub1 != null)
+		{
+			return class30_sub2_sub1_sub1;
+		}
+		try
+		{
+			class30_sub2_sub1_sub1 = new Class30_Sub2_Sub1_Sub1((new StringBuilder()).append("./Files/interface/").append(s).append(" ").append(i).append(".png").toString());
+			aClass12_238.method223(class30_sub2_sub1_sub1, l, (byte)2);
+		}
+		catch(Exception exception)
+		{
+			return null;
+		}
+		return class30_sub2_sub1_sub1;
+	}
 
-    private static Class30_Sub2_Sub1_Sub1 customsprite2(int i, boolean flag, Class44 class44, String s)
-    {
-        long l = (Class50.method585((byte)1, s) << 8) + (long)i;
-        if(flag)
-        {
-            throw new NullPointerException();
-        }
-        Class30_Sub2_Sub1_Sub1 class30_sub2_sub1_sub1 = (Class30_Sub2_Sub1_Sub1)aClass12_238.method222(l);
-        if(class30_sub2_sub1_sub1 != null)
-        {
-            return class30_sub2_sub1_sub1;
-        }
-        try
-        {
-            class30_sub2_sub1_sub1 = new Class30_Sub2_Sub1_Sub1((new StringBuilder()).append("./Files/interface/").append(s).append(" ").append(i).append(".png").toString());
-            aClass12_238.method223(class30_sub2_sub1_sub1, l, (byte)2);
-        }
-        catch(Exception exception)
-        {
-            return null;
-        }
-        return class30_sub2_sub1_sub1;
-    }
+//	private static Class30_Sub2_Sub1_Sub1 customsprite2(int i, boolean flag, Class44 class44, String s)	//REMOVED Said its not used 4/20/17
+//	{
+//		long l = (Class50.method585((byte)1, s) << 8) + (long)i;
+//		if(flag)
+//		{
+//			throw new NullPointerException();
+//		}
+//		Class30_Sub2_Sub1_Sub1 class30_sub2_sub1_sub1 = (Class30_Sub2_Sub1_Sub1)aClass12_238.method222(l);
+//		if(class30_sub2_sub1_sub1 != null)
+//		{
+//			return class30_sub2_sub1_sub1;
+//		}
+//		try
+//		{
+//			class30_sub2_sub1_sub1 = new Class30_Sub2_Sub1_Sub1((new StringBuilder()).append("./Files/interface/").append(s).append(" ").append(i).append(".png").toString());
+//			aClass12_238.method223(class30_sub2_sub1_sub1, l, (byte)2);
+//		}
+//		catch(Exception exception)
+//		{
+//			return null;
+//		}
+//		return class30_sub2_sub1_sub1;
+//	}
 
-    private static Class30_Sub2_Sub1_Sub1 Run(int i, String s)
-    {
-        long l = (Class50.method585((byte)1, s) << 8) + (long)i;
-        Class30_Sub2_Sub1_Sub1 class30_sub2_sub1_sub1 = (Class30_Sub2_Sub1_Sub1)aClass12_238.method222(l);
-        if(class30_sub2_sub1_sub1 != null)
-        {
-            return class30_sub2_sub1_sub1;
-        }
-        try
-        {
-            class30_sub2_sub1_sub1 = new Class30_Sub2_Sub1_Sub1((new StringBuilder()).append("./Files/interface/").append(s).append(" ").append(i).append(".png").toString());
-            aClass12_238.method223(class30_sub2_sub1_sub1, l, (byte)2);
-        }
-        catch(Exception exception)
-        {
-            return null;
-        }
-        return class30_sub2_sub1_sub1;
-    }
+	private static Class30_Sub2_Sub1_Sub1 Run(int i, String s)
+	{
+		long l = (Class50.method585((byte)1, s) << 8) + (long)i;
+		Class30_Sub2_Sub1_Sub1 class30_sub2_sub1_sub1 = (Class30_Sub2_Sub1_Sub1)aClass12_238.method222(l);
+		if(class30_sub2_sub1_sub1 != null)
+		{
+			return class30_sub2_sub1_sub1;
+		}
+		try
+		{
+			class30_sub2_sub1_sub1 = new Class30_Sub2_Sub1_Sub1((new StringBuilder()).append("./Files/interface/").append(s).append(" ").append(i).append(".png").toString());
+			aClass12_238.method223(class30_sub2_sub1_sub1, l, (byte)2);
+		}
+		catch(Exception exception)
+		{
+			return null;
+		}
+		return class30_sub2_sub1_sub1;
+	}
 
-    private static Class30_Sub2_Sub1_Sub1 customsprite1(int i, boolean flag, Class44 class44, String s)
-    {
-        long l = (Class50.method585((byte)1, s) << 8) + (long)i;
-        if(flag)
-        {
-            throw new NullPointerException();
-        }
-        Class30_Sub2_Sub1_Sub1 class30_sub2_sub1_sub1 = (Class30_Sub2_Sub1_Sub1)aClass12_238.method222(l);
-        if(class30_sub2_sub1_sub1 != null)
-        {
-            return class30_sub2_sub1_sub1;
-        }
-        try
-        {
-            class30_sub2_sub1_sub1 = new Class30_Sub2_Sub1_Sub1((new StringBuilder()).append("./Files/interface/").append(s).append(" ").append(i).append(".png").toString());
-            aClass12_238.method223(class30_sub2_sub1_sub1, l, (byte)2);
-        }
-        catch(Exception exception)
-        {
-            return null;
-        }
-        return class30_sub2_sub1_sub1;
-    }
+//	private static Class30_Sub2_Sub1_Sub1 customsprite1(int i, boolean flag, Class44 class44, String s)	//REMOVED Said its not used 4/20/17
+//	{
+//		long l = (Class50.method585((byte)1, s) << 8) + (long)i;
+//		if(flag)
+//		{
+//			throw new NullPointerException();
+//		}
+//		Class30_Sub2_Sub1_Sub1 class30_sub2_sub1_sub1 = (Class30_Sub2_Sub1_Sub1)aClass12_238.method222(l);
+//		if(class30_sub2_sub1_sub1 != null)
+//		{
+//			return class30_sub2_sub1_sub1;
+//		}
+//		try
+//		{
+//			class30_sub2_sub1_sub1 = new Class30_Sub2_Sub1_Sub1((new StringBuilder()).append("./Files/interface/").append(s).append(" ").append(i).append(".png").toString());
+//			aClass12_238.method223(class30_sub2_sub1_sub1, l, (byte)2);
+//		}
+//		catch(Exception exception)
+//		{
+//			return null;
+//		}
+//		return class30_sub2_sub1_sub1;
+//	}
 
-    private static Class30_Sub2_Sub1_Sub1 pleasework(int i, String s)
-    {
-        long l = (Class50.method585((byte)1, s) << 8) + (long)i;
-        Class30_Sub2_Sub1_Sub1 class30_sub2_sub1_sub1 = (Class30_Sub2_Sub1_Sub1)aClass12_238.method222(l);
-        if(class30_sub2_sub1_sub1 != null)
-        {
-            return class30_sub2_sub1_sub1;
-        }
-        try
-        {
-            class30_sub2_sub1_sub1 = new Class30_Sub2_Sub1_Sub1((new StringBuilder()).append("./Files/interface/").append(s).append(" ").append(i).append(".png").toString());
-            aClass12_238.method223(class30_sub2_sub1_sub1, l, (byte)2);
-        }
-        catch(Exception exception)
-        {
-            return null;
-        }
-        return class30_sub2_sub1_sub1;
-    }
+	private static Class30_Sub2_Sub1_Sub1 pleasework(int i, String s)
+	{
+		long l = (Class50.method585((byte)1, s) << 8) + (long)i;
+		Class30_Sub2_Sub1_Sub1 class30_sub2_sub1_sub1 = (Class30_Sub2_Sub1_Sub1)aClass12_238.method222(l);
+		if(class30_sub2_sub1_sub1 != null)
+		{
+			return class30_sub2_sub1_sub1;
+		}
+		try
+		{
+			class30_sub2_sub1_sub1 = new Class30_Sub2_Sub1_Sub1((new StringBuilder()).append("./Files/interface/").append(s).append(" ").append(i).append(".png").toString());
+			aClass12_238.method223(class30_sub2_sub1_sub1, l, (byte)2);
+		}
+		catch(Exception exception)
+		{
+			return null;
+		}
+		return class30_sub2_sub1_sub1;
+	}
 
-    public Class30_Sub2_Sub4_Sub6 method209(int i, int j, int k, boolean flag)
-    {
-        Class30_Sub2_Sub4_Sub6 class30_sub2_sub4_sub6;
-        if(flag)
-        {
-            class30_sub2_sub4_sub6 = method206(anInt255, anInt256);
-        } else
-        {
-            class30_sub2_sub4_sub6 = method206(anInt233, anInt234);
-        }
-        if(class30_sub2_sub4_sub6 == null)
-        {
-            return null;
-        }
-        if(k == -1 && j == -1 && class30_sub2_sub4_sub6.anIntArray1640 == null)
-        {
-            return class30_sub2_sub4_sub6;
-        }
-        Class30_Sub2_Sub4_Sub6 class30_sub2_sub4_sub6_1 = new Class30_Sub2_Sub4_Sub6(9, true, Class36.method532(k, false) & Class36.method532(j, false), false, class30_sub2_sub4_sub6);
-        if(k != -1 || j != -1)
-        {
-            class30_sub2_sub4_sub6_1.method469((byte)-71);
-        }
-        if(k != -1)
-        {
-            class30_sub2_sub4_sub6_1.method470(k, 40542);
-        }
-        if(j != -1)
-        {
-            class30_sub2_sub4_sub6_1.method470(j, 40542);
-        }
-        class30_sub2_sub4_sub6_1.method479(64, 768, -50, -10, -50, true);
-        if(i != 0)
-        {
-            throw new NullPointerException();
-        } else
-        {
-            return class30_sub2_sub4_sub6_1;
-        }
-    }
+	public Class30_Sub2_Sub4_Sub6 method209(int i, int j, int k, boolean flag)
+	{
+		Class30_Sub2_Sub4_Sub6 class30_sub2_sub4_sub6;
+		if(flag)
+		{
+			class30_sub2_sub4_sub6 = method206(anInt255, anInt256);
+		} else
+		{
+			class30_sub2_sub4_sub6 = method206(anInt233, anInt234);
+		}
+		if(class30_sub2_sub4_sub6 == null)
+		{
+			return null;
+		}
+		if(k == -1 && j == -1 && class30_sub2_sub4_sub6.anIntArray1640 == null)
+		{
+			return class30_sub2_sub4_sub6;
+		}
+		Class30_Sub2_Sub4_Sub6 class30_sub2_sub4_sub6_1 = new Class30_Sub2_Sub4_Sub6(9, true, Class36.method532(k, false) & Class36.method532(j, false), false, class30_sub2_sub4_sub6);
+		if(k != -1 || j != -1)
+		{
+			class30_sub2_sub4_sub6_1.method469((byte)-71);
+		}
+		if(k != -1)
+		{
+			class30_sub2_sub4_sub6_1.method470(k, 40542);
+		}
+		if(j != -1)
+		{
+			class30_sub2_sub4_sub6_1.method470(j, 40542);
+		}
+		class30_sub2_sub4_sub6_1.method479(64, 768, -50, -10, -50, true);
+		if(i != 0)
+		{
+			throw new NullPointerException();
+		} else
+		{
+			return class30_sub2_sub4_sub6_1;
+		}
+	}
 
-    public Class9()
-    {
-        anInt213 = 9;
-        anInt229 = 891;
-    }
+	public Class9()
+	{
+		anInt213 = 9;
+//		anInt229 = 891;	//REMOVED due to it not being used anywhere except being set 4/20/17
+	}
 
 }

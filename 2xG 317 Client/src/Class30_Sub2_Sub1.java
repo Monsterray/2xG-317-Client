@@ -2,7 +2,6 @@
 // Jad home page: http://www.kpdus.com/jad.html
 // Decompiler options: packimports(3) 
 
-import sign.signlink;
 
 public class Class30_Sub2_Sub1 extends Class30_Sub2
 {
@@ -10,8 +9,9 @@ public class Class30_Sub2_Sub1 extends Class30_Sub2
     public static void method331(int i, int j, int k, int ai[])
     {
         anIntArray1378 = ai;
-        while(k >= 0) 
-            anInt1374 = 275;
+        while(k >= 0) {
+//            anInt1374 = 275;	// Removed due to it not being used anywhere except being set 4/18/17
+        }
         anInt1379 = j;
         anInt1380 = i;
         method333(i, 0, false, j, 0);
@@ -49,8 +49,9 @@ public class Class30_Sub2_Sub1 extends Class30_Sub2
         anInt1384 = k;
         anInt1382 = i;
         anInt1385 = anInt1384 - 1;
-        if(flag)
-            anInt1374 = 458;
+        if(flag){
+//            anInt1374 = 458;	// Removed due to it not being used anywhere except being set 4/18/17
+        }
         anInt1386 = anInt1384 / 2;
         anInt1387 = anInt1382 / 2;
     }
@@ -122,10 +123,10 @@ public class Class30_Sub2_Sub1 extends Class30_Sub2
             i = anInt1382 - j;
         int k1 = anInt1379 - i1;
         int l1 = k + j * anInt1379;
-        if(j1 != 0)
-            anInt1374 = -374;
-        for(int i2 = -i; i2 < 0; i2++)
-        {
+        if(j1 != 0){
+//            anInt1374 = -374;	// Removed due to it not being used anywhere except being set 4/18/17
+        }
+        for(int i2 = -i; i2 < 0; i2++){
             for(int j2 = -i1; j2 < 0; j2++)
                 anIntArray1378[l1++] = l;
 
@@ -193,8 +194,9 @@ public class Class30_Sub2_Sub1 extends Class30_Sub2
         int l1 = (i >> 8 & 0xff) * l;
         int i2 = (i & 0xff) * l;
         int i3 = i1 + k * anInt1379;
-        if(!flag)
-            anInt1374 = 86;
+        if(!flag){
+//            anInt1374 = 86;	// Removed due to it not being used anywhere except being set 4/18/17
+        }
         for(int j3 = 0; j3 < j; j3++)
         {
             int j2 = (anIntArray1378[i3] >> 16 & 0xff) * j1;
@@ -259,8 +261,8 @@ public class Class30_Sub2_Sub1 extends Class30_Sub2
     {
     }
 
-    private static int anInt1374 = 1;
-    private static boolean aBoolean1375 = true;
+//    private static int anInt1374 = 1;	//Said its not used 4/18/17
+//    private static boolean aBoolean1375 = true;	//Said its not used 4/18/17
     private static int anInt1376 = -12499;
     private static boolean aBoolean1377;
     public static int anIntArray1378[];

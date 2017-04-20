@@ -2,7 +2,6 @@
 // Jad home page: http://www.kpdus.com/jad.html
 // Decompiler options: packimports(3) 
 
-import sign.signlink;
 
 final class Class46
 {
@@ -321,8 +320,9 @@ if(i == 13181) {
 
     private final void method582(boolean flag, Class30_Sub2_Sub2 class30_sub2_sub2)
     {
-        if(!flag)
-            anInt750 = 217;
+        if(!flag){
+//            anInt750 = 217;	//REMOVED due to it not being used anywhere except being set 4/20/17
+        }
         int i = -1;
 label0:
         do
@@ -538,7 +538,7 @@ label0:
     private int anIntArray747[];
     private int anInt748;
     public int anInt749;
-    private int anInt750;
+//    private int anInt750;	//REMOVED Said its not used 4/20/17
     private boolean aBoolean751;
     public static boolean aBoolean752;
     private static Class30_Sub2_Sub2 aClass30_Sub2_Sub2_753;

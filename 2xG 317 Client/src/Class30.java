@@ -23,10 +23,10 @@ public class Class30
 
     public Class30()
     {
-        aBoolean547 = true;
+//        aBoolean547 = true;	//REMOVED Said its not used 4/20/17
     }
 
-    private boolean aBoolean547;
+//    private boolean aBoolean547;	//REMOVED due to it not being used anywhere except being set 4/20/17
     public long aLong548;
     public Class30 aClass30_549;
     Class30 aClass30_550;

@@ -1,6 +1,7 @@
-import java.io.*;
+import java.io.File;
+import java.io.FileInputStream;
+
 import javazoom.jl.player.Player;
-import java.net.URL;
 
 public class MP3Player extends Thread{
 

@@ -2,17 +2,16 @@
 // Jad home page: http://www.kpdus.com/jad.html
 // Decompiler options: packimports(3) 
 
-import sign.signlink;
 
 public class Class16
 {
 
     private Class16(int i)
     {
-        aBoolean321 = true;
+//        aBoolean321 = true;	// Removed due to it not being used anywhere except being set 4/18/17
         aClass6Array329 = new Class6[10];
-        if(i < 8 || i > 8)
-            anInt324 = 477;
+//        if(i < 8 || i > 8)	// Removed due to nothing being inside the if 4/18/17
+//            anInt324 = 477;	// Removed due to it not being used anywhere except being set 4/18/17
     }
 
     public static final void method240(int i, Class30_Sub2_Sub2 class30_sub2_sub2)
@@ -61,7 +60,7 @@ public class Class16
         }
 
         if(!flag)
-            anInt324 = 58;
+//            anInt324 = 58;	// Removed due to it not being used anywhere except being set 4/18/17
         anInt330 = class30_sub2_sub2.method410();
         anInt331 = class30_sub2_sub2.method410();
     }
@@ -70,7 +69,7 @@ public class Class16
     {
         int j = 0x98967f;
         if(i != 0)
-            anInt324 = -52;
+//            anInt324 = -52;	// Removed due to it not being used anywhere except being set 4/18/17
         for(int k = 0; k < 10; k++)
             if(aClass6Array329[k] != null && aClass6Array329[k].anInt114 / 20 < j)
                 j = aClass6Array329[k].anInt114 / 20;
@@ -167,10 +166,10 @@ public class Class16
         return k1;
     }
 
-    private boolean aBoolean321;
+//    private boolean aBoolean321;	//Said its not used 4/18/17
     private static boolean aBoolean322;
     private static boolean aBoolean323 = true;
-    private int anInt324;
+//    private int anInt324;	//Said its not used 4/18/17
     private static Class16 aClass16Array325[] = new Class16[5000];
     public static int anIntArray326[] = new int[5000];
     private static byte aByteArray327[];

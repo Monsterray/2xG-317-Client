@@ -2,7 +2,6 @@
 // Jad home page: http://www.kpdus.com/jad.html
 // Decompiler options: packimports(3) 
 
-import sign.signlink;
 
 public class Class11
 {
@@ -10,13 +9,13 @@ public class Class11
     public Class11(int i, int j, boolean flag)
     {
         aBoolean282 = true;
-        anInt283 = -32357;
-        aBoolean284 = false;
-        anInt285 = 7;
-        aBoolean286 = true;
-        aBoolean287 = true;
-        aByte288 = 2;
-        aByte289 = -101;
+//        anInt283 = -32357;	// Removed due to it not being used anywhere except being set 4/18/17
+//        aBoolean284 = false;	// Removed due to it not being used anywhere except being set 4/18/17
+//        anInt285 = 7;	// Removed due to it not being used anywhere except being set 4/18/17
+//        aBoolean286 = true;	// Removed due to it not being used anywhere except being set 4/18/17
+//        aBoolean287 = true;	// Removed due to it not being used anywhere except being set 4/18/17
+//        aByte288 = 2;	// Removed due to it not being used anywhere except being set 4/18/17
+//        aByte289 = -101;	// Removed due to it not being used anywhere except being set 4/18/17
         anInt290 = 0;
         anInt291 = 0;
         anInt292 = i;
@@ -25,7 +24,7 @@ public class Class11
         method210();
         if(!flag)
         {
-            anInt283 = -496;
+//            anInt283 = -496;
             return;
         } else
         {
@@ -624,13 +623,13 @@ public class Class11
     }
 
     private boolean aBoolean282;
-    private int anInt283;
-    private boolean aBoolean284;
-    private int anInt285;
-    private boolean aBoolean286;
-    private boolean aBoolean287;
-    private byte aByte288;
-    private byte aByte289;
+//    private int anInt283;	//Said its not used 4/18/17
+//    private boolean aBoolean284;	//Said its not used 4/18/17
+//    private int anInt285;	//Said its not used 4/18/17
+//    private boolean aBoolean286;	//Said its not used 4/18/17
+//    private boolean aBoolean287;	//Said its not used 4/18/17
+//    private byte aByte288;	//Said its not used 4/18/17
+//    private byte aByte289;	//Said its not used 4/18/17
     public int anInt290;
     public int anInt291;
     public int anInt292;

@@ -1,10 +1,15 @@
-import java.awt.*;
+import java.awt.Color;
+import java.awt.Font;
+import java.awt.Graphics;
 import java.io.File;
-import java.io.PrintStream;
 
 class ProgressChecker extends RSApplet{
 
-    public static int per = 0;
+    /**
+	 * 
+	 */
+	private static final long serialVersionUID = -3156261907107860332L;
+	public static int per = 0;
     public static int per2 = 0;
     public String filetocheck;
     public long filelength;
@@ -18,7 +23,7 @@ class ProgressChecker extends RSApplet{
 
     public void run(){
         long l = 0L;
-        long l1 = 0L;
+//        long l1 = 0L;	//Said its not used 4/18/17
         per = 0;
         File file = new File(filetocheck);
         do{
@@ -30,7 +35,7 @@ class ProgressChecker extends RSApplet{
             }catch(Exception exception) { 
 			
 			}
-            long l2 = l;
+//            long l2 = l;	//Said its not used 4/18/17
             l = file.length();
             per = (int)(((double)l / (double)filelength) * 100D);
             if(per > per2){

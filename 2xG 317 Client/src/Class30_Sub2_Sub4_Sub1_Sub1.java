@@ -2,7 +2,6 @@
 // Jad home page: http://www.kpdus.com/jad.html
 // Decompiler options: packimports(3) 
 
-import sign.signlink;
 
 final class Class30_Sub2_Sub4_Sub1_Sub1 extends Class30_Sub2_Sub4_Sub1
 {
@@ -35,8 +34,9 @@ final class Class30_Sub2_Sub4_Sub1_Sub1 extends Class30_Sub2_Sub4_Sub1
         if(class30_sub2_sub4_sub6 == null)
             return null;
         super.anInt1507 = ((Class30_Sub2_Sub4) (class30_sub2_sub4_sub6)).anInt1426;
-        if(i != 4016)
-            anInt1693 = -403;
+        if(i != 4016){
+//            anInt1693 = -403;	// Removed due to it not being used anywhere except being set 4/18/17
+        }
         if(super.anInt1520 != -1 && super.anInt1521 != -1)
         {
             Class23 class23 = Class23.aClass23Array403[super.anInt1520];
@@ -77,7 +77,7 @@ final class Class30_Sub2_Sub4_Sub1_Sub1 extends Class30_Sub2_Sub4_Sub1
         anInt1695 = 9;
     }
 
-    private int anInt1693;
+//    private int anInt1693;	//Said its not used 4/18/17
     private boolean aBoolean1694;
     private int anInt1695;
     Class5 aClass5_1696;

@@ -2,16 +2,15 @@
 // Jad home page: http://www.kpdus.com/jad.html
 // Decompiler options: packimports(3) 
 
-import java.io.PrintStream;
-import sign.signlink;
 
 public class Class37
 {
 
     public static void method533(int i, Class44 class44)
     {
-        if(i != 0)
-            anInt644 = 91;
+        if(i != 0){
+//            anInt644 = 91;	//REMOVED due to it not being used anywhere except being set 4/20/17
+        }
         Class30_Sub2_Sub2 class30_sub2_sub2 = new Class30_Sub2_Sub2(class44.method571("varbit.dat", null), 891);
         anInt645 = class30_sub2_sub2.method410();
         if(aClass37Array646 == null)
@@ -66,7 +65,7 @@ public class Class37
         anInt652 = -1;
     }
 
-    private static int anInt644;
+//    private static int anInt644;	//REMOVED Said its not used 4/20/17
     public static int anInt645;
     public static Class37 aClass37Array646[];
     public String aString647;

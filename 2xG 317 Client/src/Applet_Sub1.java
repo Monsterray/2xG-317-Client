@@ -3,15 +3,29 @@
 // Decompiler options: packimports(3) 
 
 import java.applet.Applet;
-import java.awt.*;
-import java.awt.event.*;
-import java.io.PrintStream;
-import sign.signlink;
+import java.awt.Color;
+import java.awt.Component;
+import java.awt.Font;
+import java.awt.FontMetrics;
+import java.awt.Graphics;
+import java.awt.event.FocusEvent;
+import java.awt.event.FocusListener;
+import java.awt.event.KeyEvent;
+import java.awt.event.KeyListener;
+import java.awt.event.MouseEvent;
+import java.awt.event.MouseListener;
+import java.awt.event.MouseMotionListener;
+import java.awt.event.WindowEvent;
+import java.awt.event.WindowListener;
 
 
 public class Applet_Sub1 extends Applet implements Runnable, MouseListener, MouseMotionListener, KeyListener, FocusListener, WindowListener{
 
-    public final void method1(int i, boolean flag, int j){
+    /**
+	 * 
+	 */
+	private static final long serialVersionUID = -7149388988494367276L;
+	public final void method1(int i, boolean flag, int j){
         anInt10 = j;
         anInt11 = i;
         if(flag){
@@ -50,7 +64,7 @@ public class Applet_Sub1 extends Applet implements Runnable, MouseListener, Mous
         int j1 = 0;
         for(int k1 = 0; k1 < 10; k1++)
             aLongArray7[k1] = System.currentTimeMillis();
-        long l = System.currentTimeMillis();
+//        long l = System.currentTimeMillis();	//Said its not used 4/18/17
         while(anInt4 >= 0) {
             if(anInt4 > 0){
                 anInt4--;
@@ -511,9 +525,9 @@ public class Applet_Sub1 extends Applet implements Runnable, MouseListener, Mous
     }
 
     public Applet_Sub1(){
-        aBoolean1 = true;
+//        aBoolean1 = true;	// Removed due to it not being used anywhere except being set 4/18/17
         anInt2 = 24869;
-        anInt3 = 748;
+//        anInt3 = 748;	// Removed due to it not being used anywhere except being set 4/18/17
         anInt5 = 20;
         anInt6 = 1;
         aLongArray7 = new long[10];
@@ -525,9 +539,9 @@ public class Applet_Sub1 extends Applet implements Runnable, MouseListener, Mous
         anIntArray31 = new int[128];
     }
 
-    private boolean aBoolean1;
+//    private boolean aBoolean1;	//Said its not used 4/18/17
     private int anInt2;
-    private int anInt3;
+//    private int anInt3;	//Said its not used 4/18/17
     private int anInt4;
     private int anInt5;
     public int anInt6;

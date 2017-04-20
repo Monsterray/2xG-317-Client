@@ -2,7 +2,6 @@
 // Jad home page: http://www.kpdus.com/jad.html
 // Decompiler options: packimports(3) 
 
-import sign.signlink;
 
 
 public class Class30_Sub2_Sub1_Sub3 extends Class30_Sub2_Sub1
@@ -136,8 +135,9 @@ public class Class30_Sub2_Sub1_Sub3 extends Class30_Sub2_Sub1
         if(anIntArrayArray1479[i] == null)
             return;
         anIntArrayArray1478[anInt1477++] = anIntArrayArray1479[i];
-        while(j >= 0) 
-            anInt1458 = 7;
+        while(j >= 0) {
+//            anInt1458 = 7;	// Removed due to it not being used anywhere except being set 4/18/17
+        }
         anIntArrayArray1479[i] = null;
     }
 public static int ih = 0;
@@ -2202,8 +2202,8 @@ public static int ih = 0;
 
     }
 
-    private static int anInt1458 = -436;
-    private static int anInt1459 = -477;
+//    private static int anInt1458 = -436;	//Said its not used 4/18/17
+//    private static int anInt1459 = -477;	//Said its not used 4/18/17
     private static boolean aBoolean1460 = true;
     public static boolean aBoolean1461 = true;
     static boolean aBoolean1462;

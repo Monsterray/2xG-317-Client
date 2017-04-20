@@ -2,8 +2,6 @@
 // Jad home page: http://www.kpdus.com/jad.html
 // Decompiler options: packimports(3) 
 
-import java.io.PrintStream;
-import sign.signlink;
 
 public class Class41
 {
@@ -32,8 +30,9 @@ public class Class41
 
     public void method547(Class30_Sub2_Sub2 class30_sub2_sub2, boolean flag, int i)
     {
-        if(flag)
-            anInt699 = -91;
+        if(flag){
+//            anInt699 = -91;	//REMOVED due to it not being used anywhere except being set 4/20/17
+        }
         do
         {
             int j = class30_sub2_sub2.method408();
@@ -85,7 +84,7 @@ public class Class41
 
     public Class41()
     {
-        anInt699 = -32357;
+//        anInt699 = -32357;	//REMOVED due to it not being used anywhere except being set 4/20/17
         aBoolean707 = false;
         aBoolean708 = true;
         aBoolean710 = false;
@@ -94,7 +93,7 @@ public class Class41
     }
 
     private static boolean aBoolean698 = true;
-    private int anInt699;
+//    private int anInt699;	//REMOVED Said its not used 4/20/17
     public static int anInt700;
     public static Class41 aClass41Array701[];
     public static int anInt702;

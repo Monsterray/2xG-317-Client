@@ -2,7 +2,6 @@
 // Jad home page: http://www.kpdus.com/jad.html
 // Decompiler options: packimports(3) 
 
-import sign.signlink;
 
 public class Class6
 {
@@ -99,7 +98,7 @@ public class Class6
             aClass29_104.method327((byte)8);
             aClass29_105.method327((byte)8);
             int i3 = 0;
-            boolean flag = false;
+//            boolean flag = false;	//REMOVED Said its not used 4/20/17
             boolean flag1 = true;
             for(int i7 = 0; i7 < i; i7++)
             {
@@ -187,7 +186,8 @@ public class Class6
                         i9 -= (int)((long)anIntArray115[j7 - 1 - j10] * (long)Class39.anIntArrayArray670[1][j10] >> 16);
 
                     anIntArray115[j7] = i9;
-                    int l3 = aClass29_112.method328(true, i + 1);
+                    @SuppressWarnings("unused")
+					int l3 = aClass29_112.method328(true, i + 1);	//TODO Need to figure out what this does
                 }
 
             }

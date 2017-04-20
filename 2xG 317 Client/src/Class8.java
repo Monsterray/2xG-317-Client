@@ -1,4 +1,6 @@
-import java.io.*;
+import java.io.BufferedWriter;
+import java.io.FileWriter;
+import java.io.IOException;
 
 final class Class8
 {
@@ -63,7 +65,7 @@ final class Class8
         for(int i = 0; i < 9000; i++)
         {
             Class8 class8 = method198(i);
-            Object obj = null;
+//            Object obj = null;	//REMOVED Said its not used 4/20/17
             try
             {
                 BufferedWriter bufferedwriter = new BufferedWriter(new FileWriter("ItemList.txt", true));

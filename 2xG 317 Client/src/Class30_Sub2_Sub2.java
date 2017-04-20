@@ -3,6 +3,7 @@
 // Decompiler options: packimports(3) 
 
 import java.math.BigInteger;
+
 import sign.signlink;
 
 public final class Class30_Sub2_Sub2 extends Class30_Sub2
@@ -56,20 +57,20 @@ public final class Class30_Sub2_Sub2 extends Class30_Sub2
 
     private Class30_Sub2_Sub2(boolean flag)
     {
-        anInt1389 = 891;
-        anInt1390 = 9;
+//        anInt1389 = 891;	// Removed due to it not being used anywhere except being set 4/18/17
+//        anInt1390 = 9;	// Removed due to it not being used anywhere except being set 4/18/17
         aByte1391 = 14;
         anInt1392 = -29508;
-        anInt1393 = 881;
-        aByte1394 = 8;
+//        anInt1393 = 881;	// Removed due to it not being used anywhere except being set 4/18/17
+//        aByte1394 = 8;	// Removed due to it not being used anywhere except being set 4/18/17
         anInt1395 = 657;
         aBoolean1396 = false;
-        anInt1397 = -715;
+//        anInt1397 = -715;	// Removed due to it not being used anywhere except being set 4/18/17
         aByte1398 = -57;
         aByte1399 = 108;
-        aByte1400 = 3;
+//        aByte1400 = 3;	// Removed due to it not being used anywhere except being set 4/18/17
         aBoolean1401 = false;
-        anInt1402 = -373;
+//        anInt1402 = -373;	// Removed due to it not being used anywhere except being set 4/18/17
         aBoolean1403 = false;
         aBoolean1404 = true;
         if(flag)
@@ -80,20 +81,20 @@ public final class Class30_Sub2_Sub2 extends Class30_Sub2
 
     public Class30_Sub2_Sub2(byte abyte0[], int i)
     {
-        anInt1389 = 891;
-        anInt1390 = 9;
+//        anInt1389 = 891;	// Removed due to it not being used anywhere except being set 4/18/17
+//        anInt1390 = 9;	// Removed due to it not being used anywhere except being set 4/18/17
         aByte1391 = 14;
         anInt1392 = -29508;
-        anInt1393 = 881;
-        aByte1394 = 8;
+//        anInt1393 = 881;	// Removed due to it not being used anywhere except being set 4/18/17
+//        aByte1394 = 8;	// Removed due to it not being used anywhere except being set 4/18/17
         anInt1395 = 657;
         aBoolean1396 = false;
-        anInt1397 = -715;
+//        anInt1397 = -715;	// Removed due to it not being used anywhere except being set 4/18/17
         aByte1398 = -57;
         aByte1399 = 108;
-        aByte1400 = 3;
+//        aByte1400 = 3;	// Removed due to it not being used anywhere except being set 4/18/17
         aBoolean1401 = false;
-        anInt1402 = -373;
+//        anInt1402 = -373;	// Removed due to it not being used anywhere except being set 4/18/17
         aBoolean1403 = false;
         aBoolean1404 = true;
         if(i <= 0)
@@ -131,8 +132,9 @@ public final class Class30_Sub2_Sub2 extends Class30_Sub2
     {
         aByteArray1405[anInt1406++] = (byte)i;
         aByteArray1405[anInt1406++] = (byte)(i >> 8);
-        if(!flag)
-            anInt1389 = -142;
+        if(!flag){
+//            anInt1389 = -142;	// Removed due to it not being used anywhere except being set 4/18/17
+        }
     }
 
     public void method401(int i)
@@ -173,8 +175,9 @@ public final class Class30_Sub2_Sub2 extends Class30_Sub2
             aByteArray1405[anInt1406++] = (byte)(int)(l >> 48);
             aByteArray1405[anInt1406++] = (byte)(int)(l >> 40);
             aByteArray1405[anInt1406++] = (byte)(int)(l >> 32);
-            if(i < 5 || i > 5)
-                anInt1402 = 409;
+            if(i < 5 || i > 5){
+//                anInt1402 = 409;	// Removed due to it not being used anywhere except being set 4/18/17
+            }
             aByteArray1405[anInt1406++] = (byte)(int)(l >> 24);
             aByteArray1405[anInt1406++] = (byte)(int)(l >> 16);
             aByteArray1405[anInt1406++] = (byte)(int)(l >> 8);
@@ -187,7 +190,8 @@ public final class Class30_Sub2_Sub2 extends Class30_Sub2
         }
     }
 
-    public void method405(String s)
+    @SuppressWarnings("deprecation")
+	public void method405(String s)
     {
         s.getBytes(0, s.length(), aByteArray1405, anInt1406);
         anInt1406 += s.length();
@@ -387,8 +391,9 @@ public final class Class30_Sub2_Sub2 extends Class30_Sub2
 
     public int method427(boolean flag)
     {
-        if(flag)
-            anInt1389 = 310;
+        if(flag){
+//            anInt1389 = 310;	// Removed due to it not being used anywhere except being set 4/18/17
+        }
         return -aByteArray1405[anInt1406++] & 0xff;
     }
 
@@ -427,16 +432,18 @@ public final class Class30_Sub2_Sub2 extends Class30_Sub2
     public void method432(int i, int j)
     {
         aByteArray1405[anInt1406++] = (byte)(j >> 8);
-        while(i >= 0) 
-            anInt1402 = 376;
+        while(i >= 0) {
+//            anInt1402 = 376;	// Removed due to it not being used anywhere except being set 4/18/17
+        }
         aByteArray1405[anInt1406++] = (byte)(j + 128);
     }
 
     public void method433(int i, int j)
     {
         aByteArray1405[anInt1406++] = (byte)(j + 128);
-        if(i != 0)
-            anInt1402 = -238;
+        if(i != 0){
+//            anInt1402 = -238;	// Removed due to it not being used anywhere except being set 4/18/17
+        }
         aByteArray1405[anInt1406++] = (byte)(j >> 8);
     }
 
@@ -531,20 +538,20 @@ public final class Class30_Sub2_Sub2 extends Class30_Sub2
 
     }
 
-    private int anInt1389;
-    private int anInt1390;
+//    private int anInt1389;	//Said its not used 4/18/17
+//    private int anInt1390;	//Said its not used 4/18/17
     private byte aByte1391;
     private int anInt1392;
-    private int anInt1393;
-    private byte aByte1394;
+//    private int anInt1393;	//Said its not used 4/18/17
+//    private byte aByte1394;	//Said its not used 4/18/17
     private int anInt1395;
     private boolean aBoolean1396;
-    private int anInt1397;
+//    private int anInt1397;	//Said its not used 4/18/17
     private byte aByte1398;
     private byte aByte1399;
-    private byte aByte1400;
+//    private byte aByte1400;	//Said its not used 4/18/17
     private boolean aBoolean1401;
-    private int anInt1402;
+//    private int anInt1402;	//Said its not used 4/18/17
     private boolean aBoolean1403;
     private boolean aBoolean1404;
     public byte aByteArray1405[];
@@ -564,14 +571,14 @@ public final class Class30_Sub2_Sub2 extends Class30_Sub2
     private static Class19 aClass19_1414 = new Class19(169);
     private static Class19 aClass19_1415 = new Class19(169);
     private static Class19 aClass19_1416 = new Class19(169);
-    private static char aCharArray1417[] = {
-        'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 
-        'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 
-        'U', 'V', 'W', 'X', 'Y', 'Z', 'a', 'b', 'c', 'd', 
-        'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 
-        'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 
-        'y', 'z', '0', '1', '2', '3', '4', '5', '6', '7', 
-        '8', '9', '+', '/', '<', '>', '_', '^', '~', '`' };
+//    private static char aCharArray1417[] = {	//Said its not used 4/18/17
+//        'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 
+//        'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 
+//        'U', 'V', 'W', 'X', 'Y', 'Z', 'a', 'b', 'c', 'd', 
+//        'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 
+//        'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 
+//        'y', 'z', '0', '1', '2', '3', '4', '5', '6', '7', 
+//        '8', '9', '+', '/', '<', '>', '_', '^', '~', '`' };
 
     public static boolean aBoolean1418;
 

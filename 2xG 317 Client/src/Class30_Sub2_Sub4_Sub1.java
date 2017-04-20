@@ -2,7 +2,6 @@
 // Jad home page: http://www.kpdus.com/jad.html
 // Decompiler options: packimports(3) 
 
-import sign.signlink;
 
 class Class30_Sub2_Sub4_Sub1 extends Class30_Sub2_Sub4
 {
@@ -38,8 +37,9 @@ class Class30_Sub2_Sub4_Sub1 extends Class30_Sub2_Sub4
         anIntArray1500[0] = i;
         anIntArray1501[0] = j;
         anInt1550 = anIntArray1500[0] * 128 + anInt1540 * 64;
-        if(flag1)
-            anInt1536 = 42;
+        if(flag1){
+//            anInt1536 = 42;	// Removed due to it not being used anywhere except being set 4/18/17
+        }
         anInt1551 = anIntArray1501[0] * 128 + anInt1540 * 64;
     }
 
@@ -152,7 +152,7 @@ class Class30_Sub2_Sub4_Sub1 extends Class30_Sub2_Sub4
         anInt1526 = -1;
         anInt1532 = -1000;
         anInt1535 = 100;
-        anInt1536 = -895;
+//        anInt1536 = -895;	// Removed due to it not being used anywhere except being set 4/18/17
         anInt1540 = 1;
         aBoolean1541 = false;
         aBooleanArray1553 = new boolean[10];
@@ -198,7 +198,7 @@ class Class30_Sub2_Sub4_Sub1 extends Class30_Sub2_Sub4
     int anInt1533;
     int anInt1534;
     int anInt1535;
-    private int anInt1536;
+//    private int anInt1536;	//Said its not used 4/18/17
     int anInt1537;
     int anInt1538;
     int anInt1539;

@@ -4,7 +4,6 @@
 
 */
 
-import sign.signlink;
 
 public class Class36
 {
@@ -331,8 +330,9 @@ public class Class36
     }
 	public static void method530(int i)
 	{
-		while(i >= 0)
-		anInt634 = 90;
+		while(i >= 0){
+//			anInt634 = 90;	//REMOVED due to it not being used anywhere except being set 4/20/17
+		}
 		aClass36Array635 = null;
 	}
 
@@ -348,8 +348,9 @@ public class Class36
 	public static String aString23_95 = Class35.anArea435;
 	public static boolean method532(int i, boolean flag)
 	{
-		if(flag)
-		anInt634 = -79;
+		if(flag){
+//			anInt634 = -79;	//REMOVED due to it not being used anywhere except being set 4/20/17
+		}
 		return i == -1;
 	}
 
@@ -357,7 +358,7 @@ public class Class36
 	{
 	}
 
-	private static int anInt634 = -715;
+//	private static int anInt634 = -715;	//REMOVED Said its not used 4/20/17
 	private static Class36 aClass36Array635[];
 	public int anInt636;
 	public Class18 aClass18_637;

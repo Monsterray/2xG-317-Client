@@ -1,9 +1,14 @@
 
-import java.awt.*;
-import sign.signlink;
+import java.awt.Frame;
+import java.awt.Graphics;
 
 public final class Frame_Sub1 extends Frame{
-    public Frame_Sub1(Applet_Sub1 applet_sub1, int i, byte byte0, int j){
+    /**
+	 * 
+	 */
+	private static final long serialVersionUID = -4366205505244859433L;
+	@SuppressWarnings("deprecation")
+	public Frame_Sub1(Applet_Sub1 applet_sub1, int i, byte byte0, int j){
         aBoolean35 = true;
         anApplet_Sub1_36 = applet_sub1;
         setResizable(false);

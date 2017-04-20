@@ -2,8 +2,6 @@
 // Jad home page: http://www.kpdus.com/jad.html
 // Decompiler options: packimports(3) 
 
-import java.io.PrintStream;
-import sign.signlink;
 
 public class Class25
 {
@@ -35,8 +33,9 @@ public class Class25
     public static void method273(int i)
     {
         aClass28Array462 = null;
-        while(i >= 0) 
-            anInt432 = -333;
+        while(i >= 0) {
+//            anInt432 = -333;	// Removed due to it not being used anywhere except being set 4/18/17
+        }
         anIntArray473 = null;
         aClass47ArrayArray474 = null;
         aClass19_477 = null;
@@ -122,8 +121,9 @@ public class Class25
     public static void method277(int i, int j, int k, int l, int i1, int j1, int k1, int l1, 
             int i2)
     {
-        while(k1 >= 0) 
-            anInt432 = -170;
+        while(k1 >= 0) {
+//            anInt432 = -170;	// Removed due to it not being used anywhere except being set 4/18/17
+        }
         Class47 class47 = new Class47();
         class47.anInt787 = j / 128;
         class47.anInt788 = l / 128;
@@ -285,8 +285,9 @@ public class Class25
     public boolean method284(int i, byte byte0, int j, int k, Class30_Sub2_Sub4 class30_sub2_sub4, int l, int i1, 
             int j1, byte byte1, int k1, int l1)
     {
-        if(byte1 != 110)
-            anInt431 = 250;
+        if(byte1 != 110){
+//            anInt431 = 250;	// Removed due to it not being used anywhere except being set 4/18/17
+        }
         if(class30_sub2_sub4 == null)
         {
             return true;
@@ -549,8 +550,9 @@ public class Class25
 
     public Class10 method296(int i, int j, int k, boolean flag)
     {
-        if(flag)
-            anInt433 = -195;
+        if(flag){
+//            anInt433 = -195;	// Removed due to it not being used anywhere except being set 4/18/17
+        }
         Class30_Sub3 class30_sub3 = aClass30_Sub3ArrayArrayArray441[i][j][k];
         if(class30_sub3 == null)
             return null;
@@ -583,8 +585,9 @@ public class Class25
 
         if(byte0 == 4)
             byte0 = 0;
-        else
-            anInt432 = -376;
+        else{
+//            anInt432 = -376;	// Removed due to it not being used anywhere except being set 4/18/17
+        }
         return null;
     }
 
@@ -750,8 +753,9 @@ public class Class25
     private void method307(int i, int j, int k, int l, byte byte0, int i1, Class30_Sub2_Sub4_Sub6 class30_sub2_sub4_sub6)
     {
         boolean flag = true;
-        if(byte0 != 115)
-            anInt431 = 350;
+        if(byte0 != 115){
+//            anInt431 = 350;	// Removed due to it not being used anywhere except being set 4/18/17
+        }
         int j1 = l;
         int k1 = l + j;
         int l1 = i1 - 1;
@@ -924,8 +928,9 @@ public class Class25
         anInt493 = k / 2;
         anInt494 = l / 2;
         boolean aflag[][][][] = new boolean[9][32][53][53];
-        if(flag)
-            anInt433 = 168;
+        if(flag){
+//            anInt433 = 168;	// Removed due to it not being used anywhere except being set 4/18/17
+        }
         for(int i1 = 128; i1 <= 384; i1 += 32)
         {
             for(int j1 = 0; j1 < 2048; j1 += 64)
@@ -1009,8 +1014,9 @@ label0:
     {
         int l = j * anInt460 + k * anInt461 >> 16;
         int i1 = j * anInt461 - k * anInt460 >> 16;
-        if(byte0 != 9)
-            anInt431 = -346;
+        if(byte0 != 9){
+//            anInt431 = -346;	// Removed due to it not being used anywhere except being set 4/18/17
+        }
         int j1 = i * anInt458 + i1 * anInt459 >> 16;
         int k1 = i * anInt459 - i1 * anInt458 >> 16;
         if(j1 < 50 || j1 > 3500)
@@ -2282,9 +2288,9 @@ label0:
 
     private boolean aBoolean429;
     private int anInt430;
-    private static int anInt431 = 360;
-    private static int anInt432 = 1;
-    private static int anInt433 = -460;
+//    private static int anInt431 = 360;	//Said its not used 4/18/17
+//    private static int anInt432 = 1;	//Said its not used 4/18/17
+//    private static int anInt433 = -460;	//Said its not used 4/18/17
     private boolean aBoolean434;
     private boolean aBoolean435;
     public static boolean aBoolean436 = true;

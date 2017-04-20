@@ -2,7 +2,6 @@
 // Jad home page: http://www.kpdus.com/jad.html
 // Decompiler options: packimports(3) 
 
-import sign.signlink;
 
 public final class Class35
 {
@@ -53,8 +52,9 @@ public final class Class35
                 flag1 = true;
         }
 
-        if(!flag)
-            anInt628 = 466;
+        if(!flag){
+//            anInt628 = 466;	//REMOVED due to it not being used anywhere except being set 4/20/17
+        }
         return new String(aCharArray631, 0, j);
     }
 
@@ -96,8 +96,9 @@ public final class Class35
             }
         }
 
-        if(!flag)
-            anInt628 = -452;
+        if(!flag){
+//            anInt628 = -452;	//REMOVED due to it not being used anywhere except being set 4/20/17
+        }
         if(i != -1)
             class30_sub2_sub2.method398(i << 4);
     }
@@ -115,7 +116,7 @@ public final class Class35
     }
 
     public static String anArea435 = "y";
-    private static int anInt628;
+//    private static int anInt628;	//REMOVED Said its not used 4/20/17
     private static boolean aBoolean629;
     private static boolean aBoolean630 = true;
     public static char aCharArray631[] = new char[100];

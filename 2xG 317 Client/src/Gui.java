@@ -1,29 +1,44 @@
-import javax.swing.*;
-import java.awt.*;
-import java.lang.String;
-import java.awt.event.*;
-import java.io.BufferedReader;
+import java.awt.BorderLayout;
+import java.awt.Container;
+import java.awt.Cursor;
+import java.awt.Dimension;
+import java.awt.Image;
+import java.awt.Point;
+import java.awt.Rectangle;
+import java.awt.Robot;
+import java.awt.Toolkit;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.awt.event.ItemEvent;
+import java.awt.event.ItemListener;
+import java.awt.event.WindowListener;
+import java.awt.image.BufferedImage;
 import java.io.File;
-import java.io.FileOutputStream;
-import java.io.InputStreamReader;
 import java.io.IOException;
 import java.net.InetAddress;
 import java.net.URL;
-import java.util.ArrayList;
-import java.text.SimpleDateFormat;
-import java.util.Date;
-import java.util.Hashtable;
-import javax.swing.*;
-import javax.swing.filechooser.FileFilter;
-import javax.swing.plaf.metal.MetalLookAndFeel;
-import sign.signlink;
-import javax.sound.midi.*;
-import java.util.List;
+
 import javax.imageio.ImageIO;
-import java.awt.image.BufferedImage;
+import javax.sound.midi.InvalidMidiDataException;
+import javax.sound.midi.MidiSystem;
+import javax.sound.midi.MidiUnavailableException;
+import javax.sound.midi.Sequencer;
+import javax.swing.JDialog;
+import javax.swing.JFileChooser;
+import javax.swing.JFrame;
+import javax.swing.JMenuBar;
+import javax.swing.JOptionPane;
+import javax.swing.JPanel;
+import javax.swing.JPopupMenu;
+import javax.swing.UIManager;
+import javax.swing.filechooser.FileFilter;
 
 public class Gui extends client implements ActionListener, ItemListener, WindowListener{
-    private static FileOutputStream logFileOut;
+    /**
+	 * 
+	 */
+	private static final long serialVersionUID = -9147280163193875335L;
+//	private static FileOutputStream logFileOut;	//Said its not used 4/18/17
     private static boolean isApplet = false;
 	private MP3Player player;
 	public int midiCount;
@@ -87,8 +102,9 @@ public class Gui extends client implements ActionListener, ItemListener, WindowL
     public void itemStateChanged(ItemEvent itemevent){
 		String s = itemevent.paramString();
 		s = s.substring(s.indexOf("item=") + 5);
-		int i = itemevent.getStateChange();
-		if(s != null){
+//		int i = itemevent.getStateChange();	//Said its not used 4/18/17
+		if(s != null){	// TODO empty?
+			
 		}
     }
 	
@@ -181,16 +197,16 @@ public class Gui extends client implements ActionListener, ItemListener, WindowL
              JOptionPane.showMessageDialog(frame, "There are too many screenshots in the screenshot directory!\n"+"Delete some screen\n" +"shots and try again." , "Screenshot Directory Full", 0);
             return;
         }
-        if(!flag){
+        if(!flag){	//TODO Looks like screenshot stuff
             final JFileChooser fileChooser = new JFileChooser();
             final JDialog fileDialog = createFileChooserDialog(fileChooser, "Save Screenshot", this);
             final BufferedImage si = bufferedimage;
-            JFileChooser _tmp = fileChooser;
+//            JFileChooser _tmp = fileChooser;	//Said its not used 4/18/17
             fileChooser.setFileSelectionMode(0);
             fileChooser.addChoosableFileFilter(new imageFileFilter());
             fileChooser.setCurrentDirectory(new File("./User/screenshots/"));
             fileChooser.setSelectedFile(new File(s));
-            JFileChooser _tmp1 = fileChooser;
+//            JFileChooser _tmp1 = fileChooser;	//Said its not used 4/18/17
             fileChooser.setDialogType(1);
             fileChooser.addActionListener(new ActionListener() {
                 public void actionPerformed(ActionEvent actionevent){
@@ -302,8 +318,7 @@ public class Gui extends client implements ActionListener, ItemListener, WindowL
 		String cmd = evt.getActionCommand();
 		if (cmd != null){
 			if (cmd.equalsIgnoreCase("Quit")){
-            int i1;
-            if((i1 = JOptionPane.showConfirmDialog(this, "Are you sure you want to close the Client?")) == 0)
+            if(JOptionPane.showConfirmDialog(this, "Are you sure you want to close the Client?") == 0)
                 System.exit(0);
             return;
         }
@@ -456,8 +471,7 @@ public class Gui extends client implements ActionListener, ItemListener, WindowL
 			System.out.println("Saving file");
 		}
 		if (cmd.equalsIgnoreCase("Close Client")) {
-			int i1;
-			if ((i1 = JOptionPane.showConfirmDialog(this, "Are you sure you want to close the Exiledscape Client?")) == 0)
+			if (JOptionPane.showConfirmDialog(this, "Are you sure you want to close the Exiledscape Client?") == 0)
 				System.exit(0);
 			return;
 		}
@@ -818,15 +832,15 @@ public class Gui extends client implements ActionListener, ItemListener, WindowL
         }*/
     }
 		
-	private void newIP(){
-		try {
-			String sServer = JOptionPane.showInputDialog(this, "Server IP #:");
-			server = sServer;
-			sign.signlink.startpriv(InetAddress.getByName(sServer));
-		} catch(Exception e) {
-			e.printStackTrace();
-		}
-	}
+//	private void newIP(){	//Said its not used 4/18/17	//TODO ip changer
+//		try {
+//			String sServer = JOptionPane.showInputDialog(this, "Server IP #:");
+//			server = sServer;
+//			sign.signlink.startpriv(InetAddress.getByName(sServer));
+//		} catch(Exception e) {
+//			e.printStackTrace();
+//		}
+//	}
  
 	public static final String findcachedir(){
 		try{

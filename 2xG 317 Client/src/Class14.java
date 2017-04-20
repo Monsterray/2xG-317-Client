@@ -2,15 +2,15 @@
 // Jad home page: http://www.kpdus.com/jad.html
 // Decompiler options: packimports(3) 
 
-import java.io.*;
-import sign.signlink;
+import java.io.IOException;
+import java.io.RandomAccessFile;
 
 public final class Class14
 {
 
     public Class14(int i, RandomAccessFile randomaccessfile, RandomAccessFile randomaccessfile1, int j, boolean flag)
     {
-        anInt306 = 923;
+//        anInt306 = 923;	// Removed due to it not being used anywhere except being set 4/18/17
         aBoolean307 = true;
         anInt312 = 65000;
         anInt311 = j;
@@ -217,7 +217,7 @@ public final class Class14
         randomaccessfile.seek(j);
     }
 
-    private int anInt306;
+//    private int anInt306;	//Said its not used 4/18/17
     private boolean aBoolean307;
     static byte aByteArray308[] = new byte[520];
     RandomAccessFile aRandomAccessFile309;

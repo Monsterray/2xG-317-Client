@@ -3,12 +3,28 @@
 // Decompiler options: packimports(3) 
 
 import java.applet.Applet;
-import java.awt.*;
-import java.awt.event.*;
+import java.awt.Color;
+import java.awt.Component;
+import java.awt.Font;
+import java.awt.FontMetrics;
+import java.awt.Graphics;
+import java.awt.event.FocusEvent;
+import java.awt.event.FocusListener;
+import java.awt.event.KeyEvent;
+import java.awt.event.KeyListener;
+import java.awt.event.MouseEvent;
+import java.awt.event.MouseListener;
+import java.awt.event.MouseMotionListener;
+import java.awt.event.WindowEvent;
+import java.awt.event.WindowListener;
 
 public class RSApplet extends Applet implements Runnable, MouseListener, MouseMotionListener, KeyListener, FocusListener, WindowListener{
 
-    final void createClientFrame(int i, int j){
+    /**
+	 * 
+	 */
+	private static final long serialVersionUID = -1718084747709458766L;
+	final void createClientFrame(int i, int j){
         myWidth = j;
         myHeight = i;
 		gameFrame = new RSFrame(this, myWidth, myHeight);
@@ -42,7 +58,7 @@ public class RSApplet extends Applet implements Runnable, MouseListener, MouseMo
         for(int k1 = 0; k1 < 10; k1++)
             aLongArray7[k1] = System.currentTimeMillis();
 
-        long l = System.currentTimeMillis();
+//        long l = System.currentTimeMillis();	//Said its not used 4/18/17
         while(anInt4 >= 0) {
             if(anInt4 > 0){
                 anInt4--;

@@ -2,11 +2,17 @@
 // Jad home page: http://www.kpdus.com/jad.html
 // Decompiler options: packimports(3) 
 
-import java.awt.*;
+import java.awt.Frame;
+import java.awt.Graphics;
 
 final class RSFrame extends Frame{
 
-    public RSFrame(RSApplet RSApplet_, int i, int j){
+    /**
+	 * 
+	 */
+	private static final long serialVersionUID = 6411404177667816019L;
+
+	public RSFrame(RSApplet RSApplet_, int i, int j){
         rsApplet = RSApplet_;
         setTitle("Jagex");
         setResizable(false);

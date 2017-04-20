@@ -1,13 +1,14 @@
-import java.awt.*;
-import java.awt.image.PixelGrabber;
-import javax.swing.ImageIcon;
-import java.io.*;
-import java.net.*;
+import java.io.File;
+import java.io.FileInputStream;
 import java.util.Properties;
 
 public class Bluurr extends client {
 
-	public static void Bluurr(){
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 8875735265698270602L;
+	public Bluurr(){
 		System.out.println("                            Loading Bluurrs client");
 		System.out.println("|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||");
 		System.out.println("I reckomend downloading a non damaged cache and redoing your class 8");
@@ -35,7 +36,7 @@ public class Bluurr extends client {
 				checkversion = id;
 			}
 			clientloging = loader;
-			Bluurr();
+			new Bluurr();
 		} catch (Exception e) {
 			System.out.println("error in Bluurr.checker");
 		}

@@ -3,7 +3,6 @@
 // Decompiler options: packimports(3) 
 
 import java.util.Random;
-import sign.signlink;
 
 public final class Class30_Sub2_Sub1_Sub4 extends Class30_Sub2_Sub1
 {
@@ -13,9 +12,9 @@ public final class Class30_Sub2_Sub1_Sub4 extends Class30_Sub2_Sub1
         aBoolean1484 = false;
         anInt1485 = 445;
         anInt1486 = -471;
-        anInt1487 = -471;
-        aBoolean1488 = false;
-        anInt1489 = 3;
+//        anInt1487 = -471;	// Removed due to it not being used anywhere except being set 4/18/17
+//        aBoolean1488 = false;	// Removed due to it not being used anywhere except being set 4/18/17
+//        anInt1489 = 3;	// Removed due to it not being used anywhere except being set 4/18/17
         aBoolean1490 = false;
         aByteArrayArray1491 = new byte[256][];
         anIntArray1492 = new int[256];
@@ -27,7 +26,7 @@ public final class Class30_Sub2_Sub1_Sub4 extends Class30_Sub2_Sub1
         aBoolean1499 = false;
         Class30_Sub2_Sub2 class30_sub2_sub2 = new Class30_Sub2_Sub2(class44.method571(s + ".dat", null), 891);
         Class30_Sub2_Sub2 class30_sub2_sub2_1 = new Class30_Sub2_Sub2(class44.method571("index.dat", null), 891);
-        byte byte0 = -1;
+//        byte byte0 = -1;	//Said its not used 4/18/17
         if(i != 0)
             aBoolean1490 = !aBoolean1490;
         class30_sub2_sub2_1.anInt1406 = class30_sub2_sub2.method410() + 4;
@@ -36,7 +35,7 @@ public final class Class30_Sub2_Sub1_Sub4 extends Class30_Sub2_Sub1
             class30_sub2_sub2_1.anInt1406 += 3 * (k - 1);
         for(int l = 0; l < 256; l++)
         {
-            int j = l;
+//            int j = l;	//Said its not used 4/18/17
             anIntArray1494[l] = class30_sub2_sub2_1.method408();
             anIntArray1495[l] = class30_sub2_sub2_1.method408();
             int i1 = anIntArray1492[l] = class30_sub2_sub2_1.method410();
@@ -103,8 +102,9 @@ public final class Class30_Sub2_Sub1_Sub4 extends Class30_Sub2_Sub1
 
     public void method381(int i, String s, int j, int k, int l)
     {
-        if(j != 23693)
-            anInt1489 = 467;
+        if(j != 23693){
+//            anInt1489 = 467;	// Removed due to it not being used anywhere except being set 4/18/17
+        }
         method385(i, s, k, 822, l - method384(s, true) / 2);
     }
 
@@ -479,9 +479,9 @@ public final class Class30_Sub2_Sub1_Sub4 extends Class30_Sub2_Sub1
     private boolean aBoolean1484;
     private int anInt1485;
     private int anInt1486;
-    private int anInt1487;
-    private boolean aBoolean1488;
-    private int anInt1489;
+//    private int anInt1487;	//Said its not used 4/18/17
+//    private boolean aBoolean1488;	//Said its not used 4/18/17
+//    private int anInt1489;	//Said its not used 4/18/17
     private boolean aBoolean1490;
     byte aByteArrayArray1491[][];
     int anIntArray1492[];

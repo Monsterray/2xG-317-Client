@@ -2,7 +2,6 @@
 // Jad home page: http://www.kpdus.com/jad.html
 // Decompiler options: packimports(3) 
 
-import java.io.PrintStream;
 
 public final class Class13
 {
@@ -160,25 +159,25 @@ label0:
 
     private static void method227(Class32 class32)
     {
-        boolean flag = false;
-        boolean flag1 = false;
-        boolean flag2 = false;
-        boolean flag3 = false;
-        boolean flag4 = false;
-        boolean flag5 = false;
-        boolean flag6 = false;
-        boolean flag7 = false;
-        boolean flag8 = false;
-        boolean flag9 = false;
-        boolean flag10 = false;
-        boolean flag11 = false;
-        boolean flag12 = false;
-        boolean flag13 = false;
-        boolean flag14 = false;
-        boolean flag15 = false;
-        boolean flag16 = false;
-        boolean flag17 = false;
-        boolean flag18 = false;
+//        boolean flag = false;	//Said its not used 4/18/17
+//        boolean flag1 = false;	//Said its not used 4/18/17
+//        boolean flag2 = false;	//Said its not used 4/18/17
+//        boolean flag3 = false;	//Said its not used 4/18/17
+//        boolean flag4 = false;	//Said its not used 4/18/17
+//        boolean flag5 = false;	//Said its not used 4/18/17
+//        boolean flag6 = false;	//Said its not used 4/18/17
+//        boolean flag7 = false;	//Said its not used 4/18/17
+//        boolean flag8 = false;	//Said its not used 4/18/17
+//        boolean flag9 = false;	//Said its not used 4/18/17
+//        boolean flag10 = false;	//Said its not used 4/18/17
+//        boolean flag11 = false;	//Said its not used 4/18/17
+//        boolean flag12 = false;	//Said its not used 4/18/17
+//        boolean flag13 = false;	//Said its not used 4/18/17
+//        boolean flag14 = false;	//Said its not used 4/18/17
+//        boolean flag15 = false;	//Said its not used 4/18/17
+//        boolean flag16 = false;	//Said its not used 4/18/17
+//        boolean flag17 = false;	//Said its not used 4/18/17
+//        boolean flag18 = false;	//Said its not used 4/18/17
         int k8 = 0;
         int ai[] = null;
         int ai1[] = null;
@@ -310,7 +309,7 @@ label0:
             }
 
             int l4 = class32.anInt588 + 1;
-            int l5 = 0x186a0 * class32.anInt578;
+//            int l5 = 0x186a0 * class32.anInt578;	//Said its not used 4/18/17
             int i5 = -1;
             int j5 = 0;
             for(int i2 = 0; i2 <= 255; i2++)

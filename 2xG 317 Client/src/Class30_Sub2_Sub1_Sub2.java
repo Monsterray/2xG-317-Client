@@ -2,7 +2,6 @@
 // Jad home page: http://www.kpdus.com/jad.html
 // Decompiler options: packimports(3) 
 
-import sign.signlink;
 
 public final class Class30_Sub2_Sub1_Sub2 extends Class30_Sub2_Sub1
 {
@@ -27,8 +26,8 @@ public final class Class30_Sub2_Sub1_Sub2 extends Class30_Sub2_Sub1
     public Class30_Sub2_Sub1_Sub2(Class44 class44, String s, int i)
     {
         aBoolean1447 = false;
-        anInt1448 = 360;
-        aByte1449 = 3;
+//        anInt1448 = 360;	// Removed due to it not being used anywhere except being set 4/18/17
+//        aByte1449 = 3;	// Removed due to it not being used anywhere except being set 4/18/17
         Class30_Sub2_Sub2 class30_sub2_sub2 = new Class30_Sub2_Sub2(class44.method571(s + ".dat", null), 891);
         Class30_Sub2_Sub2 class30_sub2_sub2_1 = new Class30_Sub2_Sub2(class44.method571("index.dat", null), 891);
         class30_sub2_sub2_1.anInt1406 = class30_sub2_sub2.method410();
@@ -150,8 +149,9 @@ public final class Class30_Sub2_Sub1_Sub2 extends Class30_Sub2_Sub1
         }
 
         aByteArray1450 = abyte0;
-        if(!flag)
-            anInt1446 = -48;
+        if(!flag){
+//            anInt1446 = -48;	// Removed due to it not being used anywhere except being set 4/18/17
+        }
         anInt1455 = anInt1457 - anInt1453 - anInt1455;
     }
 
@@ -183,8 +183,9 @@ public final class Class30_Sub2_Sub1_Sub2 extends Class30_Sub2_Sub1
             anIntArray1451[i1] = (j1 << 16) + (k1 << 8) + l1;
         }
 
-        if(l != 0)
-            anInt1446 = 69;
+        if(l != 0){
+//            anInt1446 = 69;	// Removed due to it not being used anywhere except being set 4/18/17
+        }
     }
 
     public void method361(int i, int j, int k)
@@ -284,10 +285,10 @@ public final class Class30_Sub2_Sub1_Sub2 extends Class30_Sub2_Sub1
 
     }
 
-    private int anInt1446;
+//    private int anInt1446;	//Said its not used 4/18/17
     private boolean aBoolean1447;
-    private int anInt1448;
-    private byte aByte1449;
+//    private int anInt1448;	//Said its not used 4/18/17
+//    private byte aByte1449;	//Said its not used 4/18/17
     public byte aByteArray1450[];
     public int anIntArray1451[];
     public int anInt1452;

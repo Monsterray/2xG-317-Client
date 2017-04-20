@@ -4,31 +4,34 @@
 
 */
 
-import java.io.*;
+import java.io.ByteArrayInputStream;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.OutputStream;
 import java.net.Socket;
-import java.util.zip.CRC32;
 import java.util.zip.GZIPInputStream;
+
 import sign.signlink;
 
 public class Class42_Sub1 extends Class42
     implements Runnable
 {
 
-    private final boolean method549(int i, byte byte0, int j, byte abyte0[])
-    {
-        if(abyte0 == null || abyte0.length < 2)
-            return false;
-        int k = abyte0.length - 2;
-        int l = ((abyte0[k] & 0xff) << 8) + (abyte0[k + 1] & 0xff);
-        if(byte0 != 3)
-            aBoolean1336 = !aBoolean1336;
-        aCRC32_1338.reset();
-        aCRC32_1338.update(abyte0, 0, k);
-        int i1 = (int)aCRC32_1338.getValue();
-        if(l != i)
-            return false;
-        return i1 == j;
-    }
+//    private final boolean method549(int i, byte byte0, int j, byte abyte0[])	//REMOVED Said its not used 4/20/17
+//    {
+//        if(abyte0 == null || abyte0.length < 2)
+//            return false;
+//        int k = abyte0.length - 2;
+//        int l = ((abyte0[k] & 0xff) << 8) + (abyte0[k + 1] & 0xff);
+//        if(byte0 != 3)
+//            aBoolean1336 = !aBoolean1336;
+//        aCRC32_1338.reset();
+//        aCRC32_1338.update(abyte0, 0, k);
+//        int i1 = (int)aCRC32_1338.getValue();
+//        if(l != i)
+//            return false;
+//        return i1 == j;
+//    }
 
     private final void method550(int i)
     {
@@ -241,8 +244,9 @@ public class Class42_Sub1 extends Class42
 
     private final void method556(int i, Class30_Sub2_Sub3 class30_sub2_sub3)
     {
-        if(i < 8 || i > 8)
-            anInt1352 = -339;
+        if(i < 8 || i > 8){
+//            anInt1352 = -339;	//REMOVED due to it not being used anywhere except being set 4/20/17
+        }
         try
         {
             if(aSocket1363 == null)
@@ -290,8 +294,9 @@ public class Class42_Sub1 extends Class42
 
     public final int method557(int i)
     {
-        if(i != 0)
-            anInt1352 = -76;
+        if(i != 0){
+//            anInt1352 = -76;	//REMOVED due to it not being used anywhere except being set 4/20/17
+        }
         return anIntArray1360.length;
     }
 
@@ -518,13 +523,15 @@ public class Class42_Sub1 extends Class42
     {
         if(byte1 == 8)
             byte1 = 0;
-        else
-            anInt1340 = 237;
+        else{
+//            anInt1340 = 237;	//REMOVED due to it not being used anywhere except being set 4/20/17
+        }
         if(aClient1343.aClass14Array970[0] == null)
             return;
         if(anIntArrayArray1364[i][j] == 0)
             return;
-        byte abyte0[] = aClient1343.aClass14Array970[i + 1].method233(true, j);
+        @SuppressWarnings("unused")
+		byte abyte0[] = aClient1343.aClass14Array970[i + 1].method233(true, j);	//TODO Need to figure out what this does
       //  if(method549(anIntArrayArray1364[i][j], (byte)3, anIntArrayArray1365[i][j], abyte0))
           //  return;
       //  aByteArrayArray1342[i][j] = byte0;
@@ -694,12 +701,12 @@ public class Class42_Sub1 extends Class42
         aClass19_1331 = new Class19(169);
         aString1333 = "";
         aBoolean1336 = true;
-        aCRC32_1338 = new CRC32();
+//        aCRC32_1338 = new CRC32();	//REMOVED due to it not being used anywhere except being set 4/20/17
         aByteArray1339 = new byte[500];
-        anInt1340 = 923;
+//        anInt1340 = 923;	//REMOVED due to it not being used anywhere except being set 4/20/17
         aByteArrayArray1342 = new byte[4][];
         aClass19_1344 = new Class19(169);
-        anInt1352 = 13603;
+//        anInt1352 = 13603;	//REMOVED due to it not being used anywhere except being set 4/20/17
         aBoolean1353 = true;
         aBoolean1355 = false;
         aBoolean1357 = false;
@@ -720,9 +727,9 @@ public class Class42_Sub1 extends Class42
     private long aLong1335;
     private boolean aBoolean1336;
     private int anIntArray1337[];
-    private CRC32 aCRC32_1338;
+//    private CRC32 aCRC32_1338;	//REMOVED Said its not used 4/20/17
     private byte aByteArray1339[];
-    private int anInt1340;
+//    private int anInt1340;	//REMOVED Said its not used 4/20/17
     public int anInt1341;
     private byte aByteArrayArray1342[][];
     private client aClient1343;
@@ -734,7 +741,7 @@ public class Class42_Sub1 extends Class42
     public int anInt1349;
     private int anIntArray1350[];
     private int anInt1351;
-    private int anInt1352;
+//    private int anInt1352;	//REMOVED Said its not used 4/20/17
     private boolean aBoolean1353;
     private OutputStream anOutputStream1354;
     private boolean aBoolean1355;

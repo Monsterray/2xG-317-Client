@@ -13,7 +13,7 @@ final class Class7
     private int[][][] anIntArrayArrayArray129;
     private byte[][][] aByteArrayArrayArray130;
     static int anInt131;
-    private boolean aBoolean132 = true;
+//    private boolean aBoolean132 = true;	//REMOVED Said its not used 4/20/17
     private static int anInt133 = (int) (Math.random() * 33.0) - 16;
     private byte[][][] aByteArrayArrayArray134;
     private int[][][] anIntArrayArrayArray135;
@@ -34,14 +34,15 @@ final class Class7
     private int anInt150 = -53;
     static boolean aBoolean151 = true;
     private static final int[] anIntArray152 = { 1, 2, 4, 8 };
-    private static int anInt153 = -388;
+//    private static int anInt153 = -388;	//REMOVED Said its not used 4/20/17
     
     public Class7(byte[][][] is, int i, int i_0_, int i_1_, int[][][] is_2_) {
 	anInt145 = 99;
 	anInt146 = i_1_;
 	anInt147 = i_0_;
-	while (i >= 0)
-	    anInt153 = -320;
+	while (i >= 0){
+//	    anInt153 = -320;	//REMOVED due to it not being used anywhere except being set 4/20/17
+	}
 	anIntArrayArrayArray129 = is_2_;
 	aByteArrayArrayArray149 = is;
 	aByteArrayArrayArray142 = new byte[4][anInt146][anInt147];
@@ -595,8 +596,9 @@ final class Class7
 		}
 	    }
 	}
-	if (i_114_ != 0)
-	    anInt153 = 284;
+	if (i_114_ != 0){
+//	    anInt153 = 284;	//REMOVED due to it not being used anywhere except being set 4/20/17
+	}
     }
     
     private final void method175(int i, Class25 class25, Class11 class11,
@@ -1373,8 +1375,9 @@ final class Class7
 	int i_234_ = is[i_228_][i_229_ + 1][i_226_];
 	int i_235_ = is[i_228_][i_229_ + 1][i_226_ + 1];
 	int i_236_ = is[i_228_][i_229_][i_226_ + 1];
-	if (i_232_ != 93)
-	    anInt153 = -145;
+	if (i_232_ != 93){
+//	    anInt153 = -145;	//REMOVED due to it not being used anywhere except being set 4/20/17
+	}
 	int i_237_ = i_233_ + i_234_ + i_235_ + i_236_ >> 2;
 	Class46 class46 = Class46.method572(i_230_);
 	int i_238_ = i_229_ + (i_226_ << 7) + (i_230_ << 14) + 1073741824;

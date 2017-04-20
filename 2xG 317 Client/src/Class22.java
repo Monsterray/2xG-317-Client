@@ -2,16 +2,15 @@
 // Jad home page: http://www.kpdus.com/jad.html
 // Decompiler options: packimports(3) 
 
-import java.io.PrintStream;
-import sign.signlink;
 
 public class Class22
 {
 
     public static void method260(int i, Class44 class44)
     {
-        if(i != 0)
-            anInt386 = 115;
+        if(i != 0){
+//            anInt386 = 115;	// Removed due to it not being used anywhere except being set 4/18/17
+        }
         Class30_Sub2_Sub2 class30_sub2_sub2 = new Class30_Sub2_Sub2(class44.method571("flo.dat", null), 891);
         anInt387 = class30_sub2_sub2.method410();
         if(aClass22Array388 == null)
@@ -171,7 +170,7 @@ public class Class22
     }
 
     private boolean aBoolean385;
-    private static int anInt386;
+//    private static int anInt386;	//Said its not used 4/18/17
     public static int anInt387;
     public static Class22 aClass22Array388[];
     public String aString389;

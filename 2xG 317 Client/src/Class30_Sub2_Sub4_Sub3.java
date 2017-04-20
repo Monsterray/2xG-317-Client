@@ -2,7 +2,6 @@
 // Jad home page: http://www.kpdus.com/jad.html
 // Decompiler options: packimports(3) 
 
-import sign.signlink;
 
 final class Class30_Sub2_Sub4_Sub3 extends Class30_Sub2_Sub4
 {
@@ -10,7 +9,7 @@ final class Class30_Sub2_Sub4_Sub3 extends Class30_Sub2_Sub4
     public Class30_Sub2_Sub4_Sub3(int i, int j, int k, int l, int i1, int j1, int k1, 
             int l1)
     {
-        aBoolean1565 = true;
+//        aBoolean1565 = true;	// Removed due to it not being used anywhere except being set 4/18/17
         anInt1566 = 9;
         aBoolean1567 = false;
         aClass23_1568 = Class23.aClass23Array403[i1];
@@ -91,7 +90,7 @@ final class Class30_Sub2_Sub4_Sub3 extends Class30_Sub2_Sub4
     public int anInt1562;
     public int anInt1563;
     public int anInt1564;
-    private boolean aBoolean1565;
+//    private boolean aBoolean1565;	//Said its not used 4/18/17
     private int anInt1566;
     public boolean aBoolean1567;
     private Class23 aClass23_1568;

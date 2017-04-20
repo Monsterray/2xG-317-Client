@@ -2,7 +2,6 @@
 // Jad home page: http://www.kpdus.com/jad.html
 // Decompiler options: packimports(3) 
 
-import sign.signlink;
 
 public final class Class19
 {
@@ -10,7 +9,7 @@ public final class Class19
     public Class19(int i)
     {
         aBoolean344 = false;
-        anInt345 = -77;
+//        anInt345 = -77;	// Removed due to it not being used anywhere except being set 4/18/17
         aClass30_346 = new Class30();
         if(i <= 0)
             aBoolean344 = !aBoolean344;
@@ -86,8 +85,9 @@ public final class Class19
     public Class30 method254(boolean flag)
     {
         Class30 class30 = aClass30_347;
-        if(flag)
-            anInt345 = 48;
+        if(flag){
+//            anInt345 = 48;	// Removed due to it not being used anywhere except being set 4/18/17
+        }
         if(class30 == aClass30_346)
         {
             aClass30_347 = null;
@@ -128,7 +128,7 @@ public final class Class19
     }
 
     private boolean aBoolean344;
-    private int anInt345;
+//    private int anInt345;	//Said its not used 4/18/17
     public Class30 aClass30_346;
     private Class30 aClass30_347;
 }

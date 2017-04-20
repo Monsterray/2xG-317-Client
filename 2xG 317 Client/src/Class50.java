@@ -80,8 +80,9 @@ public final class Class50
 
     public static String method587(int i, String s)
     {
-        if(i != -45804)
-            anInt817 = -410;
+        if(i != -45804){
+//            anInt817 = -410;	//REMOVED due to it not being used anywhere except being set 4/20/17
+        }
         if(s.length() > 0)
         {
             char ac[] = s.toCharArray();
@@ -113,9 +114,9 @@ public final class Class50
         return stringbuffer.toString();
     }
 
-    private static int anInt817 = 923;
+//    private static int anInt817 = 923;	//REMOVED Said its not used 4/20/17
     private static byte aByte818 = -99;
-    private static int anInt819 = -388;
+//    private static int anInt819 = -388;	//REMOVED Said its not used 4/20/17
     private static boolean aBoolean820;
     private static final char aCharArray821[] = {
         '_', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 

@@ -1,5 +1,6 @@
-import sign.signlink;
-import java.io.*;
+import java.io.BufferedWriter;
+import java.io.FileWriter;
+import java.io.IOException;
 
 final class Class5
 {
@@ -246,8 +247,9 @@ if(i == 1003) {
     {
         aClass12_95 = null;
         anIntArray72 = null;
-        if(i >= 0)
-            anInt74 = 60;
+        if(i >= 0){
+//            anInt74 = 60;	//REMOVED due to it not being used anywhere except being set 4/20/17
+        }
         aClass5Array80 = null;
         aClass30_Sub2_Sub2_60 = null;
     }
@@ -487,7 +489,7 @@ if(i == 1003) {
     public int anInt71;
     private static int anIntArray72[];
     private int anIntArray73[];
-    private static int anInt74 = 748;
+//    private static int anInt74 = 748;	//REMOVED Said its not used 4/20/17
     public int anInt75;
     private int anIntArray76[];
     public int anInt77;

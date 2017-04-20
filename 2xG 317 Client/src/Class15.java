@@ -2,10 +2,14 @@
 // Jad home page: http://www.kpdus.com/jad.html
 // Decompiler options: packimports(3) 
 
-import java.awt.*;
-import java.awt.image.*;
-import java.io.PrintStream;
-import sign.signlink;
+import java.awt.Component;
+import java.awt.Graphics;
+import java.awt.Image;
+import java.awt.image.ColorModel;
+import java.awt.image.DirectColorModel;
+import java.awt.image.ImageConsumer;
+import java.awt.image.ImageObserver;
+import java.awt.image.ImageProducer;
 
 public final class Class15
     implements ImageProducer, ImageObserver
@@ -43,7 +47,7 @@ public final class Class15
     {
         method239();
         if(j != 23680)
-            anInt313 = -169;
+//            anInt313 = -169;	// Removed due to it not being used anywhere except being set 4/18/17
         g.drawImage(anImage320, k, i, this);
     }
 
@@ -95,7 +99,7 @@ public final class Class15
         return true;
     }
 
-    private int anInt313;
+//    private int anInt313;	//Said its not used 4/18/17
     private boolean aBoolean314;
     public int anIntArray315[];
     public int anInt316;

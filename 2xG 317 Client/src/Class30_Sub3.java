@@ -8,7 +8,7 @@ final class Class30_Sub3 extends Class30
 
     public Class30_Sub3(int i, int j, int k)
     {
-        anInt1306 = -589;
+//        anInt1306 = -589;	//REMOVED due to it not being used anywhere except being set 4/20/17
         aClass28Array1318 = new Class28[5];
         anIntArray1319 = new int[5];
         anInt1310 = anInt1307 = i;
@@ -16,7 +16,7 @@ final class Class30_Sub3 extends Class30
         anInt1309 = k;
     }
 
-    private int anInt1306;
+//    private int anInt1306;	//REMOVED Said its not used 4/20/17
     int anInt1307;
     int anInt1308;
     int anInt1309;

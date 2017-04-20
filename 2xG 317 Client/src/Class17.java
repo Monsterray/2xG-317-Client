@@ -2,22 +2,21 @@
 // Jad home page: http://www.kpdus.com/jad.html
 // Decompiler options: packimports(3) 
 
-import sign.signlink;
 
 public final class Class17
 {
 
     public Class17(int i, int ai[])
     {
-        anInt332 = -436;
-        anInt333 = -431;
+//        anInt332 = -436;	// Removed due to it not being used anywhere except being set 4/18/17
+//        anInt333 = -431;	// Removed due to it not being used anywhere except being set 4/18/17
         anIntArray336 = new int[256];
         anIntArray335 = new int[256];
         for(int j = 0; j < ai.length; j++)
             anIntArray335[j] = ai[j];
 
         if(i >= 0)
-            anInt333 = -242;
+//            anInt333 = -242;	// Removed due to it not being used anywhere except being set 4/18/17
         method248();
     }
 
@@ -186,8 +185,8 @@ public final class Class17
         anInt334 = 256;
     }
 
-    private int anInt332;
-    private int anInt333;
+//    private int anInt332;	//Said its not used 4/18/17
+//    private int anInt333;	//Said its not used 4/18/17
     private int anInt334;
     private int anIntArray335[];
     private int anIntArray336[];

@@ -9,8 +9,8 @@ public final class Class1
 
     public Class1(int i, int j)
     {
-        aBoolean37 = false;
-        anInt38 = -373;
+//        aBoolean37 = false;	// Removed due to it not being used anywhere except being set 4/18/17
+//        anInt38 = -373;	// Removed due to it not being used anywhere except being set 4/18/17
         if(i >= 0)
             throw new NullPointerException();
         anInt39 = j;
@@ -61,8 +61,8 @@ public final class Class1
         throw new RuntimeException();
     }
 
-    private boolean aBoolean37;
-    private int anInt38;
+//    private boolean aBoolean37;	//Said its not used 4/18/17
+//    private int anInt38;	//Said its not used 4/18/17
     private int anInt39;
     private Class30 aClass30Array40[];
 }

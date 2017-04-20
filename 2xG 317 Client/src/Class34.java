@@ -11,7 +11,6 @@ chat shit
 
 */
 
-import sign.signlink;
 
 public final class Class34
 {
@@ -82,8 +81,9 @@ public final class Class34
         for(int i = 0; i < anIntArray620.length; i++)
             anIntArray620[i] = class30_sub2_sub2.method410();
 
-        if(!flag)
-            anInt609 = 167;
+        if(!flag){
+//            anInt609 = 167;	//REMOVED due to it not being used anywhere except being set 4/20/17
+        }
     }
 
     private static final void method493(Class30_Sub2_Sub2 class30_sub2_sub2, char ac[][], boolean flag, byte abyte0[][][])
@@ -156,7 +156,7 @@ public final class Class34
 
     public static final String method497(String s, int i)
     {
-        long l = System.currentTimeMillis();
+//        long l = System.currentTimeMillis();	//REMOVED Said its not used 4/20/17
         char ac[] = s.toCharArray();
         method495(false, ac);
         String s1 = (new String(ac)).trim();
@@ -182,7 +182,7 @@ public final class Class34
 
         method498(s1.toCharArray(), 2, ac);
         method499(0, ac);
-        long l1 = System.currentTimeMillis();
+//        long l1 = System.currentTimeMillis();	//REMOVED Said its not used 4/20/17
         return s;
     }
 
@@ -256,7 +256,7 @@ public final class Class34
             return;
         if(ac1.length > ac.length)
             return;
-        boolean flag = true;
+//        boolean flag = true;	//REMOVED Said its not used 4/20/17
         int j;
         for(int k = 0; k <= ac.length - ac1.length; k += j)
         {
@@ -386,7 +386,7 @@ public final class Class34
     {
         if(ac1.length > ac3.length)
             return;
-        boolean flag = true;
+//        boolean flag = true;	//REMOVED Said its not used 4/20/17
         int j;
         for(int k = 0; k <= ac3.length - ac1.length; k += j)
         {
@@ -430,7 +430,7 @@ public final class Class34
                     flag1 = true;
                 if(i == 3 && k1 > 0 && l1 > 2)
                     flag1 = true;
-                boolean _tmp = i == 3 && k1 > 2 && l1 > 0;
+//                boolean _tmp = i == 3 && k1 > 2 && l1 > 0;	//REMOVED Said its not used 4/20/17
                 if(flag1)
                 {
                     int i2 = k;
@@ -576,7 +576,7 @@ public final class Class34
             return;
         if(ac1.length > ac.length)
             return;
-        boolean flag = true;
+//        boolean flag = true;	//REMOVED Said its not used 4/20/17
         int j;
         for(int k = 0; k <= ac.length - ac1.length; k += j)
         {
@@ -860,8 +860,9 @@ public final class Class34
 
     private static final byte method513(char c, int i)
     {
-        while(i >= 0) 
-            anInt606 = -93;
+        while(i >= 0){
+//            anInt606 = -93;	//REMOVED due to it not being used anywhere except being set 4/20/17
+        }
         if(c >= 'a' && c <= 'z')
             return (byte)((c - 97) + 1);
         if(c == '\'')
@@ -1039,17 +1040,17 @@ public final class Class34
         return k;
     }
 
-    private static int anInt606 = 9;
+//    private static int anInt606 = 9;	//REMOVED Said its not used 4/20/17
     private static boolean aBoolean607;
     private static int anInt608 = 748;
-    private static int anInt609 = 201;
-    private static boolean aBoolean610 = true;
+//    private static int anInt609 = 201;	//REMOVED Said its not used 4/20/17
+//    private static boolean aBoolean610 = true;	//REMOVED Said its not used 4/20/17
     private static int anInt611;
     private static byte aByte612 = -117;
     private static int anInt613 = -575;
     private static boolean aBoolean614 = true;
     private static int anInt615 = -720;
-    private static int anInt616 = -511;
+//    private static int anInt616 = -511;	//REMOVED Said its not used 4/20/17
     private static byte aByte617 = 4;
     private static int anInt618 = 8801;
     private static boolean aBoolean619 = true;

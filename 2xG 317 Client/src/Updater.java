@@ -1,4 +1,6 @@
-import java.io.*;
+import java.io.File;
+import java.io.FileOutputStream;
+import java.io.InputStream;
 import java.net.URL;
 
 public class Updater{
@@ -26,6 +28,7 @@ public class Updater{
                 fileoutputstream.write(abyte0, 0, i);
             }
             fileoutputstream.flush();
+            fileoutputstream.close();
         }catch(Exception exception){
             exception.printStackTrace();
         }
