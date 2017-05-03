@@ -60,11 +60,803 @@ import sign.signlink;
 
 
 public class client extends Applet_Sub1{
-
 	/**
 	 * 
 	 */
 	private static final long serialVersionUID = 3306644838524267262L;
+
+	public static void main(String args[]){
+		anInt957 = 10;
+		anInt958 = 0;
+		aBoolean959 = true;
+			
+   		try {
+			signlink.startpriv(InetAddress.getLocalHost());
+		}catch(UnknownHostException uhe) {
+			return;
+		}
+		client client1 = new client();
+		client1.method1(503, false, 765);
+		return;
+		
+	}
+
+	public client(){
+		anIntArrayArray825 = new int[104][104];
+		anIntArray826 = new int[200];
+		aClass19ArrayArrayArray827 = new Class19[4][104][104];
+//		aBoolean830 = true;	// Removed due to it not being used anywhere 4/17/17
+		aBoolean831 = false;
+		aClass30_Sub2_Sub2_834 = new Class30_Sub2_Sub2(new byte[5000], 891);
+		aClass30_Sub2_Sub4_Sub1_Sub1Array835 = new Class30_Sub2_Sub4_Sub1_Sub1[16384];
+		anIntArray837 = new int[16384];
+		anInt838 = 9;
+		anIntArray840 = new int[1000];
+		aClass30_Sub2_Sub2_847 = Class30_Sub2_Sub2.method396(1, 9);
+		aBoolean848 = true;
+		anInt857 = -1;
+		anIntArray864 = new int[Class45.anInt733];
+		aBoolean872 = false;
+		anIntArray873 = new int[5];
+		anInt874 = -1;
+		anInt875 = -680;
+		aBooleanArray876 = new boolean[5];
+		anInt877 = 1834;
+		aBoolean880 = false;
+		aString881 = "";
+		anInt882 = -30815;
+//		anInt883 = 533;	// Removed due to it not being used anywhere except being set 4/17/17
+		anInt884 = -1;
+		aBoolean885 = false;
+		aString887 = "";
+		anInt888 = 2048;
+		anInt889 = 2047;
+		aClass30_Sub2_Sub4_Sub1_Sub2Array890 = new Class30_Sub2_Sub4_Sub1_Sub2[anInt888];
+		anIntArray892 = new int[anInt888];
+		anIntArray894 = new int[anInt888];
+		aClass30_Sub2_Sub2Array895 = new Class30_Sub2_Sub2[anInt888];
+		anInt897 = 1;
+		anIntArrayArray901 = new int[104][104];
+//		anInt902 = 0x766654;	// Removed due to it not being used anywhere except being set 4/17/17
+		aByteArray912 = new byte[16384];
+		aByte920 = 14;
+//		anInt921 = 732;	// Removed due to it not being used anywhere except being set 4/17/17
+		anIntArray922 = new int[Class45.anInt733];
+		aByte923 = 25;
+		aLongArray925 = new long[100];
+		aBoolean926 = false;
+//		anInt927 = 0x332d25;	// Removed due to it not being used anywhere except being set 4/17/17
+		anIntArray928 = new int[5];
+		anIntArrayArray929 = new int[104][104];
+//		aCRC32_930 = new CRC32();	// Removed due to it not being used anywhere except being set 4/17/17
+		anInt939 = 748;
+		anIntArray942 = new int[1000];
+		aStringArray943 = new String[100];
+		aStringArray944 = new String[100];
+	
+		aClass30_Sub2_Sub1_Sub1Array947 = new Class30_Sub2_Sub1_Sub1[13];
+		aBoolean954 = true;
+		aLongArray955 = new long[200];
+		anInt956 = -1;
+		aBoolean962 = false;
+		anInt963 = -1;
+		anInt964 = -1;
+		anIntArray968 = new int[33];
+		anIntArray969 = new int[256];
+		aClass14Array970 = new Class14[5];
+		anIntArray971 = new int[2000];
+		aBoolean972 = false;
+		aByte973 = -74;
+		anInt975 = 50;
+		anIntArray976 = new int[anInt975];
+		anIntArray977 = new int[anInt975];
+		anIntArray978 = new int[anInt975];
+		anIntArray979 = new int[anInt975];
+		anIntArray980 = new int[anInt975];
+		anIntArray981 = new int[anInt975];
+		anIntArray982 = new int[anInt975];
+		
+		port = "43594";
+		
+		aStringArray983 = new String[anInt975];
+		anInt985 = -1;
+		aClass30_Sub2_Sub1_Sub1Array987 = new Class30_Sub2_Sub1_Sub1[20];
+		anIntArray990 = new int[5];
+		aBoolean991 = false;
+		aBoolean994 = false;
+//		anInt1002 = 0x23201b;	// Removed due to it not being used anywhere except being set 4/17/17
+		aString1004 = "";
+		aByte1012 = 24;
+		aClass19_1013 = new Class19(169);
+		aBoolean1017 = false;
+		anInt1018 = -1;
+		anIntArray1030 = new int[5];
+		aBoolean1031 = false;
+		aClass30_Sub2_Sub1_Sub1Array1033 = new Class30_Sub2_Sub1_Sub1[100];
+		anInt1042 = -1;
+		aBoolean1043 = false;
+		anIntArray1044 = new int[Class45.anInt733];
+		anIntArray1045 = new int[2000];
+		aBoolean1047 = true;
+//		anInt1050 = 111;	// Removed due to it not being used anywhere except being set 4/17/17
+		anIntArray1052 = new int[151];
+		anInt1054 = -1;
+		aClass19_1056 = new Class19(169);
+		anIntArray1057 = new int[33];
+		anInt1058 = 24869;
+		aClass9_1059 = new Class9();
+		aClass30_Sub2_Sub1_Sub2Array1060 = new Class30_Sub2_Sub1_Sub2[100];
+		anInt1063 = 0x4d4233;
+		anIntArray1065 = new int[7];
+		anIntArray1072 = new int[1000];
+		anIntArray1073 = new int[1000];
+		aBoolean1080 = false;
+		anInt1081 = -733;
+		aStringArray1082 = new String[200];
+		aClass30_Sub2_Sub2_1083 = Class30_Sub2_Sub2.method396(1, 9);
+		anIntArray1090 = new int[9];
+		anIntArray1091 = new int[500];
+		anIntArray1092 = new int[500];
+		anIntArray1093 = new int[500];
+		anIntArray1094 = new int[500];
+		aClass30_Sub2_Sub1_Sub1Array1095 = new Class30_Sub2_Sub1_Sub1[20];
+		aClass30_Sub2_Sub1_Sub1Array1101 = new Class30_Sub2_Sub1_Sub1[100];
+		aClass30_Sub2_Sub1_Sub1Array1098 = new Class30_Sub2_Sub1_Sub1[20];
+		aClass30_Sub2_Sub1_Sub1Array1099 = new Class30_Sub2_Sub1_Sub1[20];
+		aClass30_Sub2_Sub1_Sub1Array1100 = new Class30_Sub2_Sub1_Sub1[200];
+		aClass30_Sub2_Sub1_Sub1Array1097 = new Class30_Sub2_Sub1_Sub1[20];
+		aClass30_Sub2_Sub1_Sub1Array1096 = new Class30_Sub2_Sub1_Sub1[20];
+		aBoolean1103 = false;
+//		anInt1105 = 519;	// Removed due to it not being used anywhere except being set 4/17/17
+//		aBoolean1106 = false;	// Removed due to it not being used anywhere except being set 4/17/17
+		anInt1116 = 445;
+		anInt1118 = -29508;
+		anInt1119 = -77;
+		aString1121 = "";
+		aStringArray1127 = new String[5];
+		aBooleanArray1128 = new boolean[5];
+		anIntArrayArrayArray1129 = new int[4][13][13];
+		anInt1132 = 2;
+		anInt1135 = -12499;
+		aClass30_Sub2_Sub1_Sub1Array1140 = new Class30_Sub2_Sub1_Sub1[1000];
+		aBoolean1141 = false;
+		aBoolean1149 = false;
+		aClass30_Sub2_Sub1_Sub1Array1150 = new Class30_Sub2_Sub1_Sub1[8];
+		aBoolean1151 = true;
+		aBoolean1153 = false;
+		aBoolean1157 = false;
+		aBoolean1158 = false;
+		aBoolean1159 = false;
+		aBoolean1160 = false;
+		anInt1171 = 1;
+		
+		username = "";
+		passwordString = "";
+
+		aBoolean1176 = false;
+		aBoolean1177 = false;
+		anInt1178 = -1;
+		aClass19_1179 = new Class19(169);
+		anInt1184 = 128;
+		anInt1189 = -1;
+		aClass30_Sub2_Sub2_1192 = Class30_Sub2_Sub2.method396(1, 9);
+		aByte1194 = 5;
+		aStringArray1199 = new String[500];
+		anIntArray1203 = new int[5];
+		aBoolean1206 = true;
+		anIntArray1207 = new int[50];
+		anInt1210 = 2;
+		anInt1211 = 78;
+		aString1212 = "";
+		aByte1217 = 6;
+		anInt1218 = -589;
+		aClass30_Sub2_Sub1_Sub2Array1219 = new Class30_Sub2_Sub1_Sub2[4];//2
+		anInt1221 = 3;
+		aBoolean1223 = false;
+		aBoolean1228 = true;
+		anIntArray1229 = new int[151];
+		aClass11Array1230 = new Class11[4];
+		aBoolean1233 = false;
+		anIntArray1240 = new int[100];
+		anIntArray1241 = new int[50];
+		aBoolean1242 = false;
+		anIntArray1250 = new int[50];
+		aBoolean1252 = false;
+		aBoolean1255 = false;
+		aBoolean1256 = false;
+		aString1266 = "";
+		aString1267 = "";
+		aByte1274 = -13;
+		anInt1276 = -1;
+		aBoolean1277 = true;
+		anInt1279 = 2;
+		anIntArray1280 = new int[4000];
+		anIntArray1281 = new int[4000];
+		anInt1289 = -1;
+	}
+
+
+ 	public final void init(){ // settings
+		try{
+			anInt957 = 10; //high detial //1?
+			anInt958 = 0;
+			 // method52(false); //false
+			aBoolean959 = true;
+ 		
+			signlink.storeid = 32; //not really needed for us
+			signlink.startpriv(InetAddress.getLocalHost());		 
+			method2(503, false, 765); //sets gameframe size
+		}catch(Exception exception){
+			return;
+		}
+	}
+
+	public final void method6(){
+		method13(20, (byte)4, "Starting up");
+
+		UserLoader.loaduser();
+		UserLoader.finalload();
+
+		if(signlink.sunjava){
+			super.anInt6 = 5;
+		}
+//		aBoolean993 = true;	//Said its not used 4/17/17
+//		boolean flag = false;	//Said its not used 4/17/17
+//		String s = method80(true);	//Said its not used, so I just made it call the method below 4/17/17
+		
+		method80(true);
+
+		if(signlink.cache_dat != null){
+			for(int i = 0; i < 5; i++){
+				aClass14Array970[i] = new Class14(0xffffff, signlink.cache_dat, signlink.cache_idx[i], i + 1, true);
+			}
+
+		}
+		try{
+			method16(533);
+			aClass44_1053 = method67(1, "title screen", "title", anIntArray1090[1], (byte)-41, 25); //loads background
+			
+			//fonts loaded?
+			aClass30_Sub2_Sub1_Sub4_1270 = new Class30_Sub2_Sub1_Sub4(false, "p11_full", 0, aClass44_1053);
+			aClass30_Sub2_Sub1_Sub4_1271 = new Class30_Sub2_Sub1_Sub4(false, "p12_full", 0, aClass44_1053);
+			aClass30_Sub2_Sub1_Sub4_1272 = new Class30_Sub2_Sub1_Sub4(false, "b12_full", 0, aClass44_1053);
+			aClass30_Sub2_Sub1_Sub4_1273 = new Class30_Sub2_Sub1_Sub4(true, "q8_full", 0, aClass44_1053);
+			
+			//method 56 something to do with flames
+			method56(0);
+			 
+			method51(-1);
+			Class44 class44 = method67(2, "config", "config", anIntArray1090[2], (byte)-41, 30);
+			Class44 class44_1 = method67(3, "interface", "interface", anIntArray1090[3], (byte)-41, 35);
+			Class44 class44_2 = method67(4, "2d graphics", "media", anIntArray1090[4], (byte)-41, 40);
+			Class44 class44_3 = method67(6, "textures", "textures", anIntArray1090[6], (byte)-41, 45);//6?
+			Class44 class44_4 = method67(7, "chat system", "wordenc", anIntArray1090[7], (byte)-41, 50);
+			Class44 class44_5 = method67(8, "sound effects", "sounds", anIntArray1090[8], (byte)-41, 55);
+			aByteArrayArrayArray1258 = new byte[4][104][104];
+			anIntArrayArrayArray1214 = new int[4][105][105];
+			aClass25_946 = new Class25(104, (byte)43, 104, anIntArrayArrayArray1214, 4);
+			for(int j = 0; j < 4; j++)
+				aClass11Array1230[j] = new Class11(104, 104, true);
+
+			aClass30_Sub2_Sub1_Sub1_1263 = new Class30_Sub2_Sub1_Sub1(Bluurr.setmap, Bluurr.setmap);
+			Class44 class44_6 = method67(5, "update list", "versionlist", anIntArray1090[5], (byte)-41, 60);
+			
+			method13(60, (byte)4, "Connecting to update server");
+			
+			aClass42_Sub1_1068 = new Class42_Sub1();
+			aClass42_Sub1_1068.method551(class44_6, this);
+			Class36.method528(aClass42_Sub1_1068.method557(0));
+			Class30_Sub2_Sub4_Sub6.method459(aClass42_Sub1_1068.method555(79, 0), aClass42_Sub1_1068);
+			preloadModels();
+			
+			if(!aBoolean960){
+				anInt1227 = 0;
+				try{
+					anInt1227 = Integer.parseInt(getParameter("music")); //music?
+				}catch(Exception _ex) { 
+					
+				}
+				aBoolean1228 = true;
+				aClass42_Sub1_1068.method558(2, anInt1227);
+				while(aClass42_Sub1_1068.method552() > 0) {
+					method57(false);
+					try{
+						Thread.sleep(100L);
+					}catch(Exception _ex) { 
+						
+					}
+					if(aClass42_Sub1_1068.anInt1349 > 3){
+						method28("ondemand");//webclient error loads html page
+						return;
+					}
+				}
+			}
+			method13(65, (byte)4, "Requesting animations");
+			int k = aClass42_Sub1_1068.method555(79, 1);
+			for(int i1 = 0; i1 < k; i1++){
+				aClass42_Sub1_1068.method558(1, i1);
+			}
+
+			while(aClass42_Sub1_1068.method552() > 0)  {
+				int j1 = k - aClass42_Sub1_1068.method552();
+				if(j1 > 0){
+					method13(65, (byte)4, "Loading animations - " + (j1 * 100) / k + "%");
+				}
+				method57(false);
+				try {
+					Thread.sleep(100L);
+				} catch(Exception _ex) { 
+					
+				}
+				if(aClass42_Sub1_1068.anInt1349 > 3) {
+					method28("ondemand");//webclient error loads html page
+					return;
+				}
+			}
+			method13(70, (byte)4, "Requesting models");
+			k = aClass42_Sub1_1068.method555(79, 0);
+			for(int k1 = 0; k1 < k; k1++) {
+				int l1 = aClass42_Sub1_1068.method559(k1, -203);
+				if((l1 & 1) != 0){
+					aClass42_Sub1_1068.method558(0, k1);
+				}
+			}
+
+			k = aClass42_Sub1_1068.method552();
+			while(aClass42_Sub1_1068.method552() > 0)  {
+				int i2 = k - aClass42_Sub1_1068.method552();
+				if(i2 > 0){
+					method13(70, (byte)4, "Loading models - " + (i2 * 100) / k + "%");
+				}
+				method57(false);
+				try {
+					Thread.sleep(100L);
+				}
+				catch(Exception _ex) { 
+					
+				}
+			}
+	 
+			if(aClass14Array970[0] != null) {
+				method13(75, (byte)4, "Requesting maps");
+				aClass42_Sub1_1068.method558(3, aClass42_Sub1_1068.method562(0, 0, 48, 47));
+				aClass42_Sub1_1068.method558(3, aClass42_Sub1_1068.method562(1, 0, 48, 47));
+				aClass42_Sub1_1068.method558(3, aClass42_Sub1_1068.method562(0, 0, 48, 48));
+				aClass42_Sub1_1068.method558(3, aClass42_Sub1_1068.method562(1, 0, 48, 48));
+				aClass42_Sub1_1068.method558(3, aClass42_Sub1_1068.method562(0, 0, 48, 49));
+				aClass42_Sub1_1068.method558(3, aClass42_Sub1_1068.method562(1, 0, 48, 49));
+				aClass42_Sub1_1068.method558(3, aClass42_Sub1_1068.method562(0, 0, 47, 47));
+				aClass42_Sub1_1068.method558(3, aClass42_Sub1_1068.method562(1, 0, 47, 47));
+				aClass42_Sub1_1068.method558(3, aClass42_Sub1_1068.method562(0, 0, 47, 48));
+				aClass42_Sub1_1068.method558(3, aClass42_Sub1_1068.method562(1, 0, 47, 48));
+				aClass42_Sub1_1068.method558(3, aClass42_Sub1_1068.method562(0, 0, 148, 48));
+				aClass42_Sub1_1068.method558(3, aClass42_Sub1_1068.method562(1, 0, 148, 48));
+				k = aClass42_Sub1_1068.method552();
+				while(aClass42_Sub1_1068.method552() > 0) {
+					int j2 = k - aClass42_Sub1_1068.method552();
+					if(j2 > 0){
+						method13(75, (byte)4, "Loading maps - " + (j2 * 100) / k + "%");
+					}
+					method57(false);
+					try {
+						Thread.sleep(100L);
+					} catch(Exception _ex) {
+						
+					}
+				}
+			}
+			k = aClass42_Sub1_1068.method555(79, 0);
+			for(int k2 = 0; k2 < k; k2++) {
+				int l2 = aClass42_Sub1_1068.method559(k2, -203);
+				byte byte0 = 0;
+				if((l2 & 8) != 0)
+					byte0 = 10;
+				else
+				if((l2 & 0x20) != 0)
+					byte0 = 9;
+				else
+				if((l2 & 0x10) != 0)
+					byte0 = 8;
+				else
+				if((l2 & 0x40) != 0)
+					byte0 = 7;
+				else
+				if((l2 & 0x80) != 0)
+					byte0 = 6;
+				else
+				if((l2 & 2) != 0)
+					byte0 = 5;
+				else
+				if((l2 & 4) != 0)
+					byte0 = 4;
+				if((l2 & 1) != 0)
+					byte0 = 3;
+				if(byte0 != 0)
+					aClass42_Sub1_1068.method563(byte0, 0, k2, (byte)8);
+			}
+
+			aClass42_Sub1_1068.method554(aBoolean959, 0);
+			if(!aBoolean960) {
+				int l = aClass42_Sub1_1068.method555(79, 2);
+				for(int i3 = 1; i3 < l; i3++){
+					if(aClass42_Sub1_1068.method569(i3, 5)){
+						aClass42_Sub1_1068.method563((byte)1, 2, i3, (byte)8);
+					}
+				}
+
+			}
+			method13(75, (byte)4, "Loading custom spirts"); //yay for working this out no more overwriting just create new ones
+
+			{
+				/* currently 13 new icons */
+				
+				/* bh icons  */
+				aClass30_Sub2_Sub1_Sub1Array1099[5] = new Class30_Sub2_Sub1_Sub1("bhicon1");
+				aClass30_Sub2_Sub1_Sub1Array1099[6] = new Class30_Sub2_Sub1_Sub1("bhicon2");
+				aClass30_Sub2_Sub1_Sub1Array1099[7] = new Class30_Sub2_Sub1_Sub1("bhicon3");
+				aClass30_Sub2_Sub1_Sub1Array1099[8] = new Class30_Sub2_Sub1_Sub1("bhicon4");
+				aClass30_Sub2_Sub1_Sub1Array1099[9] = new Class30_Sub2_Sub1_Sub1("bhicon5");
+				
+				/* custom admin dots */
+				aClass30_Sub2_Sub1_Sub1Array1099[10] = new Class30_Sub2_Sub1_Sub1("admindot");
+				
+				
+				/* mod icons custom */
+				aClass30_Sub2_Sub1_Sub1Array1099[2] = new Class30_Sub2_Sub1_Sub1("modicon1");
+				aClass30_Sub2_Sub1_Sub1Array1099[3] = new Class30_Sub2_Sub1_Sub1("modicon2");
+				aClass30_Sub2_Sub1_Sub1Array1099[15] = new Class30_Sub2_Sub1_Sub1("iconh33");
+				aClass30_Sub2_Sub1_Sub1Array1099[16] = new Class30_Sub2_Sub1_Sub1("bluurricon1");
+				
+				
+				/*hovering clicking icons */
+				aClass30_Sub2_Sub1_Sub1Array1099[11] = new Class30_Sub2_Sub1_Sub1("hover1");
+				aClass30_Sub2_Sub1_Sub1Array1099[12] = new Class30_Sub2_Sub1_Sub1("hover2");
+				
+				/*quick chat icon */
+				aClass30_Sub2_Sub1_Sub1Array1099[13] = new Class30_Sub2_Sub1_Sub1("chat1");
+				
+				/* custom array1099 icons  */
+				aClass30_Sub2_Sub1_Sub1Array1099[1] = new Class30_Sub2_Sub1_Sub1("skull1");
+				aClass30_Sub2_Sub1_Sub1Array1099[4] = new Class30_Sub2_Sub1_Sub1("multi1");
+				System.out.println("loading custom spirts part 2");
+				
+				/* hover */
+				
+				aClass30_Sub2_Sub1_Sub1Array1100[1] = new Class30_Sub2_Sub1_Sub1("hovera1");
+				aClass30_Sub2_Sub1_Sub1Array1100[2] = new Class30_Sub2_Sub1_Sub1("hoverb1");
+				aClass30_Sub2_Sub1_Sub1Array1100[3] = new Class30_Sub2_Sub1_Sub1("hovera2");
+				
+				
+				/* orbs */
+				aClass30_Sub2_Sub1_Sub1Array1100[4] = new Class30_Sub2_Sub1_Sub1("orb1");
+				aClass30_Sub2_Sub1_Sub1Array1100[5] = new Class30_Sub2_Sub1_Sub1("orb2");
+				aClass30_Sub2_Sub1_Sub1Array1100[6] = new Class30_Sub2_Sub1_Sub1("orb3");
+				
+				/*logout redstone */
+				aClass30_Sub2_Sub1_Sub1Array1100[7] = new Class30_Sub2_Sub1_Sub1("logout1");
+				aClass30_Sub2_Sub1_Sub1Array1100[8] = new Class30_Sub2_Sub1_Sub1("logout2");
+				aClass30_Sub2_Sub1_Sub1Array1100[9] = new Class30_Sub2_Sub1_Sub1("clanstone1");
+				
+				
+				/* custom on screen shit */
+				aClass30_Sub2_Sub1_Sub1Array1100[10] = new Class30_Sub2_Sub1_Sub1("mulit2");
+				aClass30_Sub2_Sub1_Sub1Array1100[11] = new Class30_Sub2_Sub1_Sub1("skullsa1");
+				aClass30_Sub2_Sub1_Sub1Array1100[12] = new Class30_Sub2_Sub1_Sub1("skullsa2");
+				aClass30_Sub2_Sub1_Sub1Array1100[13] = new Class30_Sub2_Sub1_Sub1("skullsa3");
+				
+				
+				/* orbs*/
+				aClass30_Sub2_Sub1_Sub1Array1101[1] = new Class30_Sub2_Sub1_Sub1("hp1");
+				aClass30_Sub2_Sub1_Sub1Array1101[2] = new Class30_Sub2_Sub1_Sub1("hp2");
+				aClass30_Sub2_Sub1_Sub1Array1101[3] = new Class30_Sub2_Sub1_Sub1("hp3");
+				aClass30_Sub2_Sub1_Sub1Array1101[4] = new Class30_Sub2_Sub1_Sub1("hp4");
+				aClass30_Sub2_Sub1_Sub1Array1101[5] = new Class30_Sub2_Sub1_Sub1("hp5");
+				aClass30_Sub2_Sub1_Sub1Array1101[6] = new Class30_Sub2_Sub1_Sub1("hp6");
+				aClass30_Sub2_Sub1_Sub1Array1101[7] = new Class30_Sub2_Sub1_Sub1("hp7");
+				aClass30_Sub2_Sub1_Sub1Array1101[8] = new Class30_Sub2_Sub1_Sub1("hp8");
+				aClass30_Sub2_Sub1_Sub1Array1101[9] = new Class30_Sub2_Sub1_Sub1("hp9");
+				
+				aClass30_Sub2_Sub1_Sub1Array1101[10] = new Class30_Sub2_Sub1_Sub1("hpicon1");
+				aClass30_Sub2_Sub1_Sub1Array1101[11] = new Class30_Sub2_Sub1_Sub1("hpicon2");
+				
+				aClass30_Sub2_Sub1_Sub1Array1101[12] = new Class30_Sub2_Sub1_Sub1("pray1");
+				aClass30_Sub2_Sub1_Sub1Array1101[13] = new Class30_Sub2_Sub1_Sub1("pray2");
+				aClass30_Sub2_Sub1_Sub1Array1101[14] = new Class30_Sub2_Sub1_Sub1("pray3");
+				aClass30_Sub2_Sub1_Sub1Array1101[15] = new Class30_Sub2_Sub1_Sub1("pray4");
+				aClass30_Sub2_Sub1_Sub1Array1101[16] = new Class30_Sub2_Sub1_Sub1("pray5");
+				aClass30_Sub2_Sub1_Sub1Array1101[17] = new Class30_Sub2_Sub1_Sub1("pray6");
+				aClass30_Sub2_Sub1_Sub1Array1101[18] = new Class30_Sub2_Sub1_Sub1("pray7");
+				aClass30_Sub2_Sub1_Sub1Array1101[19] = new Class30_Sub2_Sub1_Sub1("pray8");
+				aClass30_Sub2_Sub1_Sub1Array1101[20] = new Class30_Sub2_Sub1_Sub1("pray9");
+				
+				aClass30_Sub2_Sub1_Sub1Array1101[21] = new Class30_Sub2_Sub1_Sub1("prayicon1");
+				
+				
+				
+			}
+
+			method13(80, (byte)4, "Runescape is loading.");
+
+			aClass30_Sub2_Sub1_Sub1_1196 = new Class30_Sub2_Sub1_Sub1(class44_2, "invback", 0);
+
+		
+			aClass30_Sub2_Sub1_Sub1_1198 = new Class30_Sub2_Sub1_Sub1(class44_2, "chatback", 0);
+	
+			aClass30_Sub2_Sub1_Sub2_1197 = new Class30_Sub2_Sub1_Sub2(class44_2, "mapback", 0);
+			CustomMapback = new Class30_Sub2_Sub1_Sub1(class44_2, "mapback", 0);
+			
+			aClass30_Sub2_Sub1_Sub1_1027 = new Class30_Sub2_Sub1_Sub1(class44_2, "backbase1", 0);
+			aClass30_Sub2_Sub1_Sub1_1028 = new Class30_Sub2_Sub1_Sub1(class44_2, "backbase2", 0);
+			aClass30_Sub2_Sub1_Sub1_1029 = new Class30_Sub2_Sub1_Sub1(class44_2, "backhmid1", 0);
+			for(int j3 = 0; j3 < 13; j3++){
+				aClass30_Sub2_Sub1_Sub1Array947[j3] = new Class30_Sub2_Sub1_Sub1(class44_2, "sideicons", j3);
+			}
+		
+			aClass30_Sub2_Sub1_Sub1_1122 = new Class30_Sub2_Sub1_Sub1(class44_2, "compass", 0);
+			aClass30_Sub2_Sub1_Sub1_1001 = new Class30_Sub2_Sub1_Sub1(class44_2, "mapedge", 0);
+			aClass30_Sub2_Sub1_Sub1_1001.method345(5059);
+			try {
+				for(int k3 = 0; k3 < 100; k3++){
+					aClass30_Sub2_Sub1_Sub2Array1060[k3] = new Class30_Sub2_Sub1_Sub2(class44_2, "mapscene", k3); 
+					//little icons on minimap
+				}
+
+			} catch(Exception _ex) { 
+				
+			}
+			try {
+				for(int l3 = 0; l3 < 100; l3++){
+					aClass30_Sub2_Sub1_Sub1Array1033[l3] = new Class30_Sub2_Sub1_Sub1(class44_2, "mapfunction", l3);
+					//the white out lines of buildings on minimap
+				}
+
+			}
+			catch(Exception _ex) { }
+			try {
+				for(int i4 = 0; i4 < 20; i4++){
+					aClass30_Sub2_Sub1_Sub1Array987[i4] = new Class30_Sub2_Sub1_Sub1(class44_2, "hitmarks", i4);
+				}
+
+			} catch(Exception _ex) { 
+				
+			}
+
+
+
+			/*<3 bluurr for releasing this*/
+
+			for(int k4 = 0; k4 < 6; k4++){
+				aClass30_Sub2_Sub1_Sub1Array1096[k4] = new Class30_Sub2_Sub1_Sub1(class44_2, "headicons_pk", k4);
+			}
+			
+			for(int l4 = 0; l4 < 9; l4++){
+				aClass30_Sub2_Sub1_Sub1Array1095[l4] = new Class30_Sub2_Sub1_Sub1(class44_2, "headicons_prayer", l4);
+			}
+			
+			/*<3 bluurr for releasing this*/	
+			for(int i5 = 0; i5 < 4; i5++) {
+				aClass30_Sub2_Sub1_Sub1Array1097[i5] = new Class30_Sub2_Sub1_Sub1(class44_2, "headicons_hint", i5);
+			}
+
+			aClass30_Sub2_Sub1_Sub1_870 = new Class30_Sub2_Sub1_Sub1(class44_2, "mapmarker", 0);
+			aClass30_Sub2_Sub1_Sub1_871 = new Class30_Sub2_Sub1_Sub1(class44_2, "mapmarker", 1);
+		 
+			for(int k4 = 0; k4 < 8; k4++){
+				aClass30_Sub2_Sub1_Sub1Array1150[k4] = new Class30_Sub2_Sub1_Sub1(class44_2, "cross", k4);
+			}
+
+			aClass30_Sub2_Sub1_Sub1_1074 = new Class30_Sub2_Sub1_Sub1(class44_2, "mapdots", 0);
+			aClass30_Sub2_Sub1_Sub1_1075 = new Class30_Sub2_Sub1_Sub1(class44_2, "mapdots", 1);
+			aClass30_Sub2_Sub1_Sub1_1076 = new Class30_Sub2_Sub1_Sub1(class44_2, "mapdots", 2);
+			aClass30_Sub2_Sub1_Sub1_1077 = new Class30_Sub2_Sub1_Sub1(class44_2, "mapdots", 3);
+			aClass30_Sub2_Sub1_Sub1_1078 = new Class30_Sub2_Sub1_Sub1(class44_2, "mapdots", 4);
+			aClass30_Sub2_Sub1_Sub1_1024 = new Class30_Sub2_Sub1_Sub1(class44_2, "scrollbar", 0);
+			aClass30_Sub2_Sub1_Sub1_1025 = new Class30_Sub2_Sub1_Sub1(class44_2, "scrollbar", 1);
+
+			aClass30_Sub2_Sub1_Sub1_1143 = new Class30_Sub2_Sub1_Sub1(class44_2, "redstone1", 0);
+			aClass30_Sub2_Sub1_Sub1_1144 = new Class30_Sub2_Sub1_Sub1(class44_2, "redstone2", 0); flip = true;
+			aClass30_Sub2_Sub1_Sub2_1145 = new Class30_Sub2_Sub1_Sub2(class44_2, "redstone3", 0);
+			aClass30_Sub2_Sub1_Sub1_1146 = new Class30_Sub2_Sub1_Sub1(class44_2, "redstone1", 0);
+			aClass30_Sub2_Sub1_Sub1_1147 = new Class30_Sub2_Sub1_Sub1(class44_2, "redstone2", 0); flip = false; flip_s = true;
+			aClass30_Sub2_Sub1_Sub1_865 = new Class30_Sub2_Sub1_Sub1(class44_2, "redstone1", 0);
+			aClass30_Sub2_Sub1_Sub1_866 = new Class30_Sub2_Sub1_Sub1(class44_2, "redstone2", 0);
+			aClass30_Sub2_Sub1_Sub2_867 = new Class30_Sub2_Sub1_Sub2(class44_2, "redstone3", 0); flip_s = false; flip_r = true;
+			aClass30_Sub2_Sub1_Sub2_867.method359(true);
+			aClass30_Sub2_Sub1_Sub1_868 = new Class30_Sub2_Sub1_Sub1(class44_2, "redstone1", 0);
+			aClass30_Sub2_Sub1_Sub2_869 = new Class30_Sub2_Sub1_Sub2(class44_2, "redstone2", 0);
+			aClass30_Sub2_Sub1_Sub2_869.method358(0);
+			aClass30_Sub2_Sub1_Sub2_869.method359(true);
+
+			for(int l4 = 0; l4 < 2; l4++){
+				aClass30_Sub2_Sub1_Sub2Array1219[l4] = new Class30_Sub2_Sub1_Sub2(class44_2, "mod_icons", l4);
+			}
+
+			Class30_Sub2_Sub1_Sub1 class30_sub2_sub1_sub1 = new Class30_Sub2_Sub1_Sub1(class44_2, "backleft1", 0);
+			aClass15_903 = new Class15(class30_sub2_sub1_sub1.anInt1440, class30_sub2_sub1_sub1.anInt1441, method11(0), 0);
+			class30_sub2_sub1_sub1.method346(0, 0, -32357);
+			class30_sub2_sub1_sub1 = new Class30_Sub2_Sub1_Sub1(class44_2, "backleft2", 0);
+			aClass15_904 = new Class15(class30_sub2_sub1_sub1.anInt1440, class30_sub2_sub1_sub1.anInt1441, method11(0), 0);
+			class30_sub2_sub1_sub1.method346(0, 0, -32357);
+			class30_sub2_sub1_sub1 = new Class30_Sub2_Sub1_Sub1(class44_2, "backright1", 0);
+			aClass15_905 = new Class15(class30_sub2_sub1_sub1.anInt1440, class30_sub2_sub1_sub1.anInt1441, method11(0), 0);
+			class30_sub2_sub1_sub1.method346(0, 0, -32357);
+			class30_sub2_sub1_sub1 = new Class30_Sub2_Sub1_Sub1(class44_2, "backright2", 0);
+			aClass15_906 = new Class15(class30_sub2_sub1_sub1.anInt1440, class30_sub2_sub1_sub1.anInt1441, method11(0), 0);
+			class30_sub2_sub1_sub1.method346(0, 0, -32357);
+			class30_sub2_sub1_sub1 = new Class30_Sub2_Sub1_Sub1(class44_2, "backtop1", 0);
+			aClass15_907 = new Class15(class30_sub2_sub1_sub1.anInt1440, class30_sub2_sub1_sub1.anInt1441, method11(0), 0);
+			class30_sub2_sub1_sub1.method346(0, 0, -32357);
+			class30_sub2_sub1_sub1 = new Class30_Sub2_Sub1_Sub1(class44_2, "backvmid1", 0);
+			aClass15_908 = new Class15(class30_sub2_sub1_sub1.anInt1440, class30_sub2_sub1_sub1.anInt1441, method11(0), 0);
+			class30_sub2_sub1_sub1.method346(0, 0, -32357);
+			class30_sub2_sub1_sub1 = new Class30_Sub2_Sub1_Sub1(class44_2, "backvmid2", 0);
+			aClass15_909 = new Class15(class30_sub2_sub1_sub1.anInt1440, class30_sub2_sub1_sub1.anInt1441, method11(0), 0);
+			class30_sub2_sub1_sub1.method346(0, 0, -32357);
+			class30_sub2_sub1_sub1 = new Class30_Sub2_Sub1_Sub1(class44_2, "backvmid3", 0);
+			aClass15_910 = new Class15(class30_sub2_sub1_sub1.anInt1440, class30_sub2_sub1_sub1.anInt1441, method11(0), 0);
+			class30_sub2_sub1_sub1.method346(0, 0, -32357);
+			class30_sub2_sub1_sub1 = new Class30_Sub2_Sub1_Sub1(class44_2, "backhmid2", 0);
+			aClass15_911 = new Class15(class30_sub2_sub1_sub1.anInt1440, class30_sub2_sub1_sub1.anInt1441, method11(0), 0);
+			class30_sub2_sub1_sub1.method346(0, 0, -32357);
+			int i5 = (int)(Math.random() * 21D) - 10;
+			int j5 = (int)(Math.random() * 21D) - 10;
+			int k5 = (int)(Math.random() * 21D) - 10;
+			int l5 = (int)(Math.random() * 41D) - 20;
+			for(int i6 = 0; i6 < 100; i6++) {
+				if(aClass30_Sub2_Sub1_Sub1Array1033[i6] != null)
+					aClass30_Sub2_Sub1_Sub1Array1033[i6].method344(i5 + l5, j5 + l5, k5 + l5, 0);
+				if(aClass30_Sub2_Sub1_Sub2Array1060[i6] != null)
+					aClass30_Sub2_Sub1_Sub2Array1060[i6].method360(i5 + l5, j5 + l5, k5 + l5, 0);
+			}
+
+			method13(83, (byte)4, "Runescape is loading. .");
+			
+			Class30_Sub2_Sub1_Sub3.method368(class44_3, 0);
+			Class30_Sub2_Sub1_Sub3.method372(0.80000000000000004D, aByte1200);
+			Class30_Sub2_Sub1_Sub3.method367(20, true);
+			
+			method13(86, (byte)4, "Runescape is loading. . .");
+			
+			Class20.method257(0, class44);
+			Class46.method576(class44);
+			Class22.method260(0, class44);
+			Class8.method193(class44);
+			Class5.method162(class44);
+			Class38.method535(0, class44);
+			Class23.method264(0, class44);
+			Class41.method546(0, class44);
+			Class37.method533(0, class44);
+			Class8.aBoolean182 = aBoolean959;
+			if(!aBoolean960) {
+				method13(90, (byte)4, "Unpacking sounds");
+				byte abyte0[] = class44_5.method571("sounds.dat", null);
+				Class30_Sub2_Sub2 class30_sub2_sub2 = new Class30_Sub2_Sub2(abyte0, 891);
+				Class16.method240(0, class30_sub2_sub2);
+			}
+			method13(95, (byte)4, "Unpacking interfaces");
+			Class30_Sub2_Sub1_Sub4 aclass30_sub2_sub1_sub4[] = {
+				aClass30_Sub2_Sub1_Sub4_1270, aClass30_Sub2_Sub1_Sub4_1271, aClass30_Sub2_Sub1_Sub4_1272, aClass30_Sub2_Sub1_Sub4_1273
+			};
+			Class9.method205(class44_1, aclass30_sub2_sub1_sub4, (byte)-84, class44_2);
+
+			method13(100, (byte)4, "Preparing game engine");
+
+			for(int j6 = 0; j6 < 33; j6++) {
+				int k6 = 999;
+				int i7 = 0;
+				for(int k7 = 0; k7 < 34; k7++) {
+					if(aClass30_Sub2_Sub1_Sub2_1197.aByteArray1450[k7 + j6 * aClass30_Sub2_Sub1_Sub2_1197.anInt1452] == 0) {
+						if(k6 == 999)
+							k6 = k7;
+						continue;
+					}
+					if(k6 == 999)
+						continue;
+					i7 = k7;
+					break;
+				}
+
+				anIntArray968[j6] = k6;
+				anIntArray1057[j6] = i7 - k6;
+			}
+			for(int l6 = 5; l6 < 156; l6++) {
+				int j7 = 999;
+				int l7 = 0;
+				for(int j8 = 25; j8 < 172; j8++) {
+					if(aClass30_Sub2_Sub1_Sub2_1197.aByteArray1450[j8 + l6 * aClass30_Sub2_Sub1_Sub2_1197.anInt1452] == 0 && (j8 > 34 || l6 > 34)) {
+						if(j7 == 999)
+							j7 = j8;
+						continue;
+					}
+					if(j7 == 999){
+						continue;
+					}
+					l7 = j8;
+					break;
+				}
+
+				anIntArray1052[l6 - 5] = j7 - 25;
+				anIntArray1229[l6 - 5] = l7 - j7;
+			}
+
+			Class30_Sub2_Sub1_Sub3.method365(-950, 506, 128);  //last error
+			
+			anIntArray1180 = Class30_Sub2_Sub1_Sub3.anIntArray1472;
+			Class30_Sub2_Sub1_Sub3.method365(-950, 190, 261);
+			anIntArray1181 = Class30_Sub2_Sub1_Sub3.anIntArray1472;
+
+			Class30_Sub2_Sub1_Sub3.method365(-950, 512, 334);
+
+			anIntArray1182 = Class30_Sub2_Sub1_Sub3.anIntArray1472;
+			int ai[] = new int[9];
+			for(int i8 = 0; i8 < 9; i8++) {
+				int k8 = 128 + i8 * 32 + 15;
+				int l8 = 600 + k8 * 3;
+				int i9 = Class30_Sub2_Sub1_Sub3.anIntArray1470[k8];
+				ai[i8] = l8 * i9 >> 16;
+			}
+
+			Class25.method310(500, 800, 512, 334, ai, aBoolean1231);
+			Class34.method487(class44_4);
+			aClass48_879 = new Class48(this, anInt1096);
+			method12(aClass48_879, 10);
+			Class30_Sub2_Sub4_Sub5.aClient1609 = this;
+			Class46.aClient765 = this;
+			Class5.aClient82 = this;
+
+			return;
+		} catch(Exception exception) {
+			System.out.println("Method 6 ERROR");
+			exception.printStackTrace();
+//			signlink.reporterror("loaderror " + errorStringS + " " + errorIntI);
+		}
+		aBoolean926 = true;
+	}
+
+	public final void method13(int i, byte byte0, String s) {
+
+		errorIntI = i;
+		errorStringS = s;
+		
+		method64(0);
+		if(aClass44_1053 == null) {
+			super.method13(i, (byte)4, s);
+			return;
+		}
+		aClass15_1109.method237(0);
+		char c = '\u0168';
+		char c1 = '\310';
+		byte byte1 = 20;
+		aClass30_Sub2_Sub1_Sub4_1272.method381(0xffffff, "Runescape is loading - please wait...", 23693, c1 / 2 - 26 - byte1, c / 2);
+
+		int j = c1 / 2 - 18 - byte1;
+		Class30_Sub2_Sub1.method337(c / 2 - 152, 304, 34, 0x8c1111, j, true);
+		Class30_Sub2_Sub1.method337(c / 2 - 151, 302, 32, 0, j + 1, true);
+		Class30_Sub2_Sub1.method336(30, j + 2, c / 2 - 150, 0x8c1111, i * 3, 0);
+		Class30_Sub2_Sub1.method336(30, j + 2, (c / 2 - 150) + i * 3, 0, 300 - i * 3, 0);
+		aClass30_Sub2_Sub1_Sub4_1272.method381(0xffffff, s, 23693, (c1 / 2 + 5) - byte1, c / 2);
+
+		aClass15_1109.method238(171, 23680, super.aGraphics12, 202);
+
+		if(byte0 != 4) {
+			for(int k = 1; k > 0; k++);
+		}
+		if(aBoolean1255) {
+			aBoolean1255 = false;
+			if(!aBoolean831) {
+				aClass15_1110.method238(0, 23680, super.aGraphics12, 0);
+				aClass15_1111.method238(0, 23680, super.aGraphics12, 637);
+			}
+
+			aClass15_1107.method238(0, 23680, super.aGraphics12, 128);
+			aClass15_1108.method238(371, 23680, super.aGraphics12, 202);	//loading screen? edit 2
+			aClass15_1112.method238(265, 23680, super.aGraphics12, 0);		//loading screen? edit 3
+			aClass15_1113.method238(265, 23680, super.aGraphics12, 562);
+			aClass15_1114.method238(171, 23680, super.aGraphics12, 128);
+			aClass15_1115.method238(171, 23680, super.aGraphics12, 562);
+		}
+	}
+
 //	private int mp3load = 1;	//Said its not used 4/17/17
 	public int flash = 2;
 	public int hover;
@@ -587,27 +1379,6 @@ if(i < 6 || i > 6)
 aBoolean991 = !aBoolean991;
 } 
 
-
-		 public final void init() // settings
-	{
-		try
-		{
-
-  
-			anInt957 = 10; //high detial //1?
-			anInt958 = 0;
-			 // method52(false); //false
-			aBoolean959 = true;
- 		
-			signlink.storeid = 32; //not really needed for us
-			signlink.startpriv(InetAddress.getLocalHost());		 
-			method2(503, false, 765); //sets gameframe size
-		}
-		catch(Exception exception)
-		{
-			return;
-		}
-	}
 
 	public final void method12(Runnable runnable, int i)
 	{
@@ -3091,7 +3862,8 @@ aClass30_Sub2_Sub1_Sub1Array1095[class5_1.anInt75].method348(anInt963 - 12, 1608
 		anIntArray828 = new int[32768];
 		anIntArray829 = new int[32768];
 
-		method13(10, (byte)4, "Connecting to fileserver");
+		method13(10, (byte)4, "Connecting to fileserver");	//FIXME This was removed to try and make the client run, plus it's not needed 4/20/17
+		
 		if(!aBoolean831)
 		{
 			aBoolean880 = true;
@@ -3108,22 +3880,6 @@ aClass30_Sub2_Sub1_Sub1Array1095[class5_1.anInt75].method348(anInt963 - 12, 1608
 		if(flag)
 			aBoolean919 = !aBoolean919;
 		Class46.aBoolean752 = false;
-	}
-
-	public static void main(String args[]){
-		anInt957 = 10;
-		anInt958 = 0;
-		aBoolean959 = true;
-			
-   		try {
-			signlink.startpriv(InetAddress.getLocalHost());
-		}catch(UnknownHostException uhe) {
-			return;
-		}
-		client client1 = new client();
-		client1.method1(503, false, 765);
-		return;
-		
 	}
 
 	public final void method53(int i)
@@ -3947,49 +4703,6 @@ updatetimer --;
 			method51(215);
 		}
 		aBoolean1255 = true;
-	}
-
-	public final void method13(int i, byte byte0, String s) {
-
-		anInt1079 = i;
-		aString1049 = s;
-		method64(0);
-		if(aClass44_1053 == null) {
-			super.method13(i, (byte)4, s);
-			return;
-		}
-		aClass15_1109.method237(0);
-		char c = '\u0168';
-		char c1 = '\310';
-		byte byte1 = 20;
-		aClass30_Sub2_Sub1_Sub4_1272.method381(0xffffff, "Runescape is loading - please wait...", 23693, c1 / 2 - 26 - byte1, c / 2);
-
-		int j = c1 / 2 - 18 - byte1;
-		Class30_Sub2_Sub1.method337(c / 2 - 152, 304, 34, 0x8c1111, j, true);
-		Class30_Sub2_Sub1.method337(c / 2 - 151, 302, 32, 0, j + 1, true);
-		Class30_Sub2_Sub1.method336(30, j + 2, c / 2 - 150, 0x8c1111, i * 3, 0);
-		Class30_Sub2_Sub1.method336(30, j + 2, (c / 2 - 150) + i * 3, 0, 300 - i * 3, 0);
-		aClass30_Sub2_Sub1_Sub4_1272.method381(0xffffff, s, 23693, (c1 / 2 + 5) - byte1, c / 2);
-
-		aClass15_1109.method238(171, 23680, super.aGraphics12, 202);
-
-		if(byte0 != 4) {
-			for(int k = 1; k > 0; k++);
-		}
-		if(aBoolean1255) {
-			aBoolean1255 = false;
-			if(!aBoolean831) {
-				aClass15_1110.method238(0, 23680, super.aGraphics12, 0);
-				aClass15_1111.method238(0, 23680, super.aGraphics12, 637);
-			}
-
-			aClass15_1107.method238(0, 23680, super.aGraphics12, 128);
-			aClass15_1108.method238(371, 23680, super.aGraphics12, 202);	//loading screen? edit 2
-			aClass15_1112.method238(265, 23680, super.aGraphics12, 0);	//loading screen? edit 3
-			aClass15_1113.method238(265, 23680, super.aGraphics12, 562);
-			aClass15_1114.method238(171, 23680, super.aGraphics12, 128);
-			aClass15_1115.method238(171, 23680, super.aGraphics12, 562);
-		}
 	}
 
 	public final void method65(int i, int j, int k, int l, Class9 class9, int i1, boolean flag, 
@@ -8285,525 +8998,6 @@ if(s == "" && s1 == "") {
 		g.setColor(Color.red);
 //		new Updater((new StringBuilder()).append("http://www.DivineWorldRsps.tk/client1").append(".zip").toString(), (new StringBuilder()).append("client").append(".zip").toString(), "./");
 		 
-	}
-
-
-	public final void method6(){
-		method13(20, (byte)4, "Starting up");
-
-		UserLoader.loaduser();
-		UserLoader.finalload();
-
-		if(signlink.sunjava){
-			super.anInt6 = 5;
-		}
-//		aBoolean993 = true;	//Said its not used 4/17/17
-//		boolean flag = false;	//Said its not used 4/17/17
-//		String s = method80(true);	//Said its not used, so I just made it call the method below 4/17/17
-		
-		method80(true);
-
-		if(signlink.cache_dat != null){
-			for(int i = 0; i < 5; i++){
-				aClass14Array970[i] = new Class14(0xffffff, signlink.cache_dat, signlink.cache_idx[i], i + 1, true);
-			}
-
-		}
-		try{
-			method16(533);
-			aClass44_1053 = method67(1, "title screen", "title", anIntArray1090[1], (byte)-41, 25); //loads background
-			
-			//fonts loaded?
-			aClass30_Sub2_Sub1_Sub4_1270 = new Class30_Sub2_Sub1_Sub4(false, "p11_full", 0, aClass44_1053);
-			aClass30_Sub2_Sub1_Sub4_1271 = new Class30_Sub2_Sub1_Sub4(false, "p12_full", 0, aClass44_1053);
-			aClass30_Sub2_Sub1_Sub4_1272 = new Class30_Sub2_Sub1_Sub4(false, "b12_full", 0, aClass44_1053);
-			aClass30_Sub2_Sub1_Sub4_1273 = new Class30_Sub2_Sub1_Sub4(true, "q8_full", 0, aClass44_1053);
-			
-			//method 56 something to do with flames
-			method56(0);
-			 
-			method51(-1);
-			Class44 class44 = method67(2, "config", "config", anIntArray1090[2], (byte)-41, 30);
-			Class44 class44_1 = method67(3, "interface", "interface", anIntArray1090[3], (byte)-41, 35);
-			Class44 class44_2 = method67(4, "2d graphics", "media", anIntArray1090[4], (byte)-41, 40);
-			Class44 class44_3 = method67(6, "textures", "textures", anIntArray1090[6], (byte)-41, 45);//6?
-			Class44 class44_4 = method67(7, "chat system", "wordenc", anIntArray1090[7], (byte)-41, 50);
-			Class44 class44_5 = method67(8, "sound effects", "sounds", anIntArray1090[8], (byte)-41, 55);
-			aByteArrayArrayArray1258 = new byte[4][104][104];
-			anIntArrayArrayArray1214 = new int[4][105][105];
-			aClass25_946 = new Class25(104, (byte)43, 104, anIntArrayArrayArray1214, 4);
-			for(int j = 0; j < 4; j++)
-				aClass11Array1230[j] = new Class11(104, 104, true);
-
-			aClass30_Sub2_Sub1_Sub1_1263 = new Class30_Sub2_Sub1_Sub1(Bluurr.setmap, Bluurr.setmap);
-			Class44 class44_6 = method67(5, "update list", "versionlist", anIntArray1090[5], (byte)-41, 60);
-			method13(60, (byte)4, "Connecting to update server");
-			aClass42_Sub1_1068 = new Class42_Sub1();
-			aClass42_Sub1_1068.method551(class44_6, this);
-			Class36.method528(aClass42_Sub1_1068.method557(0));
-			Class30_Sub2_Sub4_Sub6.method459(aClass42_Sub1_1068.method555(79, 0), aClass42_Sub1_1068);
-			preloadModels();
-			
-			if(!aBoolean960){
-				anInt1227 = 0;
-				try{
-					anInt1227 = Integer.parseInt(getParameter("music")); //music?
-				}catch(Exception _ex) { 
-					
-				}
-				aBoolean1228 = true;
-				aClass42_Sub1_1068.method558(2, anInt1227);
-				while(aClass42_Sub1_1068.method552() > 0) {
-					method57(false);
-					try{
-						Thread.sleep(100L);
-					}catch(Exception _ex) { 
-						
-					}
-					if(aClass42_Sub1_1068.anInt1349 > 3){
-						method28("ondemand");//webclient error loads html page
-						return;
-					}
-				}
-			}
-			method13(65, (byte)4, "Requesting animations");
-			int k = aClass42_Sub1_1068.method555(79, 1);
-			for(int i1 = 0; i1 < k; i1++){
-				aClass42_Sub1_1068.method558(1, i1);
-			}
-
-			while(aClass42_Sub1_1068.method552() > 0)  {
-				int j1 = k - aClass42_Sub1_1068.method552();
-				if(j1 > 0){
-					method13(65, (byte)4, "Loading animations - " + (j1 * 100) / k + "%");
-				}
-				method57(false);
-				try {
-					Thread.sleep(100L);
-				} catch(Exception _ex) { 
-					
-				}
-				if(aClass42_Sub1_1068.anInt1349 > 3) {
-					method28("ondemand");//webclient error loads html page
-					return;
-				}
-			}
-			method13(70, (byte)4, "Requesting models");
-			k = aClass42_Sub1_1068.method555(79, 0);
-			for(int k1 = 0; k1 < k; k1++) {
-				int l1 = aClass42_Sub1_1068.method559(k1, -203);
-				if((l1 & 1) != 0){
-					aClass42_Sub1_1068.method558(0, k1);
-				}
-			}
-
-			k = aClass42_Sub1_1068.method552();
-			while(aClass42_Sub1_1068.method552() > 0)  {
-				int i2 = k - aClass42_Sub1_1068.method552();
-				if(i2 > 0){
-					method13(70, (byte)4, "Loading models - " + (i2 * 100) / k + "%");
-				}
-				method57(false);
-				try {
-					Thread.sleep(100L);
-				}
-				catch(Exception _ex) { 
-					
-				}
-			}
-	 
-			if(aClass14Array970[0] != null) {
-				method13(75, (byte)4, "Requesting maps");
-				aClass42_Sub1_1068.method558(3, aClass42_Sub1_1068.method562(0, 0, 48, 47));
-				aClass42_Sub1_1068.method558(3, aClass42_Sub1_1068.method562(1, 0, 48, 47));
-				aClass42_Sub1_1068.method558(3, aClass42_Sub1_1068.method562(0, 0, 48, 48));
-				aClass42_Sub1_1068.method558(3, aClass42_Sub1_1068.method562(1, 0, 48, 48));
-				aClass42_Sub1_1068.method558(3, aClass42_Sub1_1068.method562(0, 0, 48, 49));
-				aClass42_Sub1_1068.method558(3, aClass42_Sub1_1068.method562(1, 0, 48, 49));
-				aClass42_Sub1_1068.method558(3, aClass42_Sub1_1068.method562(0, 0, 47, 47));
-				aClass42_Sub1_1068.method558(3, aClass42_Sub1_1068.method562(1, 0, 47, 47));
-				aClass42_Sub1_1068.method558(3, aClass42_Sub1_1068.method562(0, 0, 47, 48));
-				aClass42_Sub1_1068.method558(3, aClass42_Sub1_1068.method562(1, 0, 47, 48));
-				aClass42_Sub1_1068.method558(3, aClass42_Sub1_1068.method562(0, 0, 148, 48));
-				aClass42_Sub1_1068.method558(3, aClass42_Sub1_1068.method562(1, 0, 148, 48));
-				k = aClass42_Sub1_1068.method552();
-				while(aClass42_Sub1_1068.method552() > 0) {
-					int j2 = k - aClass42_Sub1_1068.method552();
-					if(j2 > 0){
-						method13(75, (byte)4, "Loading maps - " + (j2 * 100) / k + "%");
-					}
-					method57(false);
-					try {
-						Thread.sleep(100L);
-					} catch(Exception _ex) {
-						
-					}
-				}
-			}
-			k = aClass42_Sub1_1068.method555(79, 0);
-			for(int k2 = 0; k2 < k; k2++) {
-				int l2 = aClass42_Sub1_1068.method559(k2, -203);
-				byte byte0 = 0;
-				if((l2 & 8) != 0)
-					byte0 = 10;
-				else
-				if((l2 & 0x20) != 0)
-					byte0 = 9;
-				else
-				if((l2 & 0x10) != 0)
-					byte0 = 8;
-				else
-				if((l2 & 0x40) != 0)
-					byte0 = 7;
-				else
-				if((l2 & 0x80) != 0)
-					byte0 = 6;
-				else
-				if((l2 & 2) != 0)
-					byte0 = 5;
-				else
-				if((l2 & 4) != 0)
-					byte0 = 4;
-				if((l2 & 1) != 0)
-					byte0 = 3;
-				if(byte0 != 0)
-					aClass42_Sub1_1068.method563(byte0, 0, k2, (byte)8);
-			}
-
-			aClass42_Sub1_1068.method554(aBoolean959, 0);
-			if(!aBoolean960) {
-				int l = aClass42_Sub1_1068.method555(79, 2);
-				for(int i3 = 1; i3 < l; i3++){
-					if(aClass42_Sub1_1068.method569(i3, 5)){
-						aClass42_Sub1_1068.method563((byte)1, 2, i3, (byte)8);
-					}
-				}
-
-			}
-			method13(75, (byte)4, "Loading custom spirts"); //yay for working this out no more overwriting just create new ones
-
-			{
-				/* currently 13 new icons */
-				
-				/* bh icons  */
-				aClass30_Sub2_Sub1_Sub1Array1099[5] = new Class30_Sub2_Sub1_Sub1("bhicon1");
-				aClass30_Sub2_Sub1_Sub1Array1099[6] = new Class30_Sub2_Sub1_Sub1("bhicon2");
-				aClass30_Sub2_Sub1_Sub1Array1099[7] = new Class30_Sub2_Sub1_Sub1("bhicon3");
-				aClass30_Sub2_Sub1_Sub1Array1099[8] = new Class30_Sub2_Sub1_Sub1("bhicon4");
-				aClass30_Sub2_Sub1_Sub1Array1099[9] = new Class30_Sub2_Sub1_Sub1("bhicon5");
-				
-				/* custom admin dots */
-				aClass30_Sub2_Sub1_Sub1Array1099[10] = new Class30_Sub2_Sub1_Sub1("admindot");
-				
-				
-				/* mod icons custom */
-				aClass30_Sub2_Sub1_Sub1Array1099[2] = new Class30_Sub2_Sub1_Sub1("modicon1");
-				aClass30_Sub2_Sub1_Sub1Array1099[3] = new Class30_Sub2_Sub1_Sub1("modicon2");
-				aClass30_Sub2_Sub1_Sub1Array1099[15] = new Class30_Sub2_Sub1_Sub1("iconh33");
-				aClass30_Sub2_Sub1_Sub1Array1099[16] = new Class30_Sub2_Sub1_Sub1("bluurricon1");
-				
-				
-				/*hovering clicking icons */
-				aClass30_Sub2_Sub1_Sub1Array1099[11] = new Class30_Sub2_Sub1_Sub1("hover1");
-				aClass30_Sub2_Sub1_Sub1Array1099[12] = new Class30_Sub2_Sub1_Sub1("hover2");
-				
-				/*quick chat icon */
-				aClass30_Sub2_Sub1_Sub1Array1099[13] = new Class30_Sub2_Sub1_Sub1("chat1");
-				
-				/* custom array1099 icons  */
-				aClass30_Sub2_Sub1_Sub1Array1099[1] = new Class30_Sub2_Sub1_Sub1("skull1");
-				aClass30_Sub2_Sub1_Sub1Array1099[4] = new Class30_Sub2_Sub1_Sub1("multi1");
-				System.out.println("loading custom spirts part 2");
-				
-				/* hover */
-				
-				aClass30_Sub2_Sub1_Sub1Array1100[1] = new Class30_Sub2_Sub1_Sub1("hovera1");
-				aClass30_Sub2_Sub1_Sub1Array1100[2] = new Class30_Sub2_Sub1_Sub1("hoverb1");
-				aClass30_Sub2_Sub1_Sub1Array1100[3] = new Class30_Sub2_Sub1_Sub1("hovera2");
-				
-				
-				/* orbs */
-				aClass30_Sub2_Sub1_Sub1Array1100[4] = new Class30_Sub2_Sub1_Sub1("orb1");
-				aClass30_Sub2_Sub1_Sub1Array1100[5] = new Class30_Sub2_Sub1_Sub1("orb2");
-				aClass30_Sub2_Sub1_Sub1Array1100[6] = new Class30_Sub2_Sub1_Sub1("orb3");
-				
-				/*logout redstone */
-				aClass30_Sub2_Sub1_Sub1Array1100[7] = new Class30_Sub2_Sub1_Sub1("logout1");
-				aClass30_Sub2_Sub1_Sub1Array1100[8] = new Class30_Sub2_Sub1_Sub1("logout2");
-				aClass30_Sub2_Sub1_Sub1Array1100[9] = new Class30_Sub2_Sub1_Sub1("clanstone1");
-				
-				
-				/* custom on screen shit */
-				aClass30_Sub2_Sub1_Sub1Array1100[10] = new Class30_Sub2_Sub1_Sub1("mulit2");
-				aClass30_Sub2_Sub1_Sub1Array1100[11] = new Class30_Sub2_Sub1_Sub1("skullsa1");
-				aClass30_Sub2_Sub1_Sub1Array1100[12] = new Class30_Sub2_Sub1_Sub1("skullsa2");
-				aClass30_Sub2_Sub1_Sub1Array1100[13] = new Class30_Sub2_Sub1_Sub1("skullsa3");
-				
-				
-				/* orbs*/
-				aClass30_Sub2_Sub1_Sub1Array1101[1] = new Class30_Sub2_Sub1_Sub1("hp1");
-				aClass30_Sub2_Sub1_Sub1Array1101[2] = new Class30_Sub2_Sub1_Sub1("hp2");
-				aClass30_Sub2_Sub1_Sub1Array1101[3] = new Class30_Sub2_Sub1_Sub1("hp3");
-				aClass30_Sub2_Sub1_Sub1Array1101[4] = new Class30_Sub2_Sub1_Sub1("hp4");
-				aClass30_Sub2_Sub1_Sub1Array1101[5] = new Class30_Sub2_Sub1_Sub1("hp5");
-				aClass30_Sub2_Sub1_Sub1Array1101[6] = new Class30_Sub2_Sub1_Sub1("hp6");
-				aClass30_Sub2_Sub1_Sub1Array1101[7] = new Class30_Sub2_Sub1_Sub1("hp7");
-				aClass30_Sub2_Sub1_Sub1Array1101[8] = new Class30_Sub2_Sub1_Sub1("hp8");
-				aClass30_Sub2_Sub1_Sub1Array1101[9] = new Class30_Sub2_Sub1_Sub1("hp9");
-				
-				aClass30_Sub2_Sub1_Sub1Array1101[10] = new Class30_Sub2_Sub1_Sub1("hpicon1");
-				aClass30_Sub2_Sub1_Sub1Array1101[11] = new Class30_Sub2_Sub1_Sub1("hpicon2");
-				
-				aClass30_Sub2_Sub1_Sub1Array1101[12] = new Class30_Sub2_Sub1_Sub1("pray1");
-				aClass30_Sub2_Sub1_Sub1Array1101[13] = new Class30_Sub2_Sub1_Sub1("pray2");
-				aClass30_Sub2_Sub1_Sub1Array1101[14] = new Class30_Sub2_Sub1_Sub1("pray3");
-				aClass30_Sub2_Sub1_Sub1Array1101[15] = new Class30_Sub2_Sub1_Sub1("pray4");
-				aClass30_Sub2_Sub1_Sub1Array1101[16] = new Class30_Sub2_Sub1_Sub1("pray5");
-				aClass30_Sub2_Sub1_Sub1Array1101[17] = new Class30_Sub2_Sub1_Sub1("pray6");
-				aClass30_Sub2_Sub1_Sub1Array1101[18] = new Class30_Sub2_Sub1_Sub1("pray7");
-				aClass30_Sub2_Sub1_Sub1Array1101[19] = new Class30_Sub2_Sub1_Sub1("pray8");
-				aClass30_Sub2_Sub1_Sub1Array1101[20] = new Class30_Sub2_Sub1_Sub1("pray9");
-				
-				aClass30_Sub2_Sub1_Sub1Array1101[21] = new Class30_Sub2_Sub1_Sub1("prayicon1");
-				
-				
-				
-			}
-
-			method13(80, (byte)4, "Runescape is loading.");
-
-			aClass30_Sub2_Sub1_Sub1_1196 = new Class30_Sub2_Sub1_Sub1(class44_2, "invback", 0);
-
-		
-			aClass30_Sub2_Sub1_Sub1_1198 = new Class30_Sub2_Sub1_Sub1(class44_2, "chatback", 0);
-	
-			aClass30_Sub2_Sub1_Sub2_1197 = new Class30_Sub2_Sub1_Sub2(class44_2, "mapback", 0);
-			CustomMapback = new Class30_Sub2_Sub1_Sub1(class44_2, "mapback", 0);
-			
-			aClass30_Sub2_Sub1_Sub1_1027 = new Class30_Sub2_Sub1_Sub1(class44_2, "backbase1", 0);
-			aClass30_Sub2_Sub1_Sub1_1028 = new Class30_Sub2_Sub1_Sub1(class44_2, "backbase2", 0);
-			aClass30_Sub2_Sub1_Sub1_1029 = new Class30_Sub2_Sub1_Sub1(class44_2, "backhmid1", 0);
-			for(int j3 = 0; j3 < 13; j3++){
-				aClass30_Sub2_Sub1_Sub1Array947[j3] = new Class30_Sub2_Sub1_Sub1(class44_2, "sideicons", j3);
-			}
-		
-			aClass30_Sub2_Sub1_Sub1_1122 = new Class30_Sub2_Sub1_Sub1(class44_2, "compass", 0);
-			aClass30_Sub2_Sub1_Sub1_1001 = new Class30_Sub2_Sub1_Sub1(class44_2, "mapedge", 0);
-			aClass30_Sub2_Sub1_Sub1_1001.method345(5059);
-			try {
-				for(int k3 = 0; k3 < 100; k3++){
-					aClass30_Sub2_Sub1_Sub2Array1060[k3] = new Class30_Sub2_Sub1_Sub2(class44_2, "mapscene", k3); 
-					//little icons on minimap
-				}
-
-			} catch(Exception _ex) { 
-				
-			}
-			try {
-				for(int l3 = 0; l3 < 100; l3++){
-					aClass30_Sub2_Sub1_Sub1Array1033[l3] = new Class30_Sub2_Sub1_Sub1(class44_2, "mapfunction", l3);
-					//the white out lines of buildings on minimap
-				}
-
-			}
-			catch(Exception _ex) { }
-			try {
-				for(int i4 = 0; i4 < 20; i4++){
-					aClass30_Sub2_Sub1_Sub1Array987[i4] = new Class30_Sub2_Sub1_Sub1(class44_2, "hitmarks", i4);
-				}
-
-			} catch(Exception _ex) { 
-				
-			}
-
-
-
-			/*<3 bluurr for releasing this*/
-
-			for(int k4 = 0; k4 < 6; k4++){
-				aClass30_Sub2_Sub1_Sub1Array1096[k4] = new Class30_Sub2_Sub1_Sub1(class44_2, "headicons_pk", k4);
-			}
-			
-			for(int l4 = 0; l4 < 9; l4++){
-				aClass30_Sub2_Sub1_Sub1Array1095[l4] = new Class30_Sub2_Sub1_Sub1(class44_2, "headicons_prayer", l4);
-			}
-			
-			/*<3 bluurr for releasing this*/	
-			for(int i5 = 0; i5 < 4; i5++) {
-				aClass30_Sub2_Sub1_Sub1Array1097[i5] = new Class30_Sub2_Sub1_Sub1(class44_2, "headicons_hint", i5);
-			}
-
-			aClass30_Sub2_Sub1_Sub1_870 = new Class30_Sub2_Sub1_Sub1(class44_2, "mapmarker", 0);
-			aClass30_Sub2_Sub1_Sub1_871 = new Class30_Sub2_Sub1_Sub1(class44_2, "mapmarker", 1);
-		 
-			for(int k4 = 0; k4 < 8; k4++){
-				aClass30_Sub2_Sub1_Sub1Array1150[k4] = new Class30_Sub2_Sub1_Sub1(class44_2, "cross", k4);
-			}
-
-			aClass30_Sub2_Sub1_Sub1_1074 = new Class30_Sub2_Sub1_Sub1(class44_2, "mapdots", 0);
-			aClass30_Sub2_Sub1_Sub1_1075 = new Class30_Sub2_Sub1_Sub1(class44_2, "mapdots", 1);
-			aClass30_Sub2_Sub1_Sub1_1076 = new Class30_Sub2_Sub1_Sub1(class44_2, "mapdots", 2);
-			aClass30_Sub2_Sub1_Sub1_1077 = new Class30_Sub2_Sub1_Sub1(class44_2, "mapdots", 3);
-			aClass30_Sub2_Sub1_Sub1_1078 = new Class30_Sub2_Sub1_Sub1(class44_2, "mapdots", 4);
-			aClass30_Sub2_Sub1_Sub1_1024 = new Class30_Sub2_Sub1_Sub1(class44_2, "scrollbar", 0);
-			aClass30_Sub2_Sub1_Sub1_1025 = new Class30_Sub2_Sub1_Sub1(class44_2, "scrollbar", 1);
-
-			aClass30_Sub2_Sub1_Sub1_1143 = new Class30_Sub2_Sub1_Sub1(class44_2, "redstone1", 0);
-			aClass30_Sub2_Sub1_Sub1_1144 = new Class30_Sub2_Sub1_Sub1(class44_2, "redstone2", 0); flip = true;
-			aClass30_Sub2_Sub1_Sub2_1145 = new Class30_Sub2_Sub1_Sub2(class44_2, "redstone3", 0);
-			aClass30_Sub2_Sub1_Sub1_1146 = new Class30_Sub2_Sub1_Sub1(class44_2, "redstone1", 0);
-			aClass30_Sub2_Sub1_Sub1_1147 = new Class30_Sub2_Sub1_Sub1(class44_2, "redstone2", 0); flip = false; flip_s = true;
-			aClass30_Sub2_Sub1_Sub1_865 = new Class30_Sub2_Sub1_Sub1(class44_2, "redstone1", 0);
-			aClass30_Sub2_Sub1_Sub1_866 = new Class30_Sub2_Sub1_Sub1(class44_2, "redstone2", 0);
-			aClass30_Sub2_Sub1_Sub2_867 = new Class30_Sub2_Sub1_Sub2(class44_2, "redstone3", 0); flip_s = false; flip_r = true;
-			aClass30_Sub2_Sub1_Sub2_867.method359(true);
-			aClass30_Sub2_Sub1_Sub1_868 = new Class30_Sub2_Sub1_Sub1(class44_2, "redstone1", 0);
-			aClass30_Sub2_Sub1_Sub2_869 = new Class30_Sub2_Sub1_Sub2(class44_2, "redstone2", 0);
-			aClass30_Sub2_Sub1_Sub2_869.method358(0);
-			aClass30_Sub2_Sub1_Sub2_869.method359(true);
-
-			for(int l4 = 0; l4 < 2; l4++){
-				aClass30_Sub2_Sub1_Sub2Array1219[l4] = new Class30_Sub2_Sub1_Sub2(class44_2, "mod_icons", l4);
-			}
-
-			Class30_Sub2_Sub1_Sub1 class30_sub2_sub1_sub1 = new Class30_Sub2_Sub1_Sub1(class44_2, "backleft1", 0);
-			aClass15_903 = new Class15(class30_sub2_sub1_sub1.anInt1440, class30_sub2_sub1_sub1.anInt1441, method11(0), 0);
-			class30_sub2_sub1_sub1.method346(0, 0, -32357);
-			class30_sub2_sub1_sub1 = new Class30_Sub2_Sub1_Sub1(class44_2, "backleft2", 0);
-			aClass15_904 = new Class15(class30_sub2_sub1_sub1.anInt1440, class30_sub2_sub1_sub1.anInt1441, method11(0), 0);
-			class30_sub2_sub1_sub1.method346(0, 0, -32357);
-			class30_sub2_sub1_sub1 = new Class30_Sub2_Sub1_Sub1(class44_2, "backright1", 0);
-			aClass15_905 = new Class15(class30_sub2_sub1_sub1.anInt1440, class30_sub2_sub1_sub1.anInt1441, method11(0), 0);
-			class30_sub2_sub1_sub1.method346(0, 0, -32357);
-			class30_sub2_sub1_sub1 = new Class30_Sub2_Sub1_Sub1(class44_2, "backright2", 0);
-			aClass15_906 = new Class15(class30_sub2_sub1_sub1.anInt1440, class30_sub2_sub1_sub1.anInt1441, method11(0), 0);
-			class30_sub2_sub1_sub1.method346(0, 0, -32357);
-			class30_sub2_sub1_sub1 = new Class30_Sub2_Sub1_Sub1(class44_2, "backtop1", 0);
-			aClass15_907 = new Class15(class30_sub2_sub1_sub1.anInt1440, class30_sub2_sub1_sub1.anInt1441, method11(0), 0);
-			class30_sub2_sub1_sub1.method346(0, 0, -32357);
-			class30_sub2_sub1_sub1 = new Class30_Sub2_Sub1_Sub1(class44_2, "backvmid1", 0);
-			aClass15_908 = new Class15(class30_sub2_sub1_sub1.anInt1440, class30_sub2_sub1_sub1.anInt1441, method11(0), 0);
-			class30_sub2_sub1_sub1.method346(0, 0, -32357);
-			class30_sub2_sub1_sub1 = new Class30_Sub2_Sub1_Sub1(class44_2, "backvmid2", 0);
-			aClass15_909 = new Class15(class30_sub2_sub1_sub1.anInt1440, class30_sub2_sub1_sub1.anInt1441, method11(0), 0);
-			class30_sub2_sub1_sub1.method346(0, 0, -32357);
-			class30_sub2_sub1_sub1 = new Class30_Sub2_Sub1_Sub1(class44_2, "backvmid3", 0);
-			aClass15_910 = new Class15(class30_sub2_sub1_sub1.anInt1440, class30_sub2_sub1_sub1.anInt1441, method11(0), 0);
-			class30_sub2_sub1_sub1.method346(0, 0, -32357);
-			class30_sub2_sub1_sub1 = new Class30_Sub2_Sub1_Sub1(class44_2, "backhmid2", 0);
-			aClass15_911 = new Class15(class30_sub2_sub1_sub1.anInt1440, class30_sub2_sub1_sub1.anInt1441, method11(0), 0);
-			class30_sub2_sub1_sub1.method346(0, 0, -32357);
-			int i5 = (int)(Math.random() * 21D) - 10;
-			int j5 = (int)(Math.random() * 21D) - 10;
-			int k5 = (int)(Math.random() * 21D) - 10;
-			int l5 = (int)(Math.random() * 41D) - 20;
-			for(int i6 = 0; i6 < 100; i6++) {
-				if(aClass30_Sub2_Sub1_Sub1Array1033[i6] != null)
-					aClass30_Sub2_Sub1_Sub1Array1033[i6].method344(i5 + l5, j5 + l5, k5 + l5, 0);
-				if(aClass30_Sub2_Sub1_Sub2Array1060[i6] != null)
-					aClass30_Sub2_Sub1_Sub2Array1060[i6].method360(i5 + l5, j5 + l5, k5 + l5, 0);
-			}
-
-			method13(83, (byte)4, "Runescape is loading. .");
-			
-			Class30_Sub2_Sub1_Sub3.method368(class44_3, 0);
-			Class30_Sub2_Sub1_Sub3.method372(0.80000000000000004D, aByte1200);
-			Class30_Sub2_Sub1_Sub3.method367(20, true);
-			
-			method13(86, (byte)4, "Runescape is loading. . .");
-			
-			Class20.method257(0, class44);
-			Class46.method576(class44);
-			Class22.method260(0, class44);
-			Class8.method193(class44);
-			Class5.method162(class44);
-			Class38.method535(0, class44);
-			Class23.method264(0, class44);
-			Class41.method546(0, class44);
-			Class37.method533(0, class44);
-			Class8.aBoolean182 = aBoolean959;
-			if(!aBoolean960) {
-				method13(90, (byte)4, "Unpacking sounds");
-				byte abyte0[] = class44_5.method571("sounds.dat", null);
-				Class30_Sub2_Sub2 class30_sub2_sub2 = new Class30_Sub2_Sub2(abyte0, 891);
-				Class16.method240(0, class30_sub2_sub2);
-			}
-			method13(95, (byte)4, "Unpacking interfaces");
-			Class30_Sub2_Sub1_Sub4 aclass30_sub2_sub1_sub4[] = {
-				aClass30_Sub2_Sub1_Sub4_1270, aClass30_Sub2_Sub1_Sub4_1271, aClass30_Sub2_Sub1_Sub4_1272, aClass30_Sub2_Sub1_Sub4_1273
-			};
-			Class9.method205(class44_1, aclass30_sub2_sub1_sub4, (byte)-84, class44_2);
-
-			method13(100, (byte)4, "Preparing game engine");
-
-			for(int j6 = 0; j6 < 33; j6++) {
-				int k6 = 999;
-				int i7 = 0;
-				for(int k7 = 0; k7 < 34; k7++) {
-					if(aClass30_Sub2_Sub1_Sub2_1197.aByteArray1450[k7 + j6 * aClass30_Sub2_Sub1_Sub2_1197.anInt1452] == 0) {
-						if(k6 == 999)
-							k6 = k7;
-						continue;
-					}
-					if(k6 == 999)
-						continue;
-					i7 = k7;
-					break;
-				}
-
-				anIntArray968[j6] = k6;
-				anIntArray1057[j6] = i7 - k6;
-			}
-			for(int l6 = 5; l6 < 156; l6++) {
-				int j7 = 999;
-				int l7 = 0;
-				for(int j8 = 25; j8 < 172; j8++) {
-					if(aClass30_Sub2_Sub1_Sub2_1197.aByteArray1450[j8 + l6 * aClass30_Sub2_Sub1_Sub2_1197.anInt1452] == 0 && (j8 > 34 || l6 > 34)) {
-						if(j7 == 999)
-							j7 = j8;
-						continue;
-					}
-					if(j7 == 999){
-						continue;
-					}
-					l7 = j8;
-					break;
-				}
-
-				anIntArray1052[l6 - 5] = j7 - 25;
-				anIntArray1229[l6 - 5] = l7 - j7;
-			}
-
-			Class30_Sub2_Sub1_Sub3.method365(-950, 506, 128);  //last error
-			
-			anIntArray1180 = Class30_Sub2_Sub1_Sub3.anIntArray1472;
-			Class30_Sub2_Sub1_Sub3.method365(-950, 190, 261);
-			anIntArray1181 = Class30_Sub2_Sub1_Sub3.anIntArray1472;
-
-			Class30_Sub2_Sub1_Sub3.method365(-950, 512, 334);
-
-			anIntArray1182 = Class30_Sub2_Sub1_Sub3.anIntArray1472;
-			int ai[] = new int[9];
-			for(int i8 = 0; i8 < 9; i8++) {
-				int k8 = 128 + i8 * 32 + 15;
-				int l8 = 600 + k8 * 3;
-				int i9 = Class30_Sub2_Sub1_Sub3.anIntArray1470[k8];
-				ai[i8] = l8 * i9 >> 16;
-			}
-
-			Class25.method310(500, 800, 512, 334, ai, aBoolean1231);
-			Class34.method487(class44_4);
-			aClass48_879 = new Class48(this, anInt1096);
-			method12(aClass48_879, 10);
-			Class30_Sub2_Sub4_Sub5.aClient1609 = this;
-			Class46.aClient765 = this;
-			Class5.aClient82 = this;
-
-			return;
-		} catch(Exception exception) {
-			signlink.reporterror("loaderror " + aString1049 + " " + anInt1079);
-		}
-		aBoolean926 = true;
 	}
 
 
@@ -14190,201 +14384,6 @@ if(l21 == 6)
 	}
 
 
-	public client()
-	{
-
-		anIntArrayArray825 = new int[104][104];
-		anIntArray826 = new int[200];
-		aClass19ArrayArrayArray827 = new Class19[4][104][104];
-//		aBoolean830 = true;	// Removed due to it not being used anywhere 4/17/17
-		aBoolean831 = false;
-		aClass30_Sub2_Sub2_834 = new Class30_Sub2_Sub2(new byte[5000], 891);
-		aClass30_Sub2_Sub4_Sub1_Sub1Array835 = new Class30_Sub2_Sub4_Sub1_Sub1[16384];
-		anIntArray837 = new int[16384];
-		anInt838 = 9;
-		anIntArray840 = new int[1000];
-		aClass30_Sub2_Sub2_847 = Class30_Sub2_Sub2.method396(1, 9);
-		aBoolean848 = true;
-		anInt857 = -1;
-		anIntArray864 = new int[Class45.anInt733];
-		aBoolean872 = false;
-		anIntArray873 = new int[5];
-		anInt874 = -1;
-		anInt875 = -680;
-		aBooleanArray876 = new boolean[5];
-		anInt877 = 1834;
-		aBoolean880 = false;
-		aString881 = "";
-		anInt882 = -30815;
-//		anInt883 = 533;	// Removed due to it not being used anywhere except being set 4/17/17
-		anInt884 = -1;
-		aBoolean885 = false;
-		aString887 = "";
-		anInt888 = 2048;
-		anInt889 = 2047;
-		aClass30_Sub2_Sub4_Sub1_Sub2Array890 = new Class30_Sub2_Sub4_Sub1_Sub2[anInt888];
-		anIntArray892 = new int[anInt888];
-		anIntArray894 = new int[anInt888];
-		aClass30_Sub2_Sub2Array895 = new Class30_Sub2_Sub2[anInt888];
-		anInt897 = 1;
-		anIntArrayArray901 = new int[104][104];
-//		anInt902 = 0x766654;	// Removed due to it not being used anywhere except being set 4/17/17
-		aByteArray912 = new byte[16384];
-		aByte920 = 14;
-//		anInt921 = 732;	// Removed due to it not being used anywhere except being set 4/17/17
-		anIntArray922 = new int[Class45.anInt733];
-		aByte923 = 25;
-		aLongArray925 = new long[100];
-		aBoolean926 = false;
-//		anInt927 = 0x332d25;	// Removed due to it not being used anywhere except being set 4/17/17
-		anIntArray928 = new int[5];
-		anIntArrayArray929 = new int[104][104];
-//		aCRC32_930 = new CRC32();	// Removed due to it not being used anywhere except being set 4/17/17
-		anInt939 = 748;
-		anIntArray942 = new int[1000];
-		aStringArray943 = new String[100];
-		aStringArray944 = new String[100];
-	
-		aClass30_Sub2_Sub1_Sub1Array947 = new Class30_Sub2_Sub1_Sub1[13];
-		aBoolean954 = true;
-		aLongArray955 = new long[200];
-		anInt956 = -1;
-		aBoolean962 = false;
-		anInt963 = -1;
-		anInt964 = -1;
-		anIntArray968 = new int[33];
-		anIntArray969 = new int[256];
-		aClass14Array970 = new Class14[5];
-		anIntArray971 = new int[2000];
-		aBoolean972 = false;
-		aByte973 = -74;
-		anInt975 = 50;
-		anIntArray976 = new int[anInt975];
-		anIntArray977 = new int[anInt975];
-		anIntArray978 = new int[anInt975];
-		anIntArray979 = new int[anInt975];
-		anIntArray980 = new int[anInt975];
-		anIntArray981 = new int[anInt975];
-		anIntArray982 = new int[anInt975];
-port = "43594";
-		aStringArray983 = new String[anInt975];
-		anInt985 = -1;
-		aClass30_Sub2_Sub1_Sub1Array987 = new Class30_Sub2_Sub1_Sub1[20];
-		anIntArray990 = new int[5];
-		aBoolean991 = false;
-		aBoolean994 = false;
-//		anInt1002 = 0x23201b;	// Removed due to it not being used anywhere except being set 4/17/17
-		aString1004 = "";
-		aByte1012 = 24;
-		aClass19_1013 = new Class19(169);
-		aBoolean1017 = false;
-		anInt1018 = -1;
-		anIntArray1030 = new int[5];
-		aBoolean1031 = false;
-		aClass30_Sub2_Sub1_Sub1Array1033 = new Class30_Sub2_Sub1_Sub1[100];
-		anInt1042 = -1;
-		aBoolean1043 = false;
-		anIntArray1044 = new int[Class45.anInt733];
-		anIntArray1045 = new int[2000];
-		aBoolean1047 = true;
-//		anInt1050 = 111;	// Removed due to it not being used anywhere except being set 4/17/17
-		anIntArray1052 = new int[151];
-		anInt1054 = -1;
-		aClass19_1056 = new Class19(169);
-		anIntArray1057 = new int[33];
-		anInt1058 = 24869;
-		aClass9_1059 = new Class9();
-		aClass30_Sub2_Sub1_Sub2Array1060 = new Class30_Sub2_Sub1_Sub2[100];
-		anInt1063 = 0x4d4233;
-		anIntArray1065 = new int[7];
-		anIntArray1072 = new int[1000];
-		anIntArray1073 = new int[1000];
-		aBoolean1080 = false;
-		anInt1081 = -733;
-		aStringArray1082 = new String[200];
-		aClass30_Sub2_Sub2_1083 = Class30_Sub2_Sub2.method396(1, 9);
-		anIntArray1090 = new int[9];
-		anIntArray1091 = new int[500];
-		anIntArray1092 = new int[500];
-		anIntArray1093 = new int[500];
-		anIntArray1094 = new int[500];
-aClass30_Sub2_Sub1_Sub1Array1095 = new Class30_Sub2_Sub1_Sub1[20];
-aClass30_Sub2_Sub1_Sub1Array1101 = new Class30_Sub2_Sub1_Sub1[100];
-aClass30_Sub2_Sub1_Sub1Array1098 = new Class30_Sub2_Sub1_Sub1[20];
-aClass30_Sub2_Sub1_Sub1Array1099 = new Class30_Sub2_Sub1_Sub1[20];
-aClass30_Sub2_Sub1_Sub1Array1100 = new Class30_Sub2_Sub1_Sub1[200];
-aClass30_Sub2_Sub1_Sub1Array1097 = new Class30_Sub2_Sub1_Sub1[20];
-aClass30_Sub2_Sub1_Sub1Array1096 = new Class30_Sub2_Sub1_Sub1[20];
-		aBoolean1103 = false;
-//		anInt1105 = 519;	// Removed due to it not being used anywhere except being set 4/17/17
-//		aBoolean1106 = false;	// Removed due to it not being used anywhere except being set 4/17/17
-		anInt1116 = 445;
-		anInt1118 = -29508;
-		anInt1119 = -77;
-		aString1121 = "";
-		aStringArray1127 = new String[5];
-		aBooleanArray1128 = new boolean[5];
-		anIntArrayArrayArray1129 = new int[4][13][13];
-		anInt1132 = 2;
-		anInt1135 = -12499;
-		aClass30_Sub2_Sub1_Sub1Array1140 = new Class30_Sub2_Sub1_Sub1[1000];
-		aBoolean1141 = false;
-		aBoolean1149 = false;
-		aClass30_Sub2_Sub1_Sub1Array1150 = new Class30_Sub2_Sub1_Sub1[8];
-		aBoolean1151 = true;
-		aBoolean1153 = false;
-		aBoolean1157 = false;
-		aBoolean1158 = false;
-		aBoolean1159 = false;
-		aBoolean1160 = false;
-		anInt1171 = 1;
-		username = "";
-		passwordString = "";
-
-
-	
-		aBoolean1176 = false;
- aBoolean1177 = false;
-		anInt1178 = -1;
-		aClass19_1179 = new Class19(169);
-		anInt1184 = 128;
-		anInt1189 = -1;
-		aClass30_Sub2_Sub2_1192 = Class30_Sub2_Sub2.method396(1, 9);
-		aByte1194 = 5;
-		aStringArray1199 = new String[500];
-		anIntArray1203 = new int[5];
-		aBoolean1206 = true;
-		anIntArray1207 = new int[50];
-		anInt1210 = 2;
-		anInt1211 = 78;
-		aString1212 = "";
-		aByte1217 = 6;
-		anInt1218 = -589;
-		aClass30_Sub2_Sub1_Sub2Array1219 = new Class30_Sub2_Sub1_Sub2[4];//2
-		anInt1221 = 3;
-		aBoolean1223 = false;
-		aBoolean1228 = true;
-		anIntArray1229 = new int[151];
-		aClass11Array1230 = new Class11[4];
-		aBoolean1233 = false;
-		anIntArray1240 = new int[100];
-		anIntArray1241 = new int[50];
-		aBoolean1242 = false;
-		anIntArray1250 = new int[50];
-		aBoolean1252 = false;
-		aBoolean1255 = false;
-		aBoolean1256 = false;
-		aString1266 = "";
-		aString1267 = "";
-		aByte1274 = -13;
-		anInt1276 = -1;
-		aBoolean1277 = true;
-		anInt1279 = 2;
-		anIntArray1280 = new int[4000];
-		anIntArray1281 = new int[4000];
-		anInt1289 = -1;
-	}
-
 	private int anInt822;
 	private static byte aByte823 = 77;
 	private long aLong824;
@@ -14646,7 +14645,7 @@ private int updatetimer = 300;
 	private int anInt1046;
 	private boolean aBoolean1047;
 	private int anInt1048;
-	private String aString1049;
+	private String errorStringS;
 	private int anInt1050;	//TODO Need to check whats going on with this class 4/17/17
 	private static int anInt1051;
 	private int anIntArray1052[];
@@ -14677,7 +14676,7 @@ private int updatetimer = 300;
 	private Class30_Sub2_Sub1_Sub1 aClass30_Sub2_Sub1_Sub1_1076;
 	private Class30_Sub2_Sub1_Sub1 aClass30_Sub2_Sub1_Sub1_1077;
 	private Class30_Sub2_Sub1_Sub1 aClass30_Sub2_Sub1_Sub1_1078;
-	private int anInt1079;
+	private int errorIntI;
 	private boolean aBoolean1080;
 	private int anInt1081;
 	private String aStringArray1082[];

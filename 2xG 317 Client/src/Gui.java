@@ -48,7 +48,7 @@ public class Gui extends client implements ActionListener, ItemListener, WindowL
 		new Gui(args);
 	}
 
-	private Gui(String args[]){
+	public Gui(String args[]){
 		super();
 		try {
 			System.out.println("connecting to update server");
